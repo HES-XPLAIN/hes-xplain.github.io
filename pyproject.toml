@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "website"
+version = "0.0.0"
+description = "Website for MLxplain"
+authors = ["HES-XPLAIN"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+mkdocs-material = "^9.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
