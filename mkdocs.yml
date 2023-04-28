@@ -1,17 +1,17 @@
-site_name: MLXPLAIN
+site_name: HES-XPLAIN
 site_description: ->
   An open platform for accelerating the development of eXplainable AI systems
 site_author: HES-XPLAIN
 site_url: https://hes-xplain.github.io/
 copyright: Copyright &copy; 2023 HES-XPLAIN
-repo_url: https://github.com/HES-XPLAIN
-repo_name: HES-XPLAIN
+#repo_url: https://github.com/HES-XPLAIN
+#repo_name: HES-XPLAIN
 
 nav:
   - index.md
   - team.md
-  - Resources:
-    - mkdocs.md
+#  - Resources:
+#    - mkdocs.md
 
 theme:
   name: material
@@ -26,13 +26,13 @@ theme:
       toggle:
         icon: octicons/moon-24
         name: Switch to dark mode
-      primary: cyan
+      primary: blue
       accent: amber
     - scheme: slate
       toggle:
         icon: octicons/sun-24
         name: Switch to light mode
-      primary: cyan
+      primary: blue
       accent: amber
   features:
     - announce.dismiss
@@ -123,5 +123,5 @@ extra:
       link: https://github.com/HES-XPLAIN
       name: HES-XPLAIN on GitHu
     - icon: material/school
-      link: https://www.hes-so.ch/
+      link: https://www.hes-so.ch/en/
       name: HES-SO
