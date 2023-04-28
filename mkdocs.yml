@@ -1,4 +1,13 @@
 site_name: MLXPLAIN
+site_description: ->
+  An open platform for accelerating the development of eXplainable AI systems
+site_author: HES-XPLAIN
+site_url: https://hes-xplain.github.io/
+nav:
+  - index.md
+  - team.md
+  - Resources:
+    - mkdocs.md
 theme:
   name: material
   language: en
