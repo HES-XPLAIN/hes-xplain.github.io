@@ -1,15 +1,6 @@
-site_name: HES-XPLAIN
+site_name: MLXPLAIN
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - toc.integrate
-    - search.suggest
-    - search.highlight
-    - content.code.annotation
-    - content.code.copy
   language: en
   palette:
     - scheme: default
@@ -24,3 +15,21 @@ theme:
         name: Switch to light mode
       primary: teal
       accent: lime
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotation
+    - content.code.copy
+
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/HES-XPLAIN
+      name: HES-XPLAIN on GitHub
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/HES-XPLAIN" target="_blank" rel="noopener">HES-XPLAIN</a>

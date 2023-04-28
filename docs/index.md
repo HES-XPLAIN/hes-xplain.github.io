@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+An open platform for accelerating the development of eXplainable AI systems.
 
-## Commands
+## Purpose
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+We aim to build an XAI-oriented platform allowing data science practitioners to
+train or deploy their predictive models and then apply and compare different
+explainability algorithms at both low and high levels of abstraction.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+We will include XAI algorithms coming from our own research, as well as a
+selection of well-known and widely used approaches from the literature.
+Explaining complex models involves dealing with different levels of abstraction.
+Low-level explanations capture fundamental relationships between input features.
+High-level explanations uncover more-complex patterns and relationships and
+present them in an intelligible form.
