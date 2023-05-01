@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+env:
+  PYTHON_VERSION: '3.11'
+
 permissions:
   contents: write
 
@@ -17,21 +20,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Set up Poetry
+        run: pipx install poetry
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'poetry'
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
-
-      - name: Install poetry and dependencies
+      - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
-          curl -sSL https://install.python-poetry.org | python3 -
+          poetry run python -m pip install -U pip
           poetry install
  
       - name: Deploy
