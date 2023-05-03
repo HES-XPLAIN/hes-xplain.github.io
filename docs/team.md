@@ -4,7 +4,7 @@
 
 PhD, HEIG-VD, Director of the Institute of Information and Communication Technologies (IICT)
 
-![Team member](assets/people.jpg){ align=left }
+![Team member](assets/images/pena.png){ width="200px", align=left }
 
 Professor Peña has extensive expertise in Explainable 
 Artificial Intelligence (XAI). Across several CTI and SNSF projects (DiagnoSuite, BossExplorer, 
@@ -42,7 +42,7 @@ implementation and test of explainable models in the context of mobile health da
 
 PhD, HEIG-VD
 
-![Team member](assets/people.jpg){ align=left }
+![Team member](assets/images/graf.png){ width="200px", align=left }
 
 Professor Graf has more than 20 years of experience in 
 software engineering, including 16 years at IBM Research. He has developed digital platforms that 
@@ -64,7 +64,7 @@ supervise a drone flight remotely.
 
 PhD, HEPIA-GE
 
-![Team member](assets/people.jpg){ align=left }
+![Team member](assets/images/bologna.png){ width="200px", align=left }
 
 Professor Bologna introduced a neural network model 
 from which propositional rules are generated [^6]. These rules are natural with respect to the logic
@@ -105,7 +105,7 @@ co-authored are available on ResearchGate [^12].
 
 Senior R&D Scientist in Bioinformatics, PhD, HEIG-VD
 
-![Team member](assets/people.jpg){ align=left }
+![Team member](assets/images/generic.jpg){ align=left }
 
 Senior bioinformatician with over 12 years of experience, Xavier Brochet is passionate about working at the
 interface of disciplines and he enjoys solving real-world problems, specially those related with life sciences
@@ -120,7 +120,7 @@ and web interfaces.
 
 Ra&D Collaborator, HEIG-VD
 
-![Team member](assets/people.jpg){ align=left }
+![Team member](assets/images/generic.jpg){ align=left }
 
 Arthur Babey is a Ra&D Collaborator at HEIG-VD and and an experienced Machine Learning Engineer with a focus
 on developing algorithms. He has a keen interest in developing algorithms that can solve real-world
@@ -136,7 +136,7 @@ figures on his desk.
 
 HES Assistant, HEPIA-GE
 
-![Team member](assets/people.jpg){ align=left }
+![Team member](assets/images/generic.jpg){ align=left }
 
 Jean-Marc Boutay is an HES Assistant at HEPIA-GE  and a highly skilled Machine Learning Engineer with a focus on
 developing and optimizing cutting-edge algorithms in C++. He is a serious-minded individual who takes his
@@ -152,7 +152,7 @@ spare time.
 
 Ra&D Collaborator, HEIG-VD
 
-![Team member](assets/people.jpg){ align=left }
+![Team member](assets/images/generic.jpg){ align=left }
 
 Rémy Marquis is a Ra&D Collaborator at HEIG-VD and an experienced Machine Learning Infrastructure Engineer with
 a focus on designing and implementing scalable Machine Learning systems. He has a wealth of knowledge in
