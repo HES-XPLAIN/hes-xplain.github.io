@@ -9,7 +9,8 @@ copyright: Copyright &copy; 2023 HES-XPLAIN
 
 nav:
   - index.md
-  - team.md
+  - About: xai.md
+  - Team: team.md
 #  - Resources:
 #    - mkdocs.md
 
@@ -41,7 +42,7 @@ theme:
     - content.tabs.link
     - header.autohide
     - navigation.expand
-#    - navigation.footer
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.sections

@@ -1,6 +1,27 @@
-# Team
+# :fontawesome-solid-people-group: Who we are
 
-## [Prof. Carlos Peña](https://people.hes-so.ch/en/profile/269853581-carlos-andres-pena)
+## The HES-SO
+
+The **[HES-SO](https://www.hes-so.ch/en)** is a **Swiss university of applied sciences** that offers various academic programs,
+research projects, and services in the fields of technology, design, economy, and social work.
+It has a strong focus on practical and applied knowledge, and its mission is to **contribute to
+the economic and social development** of Switzerland through its **research and innovation** activities.
+
+Regarding the advancement of machine learning, the HES-SO is a leading institution in Switzerland
+that provides high-quality education, research, and development in this field. It has a team of
+experienced and knowledgeable professors, researchers, and practitioners who work on cutting-edge
+projects and initiatives in collaboration with industry partners and other academic institutions.
+
+The HES-SO also has a **strong network** of alumni and professional contacts **in the industry**, which ensures
+that its graduates are well-prepared and have excellent job prospects in the machine learning field.
+
+Overall, the HES-SO is a dynamic and innovative institution that **contributes to the development of
+machine learning** in Switzerland and beyond.
+
+
+## Team members
+
+### [Prof. Carlos Peña](https://people.hes-so.ch/en/profile/269853581-carlos-andres-pena)
 
 PhD, HEIG-VD, Director of the Institute of Information and Communication Technologies (IICT)
 
@@ -38,7 +59,7 @@ implementation and test of explainable models in the context of mobile health da
     Deep Neural Networks », in Computational Intelligence, vol. 829, C. Sabourin, J. J. Merelo, K. Madani,
     et K.Warwick, Éd. Cham: Springer International Publishing, 2019, p. 119‑138. doi: 10.1007/978-3-030-16469-0_7.
 
-## [Prof. Marcel Graf](https://people.hes-so.ch/en/profile/2002425133-marcel-graf)
+### [Prof. Marcel Graf](https://people.hes-so.ch/en/profile/2002425133-marcel-graf)
 
 PhD, HEIG-VD
 
@@ -60,7 +81,7 @@ supervise a drone flight remotely.
     Paradigm », in 2007 2nd IEEE/IFIP International Workshop on Business-Driven IT Management, Munich,
     Germany, mai 2007, p. 84‑93. doi: 10.1109/BDIM.2007.375015.
 
-## [Prof. Guido Bologna](https://people.hes-so.ch/en/profile/33748034-guido-bologna)
+### [Prof. Guido Bologna](https://people.hes-so.ch/en/profile/33748034-guido-bologna)
 
 PhD, HEPIA-GE
 
@@ -101,7 +122,7 @@ co-authored are available on ResearchGate [^12].
     no 6, p. 990, juin 2020, doi: 10.3390/electronics9060990.
 [^12]: https://www.researchgate.net/profile/Guido-Bologna
 
-## Xavier Brochet
+### Xavier Brochet
 
 Senior R&D Scientist in Bioinformatics, PhD, HEIG-VD
 
@@ -116,7 +137,7 @@ He is an expert in creating information systems and developing bioinformatics an
 and web interfaces.
 
 
-## Arthur Babey
+### Arthur Babey
 
 Ra&D Collaborator, HEIG-VD
 
@@ -132,7 +153,7 @@ Random fact: Arthur is a big fan of the Star Wars franchise and has a collection
 figures on his desk.
 
 
-## Jean-Marc Boutay
+### Jean-Marc Boutay
 
 HES Assistant, HEPIA-GE
 
@@ -148,7 +169,7 @@ Random fact: Jean-Marc is a big fan of Japanese culture and can often be found w
 spare time.
 
 
-## Rémy Marquis
+### Rémy Marquis
 
 Ra&D Collaborator, HEIG-VD
 
