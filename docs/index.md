@@ -36,7 +36,7 @@ high levels of abstraction, allowing to better **explain complex behaviours**.
     === ":material-tie: a Decision maker"
         You are interested in business **benefits, risks and costs**.
 
-        - [x] Get an introduction to explainability
+        - [x] Get an [introduction](./introduction) to explainability
         - [x] Access web demos and use case scenarios
 
     === ":material-hammer-wrench: an Engineer"

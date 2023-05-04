@@ -9,7 +9,7 @@ copyright: Copyright &copy; 2023 HES-XPLAIN
 
 nav:
   - index.md
-  - About: xai.md
+  - About: introduction.md
   - Team: team.md
 #  - Resources:
 #    - mkdocs.md
