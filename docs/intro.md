@@ -4,9 +4,11 @@ hide:
 - toc
 ---
 
-# :material-chat-question: Why XAI?
+# :material-chat-question: About XAI
 
-!!! failure inline end "Traditional ML model"
+## Traditional AI models
+
+!!! failure inline end "Traditional AI model"
 
     * Why did the model do that?
     * Why not something else?
@@ -48,6 +50,8 @@ results**.
 
 ***
 
+## Explainable AI models
+
 The impressive
 effectiveness of AI applications based on DL is often shadowed by their inability to explain their behaviours to human users.
 Understanding how these algorithms operate, would allow **demystifying AI**, making such black-boxes
@@ -83,8 +87,3 @@ ethical and fair use of AI in society.
 
 > Explainability is a cornerstone for attaining some of the fundamental principles of **responsible AI**:
 *fairness*, *transparency*, *privacy*, *accountability*, *safety*, *security*, and *reliability*.
-
-However, there is currently no general-purpose software technology supporting symbolic
-knowledge extraction from predictive models. This **lack of a homogeneous platform for open
-science** in which explainability algorithms can be collected and executed is a challenge for
-both research and teaching purposes.
