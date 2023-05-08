@@ -4,9 +4,11 @@ hide:
 - toc
 ---
 
-# :material-chat-question: Why XAI?
+# :material-chat-question: About XAI
 
-!!! failure inline end "Traditional ML model"
+## Traditional AI models
+
+!!! failure inline end "Traditional AI model"
 
     * Why did the model do that?
     * Why not something else?
@@ -47,6 +49,8 @@ limiting their societal acceptance.
 results**.
 
 ***
+
+## Explainable AI models
 
 The impressive
 effectiveness of AI applications based on DL is often shadowed by their inability to explain their behaviours to human users.

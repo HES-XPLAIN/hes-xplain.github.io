@@ -11,7 +11,7 @@ extra_css:
 
 nav:
   - Home: index.md
-  - About: introduction.md
+  - About: intro.md
   - Team: team.md
 #  - Resources:
 #    - mkdocs.md

@@ -4,10 +4,6 @@ template: overrides/home.html
 
 # Get Started
 
-We aim to provide **an open XAI-oriented platform** allowing data scientists to train or
-deploy their predictive models and then apply and compare **explainability algorithms** at both low and
-high levels of abstraction, allowing to better **explain complex behaviours**.
-
 !!! info "Who is this project for? You are..."
 
     === ":material-tie: a Decision maker"
@@ -33,6 +29,15 @@ high levels of abstraction, allowing to better **explain complex behaviours**.
 
         - [x] Deploy the platform on school IT infrastructure or public cloud
         - [x] Adapt provided use cases to teaching needs
+
+
+***
+
+# An open XAI platform
+
+We aim to provide **an open XAI-oriented platform** allowing data scientists to train or
+deploy their predictive models and then apply and compare **explainability algorithms** at both low and
+high levels of abstraction, allowing to better **explain complex behaviours**.
 
 Explaining complex models involves dealing with different levels of abstraction.
 
