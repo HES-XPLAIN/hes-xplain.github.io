@@ -59,6 +59,8 @@ implementation and test of explainable models in the context of mobile health da
     Deep Neural Networks », in Computational Intelligence, vol. 829, C. Sabourin, J. J. Merelo, K. Madani,
     et K.Warwick, Éd. Cham: Springer International Publishing, 2019, p. 119‑138. doi: 10.1007/978-3-030-16469-0_7.
 
+***
+
 ### [Prof. Marcel Graf](https://people.hes-so.ch/en/profile/2002425133-marcel-graf)
 
 PhD, HEIG-VD
@@ -80,6 +82,8 @@ supervise a drone flight remotely.
     T. Grandison et al., « Elevating the Discussion on Security Management: The Data Centric
     Paradigm », in 2007 2nd IEEE/IFIP International Workshop on Business-Driven IT Management, Munich,
     Germany, mai 2007, p. 84‑93. doi: 10.1109/BDIM.2007.375015.
+
+***
 
 ### [Prof. Guido Bologna](https://people.hes-so.ch/en/profile/33748034-guido-bologna)
 
@@ -122,6 +126,8 @@ co-authored are available on ResearchGate [^12].
     no 6, p. 990, juin 2020, doi: 10.3390/electronics9060990.
 [^12]: https://www.researchgate.net/profile/Guido-Bologna
 
+***
+
 ### Xavier Brochet
 
 Senior R&D Scientist in Bioinformatics, PhD, HEIG-VD
@@ -136,6 +142,7 @@ from other disciplines is particularly adapted to his education and is a signifi
 He is an expert in creating information systems and developing bioinformatics analysis tools, softwares
 and web interfaces.
 
+***
 
 ### Arthur Babey
 
@@ -143,15 +150,15 @@ Ra&D Collaborator, HEIG-VD
 
 ![Team member](assets/images/generic.jpg){ align=left }
 
-Arthur Babey is a Ra&D Collaborator at HEIG-VD and and an experienced Machine Learning Engineer with a focus
-on developing algorithms. He has a keen interest in developing algorithms that can solve real-world
-problems in various industries, including healthcare, finance, and transportation. Arthur is known for
-his friendly and approachable demeanor, which makes him a popular team member among his colleagues. He is
-also an avid gamer and enjoys spending his free time playing strategy games.
+Arthur Babey is a Life Sciences Engineer working as an Ra&D Collaborator at HEIG-VD. His expertise in Life
+Sciences, coupled with a strong inclination towards data science and machine learning, equips him with a
+distinctive set of skills. Currently, he is focused on the domain of machine learning and explainable
+artificial intelligence. By utilizing computational techniques and data science, he is deeply interested in
+solving intricate problems related to health and biology. Whether it involves the complexities of bioinformatics
+or the potential of deep learning, Arthur strives to push the boundaries of innovation and make meaningful
+contributions to the field.
 
-Random fact: Arthur is a big fan of the Star Wars franchise and has a collection of Star Wars action
-figures on his desk.
-
+***
 
 ### Jean-Marc Boutay
 
@@ -159,15 +166,13 @@ HES Assistant, HEPIA-GE
 
 ![Team member](assets/images/generic.jpg){ align=left }
 
-Jean-Marc Boutay is an HES Assistant at HEPIA-GE  and a highly skilled Machine Learning Engineer with a focus on
-developing and optimizing cutting-edge algorithms in C++. He is a serious-minded individual who takes his
-work very seriously and is always striving for excellence in his projects. Jean-Marc is a great team
-player and is always willing to lend a helping hand to his colleagues whenever needed. He is a fitness
-enthusiast and enjoys weightlifting and cardio workouts in his free time.
+Jean-Marc Boutay is an HES Assistant at HEPIA-GE and a proficient Machine Learning Engineer. He obtained his
+master's degree in computer science in 2022, focusing his thesis on real-time object detection using deep learning.
+He is currently developing and optimizing cutting-edge algorithms in C++. He is a serious-minded individual who
+takes his work very seriously and is always striving for excellence in his projects. Jean-Marc is a great team
+player and is always willing to lend a helping hand to his colleagues whenever needed.
 
-Random fact: Jean-Marc is a big fan of Japanese culture and can often be found watching anime in his
-spare time.
-
+***
 
 ### Rémy Marquis
 
@@ -175,11 +180,10 @@ Ra&D Collaborator, HEIG-VD
 
 ![Team member](assets/images/generic.jpg){ align=left }
 
-Rémy Marquis is a Ra&D Collaborator at HEIG-VD and an experienced Machine Learning Infrastructure Engineer with
-a focus on designing and implementing scalable Machine Learning systems. He has a wealth of knowledge in
-building and managing distributed systems that support Machine Learning workflows. Despite his quiet and
-reserved demeanor, Rémy has a great sense of humor and often cracks jokes that catch his colleagues
-off-guard. He is also an avid traveler and enjoys exploring new destinations whenever he gets the chance.
-
-Random fact: Rémy is a huge fan of coffee and has a coffee bean collection from around the world. He
-often shares his knowledge of different coffee brewing methods with his colleagues.
+Rémy Marquis is an R&D Collaborator at HEIG-VD, with a background in sciences and environmental engineering.
+His growing interest in the capabilities and wide-ranging applications of Machine Learning led him to embark
+on a gradual transition into the field. Currently, Rémy focuses on Machine Learning Infrastructure Engineering,
+with a specific emphasis on  Machine Learning Operations (MLOps). He continuously expands his expertise in
+building and managing scalable systems for ML workflows, ensuring seamless integration and deployment of ML models.
+Rémy's proficiency in MLOps is steadily growing, as he remains committed to delivering high-quality work in this
+evolving field.
