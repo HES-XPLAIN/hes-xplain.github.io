@@ -23,7 +23,7 @@ machine learning** in Switzerland and beyond.
 
 ### [Prof. Carlos Peña](https://people.hes-so.ch/en/profile/269853581-carlos-andres-pena)
 
-PhD, HEIG-VD, Director of the Institute of Information and Communication Technologies (IICT)
+PhD, Director of the Institute of Information and Communication Technologies (IICT), HEIG-VD
 
 ![Team member](assets/images/pena.png){ width="200px", align=left }
 
@@ -63,7 +63,7 @@ implementation and test of explainable models in the context of mobile health da
 
 ### [Prof. Marcel Graf](https://people.hes-so.ch/en/profile/2002425133-marcel-graf)
 
-PhD, HEIG-VD
+PhD, Professor, HEIG-VD
 
 ![Team member](assets/images/graf.png){ width="200px", align=left }
 
@@ -87,7 +87,7 @@ supervise a drone flight remotely.
 
 ### [Prof. Guido Bologna](https://people.hes-so.ch/en/profile/33748034-guido-bologna)
 
-PhD, HEPIA-GE
+PhD, Professor, HEPIA-GE
 
 ![Team member](assets/images/bologna.png){ width="200px", align=left }
 
