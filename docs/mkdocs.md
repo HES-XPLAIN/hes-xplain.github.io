@@ -67,27 +67,27 @@ def bubble_sort(items):
 
 !!! info
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 !!! note
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 !!! warning
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 !!! example
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
 
 ## BetterEm
 
@@ -151,8 +151,9 @@ Nullam dignissim ultrices urna non auctor.
 
 ???+ note "Open styled details"
 
-??? danger "Nested details!"
-And more content again.
+    ??? danger "Nested details!"
+
+        And more content again.
 
 ## Emoji
 
