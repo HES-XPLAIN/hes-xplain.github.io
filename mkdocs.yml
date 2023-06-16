@@ -4,8 +4,8 @@ site_description: ->
 site_author: HES-XPLAIN
 site_url: https://hes-xplain.github.io/
 copyright: Copyright &copy; 2023 HES-XPLAIN
-#repo_url: https://github.com/HES-XPLAIN
-#repo_name: HES-XPLAIN
+repo_url: https://github.com/HES-XPLAIN
+repo_name: HES-XPLAIN
 extra_css:
   - stylesheets/custom.css
 
