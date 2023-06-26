@@ -16,7 +16,7 @@ high levels of abstraction, allowing to better **explain complex behaviours**.
         ![Decision maker](assets/images/tie.svg){ width="200px", align=left }
         # You are interested in business **benefits, risks and costs**.
 
-        - Get an [introduction](./intro) to explainability
+        - Get an [introduction](./introduction) to explainability
         - Access web demos and use case scenarios
 
     === "an engineer"

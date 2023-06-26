@@ -4,7 +4,7 @@ hide:
 - toc
 ---
 
-# :material-chat-question: About XAI
+# :material-chat-question: Introduction to XAI
 
 ## Traditional AI models
 
