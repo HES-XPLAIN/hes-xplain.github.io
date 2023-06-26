@@ -12,6 +12,7 @@ extra_css:
 nav:
   - Home: index.md
   - Introduction: introduction.md
+  - Use cases: notebooks.md
   - Team: team.md
 #  - Resources:
 #    - mkdocs.md

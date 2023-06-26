@@ -24,7 +24,7 @@ high levels of abstraction, allowing to better **explain complex behaviours**.
         ![Engineer](assets/images/hammer-wrench.svg){ width="200px", align=left }
         # You want to **try XAI algorithms**.
 
-        - Discover use cases as Jupyter notebooks
+        - Discover use cases as [Jupyter notebooks](./notebooks)
         - Get data set, algorithms and Python code
 
     === "a data scientist"
