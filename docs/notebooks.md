@@ -6,6 +6,21 @@ These notebooks aim to make XAI more approachable by providing practical example
 
 Explore our collection of notebooks to understand how AI models make decisions, interpret their outputs, and gain insights into their predictions.
 
+## Docker installation
+
+This page provides Docker Compose files that allow you to easily serve Jupyter notebooks and embedded data. By downloading
+these files, you can quickly set up and manage a Jupyter notebook environment, giving you convenient access to your notebooks and data.
+
+To get started, you only need to [install Docker Desktop](https://www.docker.com/) and then download the Docker Compose files.
+
+??? tip "Install Docker Desktop"
+
+    * Go to the [Docker website](https://www.docker.com/)
+    * Download the appropriate Docker Desktop version for your operating system.
+    * Open a terminal or command prompt and run `docker version` to verify the installation.
+    * Downlaod the Docker Compose files on this page and launch them with `docker compose up`
+
+
 ## Sport Image Classification
 
 Through this use case, we aim to empower users to grasp the potential of CAM as a tool for transparent and interpretable sport image classification.
