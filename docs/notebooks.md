@@ -31,7 +31,7 @@ Through this use case, we aim to empower users to grasp the potential of CAM as 
 
     **Class Activation Maps (CAM)**
 
-    :arrow_right: [Exploring Class Activation Maps for Sport Image Classification](https://nbviewer.org/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/notebooks/sport_image_classification.ipynb)
+    :arrow_right: [Exploring Class Activation Maps for Sport Image Classification](https://github.dev/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/sport_image_classification.ipynb)
 
     In this use case, we dive into sport image classification and showcase the power of **Class Activation Maps** (CAM) as an
     interpretability tool.
