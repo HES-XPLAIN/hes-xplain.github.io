@@ -48,7 +48,7 @@ high levels of abstraction, allowing to better **explain complex behaviours**.
 
 ## An open XAI platform
 
-We aim to provide **an open XAI-oriented platform** comeing with explainability to connectionist models, including neural
+We aim to provide **an open XAI-oriented platform** coming with explainability to connectionist models, including neural
 networks and their ensembles, as well as DL architectures.
 
 It will include a **selection of well-known and widely-used XAI approaches** from the literature,
