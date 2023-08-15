@@ -29,8 +29,12 @@ or setting up a **local session** with our provided **Docker Compose files**.
         * **REFRESH** your browser
 
     * Choose a machine configuration (2 or 4 cores) on the Codespace dropdown menu.
-    * Wait for the session to load.
+    * Wait for the session to load, until **Python 3 (ipykernel)** is displayed in upper right corner. This can take a few minutes.
     * You are ready to start working with the interactive Jupyter notebook.
+
+When you are done, the codespace environment will be shutdown after 30 minutes of inactivity. You can also shut it down
+manually on your personal [GitHub codespaces](https://github.com/codespaces) page, by clicking on the 3-dots menu and
+selecting **Delete**.
 
 ??? tip ":octicons-desktop-download-24: Local session: How to install Docker Desktop"
 
@@ -42,7 +46,8 @@ or setting up a **local session** with our provided **Docker Compose files**.
     * Go to the [Docker website](https://www.docker.com/)
     * Download the appropriate Docker Desktop version for your operating system (:simple-windows11: :simple-apple: :simple-linux:).
     * Open a terminal or command prompt and run `docker version` to verify the installation.
-    * Download the Docker Compose files on this page and launch them with `docker compose up`.
+    * Ensure Docker Desktop is running.
+    * Download the Docker Compose files on this page and launch them with `docker compose up -f path/to/docker-compose.yml`.
 
 
 ## Sport Image Classification
