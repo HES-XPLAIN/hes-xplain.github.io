@@ -13,14 +13,21 @@ Whether you prefer the convenience of launching an online interactive session or
 we provide you with the necessary tools. Simply choose between launching an **online session** in **GitHub Codespaces**
 or setting up a **local session** with our provided **Docker Compose files**.
 
+**Note:** A **GitHub account** is required to access GitHub Codespace. Codespace is free up to 120h/CPU per month with a free account.
+
 ??? tip ":octicons-codespaces-24: Online session: How to launch GitHub Codespace"
-
-    !!! note "A **GitHub account** is required to access GitHub Codespace"
-
-        Codespace is free up to 120h/CPU per month with a free account.
 
     * Click on the provided link to open an embedded :simple-visualstudiocode: **VSCode** editor in your browser.
     * In the upper right corner of the editor, click on **Select Kernel** and then **Connect to Codespace**.
+
+    ??? warning "Not seeing 'Connect to Codespace' in the menu? Click here."
+
+        If this is your first time on this notebooks page:
+
+        * In the upper right corner of the editor, click on **Select Kernel**.
+        * In the appearing menu, select **Install/Enable suggested extensions** to install some pre-configured extensions.
+        * **REFRESH** your browser
+
     * Choose a machine configuration (2 or 4 cores) on the Codespace dropdown menu.
     * Wait for the session to load.
     * You are ready to start working with the interactive Jupyter notebook.
