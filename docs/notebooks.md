@@ -50,7 +50,7 @@ selecting **Delete**.
     * Download the Docker Compose files on this page and launch them with `docker compose up -f path/to/docker-compose.yml`.
 
 
-## Sport Image Classification
+## Class Activation Maps (CAM)
 
 Through this use case, we aim to empower users to grasp the potential of CAM as a tool for transparent and interpretable sport image classification.
 
@@ -69,6 +69,10 @@ Through this use case, we aim to empower users to grasp the potential of CAM as 
     CAM allows us to visualize the regions of an image that contribute most to the model's classification decision.
     By overlaying **heatmaps** onto the original images, we gain insights into the model's attention and its understanding of different sports.
 
-While focusing on a specific image classification task using a pre-trained model,  our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
+While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
 
-By the end of this use case, you will have a solid understanding of CAM and how to integrate it into your own sport image classification projects.
+By the end of this use case, you will have a solid understanding of CAM and how to integrate it into your own projects.
+
+## Activation-Maximization
+
+WIP
