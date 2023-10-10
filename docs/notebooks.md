@@ -60,7 +60,7 @@ Through this use case, we aim to empower users to grasp the potential of CAM as 
 
     **Class Activation Maps (CAM)**
 
-    * :octicons-codespaces-24: **Online**: <a href="https://github.dev/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/sport_image_classification.ipynb" target="_blank">Exploring Class Activation Maps for Sport Image Classification</a>
+    * :octicons-codespaces-24: **Online**: <a href="https://github.dev/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/cam_demo.ipynb" target="_blank">Exploring Class Activation Maps for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
     In this use case, we dive into sport image classification and showcase the power of **Class Activation Maps** (CAM) as an
