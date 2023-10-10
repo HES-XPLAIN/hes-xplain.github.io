@@ -73,6 +73,26 @@ While focusing on a specific image classification task using a pre-trained model
 
 By the end of this use case, you will have a solid understanding of CAM and how to integrate it into your own projects.
 
+## Rules Extraction
+
+Through this use case, we aim to empower users to grasp the potential of Rules Extraction as a tool for transparent and interpretable sport image classification.
+
+!!! example "Sport Image Classification with Rules Extarction"
+
+    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
+
+    **Rules Extraction**
+
+    * :octicons-codespaces-24: **Online**: <a href="https://github.dev/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/rules_extraction_demo.ipynb" target="_blank">Exploring Rules Extraction for Sport Image Classification</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+    In this use case, we dive into sport image classification and showcase the power of **Rules Extraction** as an interpretability tool.
+
+While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
+
+By the end of this use case, you will have a solid understanding of Rules Extraction and how to integrate it into your own projects.
+
 ## Activation-Maximization
 
 WIP
+
