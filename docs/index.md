@@ -16,7 +16,7 @@ high levels of abstraction, allowing to better **explain complex behaviours**.
         ![Decision maker](assets/images/tie.svg){ width="200px", align=left }
         # You are interested in business **benefits, risks and costs**.
 
-        - Get an [introduction](./introduction) to explainability
+        - Get an [introduction](introduction.md) to explainability
         - Access web demos and use case scenarios
 
     === "an engineer"
@@ -24,7 +24,7 @@ high levels of abstraction, allowing to better **explain complex behaviours**.
         ![Engineer](assets/images/hammer-wrench.svg){ width="200px", align=left }
         # You want to **try XAI algorithms**.
 
-        - Discover use cases as [Jupyter notebooks](./notebooks)
+        - Discover use cases as [Jupyter notebooks](notebooks.md)
         - Get data set, algorithms and Python code
 
     === "a data scientist"
