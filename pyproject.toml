@@ -1,21 +1,30 @@
-[tool.poetry]
-name = "website"
+[project]
+name = "hes-xplain-github-io"
 version = "0.0.0"
 description = "Website for MLxplain"
-authors = ["HES-XPLAIN"]
-license = "BSD-3-Clause"
+authors = [
+    { name = "Rémy Marquis", email = "remy.marquis@heig-vd.ch" },
+    { name = "Arthur Babey", email = "arthur.babey@heig-vd.ch" },
+    { name = "Jean-Marc Boutay", email = "jean-marc.boutay@hesge.ch" },
+]
+dependencies = [
+    "mkdocs-material>=9.4.12",
+    "pillow>=10.1.0",
+    "cairosvg>=2.7.1",
+    "mkdocs-minify-plugin>=0.7.1",
+    "mkdocs-redirects>=1.2.1",
+    "mkdocs-glightbox>=0.3.5",
+]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.8.1"
-mkdocs-material = "^9.1.8"
-pillow = "^9.5.0"
-cairosvg = "^2.7.0"
-mkdocs-minify-plugin = "^0.6.4"
-mkdocs-redirects = "^1.2.0"
-mkdocs-glightbox = "^0.3.4"
-
+requires-python = ">= 3.11"
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
