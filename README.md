@@ -7,25 +7,24 @@ Website for HES-XPLAIN - An open platform for accelerating the development of eX
 The website is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/),
 allowing the actual content to be entirely written with [Markdown](https://www.markdownguide.org/).
 
-### Install Python and Poetry
+### Install Rye
 
-- Install [Python](https://www.python.org/).
-- Install [poetry](https://python-poetry.org/docs/#installation) and add it to your PATH.
+- Install [Rye](https://rye-up.com/) and [add shims](https://rye-up.com/guide/installation/) to your PATH.
 
-Ensure `python` and `poetry` are accessible in the `$PATH` environment variable.
+Ensure `rye` is accessible in the `$PATH` environment variable.
+Rye will automatically download the suitable Python toolchain as needed.
 
 To check the installation, check the following commands return an output:
 
 ```shell
-python --version
-poetry --version
+rye --version
 ```
 
 Install python dependencies and activate the virtualenv:
 
 ```shell
-poetry install
-poetry shell
+rye sync
+rye shell
 ```
 
 To serve the model locally:
