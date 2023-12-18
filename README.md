@@ -7,7 +7,17 @@ Website for HES-XPLAIN - An open platform for accelerating the development of eX
 The website is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/),
 allowing the actual content to be entirely written with [Markdown](https://www.markdownguide.org/).
 
-### Install Rye
+### Install
+
+#### Using pip
+
+```shell
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.lock
+```
+
+#### Using Rye
 
 - Install [Rye](https://rye-up.com/) and [add shims](https://rye-up.com/guide/installation/) to your PATH.
 
@@ -26,6 +36,8 @@ Install python dependencies and activate the virtualenv:
 rye sync
 rye shell
 ```
+
+### Serve
 
 To serve the model locally:
 
