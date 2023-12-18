@@ -1,6 +1,6 @@
 [project]
 name = "hes-xplain-github-io"
-version = "0.0.0"
+version = "0.0.1"
 description = "Website for MLxplain"
 authors = [
     { name = "Rémy Marquis", email = "remy.marquis@heig-vd.ch" },
@@ -18,9 +18,6 @@ dependencies = [
 readme = "README.md"
 requires-python = ">= 3.11"
 
-[project.scripts]
-hello = "hes-xplain-github-io:hello"
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
@@ -33,4 +30,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/hes_xplain_github_io"]
+bypass-selection = true
