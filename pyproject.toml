@@ -8,15 +8,18 @@ authors = [
     { name = "Jean-Marc Boutay", email = "jean-marc.boutay@hesge.ch" },
 ]
 dependencies = [
-    "mkdocs-material>=9.4.12",
+    "mkdocs-material>=9.5.2",
     "pillow>=10.1.0",
     "cairosvg>=2.7.1",
-    "mkdocs-minify-plugin>=0.7.1",
+    "mkdocs-minify-plugin>=0.7.2",
     "mkdocs-redirects>=1.2.1",
     "mkdocs-glightbox>=0.3.5",
 ]
 readme = "README.md"
 requires-python = ">= 3.11"
+
+[project.scripts]
+hello = "hes-xplain-github-io:hello"
 
 [build-system]
 requires = ["hatchling"]
@@ -28,3 +31,6 @@ dev-dependencies = []
 
 [tool.hatch.metadata]
 allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hes_xplain_github_io"]
