@@ -10,31 +10,20 @@ Explore our collection of notebooks to understand how AI models make decisions, 
 ## Interactive sessions
 
 Whether you prefer the convenience of launching an online interactive session or the flexibility of a local session,
-we provide you with the necessary tools. Simply choose between launching an **online session** in **GitHub Codespaces**
+we provide you with the necessary tools. Simply choose between launching an **online session** in **Google Colab**
 or setting up a **local session** with our provided **Docker Compose files**.
 
-**Note:** A **GitHub account** is required to access GitHub Codespace. Codespace is free up to 120h/CPU per month with a free account.
+**Note:** A **Google account** is required to access Google Colab free of charge.
 
-??? tip ":octicons-codespaces-24: Online session: How to launch GitHub Codespace"
+??? tip ":simple-googlecolab: Online session: How to launch Google Colab"
 
-    * Click on the provided link to open an embedded :simple-visualstudiocode: **VSCode** editor in your browser.
-    * In the upper right corner of the editor, click on **Select Kernel** and then **Connect to Codespace**.
+    * Click on the provided link to open the notebook in your browser.
+    * In the upper right corner of the editor, click on the downward arrow right of the **Connect** and then **Change runtime type**.
+    * Select **T4 GPU** to make use of GPU accelleration, then **Save**.
+    * Click on **Connect**.
 
-    ??? warning "Not seeing 'Connect to Codespace' in the menu? Click here."
-
-        If this is your first time on this notebooks page:
-
-        * In the upper right corner of the editor, click on **Select Kernel**.
-        * In the appearing menu, select **Install/Enable suggested extensions** to install some pre-configured extensions.
-        * **REFRESH** your browser
-
-    * Choose a machine configuration (2 or 4 cores) on the Codespace dropdown menu.
-    * Wait for the session to load, until **Python 3 (ipykernel)** is displayed in upper right corner. This can take a few minutes.
-    * You are ready to start working with the interactive Jupyter notebook.
-
-When you are done, the codespace environment will be shutdown after 30 minutes of inactivity. You can also shut it down
-manually on your personal [GitHub codespaces](https://github.com/codespaces) page, by clicking on the 3-dots menu and
-selecting **Delete**.
+When you are done, the environment will be shutdown after 30 minutes of inactivity. You can also shut it down
+manually by clicking on **Runtime** menu then by selecting **Disconnect and delete runtime**.
 
 ??? tip ":octicons-desktop-download-24: Local session: How to install Docker Desktop"
 
@@ -60,8 +49,10 @@ Through this use case, we aim to empower users to grasp the potential of CAM as 
 
     **Class Activation Maps (CAM)**
 
-    * :octicons-codespaces-24: **Online**: <a href="https://github.dev/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/cam_demo.ipynb" target="_blank">Exploring Class Activation Maps for Sport Image Classification</a>
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/cam_demo.ipynb" target="_blank">Exploring Class Activation Maps for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+    **Important**: To run the notebook on Google Colab successfully, ensure to change the variable `use_colab` in the first cell to **True**.
 
     In this use case, we dive into sport image classification and showcase the power of **Class Activation Maps** (CAM) as an
     interpretability tool.
@@ -83,7 +74,9 @@ Through this use case, we aim to empower users to grasp the potential of Rules E
 
     **Rules Extraction**
 
-    * :octicons-codespaces-24: **Online**: <a href="https://github.dev/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/rules_extraction_demo.ipynb" target="_blank">Exploring Rules Extraction for Sport Image Classification</a>
+    **Important**: To run the notebook on Google Colab successfully, ensure to change the variable `use_colab` in the first cell to **True**.
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/rules_extraction_demo.ipynb" target="_blank">Exploring Rules Extraction for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
     In this use case, we dive into sport image classification and showcase the power of **Rules Extraction** as an interpretability tool.
