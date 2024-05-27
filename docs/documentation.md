@@ -2,4 +2,4 @@
 
 ## API documentation
 
-* [dimlpfidex](./dimlpfidex/)
+* [dimlpfidex](../dimlpfidex/)
