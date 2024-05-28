@@ -13,8 +13,23 @@ nav:
   - Home: index.md
   - Introduction: introduction.md
   - Use cases: notebooks.md
-  - Documentation: documentation.md
-  - Reference: reference.md
+  - Documentation: 
+    - Overview: documentation.md
+    - Algorithms: algorithms.md
+    - Training methods: trainmethods.md
+    - Installation guide: installguide.md
+    - Getting started: getstarted.md
+    - Graphic User Interface: gui.md
+    - Practical Examples: examples.md
+    - API Reference: reference.md
+    - Contributing: contributing.md
+    - Frequently Asked Questions: faq.md
+    - Glossary: glossary.md
+    - References: references.md
+    - Glossary: license.md
+    - Contact Information: contact.md
+
+  - API Reference: reference.md
   - Team: team.md
 #  - Resources:
 #    - mkdocs.md

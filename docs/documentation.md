@@ -1,7 +1,10 @@
-# Documentation
+# :material-book: Documentation
 >:warning: **this section is under construction and cannot be considered usable and accurate yet.**
 
-Inside a documentation tab in main menu
+## Introduction
+## Overview of the Repository
+## Purpose of the Algorithms
+## Application Domains
 
 ## Documentation skeleton
     1 Documentation Overview
