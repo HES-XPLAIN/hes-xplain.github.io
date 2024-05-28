@@ -9,32 +9,17 @@ allowing the actual content to be entirely written with [Markdown](https://www.m
 
 ### Install Python
 
-Install [Python](https://www.python.org/):
-
-#### Manually
+Install [Python](https://www.python.org/), version 3.11 or newer.
 
 * **Linux, macOS, Windows/WSL**: Use your package manager to install `python3` and `python3-dev`
 * **Windows**: `winget install Python.Python.3.11`
 
-> [!IMPORTANT]
+> [!WARNING]
 > On Windows, avoid installing Python through the Microsoft Store as the package has additional permission restrictions.
-
-#### Using Rye
-
-* Install [Rye](https://rye-up.com/) and [add shims](https://rye-up.com/guide/installation/) to your PATH.
-
-Ensure `rye` is accessible in the `$PATH` environment variable.
-Rye will automatically download the suitable Python toolchain as needed.
-
-To check the installation, check the following commands return an output:
-
-```shell
-rye --version
-```
 
 ### Install dependencies
 
-#### Using pip
+Using pip
 
 ```shell
 python -m venv .venv
@@ -45,18 +30,14 @@ pip install .
 > [!NOTE]
 > On Windows, use `.venv\Scripts\activate` instead.
 
-#### Using Rye
-
-Install python dependencies and create a virtualenv in `.venv`:
-
-```shell
-rye sync
-```
-
 #### Add dependencies
 
-To add new dependencies to the project, either add them to the `pyproject.toml` file or use `rye add <dependency>`.
-To add them to the virtualenv, use `pip install .` or `rye sync`.
+To add new dependencies to the project, add them to the `pyproject.toml` file.
+To add them to the virtualenv, use:
+
+```
+pip install .
+```
 
 ### Work with virtualenv
 
