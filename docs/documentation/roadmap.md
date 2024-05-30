@@ -5,14 +5,15 @@ This section shows the progress of the general documentation redaction.
 !!! note "Note"
     This should be deleted at the end of the documentation redaction.
 
-- [ ] 1 Documentation Overview
+- [x] 1 Documentation Overview
     * [x] 1.1 Introduction
-    * [ ] 1.2 Overview of the Repository
+    * [x] 1.2 Dashboard
     * [x] 1.3 Application Domains
+    * [x] 1.4 Documentation structure
 
 - [ ] 2 Algorithms
-    * [ ] 2.1 Description of Different Algorithms ensembles
-    * [ ] 2.3 Use Cases for Each Family
+    * [ ] 2.1 Algorithms ensembles
+    * [ ] 2.3 Ensemble use Cases
 
     * [ ] 2.1 Fidex algorithms
         * [ ] 2.1.1 Overview
