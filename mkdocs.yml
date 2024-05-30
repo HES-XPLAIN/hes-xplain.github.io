@@ -14,21 +14,24 @@ nav:
   - Introduction: introduction.md
   - Use cases: notebooks.md
   - Documentation: 
-    - Overview: documentation.md
-    - Algorithms: algorithms.md
-    - Training methods: trainmethods.md
-    - Installation guide: installguide.md
-    - Getting started: getstarted.md
-    - Graphic User Interface: gui.md
-    - Practical Examples: examples.md
-    - API Reference: reference.md
-    - Contributing: contributing.md
-    - Frequently Asked Questions: faq.md
-    - Glossary: glossary.md
-    - References: references.md
-    - Glossary: license.md
-    - Contact Information: contact.md
-    - Roadmap: roadmap.md
+    - Overview: documentation/overview.md
+    - Algorithms: documentation/algorithms.md
+      # - Fidex: documentation/algorithms/fidex.md
+      # - DIMLP: documentation/algorithms/dimlp.md
+      # - Training methods: documentation/algorithms/training-methods.md
+    # - Training methods: documentation/training-methods.md
+    # - Installation guide: documentation/installation-guide.md
+    # - Getting started: documentation/getting-started.md
+    # - Graphic User Interface: documentation/gui.md
+    # - Practical Examples: documentation/examples.md
+    # - API Reference: documentation/reference.md
+    # - Contributing: documentation/contributing.md
+    # - Frequently Asked Questions: documentation/faq.md
+    # - Glossary: documentation/glossary.md
+    # - References: documentation/references.md
+    # - Glossary: documentation/license.md
+    # - Contact Information: documentation/contact.md
+    - Roadmap: documentation/roadmap.md
 
   - API Reference: reference.md
   - Team: team.md
