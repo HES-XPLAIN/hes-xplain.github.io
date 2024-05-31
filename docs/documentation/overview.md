@@ -1,6 +1,6 @@
 # :material-book: Documentation
 
-!!! warning "Warning"
+!!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Introduction
@@ -17,7 +17,7 @@ Here is a selection of subjects that may fit your needs.
 
     Install [`dimlpfidex`](#) and get running in minutes.
 
-    [:octicons-arrow-right-24: Installation guide](#)
+    [:octicons-arrow-right-24: Installation guide](installation-guide.md)
 
 
 -   :material-clock-fast:{ .lg .middle } **Getting started**
@@ -26,7 +26,7 @@ Here is a selection of subjects that may fit your needs.
 
     Guided first steps into explainability algorithms. 
 
-    [:octicons-arrow-right-24: Getting started](#)
+    [:octicons-arrow-right-24: Getting started](getting-started.md)
 
 
 -   :material-application:{ .lg .middle } **Graphical User Interface**
@@ -35,7 +35,7 @@ Here is a selection of subjects that may fit your needs.
 
     Having trouble trying to deal with JSON configuration files ? 
 
-    [:octicons-arrow-right-24: Check this out](#)
+    [:octicons-arrow-right-24: Try the GUI](gui.md)
 
 
 -   :material-code-block-tags:{ .lg .middle } **API reference**
@@ -44,7 +44,7 @@ Here is a selection of subjects that may fit your needs.
 
     Technical documentation for core features.
 
-    [:octicons-arrow-right-24: Reference](#)
+    [:octicons-arrow-right-24: Reference](../reference.md)
 
 
 -   :fontawesome-solid-gears:{ .lg .middle } **Fidex algorithms**
@@ -53,7 +53,7 @@ Here is a selection of subjects that may fit your needs.
 
     All you need to know about Fidex algorithms.
 
-    [:octicons-arrow-right-24: Dive in](#)
+    [:octicons-arrow-right-24: Dive in](algorithms/fidex.md)
 
 -   :fontawesome-solid-gears:{ .lg .middle } **DIMLP algorithms**
 
@@ -61,7 +61,7 @@ Here is a selection of subjects that may fit your needs.
 
     All you need to know about DIMLP algorithms.
 
-    [:octicons-arrow-right-24: Dive in](#)
+    [:octicons-arrow-right-24: Dive in](algorithms/dimlp.md)
 
 
 -   :material-scale-balance:{ .lg .middle } **License**
@@ -70,7 +70,7 @@ Here is a selection of subjects that may fit your needs.
 
     HES-XPLAIN is licensed under BSD-3
 
-    [:octicons-arrow-right-24: License](#)
+    [:octicons-arrow-right-24: License](license.md)
 
 </div>
 
