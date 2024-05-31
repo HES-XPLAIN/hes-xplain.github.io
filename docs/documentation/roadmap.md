@@ -2,7 +2,7 @@
 
 This section shows the progress of the general documentation redaction.
 
-!!! note "Note"
+!!! note
     This should be deleted at the end of the documentation redaction.
 
 - [x] 1 Documentation Overview
@@ -127,6 +127,11 @@ This section shows the progress of the general documentation redaction.
             * [ ] 2.3.11.2 Usage Instructions
             * [ ] 2.3.11.3 Example Code
             * [ ] 2.3.11.4 Output Interpretation
+
+    * [ ] 2.4 File formats
+        * [ ] 2.4.1 JSON Configuration files
+        * [ ] 2.4.x TODO: DEFINE ALL USED OR PRODUCED FILES
+
     
 - [ ] 3 Additional Sections
     * [ ] 3.1 Installation Guide

@@ -34,6 +34,15 @@ The HES-XPLAIN platform offers various tools to extract explainability and much 
 
     [:octicons-arrow-right-24: More](algorithms/training-methods.md)
 
+
+-   **File formats**
+
+    ---
+
+    Having trouble with files used or produced by one of our algorithms ?
+
+    [:octicons-arrow-right-24: Help](algorithms/training-methods.md)
+
 </div>
 
 ## Ensemble's use cases
