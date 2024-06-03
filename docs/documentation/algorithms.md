@@ -1,6 +1,6 @@
 # Algorithms
 
-!!! warning "Warning"
+!!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Algorithms ensembles
@@ -41,8 +41,7 @@ The HES-XPLAIN platform offers various tools to extract explainability and much 
 
     Having trouble with files used or produced by one of our algorithms ?
 
-    [:octicons-arrow-right-24: Help](algorithms/training-methods.md)
-
+    [:octicons-arrow-right-24: Help](algorithms/file-formats.md)
 </div>
 
 ## Ensemble's use cases
