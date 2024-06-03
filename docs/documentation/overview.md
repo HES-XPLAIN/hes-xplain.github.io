@@ -120,18 +120,20 @@ Documentation
 │   │   ├── DimlpTrn
 │   │   └── DimlpPred
 │   │   
-│   └── Training methods
-│       ├── stairObj
-│       ├── computeRocCurve  
-│       ├── mlpTrn          
-│       ├── svmTrn
-│       ├── convKeras        
-│       ├── normalization
-│       ├── crossValid       
-│       ├── trnFun
-│       ├── gradBoostTrn     
-│       └── randForestsTrn
-│
+│   ├── Training methods
+│   │   ├── stairObj
+│   │   ├── computeRocCurve  
+│   │   ├── mlpTrn          
+│   │   ├── svmTrn
+│   │   ├── convKeras        
+│   │   ├── normalization
+│   │   ├── crossValid       
+│   │   ├── trnFun
+│   │   ├── gradBoostTrn     
+│   │   └── randForestsTrn
+│   │
+│   └── File formats
+│   
 ├── Additional Sections
 │   ├── Installation Guide
 │   ├── Graphic User Interface
