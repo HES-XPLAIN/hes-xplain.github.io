@@ -4,7 +4,7 @@
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Introduction
-Welcome to the **HES-XPLAIN** official documentation ! This page holds the entire project documentation for our diverse collection of algorithms designed for various computational tasks in the XAI field. The goal of this section is to help on how to use each algorithm, with practical examples and guidance on interpreting results. There is also other subsections offering additional conteent to enlighten your light.
+Welcome to the **HES-XPLAIN** official documentation! This page holds the entire project documentation for our diverse collection of algorithms designed for various computational tasks in the XAI field. The goal of this section is to help on how to use each algorithm, with practical examples and guidance on interpreting results. There are also other subsections offering additional content to enlighten your light.
 
 
 ## Dashboard
@@ -33,7 +33,7 @@ Here is a selection of subjects that may fit your needs.
 
     ---
 
-    Having trouble trying to deal with JSON configuration files ? 
+    Having trouble trying to deal with JSON configuration files? 
 
     [:octicons-arrow-right-24: Try the GUI](gui.md)
 
@@ -74,7 +74,7 @@ Here is a selection of subjects that may fit your needs.
 
 </div>
 
-In case you did not find what you are looking for in this documentation, please refer to the [detailed plan](#documentation-structure) of the documentation. Or feel free to explore it yourself ! 
+In case you did not find what you are looking for in this documentation, please refer to the [detailed plan](#documentation-structure) of the documentation. Or feel free to explore it yourself! 
 
 
 ## Application Domains
