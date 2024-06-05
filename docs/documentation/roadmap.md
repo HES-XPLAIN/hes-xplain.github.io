@@ -12,14 +12,12 @@ This section shows the progress of the general documentation redaction.
     * [x] 1.4 Documentation structure
 
 - [ ] 2 Algorithms
-    * [ ] 2.1 Algorithms ensembles
-    * [ ] 2.3 Ensemble use Cases
+    * [x] 2.1 Algorithms ensembles
 
     * [ ] 2.1 Fidex algorithms
-        * [ ] 2.1.1 Overview
-            * [ ] 2.1.1.1 Introduction to Fidex Algorithms
-            * [ ] 2.1.1.2 General Use Cases
-            * [ ] 2.1.1.3 Graphical Representation (if applicable)
+        * [ ] 2.1.1 Introduction to Fidex Algorithms
+        * [ ] 2.1.2 General Use Cases
+        * [ ] 2.1.3 Graphical Representation (if applicable)
         * [ ] 2.1.2 Fidex
             * [ ] 2.1.2.1 Description
             * [ ] 2.1.2.2 Usage Instructions
@@ -136,11 +134,12 @@ This section shows the progress of the general documentation redaction.
 - [ ] 3 Additional Sections
     * [ ] 3.1 Installation Guide
         * [ ] 3.1.1 Prerequisites
-        * [ ] 3.1.2 Installation Steps
-        * [ ] 3.1.3 Troubleshooting
-    * [ ] 3.2 Graphic User Interface
-        * [ ] 3.2.1 Purpose
-        * [ ] 3.2.2 Installation steps
+        * [x] 3.1.2 Simple installation (recommended)
+        * [x] 3.1.3 Installation by compiling sources (alternative)
+    * [x] 3.2 Graphic User Interface
+        * [x] 3.2.1 Description
+        * [x] 3.2.2 Installation guide
+        * [x] 3.2.3 usage guide
     * [ ] 3.3 Getting Started
         * [ ] 3.3.1 Quick Start Guide
         * [ ] 3.3.2 Basic Examples
@@ -172,8 +171,7 @@ This section shows the progress of the general documentation redaction.
         * [ ] 4.1.1 Academic Papers
         * [ ] 4.1.2 Books
         * [ ] 4.1.3 Online Resources
-    * [ ] 4.2 License
-       * [ ] 4.2.1 Licensing Information
+    * [x] 4.2 License
     * [ ] 4.3 Contact Information
         * [ ] 4.3.1 How to Get Support
         * [ ] 4.3.2 Contact Details for Maintainers
