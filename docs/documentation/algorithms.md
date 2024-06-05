@@ -5,7 +5,7 @@
 
 ## Algorithms ensembles
 
-The HES-XPLAIN platform offers various tools to extract explainability and much more features: 
+Here you can find an overview of the different algorithm ensembles. They are contained by a repository called `Dimlpfidex` and are referred to as a whole by this term. Every one of them can be accessed through the links below. 
 
 <div class="grid cards" markdown>
 
@@ -39,13 +39,7 @@ The HES-XPLAIN platform offers various tools to extract explainability and much 
 
     ---
 
-    Having trouble with files used or produced by one of our algorithms ?
+    Having trouble with files used or produced by one of our algorithms?
 
     [:octicons-arrow-right-24: Help](algorithms/file-formats.md)
 </div>
-
-## Ensemble's use cases
-
-
-
-
