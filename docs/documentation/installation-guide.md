@@ -3,7 +3,7 @@
 !!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
-Here you can find the steps to follow to install the `Dimlpfidex` project on your machine. It can be archived on `Windows`, `Linux`, and `MacOS`. 
+Here you can find the steps to follow to install the `Dimlpfidex` project on your machine. It can be archived on `Windows`, `Linux`, and `macOS`. 
 
 ## Simple installation (recommended)
 Ensure to have `python v3.8.1` or newer (**`3.11`** is recommended)` installed on your machine. Please refer to the [Python official website](https://www.python.org/downloads/) for further information concerning the installation process. 
@@ -18,7 +18,7 @@ Ensure to have `python v3.8.1` or newer (**`3.11`** is recommended)` installed o
     python3 --version
     ```
 
-=== "MacOS"
+=== "macOS"
     ```sh
     python3 --version
     ```
@@ -35,7 +35,7 @@ The output of the command above should tell you what version is installed on you
     pip --version
     ```
 
-=== "MacOS"
+=== "macOS"
     ```sh
     pip --version
     ```
@@ -60,7 +60,7 @@ Finally, run the following command to install `Dimlpfidex`:
     pip install dimlpfidex
     ```
 
-=== "MacOS"
+=== "macOS"
     ```sh
     pip install dimlpfidex
     ```
