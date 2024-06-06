@@ -5,7 +5,7 @@
 
 ## Algorithms ensembles
 
-Here you can find an overview of the different algorithm ensembles. They are contained by a repository called `Dimlpfidex` and are referred to as a whole by this term. Every one of them can be accessed through the links below. 
+Here you can find an overview of the different algorithm ensembles. They are contained in the [Dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) repository and are collectively referred to by this term.
 
 <div class="grid cards" markdown>
 
