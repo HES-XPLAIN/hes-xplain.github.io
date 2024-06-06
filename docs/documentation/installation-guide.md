@@ -3,7 +3,7 @@
 !!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
-Here you can find the steps to follow to install the `Dimlpfidex` project on your machine. It can be archived on `Windows`, `Linux`, and `macOS`. 
+Here you can find the steps to follow to install the `dimlpfidex` project on your machine. It can be archived on `Windows`, `Linux`, and `macOS`. 
 
 ## Simple installation (recommended)
 Ensure to have `python v3.8.1` or newer (**`3.11`** is recommended)` installed on your machine. Please refer to the [Python official website](https://www.python.org/downloads/) for further information concerning the installation process. 
@@ -48,7 +48,7 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 !!!Warning
     The output of the above command must refer to, at least, a `python v3.x.x` version. 
 
-Finally, run the following command to install `Dimlpfidex`:
+Finally, run the following command to install `dimlpfidex`:
 
 === "Windows"
     ```sh
@@ -65,7 +65,7 @@ Finally, run the following command to install `Dimlpfidex`:
     pip install dimlpfidex
     ```
 
-To validate all the above steps, try to call one of the algorithms from the `Dimlpfidex` package. To do so, import `Fidex` from `Dimlpfidex` and call the `FidexGloRules` function inside your python interpreter:
+To validate all the above steps, try to call one of the algorithms from the `dimlpfidex` package. To do so, import `Fidex` from `dimlpfidex` and call the `FidexGloRules` function inside your python interpreter:
 
 ```
 >>> from dimlpfidex import fidex
@@ -137,7 +137,4 @@ fidex.fidexGloRules("--train_data_file datanormTrain.txt --train_pred_file predT
 ---------------------------------------------------------------------
 ```
 
-You are now set to use all `Dimlpfidex` tools! You can continue by following the [getting-started tutorial](../getting-started) to learn more about how to use the different tools available.
-
-## Installation by compiling sources (alternative)
-To install `Dimlpfidex` by compiling sources yourself, please follow the instructions inside the [repository's README](https://github.com/HES-XPLAIN/dimlpfidex/blob/main/README.md#contribution), under the `contribution` section.
+You are now set to use all `dimlpfidex` tools! You can continue by following the [getting-started tutorial](../getting-started) to learn more about how to use the different tools available.
