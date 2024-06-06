@@ -4,8 +4,7 @@
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Introduction
-Welcome to the **HES-XPLAIN** official documentation! This page holds the entire project documentation for our diverse collection of algorithms designed for various computational tasks in the XAI field. The goal of this section is to help on how to use each algorithm, with practical examples and guidance on interpreting results. There are also other subsections offering additional content to enlighten your light.
-
+Welcome to the **HES-XPLAIN** official documentation. This page holds the entire project documentation for our collection of algorithms designed for various computational tasks in the XAI field.
 
 ## Dashboard
 Here is a selection of subjects that may fit your needs.
