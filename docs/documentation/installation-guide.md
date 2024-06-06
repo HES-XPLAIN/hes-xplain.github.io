@@ -52,7 +52,7 @@ Finally, run the following command to install `dimlpfidex`:
 
 === "Windows"
     ```sh
-    py -m pip install dimlpfidex
+    python -m pip install dimlpfidex
     ```
 
 === "Linux"
