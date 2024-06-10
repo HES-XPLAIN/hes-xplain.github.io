@@ -5,6 +5,8 @@
 
 
 ## Architecture
+
+<div align="center">
 ```mermaid
 graph TD;
     d(DIMLP algorithms) --> Dimlp;
@@ -13,3 +15,4 @@ graph TD;
     d --> DimlpTrn;
     d --> DimlpPred;
 ```
+</div>

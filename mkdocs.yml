@@ -15,7 +15,7 @@ nav:
   - Use cases: notebooks.md
   - Documentation: 
     - Overview: documentation/overview.md
-    - Algorithms: documentation/algorithms.md
+    - Algorithms: documentation/algorithms/overview.md
       # - Fidex: documentation/algorithms/fidex.md
       # - DIMLP: documentation/algorithms/dimlp.md
       # - Training methods: documentation/algorithms/training-methods.md
