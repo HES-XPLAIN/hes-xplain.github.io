@@ -11,7 +11,7 @@ The architecture is built as shown below:
 <div align="center">
 ```mermaid
 graph TD;
-    d(dimlp algorithms) --> Dimlp;
+    d(dimlp algorithms) --> DensCls;
     d --> DimlpBT;
     d --> DimlpCls;
     d --> DimlpTrn;
