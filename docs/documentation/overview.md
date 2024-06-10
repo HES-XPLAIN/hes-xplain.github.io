@@ -52,7 +52,7 @@ Here is a selection of subjects that may fit your needs.
 
     All you need to know about Fidex algorithms.
 
-    [:octicons-arrow-right-24: Dive in](algorithms/fidex.md)
+    [:octicons-arrow-right-24: Dive in](algorithms/fidex/overview.md)
 
 -   :fontawesome-solid-gears:{ .lg .middle } **DIMLP algorithms**
 
@@ -60,7 +60,7 @@ Here is a selection of subjects that may fit your needs.
 
     All you need to know about DIMLP algorithms.
 
-    [:octicons-arrow-right-24: Dive in](algorithms/dimlp.md)
+    [:octicons-arrow-right-24: Dive in](algorithms/dimlp/overview.md)
 
 
 -   :material-scale-balance:{ .lg .middle } **License**
