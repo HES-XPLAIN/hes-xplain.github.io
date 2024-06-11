@@ -15,116 +15,114 @@ This section shows the progress of the general documentation redaction.
     * [x] 2.1 Algorithms ensembles
 
     * [ ] 2.1 Fidex algorithms
-        * [ ] 2.1.1 Introduction to Fidex Algorithms
-        * [ ] 2.1.2 General Use Cases
-        * [ ] 2.1.3 Graphical Representation (if applicable)
-        * [ ] 2.1.2 Fidex
-            * [ ] 2.1.2.1 Description
-            * [ ] 2.1.2.2 Usage Instructions
-            * [ ] 2.1.2.3 Example Code
-            * [ ] 2.1.2.4 Output Interpretation
+        * [x] 2.1.1 Introduction
+        * [x] 2.1.2 Architecture
+        * [ ] 2.1.3 Fidex
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.1.3 FidexGlo
-            * [ ] 2.1.3.1 Description
-            * [ ] 2.1.3.2 Usage Instructions
-            * [ ] 2.1.3.3 Example Code
-            * [ ] 2.1.3.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.1.4 FidexGloRules
-            * [ ] 2.1.4.1 Description
-            * [ ] 2.1.4.2 Usage Instructions
-            * [ ] 2.1.4.3 Example Code
-            * [ ] 2.1.4.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.1.5 FidexGloStats
-            * [ ] 2.1.5.1 Description
-            * [ ] 2.1.5.2 Usage Instructions
-            * [ ] 2.1.5.3 Example Code
-            * [ ] 2.1.5.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
 
     * [ ] 2.2 DIMLP algorithms 
         * [ ] 2.2.1 Overview
-            * [ ] 2.2.1.1 Introduction to DIMLP Algorithms
-            * [ ] 2.2.1.2 General Use Cases
-            * [ ] 2.2.1.3 Graphical Representation
+            * [x] Introduction
+            * [x] architecture
         * [ ] 2.2.2 Dimlp
-            * [ ] 2.2.2.1 Description
-            * [ ] 2.2.2.2 Usage Instructions
-            * [ ] 2.2.2.3 Example Code
-            * [ ] 2.2.2.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.2.3 DimlpBT
-            * [ ] 2.2.3.1 Description
-            * [ ] 2.2.3.1 Usage Instructions
-            * [ ] 2.2.3.1 Example Code
-            * [ ] 2.2.3.1 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.2.4 DimlpCls
-            * [ ] 2.2.4.1 Description
-            * [ ] 2.2.4.2 Usage Instructions
-            * [ ] 2.2.4.3 Example Code
-            * [ ] 2.2.4.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.2.5 DimlpTrn
-            * [ ] 2.2.5.1 Description
-            * [ ] 2.2.5.2 Usage Instructions
-            * [ ] 2.2.5.3 Example Code
-            * [ ] 2.2.5.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.2.6 DimlpPred
-            * [ ] 2.2.6.1 Description
-            * [ ] 2.2.6.2 Usage Instructions
-            * [ ] 2.2.6.3 Example Code
-            * [ ] 2.2.6.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
 
     * [ ] 2.3 Training methods
         * [ ] 2.3.1 Overview
-            * [ ] 2.3.1.1 Introduction to Fidex Algorithms
-            * [ ] 2.3.1.2 General Use Cases
-            * [ ] 2.3.1.3 Graphical Representation (if applicable)
+            * [ ] Introduction to Fidex Algorithms
+            * [ ] General Use Cases
+            * [ ] Graphical Representation (if applicable)
         * [ ] 2.3.2 gradBoostTrn
-            * [ ] 2.3.2.1 Description
-            * [ ] 2.3.2.2 Usage Instructions
-            * [ ] 2.3.2.3 Example Code
-            * [ ] 2.3.2.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.3 computeRocCurve      
-            * [ ] 2.3.3.1 Description
-            * [ ] 2.3.3.2 Usage Instructions
-            * [ ] 2.3.3.3 Example Code
-            * [ ] 2.3.3.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.4 randForestsTrn
-            * [ ] 2.3.4.1 Description
-            * [ ] 2.3.4.2 Usage Instructions
-            * [ ] 2.3.4.3 Example Code
-            * [ ] 2.3.4.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.5 trnFun
-            * [ ] 2.3.5.1 Description
-            * [ ] 2.3.5.2 Usage Instructions
-            * [ ] 2.3.5.3 Example Code
-            * [ ] 2.3.5.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.6 convKeras    
-            * [ ] 2.3.6.1 Description
-            * [ ] 2.3.6.2 Usage Instructions
-            * [ ] 2.3.6.3 Example Code
-            * [ ] 2.3.6.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.7 mlpTrn   
-            * [ ] 2.3.7.1 Description
-            * [ ] 2.3.7.2 Usage Instructions
-            * [ ] 2.3.7.3 Example Code
-            * [ ] 2.3.7.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.8 stairObj
-            * [ ] 2.3.8.1 Description
-            * [ ] 2.3.8.2 Usage Instructions
-            * [ ] 2.3.8.3 Example Code
-            * [ ] 2.3.8.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.9 crossValid    
-            * [ ] 2.3.9.1 Description
-            * [ ] 2.3.9.2 Usage Instructions
-            * [ ] 2.3.9.3 Example Code
-            * [ ] 2.3.9.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.10 normalization
-            * [ ] 2.3.10.1 Description
-            * [ ] 2.3.10.2 Usage Instructions
-            * [ ] 2.3.10.3 Example Code
-            * [ ] 2.3.10.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
         * [ ] 2.3.11 svmTrn
-            * [ ] 2.3.11.1 Description
-            * [ ] 2.3.11.2 Usage Instructions
-            * [ ] 2.3.11.3 Example Code
-            * [ ] 2.3.11.4 Output Interpretation
+            * [ ] Description
+            * [ ] Usage Instructions
+            * [ ] Example Code
+            * [ ] Output Interpretation
 
     * [ ] 2.4 File formats
         * [ ] 2.4.1 JSON Configuration files
