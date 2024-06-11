@@ -42,7 +42,7 @@ Here is a selection of subjects that may fit your needs.
 
     Technical documentation for core features.
 
-    [:octicons-arrow-right-24: Reference](../reference.md)
+    [:octicons-arrow-right-24: Reference](/reference)
 
 
 -   :fontawesome-solid-gears:{ .lg .middle } **Algorithms**
