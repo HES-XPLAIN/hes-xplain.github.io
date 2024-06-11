@@ -4,7 +4,6 @@
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Description
-
 <!-- TODO: Complete this section -->
 
 ## Arguments list
