@@ -43,31 +43,23 @@ Here is a selection of subjects that may fit your needs.
 
     Technical documentation for core features.
 
-    [:octicons-arrow-right-24: Reference](../reference.md)
+    [:octicons-arrow-right-24: Reference](/reference)
 
 
--   :fontawesome-solid-gears:{ .lg .middle } **Fidex algorithms**
-
-    ---
-
-    All you need to know about Fidex algorithms.
-
-    [:octicons-arrow-right-24: Dive in](algorithms/fidex/overview.md)
-
--   :fontawesome-solid-gears:{ .lg .middle } **DIMLP algorithms**
+-   :fontawesome-solid-gears:{ .lg .middle } **Algorithms**
 
     ---
 
-    All you need to know about DIMLP algorithms.
+    All `dimlpfidex` algorithms are described here.
 
-    [:octicons-arrow-right-24: Dive in](algorithms/dimlp/overview.md)
+    [:octicons-arrow-right-24: Dive in](algorithms/overview.md)
 
 
 -   :material-scale-balance:{ .lg .middle } **License**
 
     ---
 
-    HES-XPLAIN is licensed under BSD-3
+    HES-XPLAIN licenses.
 
     [:octicons-arrow-right-24: License](license.md)
 
