@@ -510,7 +510,8 @@ The `FidexGlo` algorithm has required and optional arguments to be specified. Ea
     --train_pred_file predTrain.out 
     --train_class_file dataclass2Train.txt 
     --test_class_file dataclass2Test.txt 
-    --weights_file weights.wts""")
+    --weights_file weights.wts"""
+    )
     ```
     
 === "CLI"
