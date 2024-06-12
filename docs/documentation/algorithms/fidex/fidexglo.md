@@ -5,8 +5,8 @@
 
 ## Description
 
-## Usage
+## Arguments list
 
-## Examples
+## Usage example
 
 ## Output interpretation
