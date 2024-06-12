@@ -19,22 +19,22 @@ This section shows the progress of the general documentation redaction.
         * [x] 2.1.2 Architecture
         * [ ] 2.1.3 Fidex
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.1.3 FidexGlo
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.1.4 FidexGloRules
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.1.5 FidexGloStats
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
 
@@ -44,27 +44,27 @@ This section shows the progress of the general documentation redaction.
             * [x] architecture
         * [ ] 2.2.2 Dimlp
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.2.3 DimlpBT
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.2.4 DimlpCls
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.2.5 DimlpTrn
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.2.6 DimlpPred
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
 
@@ -75,52 +75,52 @@ This section shows the progress of the general documentation redaction.
             * [ ] Graphical Representation (if applicable)
         * [ ] 2.3.2 gradBoostTrn
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.3 computeRocCurve      
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.4 randForestsTrn
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.5 trnFun
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.6 convKeras    
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.7 mlpTrn   
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.8 stairObj
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.9 crossValid    
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.10 normalization
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
         * [ ] 2.3.11 svmTrn
             * [ ] Description
-            * [ ] Usage Instructions
+            * [ ] Arguments list
             * [ ] Example Code
             * [ ] Output Interpretation
 
