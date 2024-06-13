@@ -39,9 +39,5 @@ Here you can find an overview of the different algorithm ensembles. They are con
 
     Having trouble with files used or produced by one of our algorithms?
 
-<<<<<<< HEAD
     [:octicons-arrow-right-24: Help](../file-formats/overview.md)
-=======
-    [:octicons-arrow-right-24: Help](file-formats.md)
->>>>>>> c06c0d3 (Restructured file architecture)
 </div>
