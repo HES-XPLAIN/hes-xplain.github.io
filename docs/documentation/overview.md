@@ -3,7 +3,6 @@
 !!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
-## Introduction
 Welcome to the **HES-XPLAIN** official documentation. This page holds the entire project documentation for our collection of algorithms designed for various computational tasks in the XAI field.
 
 ## Dashboard
@@ -68,7 +67,7 @@ Here is a selection of subjects that may fit your needs.
 In case you did not find what you are looking for in this documentation, please refer to the [detailed plan](#documentation-structure) of the documentation. Or feel free to explore it yourself! 
 
 
-## Application Domains
+## Application domains
 Our tools can be used to bring explainability across a wide range of domains, including but not limited to:
 
 - :material-medical-bag: **Healthcare**: Explainable algorithms can improve diagnostic tools by providing transparent decision-making processes, helping clinicians understand and trust the outputs, which can lead to better patient outcomes.
