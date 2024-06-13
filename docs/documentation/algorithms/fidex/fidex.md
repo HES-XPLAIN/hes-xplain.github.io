@@ -150,7 +150,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`              |
 
 !!!info
-    The file name's extension can be specified as `.json`. Allowing the program to generate a JSON-structured rule output file.
+    The filename's extension can be specified as `.json`. Allowing the program to generate a JSON-structured rule output file.
 
 ---
 
