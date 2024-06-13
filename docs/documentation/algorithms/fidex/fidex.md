@@ -475,4 +475,29 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 
 ## Usage example
 
+=== "Python"
+    ```py
+    from dimlpfidex.fidex import fidex
+
+    fidex(
+    """--root_folder my/folder/
+       --train_data_file train_data.txt 
+       --train_pred_file train_predictions.out 
+       --train_class_file train_classes.txt 
+       --test_data_file test_data.txt 
+       --nb_attributes 16 
+       --nb_classes 2 
+       --weights_file weights.wts 
+       --rules_outfile output_rules.rls 
+       --stats_file output_stats.txt"""
+    )
+    ```
+    
+=== "CLI"
+    ```
+    ./fidex --root_folder my/folder/ --train_data_file train_data.txt --train_pred_file train_predictions.out --train_class_file train_classes.txt --test_data_file test_data.txt --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --rules_outfile output_rules.rls --stats_file output_stats.txt
+    ```
+
+
 ## Output interpretation
+
