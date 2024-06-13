@@ -13,13 +13,13 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
-- **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](/documentation/file-formats/json-configuration-files).
+- **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
 - **Default value** is the value that will be used by the program if the arguments was not specified. If `none`, it could mean that the arguments is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 
 ### JSON configuration file
-*File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](/documentation/file-formats/json-configuration-file)).*
+*File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md).*
 
 |  **Property**           | **Value**                   |
 |:------------------------|:----------------------------|
@@ -48,7 +48,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 ---
 
 ### Train data file
-*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training "true classes" and training predictions (see [Train true classes file](#train-true-class-file) and [Train predictions files](#train-predictions-file)).*
+*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training "true classes" and training predictions (see [Train true classes file](#train-true-classes-file) and [Train predictions files](#train-predictions-file)).*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -93,7 +93,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 --- 
 
 ### Test data file       
-*File containing the testing portion of the dataset used to train the model. It can also contain training "true classes" and training predictions (see [Test true classes file](#test-true-class-file) and [Test predictions files](#test-predictions-file)).*
+*File containing the testing portion of the dataset used to train the model. It can also contain training "true classes" and training predictions (see [Test true classes file](#test-true-classes-file) and [Test predictions files](#test-predictions-file)).*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|

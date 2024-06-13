@@ -137,4 +137,4 @@ fidex.fidexGloRules("--train_data_file datanormTrain.txt --train_pred_file predT
 ---------------------------------------------------------------------
 ```
 
-You are now set to use all `dimlpfidex` tools! You can continue by following the [getting-started tutorial](../getting-started) to learn more about how to use the different tools available.
+You are now set to use all `dimlpfidex` tools! You can continue by following the [getting-started tutorial](getting-started.md) to learn more about how to use the different tools available.

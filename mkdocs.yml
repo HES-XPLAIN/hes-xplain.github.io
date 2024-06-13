@@ -13,9 +13,19 @@ nav:
   - Home: index.md
   - Introduction: introduction.md
   - Use cases: notebooks.md
-  - Documentation: 
+  - Documentation:
     - Overview: documentation/overview.md
-    - Algorithms: documentation/algorithms/overview.md
+    - Installation: documentation/installation-guide.md
+    - Getting started: documentation/getting-started.md
+    - GUI: documentation/gui.md
+    - Algorithms:
+      - Overview: documentation/algorithms/overview.md
+      - Fidex: documentation/algorithms/fidex/overview.md
+      - DIMLP: documentation/algorithms/dimlp/overview.md
+      - Training methods: documentation/algorithms/training-methods/overview.md
+    - File formats:
+      - Overview: documentation/file-formats/overview.md
+      - Json: documentation/file-formats/json-configuration-files.md
     - Roadmap: documentation/roadmap.md
 
   - API Reference: reference.md
