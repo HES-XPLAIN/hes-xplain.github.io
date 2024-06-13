@@ -3,7 +3,7 @@
 !!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
-Configuration files are meant to ease the use of our algorithms. It allows you to write all needed arguments inside a JSON formated file and use it as an input to any `dimlpfidex` algorithm. This will allow you to write shorter `Python` function calls and/or `CLI` commands, improving readability and reusability.
+Configuration files are meant to ease the use of our algorithms. It allows you to write all needed arguments inside a JSON formatted file and use it as input to any `dimlpfidex` algorithm. This will allow you to write shorter `Python` function calls and/or `CLI` commands, improving readability and reusability.
 
 !!!example
     Executing [`Fidex`](../algorithms/fidex/fidex.md) `CLI` command without configuration file:
@@ -18,7 +18,7 @@ Configuration files are meant to ease the use of our algorithms. It allows you t
 
 If you are not used to JSON, you can:
 
--  learn more about JSON [here](https://json.org) and try by yourself.
+-  learn more about JSON [here](https://json.org) and try it by yourself.
 -   use our [graphical user interface](../gui.md) and generate your configuration file easily.
 
 ## Example
@@ -41,4 +41,4 @@ Here is a simple example of the content of a configuration file named `my_conf.j
 ```
 
 !!!Tip
-    You can find configuration files templates for every `dimlpfidex` algorithm [here](https://github.com/HES-XPLAIN/dimlpfidex/tree/main/tests/templates).
+    You can find configuration file templates for every `dimlpfidex` algorithm [here](https://github.com/HES-XPLAIN/dimlpfidex/tree/main/tests/templates).
