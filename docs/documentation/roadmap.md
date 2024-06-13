@@ -2,8 +2,11 @@
 
 This section shows the progress of the general documentation redaction.
 
-!!! note
-    This should be deleted at the end of the documentation redaction.
+??? success "Documentation Overview"
+    - [x] 1 Documentation Overview
+        * [x] 1.1 Dashboard
+        * [x] 1.2 Application domains
+        * [x] 1.3 Documentation structure
 
 - [x] 1 Documentation Overview
     * [x] 1.1 Introduction
