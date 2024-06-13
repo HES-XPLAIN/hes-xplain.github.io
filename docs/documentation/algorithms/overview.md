@@ -3,8 +3,6 @@
 !!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
-## Algorithms ensembles
-
 Here you can find an overview of the different algorithm ensembles. They are contained in the [dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) repository and are collectively referred to by this term.
 
 <div class="grid cards" markdown>
