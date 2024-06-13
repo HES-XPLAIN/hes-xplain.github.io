@@ -41,5 +41,5 @@ Here you can find an overview of the different algorithm ensembles. They are con
 
     Having trouble with files used or produced by one of our algorithms?
 
-    [:octicons-arrow-right-24: Help](file-formats.md)
+    [:octicons-arrow-right-24: Help](/documentation/file-formats/overview)
 </div>
