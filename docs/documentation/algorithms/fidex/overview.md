@@ -23,6 +23,6 @@ graph TD;
 Each algorithm has its purpose:
 
 - **[Fidex](fidex.md)**: Extracts a rule from a given sample.
-- **[FidexGlo]()**: Extracts global rules from a given set of samples. 
-- **[FidexGloRules]()**: Extracts global rules from a given set of samples and filters them to remove non-pertinent ones. 
-- **[FidexGloStats]()**: Compute statistics from a given global ruleset.
+- **[FidexGlo](fidexglo.md)**: Extracts global rules from a given set of samples. 
+- **[FidexGloRules](fidexglorules.md)**: Extracts global rules from a given set of samples and filters them to remove non-pertinent ones. 
+- **[FidexGloStats](fidexglostats.md)**: Compute statistics from a given global ruleset.
