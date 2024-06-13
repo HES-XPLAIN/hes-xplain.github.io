@@ -19,7 +19,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 ---
 
 ### JSON configuration file
-*File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md).*
+*File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
 |  **Property**           | **Value**                   |
 |:------------------------|:----------------------------|
