@@ -73,7 +73,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`              |
 
 !!!Warning
-    \*\*This argument is not required if, **and only if**, the predictions are already specified inside the [train data file](#train-data-file).  
+    This argument is not required if, **and only if**, the predictions are already specified inside the [train data file](#train-data-file).  
 
 --- 
 
@@ -89,7 +89,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`              |
 
 !!! warning
-    \*\*This argument is not required if, **and only if**, the *true classes* are already specified inside the [train data file](#train-data-file). 
+    This argument is not required if, **and only if**, the *true classes* are already specified inside the [train data file](#train-data-file). 
 
 --- 
 
@@ -118,7 +118,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`              |
 
 !!! warning
-    \*\*This argument is not required if, **and only if**, the [rules file](#rules-file) is specified instead. 
+    This argument is not required if, **and only if**, the [rules file](#rules-file) is specified instead. 
 
 --- 
 
@@ -134,7 +134,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`              |
 
 !!! warning
-    \*\*This argument is not required if, **and only if**, the [weights file](#weights-file) is specified instead. 
+    This argument is not required if, **and only if**, the [weights file](#weights-file) is specified instead. 
 
 --- 
 
@@ -192,7 +192,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`              |
 
 !!!Warning
-    \*\*This argument is not required if, **and only if**, the predictions are already specified inside the [test data file](#test-data-file).  
+    This argument is not required if, **and only if**, the predictions are already specified inside the [test data file](#test-data-file).  
 
 ---
 
@@ -208,7 +208,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`              |
 
 !!!Warning 
-    \*\*This argument is not required if, **and only if**, the *true classes* are already specified inside the [test data file](#test-data-file).
+    This argument is not required if, **and only if**, the *true classes* are already specified inside the [test data file](#test-data-file).
 
 ---
 
@@ -403,7 +403,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 | Default value           | `None`                  |
 
 !!!Warning
-    \*\*If [decision threshold](#decision-threshold) is used, then this argument **is required**. 
+    If [decision threshold](#decision-threshold) is used, then this argument **is required**. 
 
 ---
 
