@@ -13,7 +13,7 @@ Here is a selection of subjects that may fit your needs.
 
     ---
 
-    Install [`dimlpfidex`](#) and get running in minutes.
+    Install `dimlpfidex` and get running in minutes.
 
     [:octicons-arrow-right-24: Installation guide](installation-guide.md)
 
