@@ -23,9 +23,20 @@ graph TD;
 
 Each algorithm has its purpose:
 
+<<<<<<< HEAD
 - **[DimlpBT](dimlpbt.md)**: 
 - **[DimlpRul](dimlprul.md)**:
 - **[DimlpCls](dimlpcls.md)**:
 - **[DensCls](denscls.md)**: 
 - **[DimlpTrn](dimlptrn.md)**: Trains the `Dimlp` model with a given dataset.
 - **[DimlpPred](dimlppred.md)**: Compute predictions with the `Dimlp` from a given test dataset.
+=======
+<!-- 
+- **[DimlpBT]()**: 
+- **[DimlpRul]()**:
+- **[DimlpCls]()**:
+- **[DensCls]()**:  
+-->
+- **[DimlpTrn]()**: Trains the `Dimlp` model with a given dataset.
+- **[DimlpPred]()**: Compute predictions with the `Dimlp` from a given test dataset.
+>>>>>>> cc1e1f8 (Added missing comments, removed mistakes)
