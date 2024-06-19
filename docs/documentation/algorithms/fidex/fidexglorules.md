@@ -199,9 +199,9 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 ### Heuristic
 *Defines which heuristic to use when executing the algorithm. Values can be:*
 
-* - `1`: optimal rule gneration. Gets the best of the algorithm capabilities but can be time-consuming depending on the size of your dataset.*
-* - `2`: Faster rules generation. Computes rules faster while keeping a good (but not as good as heuristic `1`) rule quality.* 
-* - `3`: Fastest rules generation. Gets a set of decent (but not as good as heuristic `2`) global rules in the fastest way possible.*
+- *`1`: optimal rule generation. Gets the best of the algorithm capabilities but can be time-consuming depending on the size of your dataset.*
+- *`2`: Faster rules generation. Computes rules faster while keeping a good (but not as good as heuristic `1`) rule quality.* 
+- *`3`: Fastest rules generation. Gets a set of decent (but not as good as heuristic `2`) global rules in the fastest way possible.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
@@ -299,7 +299,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 ---
 
 ### Number of threads
-*Threads used to compute the algorithm. This parameter has no effect if the heuristic used is not `1`. This number cannot the number of CPUs or threads availabl*
+*Threads used to compute the algorithm. This parameter **has no effect** if the heuristic used is not `1`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -476,10 +476,6 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 | Default value           | `None`                  |
 
 ---
-
---nb_threads <int [1,nb_cores]>
-                              Number of threads used for computing the algorithm, 1=sequential execution (default: 1)
-
 
 ## Usage example
 
