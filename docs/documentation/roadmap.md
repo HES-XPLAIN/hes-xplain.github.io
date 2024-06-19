@@ -16,7 +16,7 @@ This section shows the progress of the general documentation redaction.
             * [x] 2.2.2 Architecture
             * [ ] 2.2.3 Fidex
                 * [ ] Description
-                * [ ] Arguments list
+                * [x] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.3 FidexGlo
@@ -26,7 +26,7 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Output Interpretation
             * [ ] 2.2.4 FidexGloRules
                 * [ ] Description
-                * [ ] Arguments list
+                * [x] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.5 FidexGloStats
@@ -119,7 +119,7 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Example Code
                 * [ ] Output Interpretation
         * [ ] 2.5 File formats
-            * [ ] 2.5.1 JSON Configuration files
+            * [x] 2.5.1 JSON Configuration files
             * [ ] 2.5.x TODO: DEFINE ALL USED OR PRODUCED FILES
 
 ??? quote "Additional Sections"
