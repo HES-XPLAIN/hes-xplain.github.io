@@ -11,120 +11,116 @@ This section shows the progress of the general documentation redaction.
 ??? quote "Algorithms"
     - [ ] 2 Algorithms
         * [x] 2.1 Algorithms ensembles
-
-        * [ ] 2.1 Fidex algorithms
-            * [x] 2.1.1 Introduction
-            * [x] 2.1.2 Architecture
-            * [ ] 2.1.3 Fidex
+        * [ ] 2.2 Fidex algorithms
+            * [x] 2.2.1 Introduction
+            * [x] 2.2.2 Architecture
+            * [ ] 2.2.3 Fidex
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.1.3 FidexGlo
+            * [ ] 2.2.3 FidexGlo
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.1.4 FidexGloRules
+            * [ ] 2.2.4 FidexGloRules
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.1.5 FidexGloStats
+            * [ ] 2.2.5 FidexGloStats
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-
-        * [ ] 2.2 DIMLP algorithms 
-            * [ ] 2.2.1 Overview
+        * [ ] 2.3 DIMLP algorithms 
+            * [ ] 2.3.1 Overview
                 * [x] Introduction
                 * [x] architecture
-            * [ ] 2.2.2 Dimlp
+            * [ ] 2.3.2 Dimlp
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.2.3 DimlpBT
+            * [ ] 2.3.3 DimlpBT
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.2.4 DimlpCls
+            * [ ] 2.3.4 DimlpCls
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.2.5 DimlpTrn
+            * [ ] 2.3.5 DimlpTrn
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.2.6 DimlpPred
+            * [ ] 2.3.6 DimlpPred
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-
-        * [ ] 2.3 Training methods
-            * [ ] 2.3.1 Overview
+        * [ ] 2.4 Training methods
+            * [ ] 2.4.1 Overview
                 * [ ] Introduction to Fidex Algorithms
                 * [ ] General Use Cases
                 * [ ] Graphical Representation (if applicable)
-            * [ ] 2.3.2 gradBoostTrn
+            * [ ] 2.4.2 gradBoostTrn
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.3 computeRocCurve      
+            * [ ] 2.4.3 computeRocCurve      
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.4 randForestsTrn
+            * [ ] 2.4.4 randForestsTrn
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.5 trnFun
+            * [ ] 2.4.5 trnFun
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.6 convKeras    
+            * [ ] 2.4.6 cnnTrn    
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.7 mlpTrn   
+            * [ ] 2.4.7 mlpTrn   
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.8 stairObj
+            * [ ] 2.4.8 stairObj
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.9 crossValid    
+            * [ ] 2.4.9 crossValid    
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.10 normalization
+            * [ ] 2.4.10 normalization
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.11 svmTrn
+            * [ ] 2.4.11 svmTrn
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-
-        * [ ] 2.4 File formats
-            * [ ] 2.4.1 JSON Configuration files
-            * [ ] 2.4.x TODO: DEFINE ALL USED OR PRODUCED FILES
+        * [ ] 2.5 File formats
+            * [ ] 2.5.1 JSON Configuration files
+            * [ ] 2.5.x TODO: DEFINE ALL USED OR PRODUCED FILES
 
 ??? quote "Additional Sections"
     - [ ] 3 Additional Sections
