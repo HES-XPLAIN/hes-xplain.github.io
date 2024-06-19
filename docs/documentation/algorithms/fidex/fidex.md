@@ -282,7 +282,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 ---
 
 ### Use dichotomic search
-*Whether or not the algorithm uses a dichotomic strategy to compute a rule. This occurs when the algorithm fails to find a rule with the [minimum covering](#minimum-covering) value used. *
+*Whether or not the algorithm uses a dichotomic strategy to compute a rule. This occurs when the algorithm fails to find a rule with the [minimum covering](#minimum-covering) value used.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
