@@ -22,8 +22,8 @@ graph TD;
 
 Each algorithm has its purpose:
 
-- **[Dimlp]()**: Computes like a classic MLP and generates rules.
+- **[DimlpCls]()**: Computes like a classic MLP and generates rules.
 <!-- - **[DimlpBT]()**: 
-- **[DimlpCls]()**:  -->
+- **[DensCls]()**:  -->
 - **[DimlpTrn]()**: Trains the `Dimlp` model with a given dataset.
 - **[DimlpPred]()**: Compute predictions with the `Dimlp` from a given test dataset.
