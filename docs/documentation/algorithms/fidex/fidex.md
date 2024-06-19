@@ -9,7 +9,7 @@
 The `Fidex` algorithm is an approach to rule extraction that can be applied to neural network ensembles, decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
 
 ## Arguments list
-The Fidex algorithm has required and optional arguments to be specified. Each of them has properties:
+The `Fidex` algorithm has required and optional arguments to be specified. Each of them has properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
