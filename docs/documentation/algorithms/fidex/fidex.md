@@ -15,7 +15,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the arguments was not specified. If `none`, it could mean that the arguments is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 
@@ -368,8 +368,8 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 |:------------------------|:-----------------------|
 | Is required             | No                     |
 | Type                    | `Integer`              |
-| CLI argument syntax     | `--dropout_hyp`        |
-| JSON identifier         | `dropout_hyp`          |
+| CLI argument syntax     | `--nb_quant_levels`    |
+| JSON identifier         | `nb_quant_levels`      |
 | Default value           | `50`                   |
 
 ---
