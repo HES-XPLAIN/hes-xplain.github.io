@@ -31,6 +31,7 @@ If the [positive class index](#positive-class-index) parameter is used, addition
 
 All these metrics are generated, as text and/or inside a file.
 
+
 ## Arguments list
 
 The `FidexGloStats` algorithm has required optional arguments to be specified. Each of them has properties:
