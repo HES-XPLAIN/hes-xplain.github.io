@@ -165,37 +165,6 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 
 ---
 
-### Test predictions file
-*File containing the predictions from the testing portion of the dataset.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No**                |
-| Type                    | `String`           |
-| CLI argument syntax     | `--test_pred_file`  |
-| JSON identifier         | `test_pred_file`    |
-| Default value           | `None`              |
-
-!!!Warning
-    This argument is not required if, **and only if**, the predictions are already specified inside the [test data file](#test-data-file).  
-
----
-
-### Test true classes file
-*File containing "true classes" (expected predictions), from the testing portion of the dataset.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No**                |
-| Type                    | `String`            |
-| CLI argument syntax     | `--test_class_file` |
-| JSON identifier         | `test_class_file`   |
-| Default value           | `None`              |
-
-!!!Warning 
-    This argument is not required if, **and only if**, the *true classes* are already specified inside the [test data file](#test-data-file).
-
----
 ### Heuristic
 *Defines which heuristic to use when executing the algorithm. Values can be:*
 
@@ -230,7 +199,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 ---
 
 ### Logs output file
-*Name of file containing every feedback made by the algorithm during its execution. If not specified, the feedback is sent into the console.*
+*Name of file containing every feedback made by the algorithm during its execution. If not specified, the feedback is displayed into the terminal.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -488,7 +457,6 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
        --train_data_file train_data.txt 
        --train_pred_file train_predictions.out 
        --train_class_file train_classes.txt 
-       --test_data_file test_data.txt 
        --nb_attributes 16 
        --nb_classes 2 
        --weights_file weights.wts 
@@ -501,7 +469,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
     
 === "CLI"
     ```
-    ./fidexGloRules --root_folder my/folder/ --train_data_file train_data.txt --train_pred_file train_predictions.out --train_class_file train_classes.txt --test_data_file test_data.txt --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --rules_outfile output_rules.rls --nb_threads 4
+    ./fidexGloRules --root_folder my/folder/ --train_data_file train_data.txt --train_pred_file train_predictions.out --train_class_file train_classes.txt  --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --rules_outfile output_rules.rls --nb_threads 4
     ```
 
 ## Output interpretation

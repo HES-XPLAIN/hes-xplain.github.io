@@ -239,7 +239,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 ---
 
 ### Logs output file
-*Name of file containing every feedback made by the algorithm during its execution. If not specified, the feedback is sent into the console.*
+*Name of file containing every feedback made by the algorithm during its execution. If not specified, the feedback is displayed into the terminal.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
