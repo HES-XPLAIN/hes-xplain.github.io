@@ -278,7 +278,11 @@ TODO: check if the statement below is correct
 ## Output interpretation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- TODO: Complete this section -->
 =======
 <!-- TODO: Complete this section -->
 >>>>>>> 11259a2 (Added content)
+=======
+<!-- TODO: Complete this section -->
+>>>>>>> be3d9df (Added arguments list)
