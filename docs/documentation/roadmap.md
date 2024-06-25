@@ -17,7 +17,7 @@ This section shows the progress of the general documentation redaction.
             * [ ] 2.2.3 Fidex
                 * [ ] Description
                 * [x] Arguments list
-                * [ ] Example Code
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.3 FidexGlo
                 * [ ] Description
@@ -27,12 +27,12 @@ This section shows the progress of the general documentation redaction.
             * [ ] 2.2.4 FidexGloRules
                 * [ ] Description
                 * [x] Arguments list
-                * [ ] Example Code
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.5 FidexGloStats
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
         * [ ] 2.3 DIMLP algorithms 
             * [ ] 2.3.1 Overview
@@ -83,37 +83,22 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.4.5 trnFun
+            * [ ] 2.4.5 cnnTrn    
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.4.6 cnnTrn    
+            * [ ] 2.4.6 mlpTrn   
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.4.7 mlpTrn   
+            * [ ] 2.4.7 normalization
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.4.8 stairObj
-                * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.9 crossValid    
-                * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.10 normalization
-                * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.11 svmTrn
+            * [ ] 2.4.8 svmTrn
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
