@@ -11,10 +11,11 @@ The architecture is built as shown below:
 <div align="center">
 ```mermaid
 graph TD;
-    d(dimlp algorithms) --> Dimlp;
+    d(dimlp algorithms) --> DensCls;
     d --> DimlpBT;
     d --> DimlpCls;
     d --> DimlpTrn;
+    d --> DimlpRul;
     d --> DimlpPred;
 ```
 </div>
@@ -22,8 +23,9 @@ graph TD;
 
 Each algorithm has its purpose:
 
-- **[Dimlp]()**: Computes like a classic MLP and generates rules.
-<!-- - **[DimlpBT]()**: 
-- **[DimlpCls]()**:  -->
-- **[DimlpTrn]()**: Trains the `Dimlp` model with a given dataset.
-- **[DimlpPred]()**: Compute predictions with the `Dimlp` from a given test dataset.
+- **[DimlpBT](dimlpbt.md)**: 
+- **[DimlpRul](dimlprul.md)**:
+- **[DimlpCls](dimlpcls.md)**:
+- **[DensCls](denscls.md)**: 
+- **[DimlpTrn](dimlptrn.md)**: Trains the `Dimlp` model with a given dataset.
+- **[DimlpPred](dimlppred.md)**: Compute predictions with the `Dimlp` from a given test dataset.

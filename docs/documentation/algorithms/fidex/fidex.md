@@ -9,13 +9,13 @@
 The `Fidex` algorithm is an approach to rule extraction that can be applied to neural network ensembles, decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
 
 ## Arguments list
-The Fidex algorithm has required and optional arguments to be specified. Each of them has properties:
+The `Fidex` algorithm has required and optional arguments to be specified. Each of them has properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the arguments was not specified. If `none`, it could mean that the arguments is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 
@@ -239,7 +239,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 ---
 
 ### Logs output file
-*Name of file containing every feedback made by the algorithm during its execution. If not specified, the feedback is sent into the console.*
+*Name of file containing every feedback made by the algorithm during its execution. If not specified, the feedback is displayed into the terminal.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -282,7 +282,7 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 ---
 
 ### Use dichotomic search
-*Whether or not the algorithm uses a dichotomic strategy to compute a rule. This occurs when the algorithm fails to find a rule with the [minimum covering](#minimum-covering) value used. *
+*Whether or not the algorithm uses a dichotomic strategy to compute a rule. This occurs when the algorithm fails to find a rule with the [minimum covering](#minimum-covering) value used.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -368,8 +368,8 @@ The Fidex algorithm has required and optional arguments to be specified. Each of
 |:------------------------|:-----------------------|
 | Is required             | No                     |
 | Type                    | `Integer`              |
-| CLI argument syntax     | `--dropout_hyp`        |
-| JSON identifier         | `dropout_hyp`          |
+| CLI argument syntax     | `--nb_quant_levels`    |
+| JSON identifier         | `nb_quant_levels`      |
 | Default value           | `50`                   |
 
 ---

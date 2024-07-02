@@ -19,6 +19,7 @@ Configuration files are meant to ease the use of our algorithms. It allows you t
 If you are not used to JSON, you can:
 
 -  learn more about JSON [here](https://json.org) and try it by yourself.
+
 -   use our [graphical user interface](../gui.md) and generate your configuration file easily.
 
 ## Example
