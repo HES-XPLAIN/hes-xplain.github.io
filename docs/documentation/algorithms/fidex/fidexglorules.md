@@ -4,7 +4,17 @@
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Description
-`FidexGloRules` uses the `Fidex` algorithm to compute a global set of rules.
+`FidexGloRules` computes a rule for each training sample by calling [`Fidex`](fidex.md). `Fidex` is based on the training samples, a hyperlocus, and is directed by the given parameters, including the dropout and the maximum number of iterations allowed.
+
+It works by identifying hyperplanes in the feature space that discriminate between different classes of samples and constructing a rule for the training sample based on these hyperplanes covering this sample and as many other training samples as possible. Then, a heuristic is used to remove the duplicated and unnecessary rules.
+
+The `Fidex` algorithm is computed until a rule is created or until the [maximum number of failed attempts limit](#maximum-number-of-failed-attempts) is reached.
+
+- The first attempt to generate a rule with a covering greater or equal to the [minimum covering](#minimum-covering) and a fidelity greater or equal to the [minimum fidelity](#minimum-fidelity).
+- If the attempt fails and the [use of dichotomic search](#use-dichotomic-search) is enabled, `Fidex` is computed to find a rule with the maximum possible minimal covering that can be lower than the [minimum covering](#minimum-covering) initially set.
+- If all attempts fail, the targeted fidelity is gradually lowered until it succeeds or the [lowest fidelity allowed](#minimum-generated-fidelity) is reached.
+- Each failed attempt at the [lowest minimal fidelity](#minimum-generated-fidelity) is counted.
+- If the [maximum of failed attempts](#maximum-number-of-failed-attempts) limit is reached, then no rule will not be computed for this sample.
 
 ## Arguments list
 The `FidexGloRules` algorithm has required and optional arguments to be specified. Each of them has properties:
@@ -473,3 +483,5 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
     ```
 
 ## Output interpretation
+
+<!-- TODO: Complete this section -->
