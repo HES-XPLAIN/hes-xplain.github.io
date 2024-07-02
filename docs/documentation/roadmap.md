@@ -15,22 +15,22 @@ This section shows the progress of the general documentation redaction.
             * [x] 2.2.1 Introduction
             * [x] 2.2.2 Architecture
             * [ ] 2.2.3 Fidex
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.3 FidexGlo
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.4 FidexGloRules
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.5 FidexGloStats
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
