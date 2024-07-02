@@ -73,14 +73,14 @@ The `FidexGloStats` algorithm has required optional arguments to be specified. E
 ---
 
 ### Global Rules file
-*Path to the file containing the global rules obtained with fidexGloRules algorithm.*
+*Path to the file containing the global rules obtained with `fidexGloRules` algorithm.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
 | Is required             | Yes                      |
 | Type                    | `String`                 |
-| CLI argument syntax     | `--global_rules_file` | 
-| JSON identifier         | `global_rules_file`   |
+| CLI argument syntax     | `--global_rules_file`    | 
+| JSON identifier         | `global_rules_file`      |
 | Default value           | `None`                   |
 
 ---
