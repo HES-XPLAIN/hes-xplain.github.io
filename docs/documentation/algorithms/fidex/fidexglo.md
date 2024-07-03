@@ -488,7 +488,7 @@ The `FidexGlo` algorithm has required and optional arguments to be specified. Ea
 | Type                    | `Integer`               |
 | CLI argument syntax     | `--seed`                |
 | JSON identifier         | `seed`                  |
-| Default value           | `None`                  |
+| Default value           | `0`                     |
 
 
 ## Usage example

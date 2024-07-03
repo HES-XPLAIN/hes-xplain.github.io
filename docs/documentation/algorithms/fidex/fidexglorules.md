@@ -452,7 +452,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 | Type                    | `Integer`               |
 | CLI argument syntax     | `--seed`                |
 | JSON identifier         | `seed`                  |
-| Default value           | `None`                  |
+| Default value           | `0`                     |
 
 ---
 
