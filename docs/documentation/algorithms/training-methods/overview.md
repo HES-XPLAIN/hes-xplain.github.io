@@ -5,16 +5,11 @@
 
 
 ## Architecture
-```mermaid
-graph TD;
-    t(Training mehtods) --> gradBoostTrn;
-    t --> computeRocCurve;
-    t --> randForestsTrn;
-    t --> trnFun;
-    t --> convKeras;
-    t --> mlpTrn;
-    t --> stairObj;
-    t --> crossValid;
-    t --> normalization;
-    t --> svmTrn;
-```
+Each algorithm has its purpose:
+
+- **[gradBoostTrn](gradboosttrn.md)**: 
+- **[computeRocCurve](computeroccurve.md)**: 
+- **[randForestsTrn](randforeststrn.md)**: 
+- **[cnnTrn](cnntrn.md)**: 
+- **[mlpTrn](mlptrn.md)**: 
+- **[svmTrn](svmtrn.md)**: 
