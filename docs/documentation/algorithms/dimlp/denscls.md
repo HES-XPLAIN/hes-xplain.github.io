@@ -315,4 +315,31 @@ The `densCls` algorithm has required and optional arguments to be specified. Eac
 
 ## Usage example
 
+=== "Python"
+    ```py
+    from dimlpfidex.dimlp import densCls
+
+    densCls(
+    """--train_data_file datanormTrain.txt 
+       --train_class_file dataclass2Train.txt 
+       --test_data_file datanormTest.txt 
+       --test_class_file dataclass2Test.txt 
+       --nb_attributes 16 
+       --hidden_layers_file hidden_layers.out 
+       --nb_classes 2 
+       --weights_file dimlpDatanormBT.wts 
+       --with_rule_extraction true 
+       --global_rules_outfile globalRules.rls 
+       --train_pred_outfile predTrain.out 
+       --test_pred_outfile testPred.out 
+       --stats_file stats.txt 
+       --root_folder dimlp/datafiles"""
+    )
+    ```
+    
+=== "CLI"
+    ```
+    ./densCls --train_data_file datanormTrain.txt --train_class_file dataclass2Train.txt --test_data_file datanormTest.txt --test_class_file dataclass2Test.txt --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --weights_file dimlpDatanormBT.wts --with_rule_extraction true --global_rules_outfile globalRules.rls --train_pred_outfile predTrain.out --test_pred_outfile testPred.out --stats_file stats.txt --root_folder dimlp/datafiles
+    ```
+
 ## Output interpretation
