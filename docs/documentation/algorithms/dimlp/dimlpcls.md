@@ -194,6 +194,8 @@ The `dimlpCls` algorithm has required and optional arguments to be specified. Ea
 | JSON identifier         | `nb_quant_levels`      |
 | Default value           | `50`                   |
 
+---
+
 ## Usage example
 
 === "Python"
