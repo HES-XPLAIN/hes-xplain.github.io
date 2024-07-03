@@ -187,3 +187,17 @@ with a specific emphasis on  Machine Learning Operations (MLOps). He continuousl
 building and managing scalable systems for ML workflows, ensuring seamless integration and deployment of ML models.
 Rémy's proficiency in MLOps is steadily growing, as he remains committed to delivering high-quality work in this
 evolving field.
+
+***
+
+### Damian Boquete Costa
+
+HES Assistant, HEPIA-GE
+
+![Team member](assets/images/team/generic.jpg){ align=left }
+
+Damian Boquete Costa is an HES Assistant at HEPIA-GE and a versatile Software Engineer. He earned a Bachelor's 
+degree in Computer Science in 2023 and joined the team later that year to work with [Jean-Marc Boutay](#jean-marc-boutay). 
+His tasks focus on optimizing Machine Learning algorithms, developing graphic solutions, and enhancing tool documentation. 
+Damian's diverse skills bring fresh perspectives, and he is committed to finding innovative solutions. His motivation 
+and dedication to continuously sharpening his skills are valuable assets to the project's progress.
