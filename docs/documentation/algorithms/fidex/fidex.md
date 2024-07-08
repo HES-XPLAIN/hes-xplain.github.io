@@ -469,7 +469,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 | Type                    | `Integer`               |
 | CLI argument syntax     | `--seed`                |
 | JSON identifier         | `seed`                  |
-| Default value           | `None`                  |
+| Default value           | `0`                     |
 
 ---
 

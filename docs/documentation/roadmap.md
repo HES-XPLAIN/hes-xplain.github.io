@@ -38,30 +38,30 @@ This section shows the progress of the general documentation redaction.
             * [ ] 2.3.1 Overview
                 * [x] Introduction
                 * [x] architecture
-            * [ ] 2.3.2 Dimlp
+            * [ ] 2.3.2 densCls
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.3.3 DimlpBT
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.3.4 DimlpCls
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.3.5 DimlpTrn
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.3.6 DimlpPred
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
         * [ ] 2.4 Training methods
             * [ ] 2.4.1 Overview

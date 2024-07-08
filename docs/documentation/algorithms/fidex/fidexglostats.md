@@ -31,6 +31,31 @@ If the [positive class index](#positive-class-index) parameter is used, addition
 
 All these metrics are generated, as text and/or inside a file.
 
+The statistics computed for the ruleset are:
+
+- The global rule fidelity rate.
+- The global rule accuracy.
+- The explainability rate (when we can find one or more rules, either correct ones or activated ones which all agree on the same class).
+- The default rule rate (when we can't find any rule activated for a sample).
+- The mean number of correct (fidel) activated rules per sample.
+- The mean number of wrong (not fidel) activated rules per sample.
+- The model tests accuracy.
+- The model tests accuracy when rules and models agree.
+- The model tests accuracy when activated rules and model agree.
+
+If the [positive class index](#positive-class-index) parameter is used, additional statistics are computed with both the model decision and the rules decision:
+
+- The number of true positive test samples.
+- The number of false positive test samples.
+- The number of true negative test samples.
+- The number of false negative test samples.
+- The false positive rate.
+- The false negative rate.
+- The precision.
+- The recall.
+
+All these metrics are generated, as text and/or inside a file.
+
 ## Arguments list
 
 The `FidexGloStats` algorithm has required optional arguments to be specified. Each of them has properties:
@@ -252,4 +277,12 @@ TODO: check if the statement below is correct
 
 ## Output interpretation
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 <!-- TODO: Complete this section -->
+=======
+<!-- TODO: Complete this section -->
+>>>>>>> 11259a2 (Added content)
+=======
+<!-- TODO: Complete this section -->
+>>>>>>> be3d9df (Added arguments list)
