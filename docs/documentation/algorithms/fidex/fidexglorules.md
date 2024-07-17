@@ -472,8 +472,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
        --weights_file weights.wts 
        --rules_outfile output_rules.rls 
        --heuristic 1
-       --nb_threads 4
-       """
+       --nb_threads 4"""
     )
     ```
     
