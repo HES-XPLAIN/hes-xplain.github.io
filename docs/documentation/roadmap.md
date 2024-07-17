@@ -93,12 +93,7 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Arguments list
                 * [ ] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.4.7 normalization
-                * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.8 svmTrn
+            * [ ] 2.4.7 svmTrn
                 * [ ] Description
                 * [ ] Arguments list
                 * [ ] Example Code
