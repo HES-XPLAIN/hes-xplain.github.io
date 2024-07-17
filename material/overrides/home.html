@@ -1,57 +1,34 @@
 {% extends "main.html" %}
 
-<!-- Render hero under tabs -->
 {% block tabs %}
 {{ super() }}
-
-<!-- Additional styles for landing page -->
 <style>
-    /* Application header should be static for the landing page */
     .md-header {
         position: initial;
         background-color: transparent;
         box-shadow: none;
     }
-
     .md-header,
     [data-md-color-scheme=default] {
         color: var(--md-color-text-primary);
     }
-
     .md-tabs {
         background-color: transparent;
     }
-
     .md-tabs,
     [data-md-color-scheme=default] {
         color: var(--md-color-text-primary);
     }
-
-    /* These two are commented out but can be used to hide the header and tabs completely */
-    /* Remove spacing, as we cannot hide it completely */
-    /* .md-main__inner {
-        margin: 0;
-    } */
-
-    /* Hide main content for now */
-    /* .md-content {
-        display: none;
-    } */
-
-    /* Hide table of contents */
     @media screen and (min-width: 60em) {
         .md-sidebar--secondary {
             display: none;
         }
     }
-
-    /* Hide navigation */
     @media screen and (min-width: 76.25em) {
         .md-sidebar--primary {
             display: none;
         }
     }
-
     :root,
     [data-md-color-scheme=default] {
         --md-primary-bg-gradient-color: rgb(233, 233, 246);
@@ -60,7 +37,6 @@
                 var(--md-primary-bg-gradient-color) 0%,
                 var(--md-secondary-bg-gradient-color) 100%);
     }
-
     :root,
     [data-md-color-scheme=slate] {
         --md-primary-bg-gradient-color: rgb(35, 35, 40);
@@ -69,16 +45,12 @@
                 var(--md-primary-bg-gradient-color) 0%,
                 var(--md-secondary-bg-gradient-color) 100%);
     }
-
-
     :root {
         --text-gradient: linear-gradient(-54deg,
                 var(--md-primary-fg-color) 0%,
                 var(--md-primary-fg-color) 30%,
                 var(--md-accent-fg-color) 100%);
-
     }
-
     .gradient {
         background: rgb(35, 35, 40);
         background: var(--bg-gradient);
@@ -88,17 +60,14 @@
         position: fixed;
         z-index: -10;
     }
-
     section {
         padding: 4rem 10rem;
     }
-
     @media screen and (max-width: 76.25em) {
         section {
             padding: 3rem 2rem;
         }
     }
-
     @media screen and (max-width: 65em) {
         .home-section {
             height: 100vh;
@@ -106,39 +75,24 @@
             text-align: center;
             gap: 1rem;
         }
-
         .home-section h1 {
             font-size: 5rem !important;
         }
-
         .home-section h2 {
-            font-size: 2rem !important
+            font-size: 2rem !important;
         }
-
         .home-image {
             width: 350px !important;
         }
-
         .home-image-hesso {
             width: 150px !important;
         }
-
         .home-button-logo {
             justify-content: center;
             flex-direction: column;
             gap: 2rem !important;
         }
-
-        .features-section {
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .features-section .icon-feature {
-            max-width: unset !important;
-        }
     }
-
     .home-section {
         display: flex;
         align-items: center;
@@ -146,36 +100,30 @@
         gap: 2.5rem;
         padding: 5rem 10rem;
     }
-
     .home-section h1 {
         font-size: 7rem;
         margin-top: 0;
         margin-bottom: 1rem;
         white-space: nowrap;
     }
-
     .home-section h2 {
         font-size: 2.5rem;
         margin: 0;
     }
-
     .home-section p {
         font-size: 1.25rem;
         margin-top: 0;
         margin-bottom: 2rem;
         line-height: 1.5;
     }
-
     .home-button-logo {
         display: flex;
         align-items: center;
         gap: 3rem;
     }
-
     [data-md-color-scheme=slate] .home-button-logo>img {
         filter: brightness(10);
     }
-
     .text-gradient {
         background: var(--md-primary-fg-color);
         background: var(--text-gradient);
@@ -183,11 +131,9 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-
     .home-image {
         width: 400px;
     }
-
     .btn.btn-primary {
         background: var(--md-primary-fg-color);
         background: var(--text-gradient);
@@ -200,47 +146,6 @@
         cursor: pointer;
         text-transform: uppercase;
     }
-
-    .features-section {
-        background-color: var(--md-primary-bg-gradient-color);
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2rem;
-        gap: 5rem;
-    }
-
-    .features-section p {
-        font-size: 0.9rem;
-        max-width: 60ch;
-        margin: 0 auto;
-        opacity: 0.5;
-    }
-
-    .features-section .icon-feature {
-        max-width: 500px;
-        text-align: center;
-    }
-
-    .features-section .icon-feature svg {
-        width: 75px;
-        height: 75px;
-        margin-bottom: 1rem;
-        fill: var(--md-accent-fg-color);
-    }
-
-    #openSourceIcon {
-        stroke: var(--md-accent-fg-color);
-        stroke-width: 1px;
-    }
-
-    .features-section h2 {
-        font-size: 1.2rem;
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-    }
-
     .bg-binary {
         position: fixed;
         width: 100vw;
@@ -248,15 +153,15 @@
         top: 0;
         right: 0;
         z-index: -5;
-        /* the binary svg pattern */
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 34"><text x="0" y="12" fill="black" font-family="monospace" font-size="12px" letter-spacing="4">    010010101 00</text><text x="0" y="12" fill="gray" font-family="monospace" font-size="12px" letter-spacing="4">    0 0 10 0 10 1 </text><text x="0" y="29" fill="black" font-family="monospace" font-size="12px" letter-spacing="4">    110100100101</text><text x="0" y="29" fill="gray" font-family="monospace" font-size="12px" letter-spacing="4">    11 1 01 0 </text></svg>');
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 34"><text x="0" y="12" fill="black" font-family="monospace" 
+font-size="12px" letter-spacing="4">    010010101 00</text><text x="0" y="12" fill="gray" font-family="monospace" font-size="12px" letter-spacing="4">    0 0 10 0 10 1 </text><text 
+x="0" y="29" fill="black" font-family="monospace" font-size="12px" letter-spacing="4">    110100100101</text><text x="0" y="29" fill="gray" font-family="monospace" font-size="12px" 
+letter-spacing="4">    11 1 01 0 </text></svg>');
         background-repeat: repeat;
         background-position: 0 0;
         background-size: 500px;
         opacity: 0.075;
     }
-
-    /* add linear gradient as a mask to the bg-binary to add a fade effect */
     .bg-binary::after {
         content: '';
         position: absolute;
@@ -281,42 +186,13 @@
     </div>
     <img class="home-image" src="assets/logo.png" />
 </section>
-<section class="features-section">
-    <div class="icon-feature">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-                d="M9,2A7,7 0 0,1 16,9C16,10.57 15.5,12 14.61,13.19L15.41,14H16L22,20L20,22L14,16V15.41L13.19,14.61C12,15.5 10.57,16 9,16A7,7 0 0,1 2,9A7,7 0 0,1 9,2M8,5V8H5V10H8V13H10V10H13V8H10V5H8Z" />
-        </svg>
-        <h2>Broad XAI Coverage</h2>
-        <p>Include State of the Art and novel XAI techniques</p>
-    </div>
-    <div class="icon-feature">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-                d="M13 19.3V12.6L19 9.2V13C19.7 13 20.4 13.1 21 13.4V7.5C21 7.1 20.8 6.8 20.5 6.6L12.6 2.2C12.4 2.1 12.2 2 12 2S11.6 2.1 11.4 2.2L3.5 6.6C3.2 6.8 3 7.1 3 7.5V16.5C3 16.9 3.2 17.2 3.5 17.4L11.4 21.8C11.6 21.9 11.8 22 12 22S12.4 21.9 12.6 21.8L13.5 21.3C13.2 20.7 13.1 20 13 19.3M12 4.2L18 7.5L16 8.6L10.1 5.2L12 4.2M11 19.3L5 15.9V9.2L11 12.6V19.3M12 10.8L6 7.5L8 6.3L14 9.8L12 10.8M20 15V18H23V20H20V23H18V20H15V18H18V15H20Z" />
-        </svg>
-        <h2>Low barrier to adoption</h2>
-        <p>Easy to use and integrate with existing ML pipelines</p>
-    </div>
-
-    <div class="icon-feature">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="openSourceIcon">
-            <path
-                d="M15.41,22C15.35,22 15.28,22 15.22,22C15.1,21.95 15,21.85 14.96,21.73L12.74,15.93C12.65,15.69 12.77,15.42 13,15.32C13.71,15.06 14.28,14.5 14.58,13.83C15.22,12.4 14.58,10.73 13.15,10.09C11.72,9.45 10.05,10.09 9.41,11.5C9.11,12.21 9.09,13 9.36,13.69C9.66,14.43 10.25,15 11,15.28C11.24,15.37 11.37,15.64 11.28,15.89L9,21.69C8.96,21.81 8.87,21.91 8.75,21.96C8.63,22 8.5,22 8.39,21.96C3.24,19.97 0.67,14.18 2.66,9.03C4.65,3.88 10.44,1.31 15.59,3.3C18.06,4.26 20.05,6.15 21.13,8.57C22.22,11 22.29,13.75 21.33,16.22C20.32,18.88 18.23,21 15.58,22C15.5,22 15.47,22 15.41,22M12,3.59C7.03,3.46 2.9,7.39 2.77,12.36C2.68,16.08 4.88,19.47 8.32,20.9L10.21,16C8.38,15 7.69,12.72 8.68,10.89C9.67,9.06 11.96,8.38 13.79,9.36C15.62,10.35 16.31,12.64 15.32,14.47C14.97,15.12 14.44,15.65 13.79,16L15.68,20.93C17.86,19.95 19.57,18.16 20.44,15.93C22.28,11.31 20.04,6.08 15.42,4.23C14.33,3.8 13.17,3.58 12,3.59Z" />
-        </svg>
-        <h2>Open Source</h2>
-        <p>Free to use and modify under the BSD-3-Clause License</p>
-    </div>
-</section>
-
 {% endblock %}
 
-<!-- Content -->
 {% block content %}
 {{ super() }}
 {% endblock %}
 
-<!-- Application footer -->
 {% block footer %}
 {{ super() }}
 {% endblock %}
+
