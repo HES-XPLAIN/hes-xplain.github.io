@@ -11,14 +11,19 @@ section.
 
 We offer multiple resources to enhance XAI knowledge, including:
 
+- **XAI ressource**: Literature and ressource that describe what/why/how Explainable Artificial Intelligence. 
 - **Tutorial Notebooks**: Step-by-step guides to help users understand and apply XAI methods.
 - **Use Case Notebooks**: Showcase how XAI and our platform can be used to solve real-world problems.
 - **Datasets and Models**: Embedded datasets and pre-trained models to facilitate experimentation.
+
+More details can be found in the [HES-XPLAIN - Ressources](../ressource.md) section.
 
 ## Deployment Options
 
 HES-XPLAIN provides flexible deployment options to suit different user needs:
 
-- **Google Colab**: Online deployment through Google Colab for easy access and experimentation.
-- **Docker**: Local deployment using Docker files to try our solutions locally with minimal setup.
+- **Python package**: Our algos are package individually and easily accessible through the pypi index.
+- **Google Colab**: Online deployment through Google Colab for easy access and experimentation of our algos, tutorials and use cases.
+- **Docker**: Local deployment using Docker files to try easily our solutions locally.
 
+Instructions are given in the [HES-XPLAIN - Usage](../usage.md) section.

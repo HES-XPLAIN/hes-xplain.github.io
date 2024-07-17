@@ -13,6 +13,7 @@ integrating our own developed algorithms with the modern standards provided by O
 ### Rules Extraction
 
 **Rules Extraction** focuses on developing high-level explanation algorithms. This module includes three distinct approaches:
+
 1. **Rule Extraction**: Deriving rules that represent the decision logic of the AI model.
 2. **Local Identification of Relevant Patterns**: Identifying patterns that are significant in localized regions of the data.
 3. **Generation of Global Meaningful Patterns**: Creating patterns that provide a global understanding of the model's behavior.
@@ -23,6 +24,7 @@ Additionally, a novel algorithm is developed to combine these approaches, result
 
 **DIMLPFidex** is designed to develop low-level explanation algorithms. It focuses on extracting propositional rules from deep models, particularly where the precise location of 
 axis-parallel hyperplanes is known. This module presents two new algorithms:
+
 1. **Local Explanation Algorithm**: Provides explanations at a localized level.
 2. **Global Explanation Algorithm**: Offers explanations that provide a global perspective of the model's behavior.
 
@@ -39,6 +41,7 @@ integration ensures that users have access to a wide range of XAI techniques and
 ### MLXplain Package
 
 Our **MLXplain** package serves as the "glue" that seamlessly integrates our developed algorithms with the OmniXAI API. This integration allows users to benefit from the following:
+
 - Access to modern XAI algorithms provided by OmniXAI.
 - Enhanced functionality through OmniXAI's robust features.
 - The ability to use our specialized algorithms alongside industry-standard methods, providing a comprehensive toolkit for XAI.
@@ -56,5 +59,4 @@ AI techniques.
 
 ---
 
-Explore our platform and discover how these algorithms can help you make AI more transparent and trustworthy.
     
