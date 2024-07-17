@@ -6,7 +6,6 @@
 ## Description
 
 ## Arguments list
-## Arguments list
 The `coputeRocCurve` algorithm has required and optional arguments to be specified. Each of them has properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
