@@ -1,34 +1,57 @@
 {% extends "main.html" %}
 
+<!-- Render hero under tabs -->
 {% block tabs %}
 {{ super() }}
+
+<!-- Additional styles for landing page -->
 <style>
+    /* Application header should be static for the landing page */
     .md-header {
         position: initial;
         background-color: transparent;
         box-shadow: none;
     }
+
     .md-header,
     [data-md-color-scheme=default] {
         color: var(--md-color-text-primary);
     }
+
     .md-tabs {
         background-color: transparent;
     }
+
     .md-tabs,
     [data-md-color-scheme=default] {
         color: var(--md-color-text-primary);
     }
+
+    /* These two are commented out but can be used to hide the header and tabs completely */
+    /* Remove spacing, as we cannot hide it completely */
+    /* .md-main__inner {
+        margin: 0;
+    } */
+
+    /* Hide main content for now */
+    /* .md-content {
+        display: none;
+    } */
+
+    /* Hide table of contents */
     @media screen and (min-width: 60em) {
         .md-sidebar--secondary {
             display: none;
         }
     }
+
+    /* Hide navigation */
     @media screen and (min-width: 76.25em) {
         .md-sidebar--primary {
             display: none;
         }
     }
+
     :root,
     [data-md-color-scheme=default] {
         --md-primary-bg-gradient-color: rgb(233, 233, 246);
@@ -37,6 +60,7 @@
                 var(--md-primary-bg-gradient-color) 0%,
                 var(--md-secondary-bg-gradient-color) 100%);
     }
+
     :root,
     [data-md-color-scheme=slate] {
         --md-primary-bg-gradient-color: rgb(35, 35, 40);
@@ -45,12 +69,16 @@
                 var(--md-primary-bg-gradient-color) 0%,
                 var(--md-secondary-bg-gradient-color) 100%);
     }
+
+
     :root {
         --text-gradient: linear-gradient(-54deg,
                 var(--md-primary-fg-color) 0%,
                 var(--md-primary-fg-color) 30%,
                 var(--md-accent-fg-color) 100%);
+
     }
+
     .gradient {
         background: rgb(35, 35, 40);
         background: var(--bg-gradient);
@@ -60,14 +88,17 @@
         position: fixed;
         z-index: -10;
     }
+
     section {
         padding: 4rem 10rem;
     }
+
     @media screen and (max-width: 76.25em) {
         section {
             padding: 3rem 2rem;
         }
     }
+
     @media screen and (max-width: 65em) {
         .home-section {
             height: 100vh;
@@ -75,24 +106,39 @@
             text-align: center;
             gap: 1rem;
         }
+
         .home-section h1 {
             font-size: 5rem !important;
         }
+
         .home-section h2 {
-            font-size: 2rem !important;
+            font-size: 2rem !important
         }
+
         .home-image {
             width: 350px !important;
         }
+
         .home-image-hesso {
             width: 150px !important;
         }
+
         .home-button-logo {
             justify-content: center;
             flex-direction: column;
             gap: 2rem !important;
         }
+
+        .features-section {
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .features-section .icon-feature {
+            max-width: unset !important;
+        }
     }
+
     .home-section {
         display: flex;
         align-items: center;
@@ -100,30 +146,36 @@
         gap: 2.5rem;
         padding: 5rem 10rem;
     }
+
     .home-section h1 {
         font-size: 7rem;
         margin-top: 0;
         margin-bottom: 1rem;
         white-space: nowrap;
     }
+
     .home-section h2 {
         font-size: 2.5rem;
         margin: 0;
     }
+
     .home-section p {
         font-size: 1.25rem;
         margin-top: 0;
         margin-bottom: 2rem;
         line-height: 1.5;
     }
+
     .home-button-logo {
         display: flex;
         align-items: center;
         gap: 3rem;
     }
+
     [data-md-color-scheme=slate] .home-button-logo>img {
         filter: brightness(10);
     }
+
     .text-gradient {
         background: var(--md-primary-fg-color);
         background: var(--text-gradient);
@@ -131,9 +183,11 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
     .home-image {
         width: 400px;
     }
+
     .btn.btn-primary {
         background: var(--md-primary-fg-color);
         background: var(--text-gradient);
@@ -146,6 +200,47 @@
         cursor: pointer;
         text-transform: uppercase;
     }
+
+    .features-section {
+        background-color: var(--md-primary-bg-gradient-color);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        gap: 5rem;
+    }
+
+    .features-section p {
+        font-size: 0.9rem;
+        max-width: 60ch;
+        margin: 0 auto;
+        opacity: 0.5;
+    }
+
+    .features-section .icon-feature {
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .features-section .icon-feature svg {
+        width: 75px;
+        height: 75px;
+        margin-bottom: 1rem;
+        fill: var(--md-accent-fg-color);
+    }
+
+    #openSourceIcon {
+        stroke: var(--md-accent-fg-color);
+        stroke-width: 1px;
+    }
+
+    .features-section h2 {
+        font-size: 1.2rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
     .bg-binary {
         position: fixed;
         width: 100vw;
@@ -153,15 +248,15 @@
         top: 0;
         right: 0;
         z-index: -5;
-        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 34"><text x="0" y="12" fill="black" font-family="monospace" 
-font-size="12px" letter-spacing="4">    010010101 00</text><text x="0" y="12" fill="gray" font-family="monospace" font-size="12px" letter-spacing="4">    0 0 10 0 10 1 </text><text 
-x="0" y="29" fill="black" font-family="monospace" font-size="12px" letter-spacing="4">    110100100101</text><text x="0" y="29" fill="gray" font-family="monospace" font-size="12px" 
-letter-spacing="4">    11 1 01 0 </text></svg>');
+        /* the binary svg pattern */
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 34"><text x="0" y="12" fill="black" font-family="monospace" font-size="12px" letter-spacing="4">    010010101 00</text><text x="0" y="12" fill="gray" font-family="monospace" font-size="12px" letter-spacing="4">    0 0 10 0 10 1 </text><text x="0" y="29" fill="black" font-family="monospace" font-size="12px" letter-spacing="4">    110100100101</text><text x="0" y="29" fill="gray" font-family="monospace" font-size="12px" letter-spacing="4">    11 1 01 0 </text></svg>');
         background-repeat: repeat;
         background-position: 0 0;
         background-size: 500px;
         opacity: 0.075;
     }
+
+    /* add linear gradient as a mask to the bg-binary to add a fade effect */
     .bg-binary::after {
         content: '';
         position: absolute;
@@ -174,25 +269,33 @@ letter-spacing="4">    11 1 01 0 </text></svg>');
 <div class="gradient"></div>
 <div class="bg-binary"></div>
 
+<style>
+    /* Add margin-bottom to the preceding div */
+    .home-button-logo {
+        margin-bottom: 650px; /* Adjust the value as needed */
+    }
+</style>
+
 <section class="home-section">
     <div>
         <h2>Discover eXplainable AI</h2>
-        <h1><span class="text-gradient">XPLAIN</span></h1>
+        <h1><span class="text-gradient">HES-XPLAIN</span></h1>
         <p>An open platform for accelerating the development of eXplainable AI systems</p>
         <div class="home-button-logo">
-            <a class="btn btn-primary" href="#get-started">Get started</a>
             <img class="home-image-hesso" src="assets/logo_HES-SO_EN.svg" />
         </div>
     </div>
     <img class="home-image" src="assets/logo.png" />
 </section>
+
 {% endblock %}
 
+<!-- Content -->
 {% block content %}
 {{ super() }}
 {% endblock %}
 
+<!-- Application footer -->
 {% block footer %}
 {{ super() }}
 {% endblock %}
-

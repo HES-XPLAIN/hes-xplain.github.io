@@ -17,11 +17,11 @@ nav:
     - Usage: hes-xplain/usage.md
     - Algorithms: hes-xplain/algos.md
     - Ressources: hes-xplain/ressources.md
+  - XAI: xai.md
   - Use Case: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md
     - Installation: documentation/installation-guide.md
-    - Getting started: documentation/getting-started.md
     - GUI: documentation/gui.md
     - Algorithms:
       - Overview: documentation/algorithms/overview.md
