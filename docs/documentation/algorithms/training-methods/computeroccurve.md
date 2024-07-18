@@ -167,7 +167,7 @@ The `coputeRocCurve` algorithm has required and optional arguments to be specifi
 
 === "Python"
     ```py
-    from dimlpfidex.trainings import computeRocCurve
+    from trainings import computeRocCurve
 
     computeRocCurve(
     """--test_class_file dataclass2Test.txt 

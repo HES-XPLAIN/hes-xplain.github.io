@@ -473,7 +473,7 @@ The `gradBoostTrn` algorithm has required and optional arguments to be specified
 
 === "Python"
     ```py
-    from dimlpfidex.trainings import gradBoostTrn
+    from trainings import gradBoostTrn
 
     gradBoostTrn(
     """--train_data_file datanormTrain.txt 
