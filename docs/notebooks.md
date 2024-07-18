@@ -39,53 +39,26 @@ manually by clicking on **Runtime** menu then by selecting **Disconnect and dele
     * Download the Docker Compose files on this page and launch them with `docker compose up -f path/to/docker-compose.yml`.
 
 
-## Class Activation Maps (CAM)
+## Use Case : Sport Image Classification 
 
-Through this use case, we aim to empower users to grasp the potential of CAM as a tool for transparent and interpretable sport image classification.
+Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the Sports Image Classification dataset. We also builds post-hoc explanations to explain the model and its prediction. 
 
-!!! example "Sport Image Classification with Class Activation Maps (CAM)"
+!!! example "Sport Image Classification"
 
-    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
+    ![Sports Image](assets/images/examples/sports_classification.jpg){ width="200px", align=left }
 
-    **Class Activation Maps (CAM)**
+    **Sports Image Classification**
 
-    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/cam_demo.ipynb" target="_blank">Exploring Class Activation Maps for Sport Image Classification</a>
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github.com/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/use_case_sport_image_classification.ipynb" target="_blank">XAI for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
-    **Important**: To run the notebook on Google Colab successfully, ensure to change the variable `use_colab` in the first cell to **True**.
+    **Important**: To run the notebook on Google Colab, ensure to change the variable `use_colab` in the first cell to **True**.
 
-    In this use case, we dive into sport image classification and showcase the power of **Class Activation Maps** (CAM) as an
-    interpretability tool.
+## Use Case : Complex Images
 
-    CAM allows us to visualize the regions of an image that contribute most to the model's classification decision.
-    By overlaying **heatmaps** onto the original images, we gain insights into the model's attention and its understanding of different sports.
+WIP
 
-While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
-
-By the end of this use case, you will have a solid understanding of CAM and how to integrate it into your own projects.
-
-## Rules Extraction
-
-Through this use case, we aim to empower users to grasp the potential of Rules Extraction as a tool for transparent and interpretable sport image classification.
-
-!!! example "Sport Image Classification with Rules Extarction"
-
-    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
-
-    **Rules Extraction**
-
-    **Important**: To run the notebook on Google Colab successfully, ensure to change the variable `use_colab` in the first cell to **True**.
-
-    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/rules_extraction_demo.ipynb" target="_blank">Exploring Rules Extraction for Sport Image Classification</a>
-    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
-
-    In this use case, we dive into sport image classification and showcase the power of **Rules Extraction** as an interpretability tool.
-
-While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
-
-By the end of this use case, you will have a solid understanding of Rules Extraction and how to integrate it into your own projects.
-
-## Activation-Maximization
+## Use Case : Tabular Dataset
 
 WIP
 
