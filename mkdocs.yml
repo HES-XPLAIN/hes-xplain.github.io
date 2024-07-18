@@ -16,7 +16,7 @@ nav:
     - Platform overview: hes-xplain/platform_overview.md
     - Usage: hes-xplain/usage.md
     - Algorithms: hes-xplain/algos.md
-    - Resources: hes-xplain/ressource.md
+    - Ressources: hes-xplain/ressources.md
   - Use Case: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md
