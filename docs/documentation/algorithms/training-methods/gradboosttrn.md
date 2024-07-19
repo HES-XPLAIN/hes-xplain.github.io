@@ -116,14 +116,14 @@ The `gradBoostTrn` algorithm has required and optional arguments to be specified
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
-| Is required             | No                   |
+| Is required             | No**                 |
 | Type                    | `String`             |
 | CLI argument syntax     | `--train_class_file` | 
 | JSON identifier         | `train_class_file`   |
 | Default value           | `None`               |
 
-!!! note
-    Train true classes can also be specified inside the [train data file](#train-data-file). 
+!!! warning
+    This argument is not required if, **and only if**, the *true classes* are already specified inside the [train data file](#train-data-file).
 
 ---
 
@@ -132,14 +132,14 @@ The `gradBoostTrn` algorithm has required and optional arguments to be specified
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
-| Is required             | No                  |
+| Is required             | No**                |
 | Type                    | `String`            |
 | CLI argument syntax     | `--test_class_file` | 
 | JSON identifier         | `test_class_file`   |
 | Default value           | `None`              |
 
-!!! note
-    Test true classes can also be specified inside the [train data file](#train-data-file). 
+!!! warning
+    This argument is not required if, **and only if**, the *true classes* are already specified inside the [test data file](#test-data-file). 
 
 ---
 

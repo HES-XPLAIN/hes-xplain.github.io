@@ -18,6 +18,35 @@ The `cnnTrn` algorithm has required and optional arguments to be specified. Each
 
 ---
 
+### JSON configuration file
+*File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
+
+|  **Property**           | **Value**                   |
+|:------------------------|:----------------------------|
+| Is required             | No                          |
+| Type                    | `String`                    |
+| CLI argument syntax     | `--json-configuration-file` | 
+| JSON identifier         | `N/A`                       |
+| Default value           | `None`                      |
+
+!!!Warning
+    If you use this argument, **it must be the only one specified**. No other argument can be specified with it.
+
+---
+
+### Root folder path
+*Default path from where all the other arguments related to file paths are going to be based. Using this allows you to work with paths relative to this location and avoid writing absolute paths or lengthy relative paths.*
+
+|  **Property**           | **Value**           |
+|:------------------------|:--------------------|
+| Is required             | No                  |
+| Type                    | `String`            |
+| CLI argument syntax     | `--root_folder`     | 
+| JSON identifier         | `root_folder`       |
+| Default value           | `.`                 |
+
+---
+
 ### Train data file
 *File containing the train portion of the dataset, It can also contain training "true classes" (see [Train true classes file](#train-true-classes-file)).*
 
@@ -61,7 +90,7 @@ The `cnnTrn` algorithm has required and optional arguments to be specified. Each
 
 ### Nuber of channels
 
-*Number of channels (should be 3 for RGB image and 1 for a grayscaled image).*
+*Number of channels in the input (should be 3 for RGB image and 1 for a grayscaled image).*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
@@ -123,8 +152,8 @@ The `cnnTrn` algorithm has required and optional arguments to be specified. Each
 | JSON identifier         | `train_class_file`   |
 | Default value           | `None`               |
 
-!!! note
-    This argument is not required if, **and only if**, the *true classes* are already specified inside the [train data file](#train-data-file).. 
+!!! warning
+    This argument is not required if, **and only if**, the *true classes* are already specified inside the [train data file](#train-data-file).
 
 ---
 
@@ -140,7 +169,7 @@ The `cnnTrn` algorithm has required and optional arguments to be specified. Each
 | Default value           | `None`              |
 
 !!! warning
-    This argument is not required if, **and only if**, the *true classes* are already specified inside the [test data file](#test-data-file).. 
+    This argument is not required if, **and only if**, the *true classes* are already specified inside the [test data file](#test-data-file). 
 
 ---
 
@@ -222,11 +251,11 @@ The `cnnTrn` algorithm has required and optional arguments to be specified. Each
 
 <!-- TODO: this admonition is not clear -->
 !!! warning
->   if there is validation files, and you want to use Fidex algorithms later, you will have to use both train and validation datas given here in the train datas and classes of Fidex
+    if there is validation files, and you want to use Fidex algorithms later, you will have to use both train and validation datas given here in the train datas and classes of Fidex
 
 ---
 
-### Weights ouput file
+### Weights output file
 * Path to the file where the output trained weights of the model will be stored.*
 
 |  **Property**           | **Value**           |
@@ -321,7 +350,7 @@ The `cnnTrn` algorithm has required and optional arguments to be specified. Each
 ---
 
 ### Seed
-*Seed for random number generation, 0=random. Anything else than 0 is an arbitrary seed that can be reused to obtain the same randomly generated sequence and therefore getting same results.*
+*Seed for random number generation, `0=random`. Anything else than `0` is an arbitrary seed that can be reused to obtain the same randomly generated sequence and therefore getting same results.*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
