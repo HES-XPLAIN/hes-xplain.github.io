@@ -65,18 +65,18 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Output Interpretation
         * [ ] 2.4 Training methods
             * [ ] 2.4.1 Overview
-                * [ ] Introduction to Fidex Algorithms
+                * [ ] Introduction to Training methods
                 * [ ] General Use Cases
                 * [ ] Graphical Representation (if applicable)
             * [ ] 2.4.2 gradBoostTrn
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.3 computeRocCurve      
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.4 randForestsTrn
                 * [ ] Description
@@ -85,18 +85,18 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Output Interpretation
             * [ ] 2.4.5 cnnTrn    
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.6 mlpTrn   
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.7 svmTrn
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
         * [ ] 2.5 File formats
             * [x] 2.5.1 JSON Configuration files
