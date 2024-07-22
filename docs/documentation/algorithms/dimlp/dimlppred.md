@@ -47,7 +47,7 @@ The `dimlpPred` algorithm has required and optional arguments to be specified. E
 ---
 
 ### Test data file
-*File containing the test portion of the dataset. It can also contain test "true classes" (see [Test true classes file](#test-true-classes-file)).*
+*File containing the test portion of the dataset.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
