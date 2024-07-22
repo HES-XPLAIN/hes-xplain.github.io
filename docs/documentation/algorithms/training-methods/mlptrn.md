@@ -143,7 +143,7 @@ The `mlpTrn` algorithm has required and optional arguments to be specified. Each
 
 ---
 
-### Train prediction ouput file 
+### Train prediction output file 
 *Path to the file where the train predictions will be stored.*
 
 |  **Property**           | **Value**                    |
@@ -156,7 +156,7 @@ The `mlpTrn` algorithm has required and optional arguments to be specified. Each
 
 ---
 
-### Test prediction ouput file 
+### Test prediction output file 
 *Path to the file where the test predictions will be stored.*
 
 |  **Property**           | **Value**                    |
