@@ -508,17 +508,6 @@ The `mlpTrn` algorithm has required and optional arguments to be specified. Each
 
 ---
 
-### Epsilon
-*Value for numerical stability in adam.*
-
-|  **Property**           | **Value**              |
-|:------------------------|:-----------------------|
-| Is required             | No                     |
-| Type                    | `Float`                |
-| CLI argument syntax     | `--epsilon`            |
-| JSON identifier         | `epsilon`              |
-| Default value           | `1e-08`                |
-
 ### Number of non-significant iterations before stopping
 *Maximum number of epochs to not meet tol improvement for stochastic gradient descent and adam.*
 
