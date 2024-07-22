@@ -80,8 +80,8 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Output Interpretation
             * [ ] 2.4.4 randForestsTrn
                 * [ ] Description
-                * [ ] Arguments list
-                * [ ] Example Code
+                * [x] Arguments list
+                * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.5 cnnTrn    
                 * [ ] Description
@@ -120,16 +120,11 @@ This section shows the progress of the general documentation redaction.
             * [ ] 3.4.1 Use Case 1
             * [ ] 3.4.2 Use Case 2
             * [ ] 3.4.3 Use Case 3
-        * [ ] 3.5 API Reference
-            * [ ] 3.5.1 Detailed Documentation of Functions and Classes
-            * [ ] 3.5.2 Input Parameters
-            * [ ] 3.5.3 Output Specifications
-            * [ ] 3.5.4 Code Examples
+        * [x] 3.5 API Reference
         * [ ] 3.6 Contributing
             * [ ] 3.6.1 Contribution Guidelines
             * [ ] 3.6.2 How to Submit a Bug Report
             * [ ] 3.6.3 How to Submit a Feature Request
-            * [ ] 3.6.4 Coding Standards
         * [ ] 3.7 FAQ
             * [ ] 3.7.1 Frequently Asked Questions
             * [ ] 3.7.2 Troubleshooting Tips
