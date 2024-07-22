@@ -262,7 +262,7 @@ The `gradBoostTrn` algorithm has required and optional arguments to be specified
 
 ---
 
-### Subsample
+### Criterion
 *Function to measure split quality. Options are `friedman_mse` and `squared_error`.*
 
 |  **Property**           | **Value**           |
@@ -458,7 +458,7 @@ The `gradBoostTrn` algorithm has required and optional arguments to be specified
 
 ---
 
-### CPP alpha
+### CCP alpha
 *Complexity parameter used for Minimal Cost-Complexity Pruning.*
 
 |  **Property**           | **Value**    |
