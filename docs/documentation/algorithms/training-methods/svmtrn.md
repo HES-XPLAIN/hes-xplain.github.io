@@ -381,7 +381,7 @@ The `svmTrn` algorithm has required and optional arguments to be specified. Each
 
 ---
                  
-### Cache size
+### Class weight
 *Class balance, for exemple with a dictionnary and 2 classes : `{0:1.2, 1:3.5}`. Can also be `balanced`.*
 
 |  **Property**           | **Value**                 |
@@ -407,9 +407,6 @@ The `svmTrn` algorithm has required and optional arguments to be specified. Each
 
 ---
 
-
----
-
 ###  Maximum number of iterations
 * Maximum number of training iterations. `-1` means no limit.*
 
@@ -420,9 +417,6 @@ The `svmTrn` algorithm has required and optional arguments to be specified. Each
 | CLI argument syntax     | `--max_iterations`    |
 | JSON identifier         | `max_iterations`      |
 | Default value           | `-1`                  |
-
----
-
 
 ---
 
