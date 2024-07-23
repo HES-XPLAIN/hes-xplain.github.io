@@ -18,7 +18,7 @@ To install the dimlpfidex GUI, follow these steps:
     3. **Execute** the program named `dimlpfidex_gui.exe`.
     4. Done!
 
-=== "Linux & MacOS"
+=== "Linux & macOS"
     1. **Download** the [latest release](https://github.com/HES-XPLAIN/dimlpfidex/releases/)
     2. **Decompress** the archive.
     3. **Execute** the program named `dimlpfidex_gui`.
