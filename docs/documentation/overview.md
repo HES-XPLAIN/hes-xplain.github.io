@@ -64,9 +64,6 @@ Here is a selection of subjects that may fit your needs.
 
 </div>
 
-In case you did not find what you are looking for in this documentation, please refer to the [detailed plan](#documentation-structure) of the documentation. Or feel free to explore it yourself! 
-
-
 ## Application domains
 Our tools can be used to bring explainability across a wide range of domains, including but not limited to:
 
