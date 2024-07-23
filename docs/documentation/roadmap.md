@@ -112,10 +112,7 @@ This section shows the progress of the general documentation redaction.
             * [x] 3.2.2 Installation guide
             * [x] 3.2.3 usage guide
         * [ ] 3.3 Getting Started
-        * [ ] 3.4 Detailed Examples
-            * [ ] 3.4.1 Use Case 1
-            * [ ] 3.4.2 Use Case 2
-            * [ ] 3.4.3 Use Case 3
+        * [ ] 3.4 Detailed Examples => do we redirect to the already existing notebook page ?  
         * [x] 3.5 API Reference
         * [ ] 3.6 Contributing
             * [ ] 3.6.1 Contribution Guidelines
