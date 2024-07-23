@@ -112,9 +112,6 @@ This section shows the progress of the general documentation redaction.
             * [x] 3.2.2 Installation guide
             * [x] 3.2.3 usage guide
         * [ ] 3.3 Getting Started
-            * [ ] 3.3.1 Quick Start Guide
-            * [ ] 3.3.2 Basic Examples
-            * [ ] 3.3.3 Common Pitfalls and Solutions
         * [ ] 3.4 Detailed Examples
             * [ ] 3.4.1 Use Case 1
             * [ ] 3.4.2 Use Case 2

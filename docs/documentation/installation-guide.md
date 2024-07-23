@@ -5,8 +5,7 @@
 
 Here you can find the steps to follow to install the `dimlpfidex` project on your machine. It can be archived on `Windows`, `Linux`, and `macOS`. 
 
-## Simple installation (recommended)
-Ensure to have `python v3.8.1` or newer (**`3.11`** is recommended)` installed on your machine. Please refer to the [Python official website](https://www.python.org/downloads/) for further information concerning the installation process. 
+Before starting the installation process, ensure to have `python v3.8.1` or newer (**`3.11`** is recommended)` installed on your machine. Please refer to the [Python official website](https://www.python.org/downloads/) for further information concerning the installation process. 
 
 === "Windows"
     ```sh
@@ -137,4 +136,4 @@ fidex.fidexGloRules("--train_data_file datanormTrain.txt --train_pred_file predT
 ---------------------------------------------------------------------
 ```
 
-You are now set to use all `dimlpfidex` tools! You can continue by following the [getting-started tutorial](getting-started.md) to learn more about how to use the different tools available.
+You are now set to use all `dimlpfidex` tools! You can continue to follow the [getting-started tutorial](getting-started.md) to learn more about how to use the different tools available.
