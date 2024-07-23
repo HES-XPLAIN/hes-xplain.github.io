@@ -65,9 +65,8 @@ This section shows the progress of the general documentation redaction.
                 * [ ] Output Interpretation
         * [ ] 2.4 Training methods
             * [ ] 2.4.1 Overview
-                * [ ] Introduction to Training methods
-                * [ ] General Use Cases
-                * [ ] Graphical Representation (if applicable)
+                * [ ] Introduction 
+                * [ ] Architecture
             * [ ] 2.4.2 gradBoostTrn
                 * [ ] Description
                 * [x] Arguments list
@@ -137,8 +136,7 @@ This section shows the progress of the general documentation redaction.
     - [ ] 4 Appendices
         * [ ] 4.1 References
             * [ ] 4.1.1 Academic Papers
-            * [ ] 4.1.2 Books
-            * [ ] 4.1.3 Online Resources
+            * [ ] 4.1.2 Online Resources
         * [x] 4.2 License
         * [ ] 4.3 Contact Information
             * [ ] 4.3.1 How to Get Support
