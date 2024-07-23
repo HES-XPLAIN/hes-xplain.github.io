@@ -3,10 +3,10 @@
 !!! warning
     **This section is under construction and should not be considered as accurate yet.**
 
-The dimlpfidex Graphical User Interface was made to help with **`JSON configuration files`**. All [dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) algorithms can be fed with these files to supply all the data needed to execute them. The problem is, that you may not be experienced with `JSON` and `configuration files`. This is the reason why we offer you two outcomes: 
+The dimlpfidex Graphical User Interface was made to help with **`JSON configuration files`**. All [dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) algorithms can be fed with these files to supply all the data needed to execute them. However, you may not be experienced with `JSON` and `configuration files`. This is the reason why we offer you two outcomes: 
 
-1. Learn by yourself now to write configuration files with our [JSON configuration file documentation](file-formats/json-configuration-files.md).
-2. Follow the next section to learn how to use this GUI.
+1. Learn by yourself how to write configuration files with our [JSON configuration file documentation](file-formats/json-configuration-files.md).
+2. Follow the next section to learn how to generate configuration files with this GUI.
 
 ## Installation guide
 
@@ -46,7 +46,7 @@ To use the GUI, start by opening the app, select the form corresponding to the a
 ### Features of the GUI
 
 - **User-Friendly Forms**: The GUI provides forms with dropdowns, checkboxes, and text inputs to simplify the creation and editing of JSON files.
-- **Validation**: The GUI includes validation checks to ensure that the JSON configuration files are correctly formatted.
+- **Validation**: The GUI includes validation checks to ensure that the JSON configuration files and its embedded informations are correctly formatted.
 - **Large palette**: It can generate a configuration file for every algorithm from `Fidex`, `DIMLP`, and `Training methods` ensembles.
 - **Embedded documentation**: Has descriptions for every form's component and has a glossary explaining every single field purpose. 
 
@@ -58,7 +58,7 @@ To use the GUI, start by opening the app, select the form corresponding to the a
 1. **Field name**: Indicates the name or label of the field.
 2. **File Explorer button**: Allows users to browse and select a file (available for path-related fields, **excluding the web version**).
 3. **Default button**: Clicking on this button, if colored, automatically adds a default value to the field.
-4. **Information icon**: When hovered over with the mouse, it describes the field.
+4. **Information icon**: When hovered over with the mouse, describes the field.
 5. **Required icon**: If colored, indicates that the field must be filled out and cannot be left empty.
 
 !!!Warning
