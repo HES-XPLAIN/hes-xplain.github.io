@@ -15,7 +15,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     ---
 
-    Dive into breast cancer classification and rule extraction with [dimlpBT](algorithms/dimlp/dimlpBT.md) and various [fidex](algorithms/fidex/overview.md) algorithms.
+    Dive into breast cancer classification and rule extraction with [dimlpBT](algorithms/dimlp/dimlpbt.md) and various [fidex](algorithms/fidex/overview.md) algorithms.
 
     [:octicons-arrow-right-24: More](#TODO)
 
