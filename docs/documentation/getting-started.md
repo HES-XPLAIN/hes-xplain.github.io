@@ -31,7 +31,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     ---
 
-    Dive into handwritten digits and rule extraction with **TODO** algorithms.
+    Dive into handwritten digits classification and rule extraction with our [cnn](algorithms/training-methods/cnntrn.md) and various [fidex](algorithms/fidex/overview.md) algorithms.
 
     [:octicons-arrow-right-24: More](#TODO)
 
@@ -39,7 +39,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     ---
 
-    Dive into wall cracks and rule extraction with **TODO** algorithms.
+    Dive into surface cracks detection and rule extraction with our [cnn](algorithms/training-methods/cnntrn.md) using VGG16 and various [fidex](algorithms/fidex/overview.md) algorithms.
 
     [:octicons-arrow-right-24: More](#TODO)
 
