@@ -1,7 +1,7 @@
 # Licenses
 
 !!!Note
-      If there is incoherences between licenses displayed here and the one inside the corresponding `Github repository`, please always consider the one inside the `Github repository` as the real reference.
+      If there are any inconsistencies between the licenses displayed here and those in the corresponding `Github repository`, please always consider the license inside the `Github repository` as the real reference.
 
 ## Website license
 
