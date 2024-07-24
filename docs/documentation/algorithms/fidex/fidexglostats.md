@@ -127,7 +127,7 @@ The `FidexGloStats` algorithm works with both required and optional arguments. E
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model).*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -140,7 +140,7 @@ The `FidexGloStats` algorithm works with both required and optional arguments. E
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model).*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -227,7 +227,7 @@ TODO: check if the statement below is correct
 ---
 
 ### Positive class index
-*Index of positive class to compute true/false positive/negative rates, index starts at 0. If it is specified in the rules file, **it has to be the same value**.*
+*Index of positive class to compute true/false positive/negative rates, index starts at 0. If it is specified in the rules file, **it has to be the same value**. Takes values in the range `[0,nb_classes-1]`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|

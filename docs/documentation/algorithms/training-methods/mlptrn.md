@@ -73,7 +73,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model).*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -86,7 +86,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model).*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -209,8 +209,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of stairs
-<!-- TODO: complete this description -->
-*Number of "stairs" in the staircase function.*
+*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|

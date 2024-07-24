@@ -73,7 +73,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model).*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -86,7 +86,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model).*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|

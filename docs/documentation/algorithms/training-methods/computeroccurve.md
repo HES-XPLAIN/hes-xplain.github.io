@@ -73,7 +73,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 ---
 
 ### Positive class index
-*Index of positive class for the usage of decision threshold, index starts at `0`.*
+*Index of positive class for the usage of decision threshold, index starts at `0`. Takes values in the range `[0,nb_classes-1]`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
@@ -86,7 +86,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model).*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
