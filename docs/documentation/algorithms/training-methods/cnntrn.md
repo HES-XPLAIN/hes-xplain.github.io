@@ -129,7 +129,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model).*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -309,8 +309,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of stairs
-<!-- TODO: complete this description -->
-*Number of "stairs" in the staircase function.*
+*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -350,7 +349,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Seed
-*Seed for random number generation, `0=random`. Anything else than `0` is an arbitrary seed that can be reused to obtain the same randomly generated sequence and therefore getting same results.*
+*Seed for random number generation, `0=random`. Anything else than `0` is an arbitrary seed that can be reused to obtain the same randomly generated sequence and therefore getting same results. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
