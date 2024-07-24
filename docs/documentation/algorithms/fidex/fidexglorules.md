@@ -57,13 +57,13 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Train data file
-*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training "true classes" and training predictions (see [Train true classes file](#train-true-classes-file) and [Train predictions files](#train-predictions-file)).*
+*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training "true classes" (see [Train true classes file](#train-true-classes-file)).*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
 | Is required             | Yes                 |
 | Type                    | `String`            |
-| CLI argument syntax     | `--train_data_file` |
+| CLI argument syntax     | `--train_data_file` | 
 | JSON identifier         | `train_data_file`   |
 | Default value           | `None`              |
 
@@ -74,14 +74,11 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
-| Is required             | No**                |
+| Is required             | Yes                 |
 | Type                    | `String`            |
 | CLI argument syntax     | `--train_pred_file` | 
 | JSON identifier         | `train_pred_file`   |
 | Default value           | `None`              |
-
-!!!Warning
-    This argument is not required if, **and only if**, the predictions are already specified inside the [train data file](#train-data-file).  
 
 --- 
 
@@ -150,7 +147,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -163,7 +160,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -191,7 +188,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 | Default value           | `None`                  |
 
 !!!tip
-    If you use heuristic `1`, you can also specify a [number of threads](#number-of-threads) to accelerate the process.
+    If you use heuristic `1` or `2`, you can also specify a [number of threads](#number-of-threads) to accelerate the process.
 
 ---
 
@@ -222,7 +219,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Maximum number of iterations
-*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule.
+*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule. Takes values in the range `[1,∞[`.
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -238,7 +235,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Minimum covering
-*Minimal number of samples covered by every generated rule.*
+*Minimal number of samples covered by every generated rule. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -264,7 +261,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Maximum number of failed attempts
-*Number of attempts allowed to compute a rule that could not be found by the algorithm.*
+*Number of attempts allowed to compute a rule that could not be found by the algorithm. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -277,20 +274,20 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Number of threads
-*Threads used to compute the algorithm. This parameter **has no effect** if the heuristic used is not `1`.*
+*Threads used to compute the algorithm. This parameter **has no effect** if the heuristic used is not `1` or `2`. Takes values in the range `[1,nb_cores]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
 | Is required             | No                     |
-| Type                    | `integer`              |
+| Type                    | `Integer`              |
 | CLI argument syntax     | `--nb_threads`         |
 | JSON identifier         | `nb_threads`           |
-| Default value           | `0`                    |
+| Default value           | `1`                    |
 
 ---
 
 ### Minimum fidelity
-*Lowest fidelity score allowed for a rule to be selected. Goes from `0.0` to `1.0`.*
+*Lowest fidelity score allowed for a rule to be selected. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -303,7 +300,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 ---
 
 ### Minimum generated fidelity
-*Lowest fidelity score to which we agree to go down when a rule must be generated.*
+*Lowest fidelity score to which we agree to go down when a rule must be generated. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
