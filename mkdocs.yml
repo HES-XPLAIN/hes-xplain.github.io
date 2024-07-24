@@ -31,6 +31,7 @@ nav:
     - File formats:
       - Overview: documentation/file-formats/overview.md
       - Json: documentation/file-formats/json-configuration-files.md
+    - References: documentation/references.md
     - Glossary: documentation/glossary.md
     - Roadmap: documentation/roadmap.md
 
