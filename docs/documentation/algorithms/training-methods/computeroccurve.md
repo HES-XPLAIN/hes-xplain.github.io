@@ -6,7 +6,7 @@
 ## Description
 
 ## Arguments list
-The `coputeRocCurve` algorithm works with both required and optional arguments. Each argument has specific properties:
+The `computeRocCurve` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
