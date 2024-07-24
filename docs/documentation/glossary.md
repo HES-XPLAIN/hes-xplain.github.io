@@ -3,7 +3,13 @@
 !!!Warning
     **This section is under construction and should not be considered as accurate yet.**
 
-## Definitions and key Terms
+## Key Terms
+
+|  **Term**                      | **Meaning**                                                      |
+|:------------------------------:|:-----------------------------------------------------------------|
+| Fidel/Fidelity                 | Concept of ...                                                   |
+| Rule                           | ...                                                              |
+| ...                            | ...                                                              |
 
 
 ## Acronyms and abbreviations
@@ -17,4 +23,7 @@
 | dimlpTrn                       | DIMLP + Training                                                 |
 | dimlpRul                       | DIMLP + Rules extraction                                         |
 | dimlpPred                      | DIMLP + Predictions                                              |
-| densCls                        | ???                                                              |
+| densCls                        | Dense + Classification                                           |
+| Fidex                          | Fidel Explaination                                               |
+| FidexGlo                       | Fidex + Global                                                   |
+| ...                            | ...                                                              |
