@@ -3,7 +3,7 @@
 !!!Warning
     **This section is under construction and should not be considered as accurate yet.**
 
-## Key Terms
+## Definition of key terms
 
 |  **Term**                      | **Meaning**                                                      |
 |:------------------------------:|:-----------------------------------------------------------------|
@@ -11,6 +11,7 @@
 | Rule                           | ...                                                              |
 | ...                            | ...                                                              |
 
+<!-- TODO: complete here -->
 
 ## Acronyms and abbreviations
 
@@ -27,3 +28,5 @@
 | Fidex                          | Fidel Explaination                                               |
 | FidexGlo                       | Fidex + Global                                                   |
 | ...                            | ...                                                              |
+
+<!-- TODO: complete here -->
