@@ -7,7 +7,7 @@
 The Dense Classification (`densCls`) algorithm obtains train and, optionally, tests predictions and accuracy for a model trained with [`dimlpBT`](dimlpbt.md). It can also perform rule extraction with the Dimlp algorithm.
 
 ## Arguments list
-The `densCls` algorithm has required and optional arguments to be specified. Each of them has properties:
+The `densCls` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
@@ -76,7 +76,7 @@ The `densCls` algorithm has required and optional arguments to be specified. Eac
 --- 
     
 ### Weights file
-*File containing the model weights.*
+*File containing the model trained weights.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|

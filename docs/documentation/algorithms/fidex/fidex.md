@@ -6,10 +6,10 @@
 ## Description
 
 <!-- TODO: complete this description -->
-The `Fidex` algorithm is an approach to rule extraction that can be applied to neural network ensembles, decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
+The `Fidex` algorithm is an approach to rule extraction that can be applied to neural network ensembles (including convolutional neural networks), decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
 
 ## Arguments list
-The `Fidex` algorithm has required and optional arguments to be specified. Each of them has properties:
+The `Fidex` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
@@ -49,7 +49,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 ---
 
 ### Train data file
-*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training "true classes" and training predictions (see [Train true classes file](#train-true-classes-file) and [Train predictions files](#train-predictions-file)).*
+*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training "true classes" (see [Train true classes file](#train-true-classes-file)).*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -66,14 +66,11 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
-| Is required             | No**                |
+| Is required             | Yes                 |
 | Type                    | `String`            |
 | CLI argument syntax     | `--train_pred_file` | 
 | JSON identifier         | `train_pred_file`   |
 | Default value           | `None`              |
-
-!!!Warning
-    This argument is not required if, **and only if**, the predictions are already specified inside the [train data file](#train-data-file).  
 
 --- 
 
@@ -107,7 +104,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 --- 
     
 ### Weights file
-*File containing the model weights.*
+*File containing the model trained weights.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -123,7 +120,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 --- 
 
 ### Rules file
-*File containing a collection of rules.*
+*File containing the model trained rules.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -252,8 +249,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 ---
 
 ### Maximum number of iterations
-<!-- TODO: complete this description -->
-*Number of iterations allowed.*
+*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -264,7 +260,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 | Default value           | `10`                |
 
 !!!Tip
-    If you're working with images, we recommend you specify this argument with `25`.
+    If you're working with images, we recommend setting this argument to `25`.
 
 ---
 
@@ -334,8 +330,7 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 ---
 
 ### Dimension dropout
-<!-- TODO: complete this description -->
-*Dimension dropout parameter. Goes from `0.0` to `1.0`.*
+*Percentage of dimensions that are ignored during an iteration. Goes from `0.0` to `1.0`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -347,9 +342,8 @@ The `Fidex` algorithm has required and optional arguments to be specified. Each 
 
 ---
 
-### Hyper-plane dropout
-<!-- TODO: complete this description -->
-*Hyper-plane dropout parameter. Goes from `0.0` to `1.0`.*
+### Hyperplane dropout
+*Percentage of hyperplanes that are ignored during an iteration Goes from `0.0` to `1.0`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|

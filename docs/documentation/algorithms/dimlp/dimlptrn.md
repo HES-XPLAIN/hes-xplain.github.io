@@ -7,7 +7,7 @@
 <!-- TODO: add description -->
 
 ## Arguments list
-The `dimlpTrn` algorithm has required and optional arguments to be specified. Each of them has properties:
+The `dimlpTrn` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
@@ -154,7 +154,7 @@ The `dimlpTrn` algorithm has required and optional arguments to be specified. Ea
 ---
 
 ### Weights file
-*File containing the model weights.*
+*File containing the model pretrained weights.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
