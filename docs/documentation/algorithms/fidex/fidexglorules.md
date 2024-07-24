@@ -17,7 +17,7 @@ The `Fidex` algorithm is computed until a rule is created or until the [maximum 
 - If the [maximum of failed attempts](#maximum-number-of-failed-attempts) limit is reached, then no rule will not be computed for this sample.
 
 ## Arguments list
-The `FidexGloRules` algorithm has required and optional arguments to be specified. Each of them has properties:
+The `FidexGloRules` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
@@ -102,7 +102,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 --- 
     
 ### Weights file
-*File containing the model weights.*
+*File containing the model trained weights.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -118,7 +118,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 --- 
 
 ### Rules file
-*File containing a collection of rules.*
+*File containing the model trained rules.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -222,8 +222,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 ---
 
 ### Maximum number of iterations
-<!-- TODO: complete this description -->
-*Number of iterations allowed.*
+*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule.
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -234,7 +233,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 | Default value           | `10`                |
 
 !!!Tip
-    If you're working with images, we recommend you specify this argument with `25`.
+    If you're working with images, we recommend setting this argument to `25`.
 
 ---
 
@@ -317,8 +316,7 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 ---
 
 ### Dimension dropout
-<!-- TODO: complete this description -->
-*Dimension dropout parameter. Goes from `0.0` to `1.0`.*
+*Percentage of dimensions that are ignored during an iteration. Goes from `0.0` to `1.0`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -330,9 +328,8 @@ The `FidexGloRules` algorithm has required and optional arguments to be specifie
 
 ---
 
-### Hyper-plane dropout
-<!-- TODO: complete this description -->
-*Hyper-plane dropout parameter. Goes from `0.0` to `1.0`.*
+### Hyperplane dropout
+*Percentage of hyperplanes that are ignored during an iteration. Goes from `0.0` to `1.0`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|

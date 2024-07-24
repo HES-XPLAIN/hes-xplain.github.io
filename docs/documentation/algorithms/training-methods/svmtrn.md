@@ -6,7 +6,7 @@
 ## Description
 
 ## Arguments list
-The `svmTrn` algorithm has required and optional arguments to be specified. Each of them has properties:
+The `svmTrn` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.

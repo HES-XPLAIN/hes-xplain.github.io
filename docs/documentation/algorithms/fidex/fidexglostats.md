@@ -58,7 +58,7 @@ All these metrics are generated, as text and/or inside a file.
 
 ## Arguments list
 
-The `FidexGloStats` algorithm has required optional arguments to be specified. Each of them has properties:
+The `FidexGloStats` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.

@@ -7,7 +7,7 @@
 <!-- TODO: add description -->
 
 ## Arguments list
-The `dimlpPred` algorithm has required and optional arguments to be specified. Each of them has properties:
+The `dimlpPred` algorithm works with both required and optional arguments. Each argument has specific properties:
 
 - **Is required** means whether an argument **must** be specified when calling the program or not.
 - **Type** specifies the argument datatype.
@@ -60,7 +60,7 @@ The `dimlpPred` algorithm has required and optional arguments to be specified. E
 --- 
     
 ### Weights file
-*File containing the model weights.*
+*File containing the model trained weights.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
