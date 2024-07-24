@@ -103,15 +103,12 @@ This section shows the progress of the general documentation redaction.
 
 ??? quote "Additional Sections"
     - [ ] 3 Additional Sections
-        * [ ] 3.1 Installation Guide
-            * [ ] 3.1.1 Prerequisites
-            * [x] 3.1.2 Simple installation (recommended)
-            * [x] 3.1.3 Installation by compiling sources (alternative)
+        * [x] 3.1 Installation Guide
         * [x] 3.2 Graphic User Interface
             * [x] 3.2.1 Description
             * [x] 3.2.2 Installation guide
             * [x] 3.2.3 usage guide
-        * [ ] 3.3 Getting Started
+        * [x] 3.3 Getting Started
         * [ ] 3.4 Detailed Examples => do we redirect to the already existing notebook page ?  
         * [x] 3.5 API Reference
         * [ ] 3.6 Contributing
