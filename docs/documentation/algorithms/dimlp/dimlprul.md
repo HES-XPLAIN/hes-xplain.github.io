@@ -103,7 +103,7 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model).*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -116,7 +116,7 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model).*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -233,8 +233,7 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Number of stairs
-<!-- TODO: complete this description -->
-*Number of "stairs" in the staircase function.*
+*Number of stairs in the staircase activation function used in the Dimlp layer during training. Takes values in the range `[3,∞[`*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -247,7 +246,6 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Normalization file
-<!-- TODO: This description must be improved -->
 *File containing the mean and standard deviation for specified attributes that have been normalized. These values are saved inside a file to denormalize the corresponding attributes. If specified, it is used to denormalize the rules.*
 
 |  **Property**           | **Value**               |
@@ -261,42 +259,50 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Mus
-<!-- TODO: This description must be improved -->
-*Mean or median of each attribute index to denormalize in the rules.*
+*Mean or median of each attribute index specified in [normalization indices](#normalization-indices) that have been normalized. This argument is used alongside [sigmas](#sigmas) and [normalization indices](#normalization-indices). If specified, it is used to denormalize the rules. Takes values in the range `]-∞,∞[`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
-| Is required             | No                      |
+| Is required             | No**                    |
 | Type                    | `Float list`            |
 | CLI argument syntax     | `--mus`                 |
 | JSON identifier         | `mus`                   |
 | Default value           | `None`                  |
 
+!!!Warning
+    If [sigmas](#sigmas) or [normalization indices](#normalization-indices) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
+
 ---
 
 ### Sigmas
-<!-- TODO: This description must be improved -->
-*Standard deviation of each attribute index to denormalize in the rules.*
+*Standard deviation of each attribute index specified in [normalization indices](#normalization-indices) that have been normalized. This argument is used alongside [mus](#mus) and [normalization indices](#normalization-indices). If specified, it is used to denormalize the rules. Takes values in the range `]-∞,∞[`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
-| Is required             | No                      |
+| Is required             | No**                    |
 | Type                    | `Float list`            |
 | CLI argument syntax     | `--sigmas`              |
 | JSON identifier         | `sigmas`                |
 | Default value           | `None`                  |
 
+!!!Warning
+    If [mus](#mus) or [normalization indices](#normalization-indices) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
+
 ---
+
 ### Normalization indices
-*Attribute indices to denormalize in the rules, only used when no normalization_file is given, index starts at 0 (default: [0,...,nb_attributes-1])*
+*Indices of attributes that have been normalized. If specified, it is used to denormalize the rules. Index starts at 0. Each index takes values in the range `[0,nb_attributes-1[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
-| Is required             | No                       |
-| Type                    | `Float list`             |
+| Is required             | No**                     |
+| Type                    | `Int list`               |
 | CLI argument syntax     | `--normalization_indices`|
 | JSON identifier         | `normalization_indices`  |
-| Default value           | `None`                   |
+| Default value           | `[0,...,nb_attributes-1]`|
+
+!!!Warning
+    If [mus](#mus) or [sigmas](#sigmas) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
 
 ---
 

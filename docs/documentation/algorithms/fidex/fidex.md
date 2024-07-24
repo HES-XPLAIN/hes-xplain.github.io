@@ -152,7 +152,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model).*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -165,7 +165,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model).*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -249,7 +249,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Maximum number of iterations
-*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule.*
+*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -265,7 +265,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Minimum covering
-*Minimal number of samples covered by every generated rule.*
+*Minimal number of samples covered by every generated rule. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -291,7 +291,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Maximum number of failed attempts
-*Number of attempts allowed to compute a rule that could not be found by the algorithm.*
+*Number of attempts allowed to compute a rule that could not be found by the algorithm. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -304,7 +304,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Minimum fidelity
-*Lowest fidelity score allowed for a rule to be selected. Goes from `0.0` to `1.0`.*
+*Lowest fidelity score allowed for a rule to be selected. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -317,7 +317,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Minimum generated fidelity
-*Lowest fidelity score to which we agree to go down when a rule must be generated.*
+*Lowest fidelity score to which we agree to go down when a rule must be generated. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -330,7 +330,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Dimension dropout
-*Percentage of dimensions that are ignored during an iteration. Goes from `0.0` to `1.0`.*
+*Percentage of dimensions that are ignored during an iteration. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -343,7 +343,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Hyperplane dropout
-*Percentage of hyperplanes that are ignored during an iteration Goes from `0.0` to `1.0`.*
+*Percentage of hyperplanes that are ignored during an iteration. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -355,8 +355,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 
 ---
 ### Number of stairs
-<!-- TODO: complete this description -->
-*Number of "stairs" in the staircase function.*
+*Number of stairs in the staircase activation function used in the Dimlp layer during training. Takes values in the range `[3,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -369,7 +368,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Decision threshold
-*Threshold for predictions to be considered as correct. Goes from `0.0` to `1.0`.*
+*Threshold for predictions to be considered as correct. Takes values in the range `[0,1]`.*
 
 
 |  **Property**           | **Value**              |
@@ -386,7 +385,7 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Positive class index
-*Index of positive class for the usage of decision threshold, index starts at `0`.*
+*Index of positive class for the usage of decision threshold, index starts at `0`. Takes values in the range `[0,nb_classes-1]`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
@@ -402,7 +401,6 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Normalization file
-<!-- TODO: This description must be improved -->
 *File containing the mean and standard deviation for specified attributes that have been normalized. These values are saved inside a file to denormalize the corresponding attributes. If specified, it is used to denormalize the rules.*
 
 |  **Property**           | **Value**               |
@@ -416,46 +414,55 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 ---
 
 ### Mus
-<!-- TODO: This description must be improved -->
-*Mean or median of each attribute index to denormalize in the rules.*
+*Mean or median of each attribute index specified in [normalization indices](#normalization-indices) that have been normalized. This argument is used alongside [sigmas](#sigmas) and [normalization indices](#normalization-indices). If specified, it is used to denormalize the rules. Takes values in the range `]-∞,∞[`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
-| Is required             | No                      |
+| Is required             | No**                    |
 | Type                    | `Float list`            |
 | CLI argument syntax     | `--mus`                 |
 | JSON identifier         | `mus`                   |
 | Default value           | `None`                  |
 
+!!!Warning
+    If [sigmas](#sigmas) or [normalization indices](#normalization-indices) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
+
 ---
 
 ### Sigmas
-<!-- TODO: This description must be improved -->
-*Standard deviation of each attribute index to denormalize in the rules.*
+*Standard deviation of each attribute index specified in [normalization indices](#normalization-indices) that have been normalized. This argument is used alongside [mus](#mus) and [normalization indices](#normalization-indices). If specified, it is used to denormalize the rules. Takes values in the range `]-∞,∞[`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
-| Is required             | No                      |
+| Is required             | No**                    |
 | Type                    | `Float list`            |
 | CLI argument syntax     | `--sigmas`              |
 | JSON identifier         | `sigmas`                |
 | Default value           | `None`                  |
 
+!!!Warning
+    If [mus](#mus) or [normalization indices](#normalization-indices) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
+
 ---
+
 ### Normalization indices
-*Attribute indices to denormalize in the rules, only used when no normalization_file is given, index starts at 0 (default: [0,...,nb_attributes-1])*
+*Indices of attributes that have been normalized. If specified, it is used to denormalize the rules. Index starts at 0. Each index takes values in the range `[0,nb_attributes-1[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
-| Is required             | No                       |
-| Type                    | `Float list`             |
+| Is required             | No**                     |
+| Type                    | `Int list`               |
 | CLI argument syntax     | `--normalization_indices`|
 | JSON identifier         | `normalization_indices`  |
-| Default value           | `None`                   |
+| Default value           | `[0,...,nb_attributes-1]`|
+
+!!!Warning
+    If [mus](#mus) or [sigmas](#sigmas) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
 
 ---
+
 ### Seed
-*Number to feed the random generator. If `0`, the randomness cannot be reproduced. If any other number `x` is used, you can reproduce the same output if `x` is re-used.*
+*Number to feed the random generator. If `0`, the randomness cannot be reproduced. If any other number `x` is used, you can reproduce the same output if `x` is re-used. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
