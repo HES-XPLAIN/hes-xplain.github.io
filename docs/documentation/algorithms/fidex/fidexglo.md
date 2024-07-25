@@ -50,7 +50,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 
 ### Test data file
 
-*Path to the file containing test sample(s) data, it can contain [predictions](#test-prediction-file), and [true classes](#test-true-classes-file) if [fidex is used](#if-fidex-is-used) too.*
+*Path to the file containing test sample(s) data, it can contain [predictions](#test-prediction-file), and [true classes](#test-true-classes-file) too if [fidex is used](#if-fidex-is-used).*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -76,7 +76,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -89,7 +89,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -102,7 +102,6 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Test prediction file
-
 *Path to the file containing predictions on the test portion of the dataset. If it is used, the [test data file](#test-data-file) must only contain the test data.*
 
 |  **Property**           | **Value**           |
@@ -114,14 +113,12 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 | Default value           | `None`              |
 
 !!!note
-    The [test data file](#test-data-file) can hold the predictions too. This means it is possible to merge the content of the test prediction file into the [test data file](#test-data-file) instead of using this parameter. 
+    The [test data file](#test-data-file) can hold the predictions too. This means that it is possible to merge the content of the test prediction file into the [test data file](#test-data-file) instead of using this parameter. 
 
 ---
 
 ### Explanation file
-
-<!-- TODO: complete this description -->
-*Path to the file where explanation(s) will be stored.*
+*Path to the file where explanation(s), consisting of one or more explaining rules, will be stored for each test sample.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -173,7 +170,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Use FidexGlo with Fidex
-*Whether to call `Fidex` while executing the `FidexGlo` algorithm or not.*
+*Whether to call `Fidex` while executing the `FidexGlo` algorithm when no rule can exaplain a sample in the global ruleset.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -184,20 +181,16 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 | Default value           | `False`             |
 
 !!!note
-    If this parameter is used, there is [another set of parameters](#if-fidex-is-used) to be specified too.
+    If this parameter is set to `True`, there is [another set of parameters](#if-fidex-is-used) to be specified too.
 
 ---
 
 ### If Fidex is used
 !!!note
-    This section is only usable if the parameter named "[use FidexGlo with fidex](#use-fidexglo-with-fidex)" is specified. 
+    This section is only usable if the parameter named "[use FidexGlo with fidex](#use-fidexglo-with-fidex)" is set to `True`. 
 
 ### Train data file
-
-<!-- TODO if train predictions file Note admonition is true, use this description instead
-*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training "true classes" and training predictions (see [Train true classes file](#train-true-classes-file) and [Train predictions files](#train-predictions-file)).* 
--->
-*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training predictions (see [Train predictions files](#train-predictions-file)).*
+*File containing the training portion of the dataset used to train the model, from which the ruleset/weights belong. It can also contain training true classes (see [Train true classes file](#train-true-classes-file)).*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -220,10 +213,6 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 | JSON identifier         | `train_pred_file`   |
 | Default value           | `None`              |
 
-<!--TODO check if the statement below is true 
-!!!note
-    This argument is not required if, **and only if**, the predictions are already specified inside the [train data file](#train-data-file).  
--->
 --- 
 
 ### Train true classes file
@@ -279,19 +268,19 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
-| Is required             | No**                |
+| Is required             | No                |
 | Type                    | `String`            |
 | CLI argument syntax     | `--test_class_file` | 
 | JSON identifier         | `test_class_file`   |
 | Default value           | `None`              |
 
 !!!note
-    Classes can be specified in the [test data file](#test-data-file) too. This means it is possible to merge classes into the [test data file](#test-data-file) instead of using this parameter.
+    The true classes can also be specified inside the [test data file](#test-data-file). This means it is possible to merge classes into the [test data file](#test-data-file) instead of using this parameter.
 
 ---
 
 ### Maximum number of iterations
-*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule.*
+*Maximum number of `Fidex` iterations allowed. Also the maximum possible number of antecedents in a rule. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -307,7 +296,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Minimum covering
-*Minimal number of samples covered by every generated rule.*
+*Minimal number of samples covered by every generated rule. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -333,7 +322,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Maximum number of failed attempts
-*Number of attempts allowed to compute a rule that could not be found by the algorithm.*
+*Number of attempts allowed to compute a rule that could not be found by the algorithm. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -346,7 +335,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Minimum fidelity
-*Lowest fidelity score allowed for a rule to be selected. Goes from `0.0` to `1.0`.*
+*Lowest fidelity score allowed for a rule to be selected. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -359,7 +348,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Minimum generated fidelity
-*Lowest fidelity score to which we agree to go down when a rule must be generated.*
+*Lowest fidelity score to which we agree to go down when a rule must be generated. Takes values in the range `[0,1]`*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -372,7 +361,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Number of rules
-*Number of `Fidex` rules to compute per sample when launching the `Fidex` algorithm*
+*Number of `Fidex` rules to compute per sample when launching the `Fidex` algorithm. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|

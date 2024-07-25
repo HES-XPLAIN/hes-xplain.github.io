@@ -60,7 +60,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 
 ### Test prediction file
 
-*Path to the file containing predictions on the test portion of the dataset.*
+*File containing predictions on the test portion of the dataset.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|

@@ -198,14 +198,14 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
-| Is required             | No**                |
+| Is required             | No                |
 | Type                    | `String`            |
 | CLI argument syntax     | `--test_class_file` |
 | JSON identifier         | `test_class_file`   |
 | Default value           | `None`              |
 
 !!!Warning 
-    This argument is not required if, **and only if**, the *true classes* are already specified inside the [test data file](#test-data-file).
+    The true classes can also be specified inside the [test data file](#test-data-file). This means it is possible to merge classes into the [test data file](#test-data-file) instead of using this parameter.
 
 ---
 
