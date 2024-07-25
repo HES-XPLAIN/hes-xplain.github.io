@@ -60,7 +60,7 @@ The `dimlpPred` algorithm works with both required and optional arguments. Each 
 --- 
     
 ### Weights file
-*File containing the model trained weights.*
+*Path to the file containing the weights of the model trained with [`dimlpTrn`](dimlptrn.md).*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -86,7 +86,7 @@ The `dimlpPred` algorithm works with both required and optional arguments. Each 
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -99,7 +99,7 @@ The `dimlpPred` algorithm works with both required and optional arguments. Each 
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|

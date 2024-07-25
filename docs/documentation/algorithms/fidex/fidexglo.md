@@ -458,7 +458,7 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 ---
 
 ### Normalization indices
-*Indices of attributes that have been normalized. If specified, it is used to denormalize the rules. Index starts at 0. Each index takes values in the range `[0,nb_attributes-1[`.*
+*Indices of attributes that have been normalized. If specified, it is used to denormalize the rules. Index starts at 0. Each index takes values in the range `[0,nb_attributes-1]`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
