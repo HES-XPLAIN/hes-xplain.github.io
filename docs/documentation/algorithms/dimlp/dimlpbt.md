@@ -17,6 +17,22 @@ The `dimlpBT` algorithm works with both required and optional arguments. Each ar
 
 ---
 
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    If you use this argument, **it must be the only one specified**. No other argument can be specified with it.
+
+---
+
 ### JSON configuration file
 *File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
@@ -401,7 +417,7 @@ The `dimlpBT` algorithm works with both required and optional arguments. Each ar
 ---
 
 ### Number of stairs
-*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`*
+*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|

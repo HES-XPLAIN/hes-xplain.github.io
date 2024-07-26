@@ -16,6 +16,22 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 
 ---
 
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    Every other specified argument will be ignored.
+
+---
+
 ### JSON configuration file
 *File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
@@ -73,7 +89,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -86,7 +102,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -94,19 +110,6 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 | Type                    | `Integer`           |
 | CLI argument syntax     | `--nb_classes`      |
 | JSON identifier         | `nb_classes`        |
-| Default value           | `None`              |
-
----
-
-### Show help
-*Display parameters and other helpful information concerning the program usage and terminate it when done.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No                  |
-| Type                    | `None`              |
-| CLI argument syntax     | `-h` or `--help`    |
-| JSON identifier         | `N/A`               |
 | Default value           | `None`              |
 
 ---
@@ -180,7 +183,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 | Type                    | `String`            |
 | CLI argument syntax     | `--stats_file`      |
 | JSON identifier         | `stats_file`        |
-| Default value           | `None`              |
+| Default value           | `stats.txt`         |
 
 ---
 
@@ -211,7 +214,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Number of estimators
-*Number of generated trees in the forest.*
+*Number of generated trees in the forest. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -237,7 +240,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Learning rate
-*Shrinks the contribution of each tree.*
+*Shrinks the contribution of each tree. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -250,7 +253,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Subsample
-*Fraction of samples to be used for fitting the individual base learners.*
+*Fraction of samples to be used for fitting the individual base learners. Takes values in the range `]0,1]`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -276,7 +279,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Maximum depth
-*Maximum depth of the individual regression estimators. Can be an `Integer` from `2` to infinity or `no_max_depth`.*
+*Maximum depth of the individual regression estimators. Can be an `Integer` in the range `[2,∞[` or `no_max_depth`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -289,7 +292,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Minimum of samples to split
-*Minimum number of samples required to split an internal node, if float, it is a fraction of the number of samples.*
+*Minimum number of samples required to split an internal node, if float, it is a fraction of the number of samples. Takes `integers` in the range `[2,∞[` and `floats` in the range `]0,1]`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -302,7 +305,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Minimum of samples to be leaf
-*Minimum number of samples required to be at a leaf node, if float, it is a fraction of the number of samples.*
+*Minimum number of samples required to be at a leaf node, if float, it is a fraction of the number of samples. Takes `integers` in the range `[1,∞[` and `floats` in the range `]0,1[`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -315,8 +318,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Minimum weighted fraction to be leaf
-<!-- TODO: this description is weird, should be replaced -->
-*Minimum weighted fraction of the total sum of input samples weights required to be at a leaf node. Goes from `0.0` to `0.5`.*
+*Minimum weighted fraction of the sum total of input samples weights required to be at a leaf node. Takes values in the range `[0,0.5]`.*
 
 |  **Property**           | **Value**                    |
 |:------------------------|:-----------------------------|
@@ -329,12 +331,12 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Maximum number of features
-*Number of features to consider when looking for the best split. If float, it is a fraction of the number of features. `1` stand for `1 feature`, for all features put `all`, not `1.0`. Values can be a `String`, options are: `sqrt`, `log2` or `all`. It can be a `float` from `0.0` to `1.0` or an `integer` from `1` to infinity.*
+*Number of features to consider when looking for the best split. If float, it is a fraction of the number of features. `1` stand for `1 feature`, for all features put `all`, not `1.0`. Values can be a `String`, options are: `sqrt`, `log2` or `all`. Takes `floats` in the range `]0,1[` and `integers` in the range `[1,∞[`.*
 
 |  **Property**           | **Value**                      |
 |:------------------------|:-------------------------------|
 | Is required             | No                             |
-| Type                    | `Integer` or `Float` or `String`|
+| Type                    | `Integer`, `Float` or `String` |
 | CLI argument syntax     | `--max_features`               |
 | JSON identifier         | `max_features`                 |
 | Default value           | `sqrt`                         |
@@ -342,7 +344,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Maximum number of leaf nodes
-*Grow trees with a limited amount of leaf nodes in a best-first fashion.*
+*Grow trees with a limited amount of leaf nodes in a best-first fashion. Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**          |
 |:------------------------|:-------------------|
@@ -355,7 +357,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Minimum impurity decrease
-*A node will be split if this split induces a decrease of the impurity greater than or equal to this value.*
+*A node will be split if this split induces a decrease of the impurity greater than or equal to this value. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**                 |
 |:------------------------|:--------------------------|
@@ -381,7 +383,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Seed
-*Seed for random number generation. From `0` to infinity.*
+*Seed for random number generation. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
@@ -394,7 +396,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Verbosity level
-*Controls the verbosity when fitting and predicting.*
+*Controls the verbosity when fitting and predicting. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
@@ -420,7 +422,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Validation Fraction
-*Proportion of training data to set aside as validation set for early stopping. Goes from `0.0` to `1.0`*
+*Proportion of training data to set aside as validation set for early stopping. Takes values in the range `]0,1[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
@@ -433,7 +435,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Number of non-significant iterations before stopping
-*Decide if early stopping will be used to terminate training when the validation score is not improving, stopping if the validation doesn't improve during this number of iterations.*
+*Decide if early stopping will be used to terminate training when the validation score is not improving, stopping if the validation doesn't improve during this number of iterations. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
@@ -446,7 +448,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### Tolerance
-*Tolerance for the early stopping.*
+*Tolerance for the early stopping. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**   |
 |:------------------------|:------------|
@@ -459,7 +461,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 ---
 
 ### CCP alpha
-*Complexity parameter used for Minimal Cost-Complexity Pruning.*
+*Complexity parameter used for Minimal Cost-Complexity Pruning. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**    |
 |:------------------------|:------------ |

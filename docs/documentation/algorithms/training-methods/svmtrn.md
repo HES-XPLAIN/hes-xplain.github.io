@@ -16,6 +16,22 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 
 ---
 
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    Every other specified argument will be ignored.
+
+---
+
 ### JSON configuration file
 *File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
@@ -73,7 +89,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -86,7 +102,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -94,19 +110,6 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 | Type                    | `Integer`           |
 | CLI argument syntax     | `--nb_classes`      |
 | JSON identifier         | `nb_classes`        |
-| Default value           | `None`              |
-
----
-
-### Show help
-*Display parameters and other helpful information concerning the program usage and terminate it when done.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No                  |
-| Type                    | `None`              |
-| CLI argument syntax     | `-h` or `--help`    |
-| JSON identifier         | `N/A`               |
 | Default value           | `None`              |
 
 ---
@@ -196,7 +199,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Weights output file
-* Path to the file where the output trained weights of the model will be stored.*
+*Path to the file where the output trained weights of the model will be stored.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -235,21 +238,19 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Positive class index
-*Index of positive class for the usage of decision threshold, index starts at `0`. Takes values in the range `[0,nb_classes-1]`.*
+*Index of positive class, index starts at `0`. Takes values in the range `[0,nb_classes-1]`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
-| Is required             | No**                    |
+| Is required             | No                      |
 | Type                    | `Integer`               |
 | CLI argument syntax     | `--positive_class_index`|
 | JSON identifier         | `positive_class_index`  |
 | Default value           | `None`                  |
 
 ---
-
----
 ### Number of stairs
-*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`*
+*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -262,7 +263,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### K parameter
-*Parameter to improve dynamics by normalizing input data.*
+*Parameter to improve dynamics by normalizing input data. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -275,7 +276,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### C parameter
-*Regularization parameter.*
+*Regularization parameter. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -288,13 +289,12 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Kernel
-<!-- TODO: add better description -->
-*Kernel type. Options are `linear`, `poly`, `rbf`, and `sigmoid`.*
+*Kernel type used in the algorithm. Options are `linear`, `poly`, `rbf`, and `sigmoid`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
 | Is required             | No                     |
-| Type                    | `Float`                |
+| Type                    | `String`               |
 | CLI argument syntax     | `--kernel`             |
 | JSON identifier         | `kernel`               |
 | Default value           | `rbf`                  |
@@ -302,8 +302,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Polynomial degree
-<!-- TODO: add better description -->
-*Polynomial degree.*
+*Degree of the `polynomial kernel` function. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -316,7 +315,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Gamma 
-*Gamma value. Can be `float` or `String` with the following options: `scale`, or `auto`.*
+*Gamma value. `Kernel` coefficient for `rbf`, `poly` and `sigmoid`. Can be `float` in the range `[0,∞[` or `String` with the following options: `scale`, or `auto`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -329,7 +328,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Coef0 
-*Term in the kernel function.*
+*Independant term in the `kernel` function.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -355,7 +354,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Tolerance
-*Tolerance for the stopping criterion.*
+*Tolerance for the stopping criterion. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**   |
 |:------------------------|:------------|
@@ -363,12 +362,12 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 | Type                    | `Float`     |
 | CLI argument syntax     | `--tol`     |
 | JSON identifier         | `tol`       |
-| Default value           | `0.0001`    |
+| Default value           | `0.001`    |
 
 ---
 
 ### Cache size
-*Kernel cache size(MB).*
+*Kernel cache size(MB). Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**          |
 |:------------------------|:-------------------|
@@ -407,7 +406,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ###  Maximum number of iterations
-* Maximum number of training iterations. `-1` means no limit.*
+*Maximum number of training iterations. `-1` means no limit. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -420,7 +419,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ###  Decision function shape
-*  Decision function shape. Options are `ovo`(one-vs-one), and `ovr` (one-vs-rest).*
+*Decision function shape. Options are `ovo`(one-vs-one), and `ovr` (one-vs-rest).*
 
 |  **Property**           | **Value**                      |
 |:------------------------|:-------------------------------|

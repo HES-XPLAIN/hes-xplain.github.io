@@ -16,6 +16,22 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 
 ---
 
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    Every other specified argument will be ignored.
+
+---
+
 ### JSON configuration file
 *File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
@@ -73,7 +89,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 ---
 
 ### Positive class index
-*Index of positive class for the usage of decision threshold, index starts at `0`. Takes values in the range `[0,nb_classes-1]`.*
+*Index of positive class, index starts at `0`. Takes values in the range `[0,nb_classes-1]`.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
@@ -86,7 +102,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -98,21 +114,8 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 
 ---
 
-### Show help
-*Display parameters and other helpful information concerning the program usage and terminate it when done.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No                  |
-| Type                    | `None`              |
-| CLI argument syntax     | `-h` or `--help`    |
-| JSON identifier         | `N/A`               |
-| Default value           | `None`              |
-
----
-
 ### Statistics output file
-*Name of the output file that will contain all computed statistics.*
+*Name of the output file that will contain the AUC score, it can be the training statistics file.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -157,9 +160,9 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 |:------------------------|:--------------------|
 | Is required             | No                  |
 | Type                    | `String`            |
-| CLI argument syntax     | `--output_roc`      |
-| JSON identifier         | `output_roc`        |
-| Default value           | `roc_curve.png`     |
+| CLI argument syntax     | `--estimator`      |
+| JSON identifier         | `estimator`        |
+| Default value           | `None`     |
 
 ---
 
