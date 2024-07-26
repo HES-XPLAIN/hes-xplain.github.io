@@ -16,6 +16,22 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 
 ---
 
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    Every other specified argument will be ignored.
+
+---
+
 ### JSON configuration file
 *File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
@@ -66,14 +82,14 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 |:------------------------|:--------------------|
 | Is required             | Yes                 |
 | Type                    | `String`            |
-| CLI argument syntax     | `--test_data_file`  | 
+| CLI argument syntax     | `--test_data_file`  |
 | JSON identifier         | `test_data_file`    |
 | Default value           | `None`              |
 
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -86,7 +102,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -94,19 +110,6 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 | Type                    | `Integer`           |
 | CLI argument syntax     | `--nb_classes`      |
 | JSON identifier         | `nb_classes`        |
-| Default value           | `None`              |
-
----
-
-### Show help
-*Display parameters and other helpful information concerning the program usage and terminate it when done.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No                  |
-| Type                    | `None`              |
-| CLI argument syntax     | `-h` or `--help`    |
-| JSON identifier         | `N/A`               |
 | Default value           | `None`              |
 
 ---
@@ -196,7 +199,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Weights output file
-* Path to the file where the output trained weights of the model will be stored.*
+*Path to the file where the output trained weights of the model will be stored.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -209,7 +212,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of stairs
-*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`*
+*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -222,7 +225,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### K parameter
-*Parameter to improve dynamics by normalizing input data.*
+*Parameter to improve dynamics by normalizing input data. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -235,12 +238,12 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Hidden layers size
-*Size of each hidden layer. A layer has a minimal size of `1`.*
+*Size of each hidden layer. Each size takes values in the range `[1,∞[`.
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
 | Is required             | No                     |
-| Type                    | list of `Integers`     |
+| Type                    | `List of integers`     |
 | CLI argument syntax     | `--hidden_layer_sizes` |
 | JSON identifier         | `hidden_layer_sizes`   |
 | Default value           | `100`                  |
@@ -256,7 +259,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 | Type                    | `String`               |
 | CLI argument syntax     | `--activation`         |
 | JSON identifier         | `activation`           |
-| Default value           | `100`                  |
+| Default value           | `relu`                  |
 
 ---
 
@@ -274,7 +277,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Alpha
-*Strength of the L2 regularization term.*
+*Strength of the `L2 regularization` term. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**          |
 |:------------------------|:-------------------|
@@ -287,7 +290,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Batch size
-*Size of minibatches for stochastic optimizers for adam and stochastic gradient descent. Can be a number or `auto`.*
+*Size of minibatches for stochastic optimizers for `adam` and `stochastic gradient descent`. Can be a number in the range `[1,∞[` or `auto`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -300,7 +303,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Learning rate
-*Learning rate schedule for weight updates for stochastic gradient descent solver. Options are `constant`, `invscaling`, and `adaptive`.*
+*Learning rate schedule for weight updates for `stochastic gradient descent` solver. Options are `constant`, `invscaling`, and `adaptive`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -313,7 +316,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Initial learning rate
-*Initial learning rate for adam and stochastic gradient descent.*
+*Initial learning rate for `adam` and `stochastic gradient descent`. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -326,7 +329,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Power T
-*Exponent for inverse scaling learning rate for stochastic gradient descent.*
+*Exponent for inverse scaling learning rate for `stochastic gradient descent`. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -339,7 +342,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ###  Maximum number of iterations
-* Maximum number of training iterations.*
+*Maximum number of training iterations. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -352,7 +355,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Shuffle
-*Whether to shuffle samples in each iteration for stochastic gradient descent and adam.*
+*Whether to shuffle samples in each iteration for `stochastic gradient descent` and `adam`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -365,7 +368,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Seed
-*Seed for random number generation for stochastic gradient descent and adam.*
+*Seed for random number generation for `stochastic gradient descent` and `adam`. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
@@ -378,7 +381,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Tolerance
-*Tolerance for the optimization.*
+*Tolerance for the optimization. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**   |
 |:------------------------|:------------|
@@ -417,7 +420,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Momentum
-*Momentum for gradient descent update for stochastic gradient descent. From `0.0` to `1.0`.*
+*Momentum for gradient descent update for `stochastic gradient descent`. Takes values in the range `[0,1]`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -430,7 +433,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Use Nesterovs momentum
-*Whether to use the Nesterov’s momentum for stochastic gradient descent and momentum.*
+*Whether to use the Nesterov’s momentum for `stochastic gradient descent` and `momentum`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -443,7 +446,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Early stopping
-*Whether to use early stopping to terminate training when validation score is not improving for stochastic gradient descent and adam.*
+*Whether to use early stopping to terminate training when validation score is not improving for `stochastic gradient descent` and `adam`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -456,7 +459,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Validation fraction
-*Proportion of training data to set aside as validation set for early stopping. Goes from `0.0` to `1.0`.*
+*Proportion of training data to set aside as validation set for early stopping. Takes values in the range `[0,1[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -469,7 +472,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Beta 1
-*Exponential decay rate for estimates of first moment vector in adam. Goes from `0.0` to `1.0`.*
+*Exponential decay rate for estimates of first moment vector in `adam`. Takes values in the range `[0,1[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -482,7 +485,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Beta 2
-*Exponential decay rate for estimates of second moment vector in adam. Goes from `0.0` to `1.0`.*
+*Exponential decay rate for estimates of second moment vector in `adam`. Takes values in the range `[0,1[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -495,7 +498,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Epsilon
-*Value for numerical stability in adam.*
+*Value for numerical stability in `adam`. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -508,7 +511,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of non-significant iterations before stopping
-*Maximum number of epochs to not meet tol improvement for stochastic gradient descent and adam.*
+*Maximum number of epochs to not meet `tol` improvement for `stochastic gradient descent` and `adam`. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
@@ -521,7 +524,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Maximum number of loss function calls
-*Maximum number of loss function calls for lbfgs.*
+*Maximum number of loss function calls for `lbfgs`. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|

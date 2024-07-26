@@ -18,6 +18,22 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 
 ---
 
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    Every other specified argument will be ignored.
+
+---
+
 ### JSON configuration file
 *File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
@@ -76,21 +92,21 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 
 ### Original input size
 
-*Original dimensions of the input.*
+*Original dimensions of the input. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
 | Is required             | Yes                      |
-| Type                    | pair of `Integers`       |
+| Type                    | `Pair of Integers`       |
 | CLI argument syntax     | `--original_input_size`  | 
 | JSON identifier         | `original_input_size`    |
 | Default value           | `None`                   |
 
 ---
 
-### Nuber of channels
+### Number of channels
 
-*Number of channels in the input (should be 3 for RGB image and 1 for a grayscaled image).*
+*Number of channels in the input (should be 3 for RGB image and 1 for a grayscaled image). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
@@ -103,7 +119,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Model
-*Used model to train. Options are `small`, `large`, `vgg` and `resnet`.*
+*Model used to train. Options are `small`, `large`, `vgg` and `resnet`.*
 
 |  **Property**           | **Value**       |
 |:------------------------|:----------------|
@@ -129,7 +145,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -173,19 +189,6 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 
 ---
 
-### Show help
-*Display parameters and other helpful information concerning the program usage and terminate it when done.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No                  |
-| Type                    | `None`              |
-| CLI argument syntax     | `-h` or `--help`    |
-| JSON identifier         | `N/A`               |
-| Default value           | `None`              |
-
----
-
 ### Train and validation predictions output file
 *Path to the file where the output train and validation (in this order) prediction will be stored.*
 
@@ -213,7 +216,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Validation ratio
-*Percentage of train data taken for validation.*
+*Percentage of train data taken for validation. Takes values in the range `]0,1[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -245,18 +248,17 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 |:------------------------|:--------------------|
 | Is required             | No                  |
 | Type                    | `String`            |
-| CLI argument syntax     | `--valid_class_file`| 
+| CLI argument syntax     | `--valid_class_file`|
 | JSON identifier         | `valid_class_file`  |
 | Default value           | `None`              |
 
-<!-- TODO: this admonition is not clear -->
 !!! warning
-    if there is validation files, and you want to use Fidex algorithms later, you will have to use both train and validation datas given here in the train datas and classes of Fidex
+    If validation files are given, when using Fidex algorithms, you will need to merge the [train data file](#train-data-file) and [validation data file](#validation-data-file) (in this order) as well as the [train class file](#train-true-classes-file) and the [validation class file](#validation-true-classes-file) (in this order) and feed them to Fidex as respectively the [train data file](../fidex/fidex.md/#train-data-file) and the [train class file](../fidex/fidex.md/#train-true-classes-file).
 
 ---
 
 ### Weights output file
-* Path to the file where the output trained weights of the model will be stored.*
+*Path to the file where the output trained weights of the model will be stored.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -296,7 +298,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 
 ### Number of epochs
 
-*Number of model training epochs.*
+*Number of model training epochs. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -309,7 +311,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### Number of stairs
-*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`*
+*Number of stairs in the staircase activation function used in the Dimlp layer. Takes values in the range `[3,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -322,7 +324,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 ---
 
 ### K parameter
-*Parameter to improve dynamics by normalizing input data.*
+*Parameter to improve dynamics by normalizing input data. Takes values in the range `]0,∞[`.*
 
 |  **Property**           | **Value**              |
 |:------------------------|:-----------------------|
@@ -336,12 +338,12 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 
 ### Model input size
 
-*Input size in the model. A small size is recommended to speed up the process. The size is modified if necessary.*
+*Input size in the model. A small size is recommended to speed up the process. The size is modified if necessary. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
 | Is required             | Yes                      |
-| Type                    | pair of `Integers`       |
+| Type                    | `Pair of Integers`       |
 | CLI argument syntax     | `--model_input_size`     | 
 | JSON identifier         | `model_input_size`       |
 | Default value           | `None`                   |

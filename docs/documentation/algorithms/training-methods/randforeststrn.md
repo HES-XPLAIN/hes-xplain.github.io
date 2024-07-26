@@ -16,6 +16,22 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 
 ---
 
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    Every other specified argument will be ignored.
+
+---
+
 ### JSON configuration file
 *File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
 
@@ -73,7 +89,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Number of attributes 
-*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range [1,∞[.*
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -86,7 +102,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Number of classes
-*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range [2,∞[.*
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -94,19 +110,6 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 | Type                    | `Integer`           |
 | CLI argument syntax     | `--nb_classes`      |
 | JSON identifier         | `nb_classes`        |
-| Default value           | `None`              |
-
----
-
-### Show help
-*Display parameters and other helpful information concerning the program usage and terminate it when done.*
-
-|  **Property**           | **Value**           |
-|:------------------------|:--------------------|
-| Is required             | No                  |
-| Type                    | `None`              |
-| CLI argument syntax     | `-h` or `--help`    |
-| JSON identifier         | `N/A`               |
 | Default value           | `None`              |
 
 ---
@@ -209,7 +212,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Number of estimators
-*Number of generated trees in the forest.*
+*Number of generated trees in the forest. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**           |
 |:------------------------|:--------------------|
@@ -235,7 +238,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Maximum depth
-*Maximum depth of the tree.*
+*Maximum depth of the tree. Takes values in the range `[1,∞[`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -248,7 +251,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Minimum of samples to split
-*Minimum number of samples required to split an internal node, if float, it is a fraction of the number of samples.*
+*Minimum number of samples required to split an internal node, if float, it is a fraction of the number of samples. Takes `integers` in the range `[2,∞[` and `floats` in the range `]0,1]`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -261,7 +264,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Minimum of samples to be leaf
-*Minimum number of samples required to be at a leaf node, if float, it is a fraction of the number of samples.*
+*Minimum number of samples required to be at a leaf node, if float, it is a fraction of the number of samples. Takes `integers` in the range `[1,∞[` and `floats` in the range `]0,1[`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -274,8 +277,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Minimum weighted fraction to be leaf
-<!-- TODO: this description is weird, should be replaced -->
-*Minimum weighted fraction of the total of input samples weights required to be at a leaf node. Goes from `0.0` to `0.5`.*
+*Minimum weighted fraction of the sum total of input samples weights required to be at a leaf node. Takes values in the range `[0,0.5]`.*
 
 |  **Property**           | **Value**                    |
 |:------------------------|:-----------------------------|
@@ -289,7 +291,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 
 
 ### Maximum number of features
-*Number of features to consider when looking for the best split. If float, it is a fraction of the number of features. `1` stand for `1 feature`, for all features put `all`, not `1.0`. Values can be a `String`, options are: `sqrt`, `log2` or `all`. It can be a `float` from `0.0` to `1.0` or an `integer` from `1` to infinity.*
+*Number of features to consider when looking for the best split. If float, it is a fraction of the number of features. `1` stand for `1 feature`, for all features put `all`, not `1.0`. Values can be a `String`, options are: `sqrt`, `log2` or `all`. Takes `floats` in the range `]0,1[` and `integers` in the range `[1,∞[`.*
 
 |  **Property**           | **Value**                      |
 |:------------------------|:-------------------------------|
@@ -302,7 +304,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Maximum number of leaf nodes
-*Grow trees with a limited amount of leaf nodes in a best-first fashion.*
+*Grow trees with a limited amount of leaf nodes in a best-first fashion. Takes values in the range `[2,∞[`.*
 
 |  **Property**           | **Value**          |
 |:------------------------|:-------------------|
@@ -315,7 +317,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Minimal impurity decrease
-*A node will be split if this split induces a decrease of the impurity greater than or equal to this value.*
+*A node will be split if this split induces a decrease of the impurity greater than or equal to this value. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**                 |
 |:------------------------|:--------------------------|
@@ -367,7 +369,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Seed
-*Seed for random number generation.*
+*Seed for random number generation. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**                 |
 |:------------------------|:--------------------------|
@@ -380,7 +382,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Verbose
-*Controls the verbosity when fitting and predicting.*
+*Controls the verbosity when fitting and predicting. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**             |
 |:------------------------|:----------------------|
@@ -406,7 +408,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Class weight
-*Class balance, for exemple with a dictionnary and 2 classes : `{0:1.2, 1:3.5}`. Can also be `balanced`.*
+*Class balance, for exemple with a dictionnary and 2 classes : `{0:1.2, 1:3.5}`. Can also be `balanced` and `balanced_subsample`.*
 
 |  **Property**           | **Value**                 |
 |:------------------------|:--------------------------|
@@ -419,7 +421,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### CCP alpha
-*Complexity parameter used for Minimal Cost-Complexity Pruning.*
+*Complexity parameter used for Minimal Cost-Complexity Pruning. Takes values in the range `[0,∞[`.*
 
 |  **Property**           | **Value**    |
 |:------------------------|:------------ |
@@ -432,7 +434,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 ---
 
 ### Maximum samples to draw
-*Number of samples to draw to train each base estimator for bootstrap, if float, it is a fraction of the number of samples from `0.0` to `1.0`.*
+*Number of samples to draw to train each base estimator for bootstrap, if float, it is a fraction of the number of samples. Takes `floats` in the range `]0,1]` and `integers` in the range `[1,∞[`.*
 
 |  **Property**           | **Value**            |
 |:------------------------|:---------------------|
@@ -440,7 +442,7 @@ The `randForestsTrn` algorithm works with both required and optional arguments. 
 | Type                    | `Float` or `Integer` |
 | CLI argument syntax     | `--max_samples`      |
 | JSON identifier         | `max_samples`        |
-| Default value           | `0.0`                |
+| Default value           | `None`               |
 
 ---
 
