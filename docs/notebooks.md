@@ -49,7 +49,7 @@ Through this use case, we aim to to show how to use XAI techniques and methods t
 
     **Sports Image Classification**
 
-    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github.com/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/use_case_sport_image_classification.ipynb" target="_blank">XAI for Sport Image Classification</a>
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/use_case_sport_image_classification.ipynb" target="_blank">XAI for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
     **Important**: To run the notebook on Google Colab, ensure to change the variable `use_colab` in the first cell to **True**.
