@@ -220,7 +220,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 | Type                    | `String`            |
 | CLI argument syntax     | `--output_roc`      |
 | JSON identifier         | `output_roc`        |
-| Default value           | `roc_curve.png`     |
+| Default value           | `None`              |
 
 ---
 
