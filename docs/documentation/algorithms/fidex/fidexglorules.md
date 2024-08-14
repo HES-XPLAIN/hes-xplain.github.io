@@ -480,14 +480,14 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
     from dimlpfidex.fidex import fidexGloRules
 
     fidexGloRules(
-    """--root_folder my/folder/
+    """--root_folder dimlp/datafiles 
        --train_data_file train_data.txt 
-       --train_pred_file train_predictions.out 
-       --train_class_file train_classes.txt 
+       --train_pred_file predTrain.out 
+       --train_class_file train_class.txt 
        --nb_attributes 16 
        --nb_classes 2 
        --weights_file weights.wts 
-       --rules_outfile output_rules.rls 
+       --global_rules_outfile globalRules.rls 
        --heuristic 1
        --nb_threads 4"""
     )
@@ -495,7 +495,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
     
 === "CLI"
     ```
-    ./fidexGloRules --root_folder my/folder/ --train_data_file train_data.txt --train_pred_file train_predictions.out --train_class_file train_classes.txt  --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --rules_outfile output_rules.rls --nb_threads 4
+    ./fidexGloRules --root_folder ../dimlp/datafiles --train_data_file train_data.txt --train_pred_file predTrain.out --train_class_file train_class.txt  --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --global_rules_outfile globalRules.rls --heuristic 1 --nb_threads 4
     ```
 
 ## Output interpretation
