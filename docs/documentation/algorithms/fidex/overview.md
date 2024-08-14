@@ -3,7 +3,7 @@
 !!! warning "Warning"
     **This section is under construction and should not be considered as accurate yet.**
 
-The `Fidex` ensemble regroups 4 algorithms. They are all based on the main eponym algorithm. The `Fidex` algorithm itself aims to extract local rules, explaining the prediction of a pre-trained model for a given data sample. 
+The `Fidex` ensemble consists of four algorithms, all derived from the core eponymous algorithm. The `Fidex` algorithm itself focuses on extracting local rules to explain the predictions of a pre-trained model for given data samples. Each of the other algorithms builds upon this foundation to offer additional functionalities.
 
 
 ## Architecture
@@ -27,7 +27,7 @@ graph TD;
 
 Each algorithm has its purpose:
 
-- **[Fidex](fidex.md)**: Extracts an explaining rule for a given sample.
-- **[FidexGloRules](fidexglorules.md)**: Extracts global explaining rules from a given set of samples and filters them to remove non-pertinent ones. 
-- **[FidexGloStats](fidexglostats.md)**: Compute statistics from a given global ruleset.
+- **[Fidex](fidex.md)**: Extracts a local explanation rule for one or more given samples.
+- **[FidexGloRules](fidexglorules.md)**: Extracts a set of global explanation rules from a given training dataset.
+- **[FidexGloStats](fidexglostats.md)**: Computes statistics from a given global ruleset.
 - **[FidexGlo](fidexglo.md)**: Extracts an explanation for each given sample by generating one or more explaining rules, using the ruleset created by `FidexGloRules`, or `Fidex` if necessary.
