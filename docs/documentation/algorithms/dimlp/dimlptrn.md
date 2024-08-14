@@ -535,14 +535,14 @@ The `dimlpTrn` algorithm works with both required and optional arguments. Each a
     from dimlpfidex.dimlp import dimlpTrn
 
     dimlpTrn(
-    """--train_data_file datanormTrain.txt 
-    --train_class_file dataclass2Train.txt 
-    --test_data_file datanormTest.txt 
-    --test_class_file dataclass2Test.txt 
+    """--train_data_file train_data.txt 
+    --train_class_file train_class.txt 
+    --test_data_file test_data.txt 
+    --test_class_file test_class.txt 
     --nb_attributes 16 
     --hidden_layers 5 
     --nb_classes 2 
-    --weights_outfile dimlpDatanormBT.wts 
+    --weights_outfile weights.wts 
     --with_rule_extraction true 
     --global_rules_outfile globalRules.rls 
     --train_pred_outfile predTrain.out 
@@ -553,7 +553,7 @@ The `dimlpTrn` algorithm works with both required and optional arguments. Each a
     
 === "CLI"
     ```
-    ./dimlpTrn --train_data_file datanormTrain.txt --train_class_file dataclass2Train.txt --test_data_file datanormTest.txt --test_class_file dataclass2Test.txt --nb_attributes 16 --hidden_layers 5 --nb_classes 2 --weights_outfile dimlpDatanormBT.wts --with_rule_extraction true --global_rules_outfile globalRules.rls --train_pred_outfile predTrain.out --test_pred_outfile predTest.out --root_folder dimlp/datafiles
+    ./dimlpTrn --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --nb_attributes 16 --hidden_layers 5 --nb_classes 2 --weights_outfile weights.wts --with_rule_extraction true --global_rules_outfile globalRules.rls --train_pred_outfile predTrain.out --test_pred_outfile predTest.out --root_folder ../dimlp/datafiles
     ```
 
 ## Output interpretation

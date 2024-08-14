@@ -329,11 +329,11 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
     from dimlpfidex.dimlp import dimlpRul
 
     dimlpRul(
-    """--train_data_file datanormTrain.txt 
-    --train_class_file dataclass2Train.txt 
-    --weights_file dimlpDatanorm.wts 
-    --test_data_file datanormTest.txt 
-    --test_class_file dataclass2Test.txt 
+    """--train_data_file train_data.txt 
+    --train_class_file train_class.txt 
+    --weights_file weights.wts 
+    --test_data_file test_data.txt 
+    --test_class_file test_class.txt 
     --nb_attributes 16 
     --hidden_layers_file hidden_layers.out 
     --nb_classes 2 
@@ -345,7 +345,7 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
     
 === "CLI"
     ```
-    ./dimlpRul --train_data_file datanormTrain.txt --train_class_file dataclass2Train.txt --weights_file dimlpDatanorm.wts --test_data_file datanormTest.txt --test_class_file dataclass2Test.txt --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --global_rules_outfile globalRules.rls --stats_file stats.txt --root_folder dimlp/datafiles
+    ./dimlpRul --train_data_file train_data.txt --train_class_file train_class.txt --weights_file weights.wts --test_data_file test_data.txt --test_class_file test_class.txt --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --global_rules_outfile globalRules.rls --stats_file stats.txt --root_folder ../dimlp/datafiles
     ```
 
 ## Output interpretation

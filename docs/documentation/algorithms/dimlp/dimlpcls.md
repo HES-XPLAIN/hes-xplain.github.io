@@ -218,9 +218,9 @@ The `dimlpCls` algorithm works with both required and optional arguments. Each a
     from dimlpfidex.dimlp import dimlpCls
 
     dimlpCls(
-    """--test_data_file datanormTest.txt 
-       --test_class_file dataclass2Test.txt 
-       --weights_file dimlpDatanorm.wts 
+    """--test_data_file test_data.txt 
+       --test_class_file test_class.txt 
+       --weights_file weights.wts 
        --nb_attributes 16 
        --hidden_layers_file hidden_layers.out 
        --nb_classes 2 
@@ -232,7 +232,7 @@ The `dimlpCls` algorithm works with both required and optional arguments. Each a
     
 === "CLI"
     ```
-    ./dimlpCls --test_data_file datanormTest.txt --test_class_file dataclass2Test.txt --weights_file dimlpDatanorm.wts --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --test_pred_outfile predTest.out --stats_file stats.txt --root_folder dimlp/datafiles
+    ./dimlpCls --test_data_file test_data.txt --test_class_file test_class.txt --weights_file weights.wts --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --test_pred_outfile predTest.out --stats_file stats.txt --root_folder ../dimlp/datafiles
     ```
 
 ## Output interpretation
