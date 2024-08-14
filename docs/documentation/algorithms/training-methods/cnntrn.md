@@ -371,12 +371,10 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 
     cnnTrn(
     """--model small 
-       --train_data_file trainData.txt 
-       --train_class_file trainClass.txt 
-       --test_data_file testData.txt 
-       --test_class_file testClass.txt 
-       --valid_data_file validData.txt 
-       --valid_class_file validClass.txt 
+       --train_data_file train_data.txt 
+       --train_class_file train_class.txt 
+       --test_data_file test_data.txt 
+       --test_class_file test_class.txt 
        --original_input_size (28,28) 
        --nb_channels 1 
        --data_format classic 
@@ -387,7 +385,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
     
 === "CLI"
     ```
-    ./cnnTrn --model small --train_data_file trainData.txt --train_class_file trainClass.txt --test_data_file testData.txt --test_class_file testClass.txt --valid_data_file validData.txt --valid_class_file validClass.txt --original_input_size (28,28) --nb_channels 1 --data_format classic --nb_classes 10 --root_folder dimlp/datafiles/Mnist
+    ./cnnTrn --model small --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --original_input_size (28,28) --nb_channels 1 --data_format classic --nb_classes 10 --root_folder dimlp/datafiles/Mnist
     ```
 
 ## Output interpretation
