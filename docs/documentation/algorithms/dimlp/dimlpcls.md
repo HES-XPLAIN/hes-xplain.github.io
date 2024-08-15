@@ -13,7 +13,7 @@ The `dimlpCls` algorithm works with both required and optional arguments. Each a
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `None`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 

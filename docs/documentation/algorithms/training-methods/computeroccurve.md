@@ -5,6 +5,8 @@
 
 ## Description
 
+The `computeRocCurve` algorithm calculates and plots the `ROC` (Receiver Operating Characteristic) curve based on a set of test predictions and true classes. The `ROC` curve is a graphical representation that illustrates the diagnostic ability of a binary classifier as its decision threshold is varied. It plots the true positive rate (sensitivity) against the false positive rate (1 - specificity), allowing for the evaluation of the model's performance across different thresholds. This implementation uses `scikit-learn`'s built-in functions to efficiently compute and plot the ROC curve, providing insights into the trade-off between sensitivity and specificity for the given predictions. Note that this algorithm is not applicable to [SVM](svmtrn.md) models.
+
 ## Arguments list
 The `computeRocCurve` algorithm works with both required and optional arguments. Each argument has specific properties:
 
@@ -12,7 +14,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `None`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 

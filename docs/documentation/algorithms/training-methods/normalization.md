@@ -5,6 +5,8 @@
 
 ## Description
 
+The normalization is a method that adjusts the scale of data attributes, typically by converting values to a standard range (e.g., zero mean and unit variance), facilitating more efficient and accurate model training. This algorithm offers flexibility by allowing normalization based on pre-defined parameters, calculated statistics from provided data files, or manual input of mean and standard deviation. Additionally, it supports denormalizing rule files for more interpretable results. The process generates normalized data files and denormalized rule files, and is especially useful when preparing data for [Dimlp](../dimlp/overview.md) models.
+
 ## Arguments list
 The `normalization` algorithm works with both required and optional arguments. Each argument has specific properties:
 
@@ -12,7 +14,7 @@ The `normalization` algorithm works with both required and optional arguments. E
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `None`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 

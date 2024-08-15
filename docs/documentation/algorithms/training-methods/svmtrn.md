@@ -5,6 +5,8 @@
 
 ## Description
 
+The `SVM` (Support Vector Machine) model is a powerful supervised learning algorithm used primarily for classification tasks. It works by finding the hyperplane that best separates different classes in the feature space, maximizing the margin between the classes. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The inclusion of the [Dimlp](../dimlp/overview.md) layer adds interpretability by enabling the extraction of decision rules via the [Fidex](../fidex/overview.md) algorithm, making the model's decisions more transparent and easier to explain.
+
 ## Arguments list
 The `svmTrn` algorithm works with both required and optional arguments. Each argument has specific properties:
 
@@ -12,7 +14,7 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `None`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 
