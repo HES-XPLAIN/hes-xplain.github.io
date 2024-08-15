@@ -1,0 +1,324 @@
+# normalization
+
+!!!warning
+    **This section is under construction and should not be considered as accurate yet.**
+
+## Description
+
+## Arguments list
+The `normalization` algorithm works with both required and optional arguments. Each argument has specific properties:
+
+- **Is required** means whether an argument **must** be specified when calling the program or not.
+- **Type** specifies the argument datatype.
+- **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
+- **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
+- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+
+---
+
+### Show help
+*Display parameters and other helpful information concerning the program usage and terminate it when done.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `None`                  |
+| CLI argument syntax     | `-h`, `--help` or `None`|
+| JSON identifier         | `N/A`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    Every other specified argument will be ignored.
+
+---
+
+### JSON configuration file
+*File containing the configuration for the algorithm in JSON format (see more about [JSON configuration files](../../file-formats/json-configuration-files.md)).*
+
+|  **Property**           | **Value**                   |
+|:------------------------|:----------------------------|
+| Is required             | No                          |
+| Type                    | `String`                    |
+| CLI argument syntax     | `--json-configuration-file` | 
+| JSON identifier         | `N/A`                       |
+| Default value           | `None`                      |
+
+!!!Warning
+    If you use this argument, **it must be the only one specified**. No other argument can be specified with it.
+
+---
+
+### Root folder path
+*Default path from where all the other arguments related to file paths are going to be based. Using this allows you to work with paths relative to this location and avoid writing absolute paths or lengthy relative paths.*
+
+|  **Property**           | **Value**           |
+|:------------------------|:--------------------|
+| Is required             | No                  |
+| Type                    | `String`            |
+| CLI argument syntax     | `--root_folder`     | 
+| JSON identifier         | `root_folder`       |
+| Default value           | `.`                 |
+
+---
+
+### Number of attributes 
+*Number of attributes in the dataset (should be equal to the number of inputs of the model). Takes values in the range `[1,∞[`.*
+
+|  **Property**           | **Value**           |
+|:------------------------|:--------------------|
+| Is required             | Yes                 |
+| Type                    | `Integer`           |
+| CLI argument syntax     | `--nb_attributes`   | 
+| JSON identifier         | `nb_attributes`     |
+| Default value           | `None`              |
+
+---
+
+### Number of classes
+*Number of classes in the dataset (should be equal to the number of outputs of the model). Takes values in the range `[2,∞[`.*
+
+|  **Property**           | **Value**           |
+|:------------------------|:--------------------|
+| Is required             | No                  |
+| Type                    | `Integer`           |
+| CLI argument syntax     | `--nb_classes`      |
+| JSON identifier         | `nb_classes`        |
+| Default value           | `None`              |
+
+---
+
+### Attributes file
+*File containing attributes and classes names.*
+
+|  **Property**           | **Value**           |
+|:------------------------|:--------------------|
+| Is required             | No                  |
+| Type                    | `String`            |
+| CLI argument syntax     | `--attributes_file` |
+| JSON identifier         | `attributes_file`   |
+| Default value           | `None`              |
+
+---
+
+### Data files
+*List of data files to normalize, they are normalized with respect to the first one if [normalization file](#normalization-file) is not specified.*
+
+|  **Property**           | **Value**           |
+|:------------------------|:--------------------|
+| Is required             | No**                |
+| Type                    | `List of strings`   |
+| CLI argument syntax     | `--data_files`      |
+| JSON identifier         | `data_files`        |
+| Default value           | `None`              |
+
+!!!Warning
+    This argument is not required if, **and only if**, the [rule files](#rule-files) is specified. 
+
+---
+
+### Rule files
+*List of rule files to denormalize, denormalization is possible only if a [normalization file](#normalization-file) or [mus](#mus), [sigmas](#sigmas) and [normalization indices](#normalization-indices) are given.*
+
+|  **Property**           | **Value**           |
+|:------------------------|:--------------------|
+| Is required             | No**                |
+| Type                    | `List of strings`   |
+| CLI argument syntax     | `--rule_files`      |
+| JSON identifier         | `rule_files`        |
+| Default value           | `None`              |
+
+!!!Warning
+    This argument is not required if, **and only if**, the [data files](#data-files) is specified. 
+
+---
+### Missing values
+*String representing a missing value in your data.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No**                    |
+| Type                    | `String`                |
+| CLI argument syntax     | `--normalization_file`  |
+| JSON identifier         | `normalization_file`    |
+| Default value           | `None`                  |
+
+!!!Warning
+    This argument **is required** for normalization. Put `NaN` or any string not present in your data if there is no missing data.
+
+---
+
+### Normalization file
+*File containing the mean and standard deviation for specified attributes to normalize data or denormalize rules.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No                      |
+| Type                    | `String`                |
+| CLI argument syntax     | `--normalization_file`  |
+| JSON identifier         | `normalization_file`    |
+| Default value           | `None`                  |
+
+---
+
+### Mus
+*Mean or median of each attribute index specified in [normalization indices](#normalization-indices) to normalize data or denormalize rules. This argument is used alongside [sigmas](#sigmas) and [normalization indices](#normalization-indices). Takes values in the range `]-∞,∞[`.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No**                    |
+| Type                    | `Float list`            |
+| CLI argument syntax     | `--mus`                 |
+| JSON identifier         | `mus`                   |
+| Default value           | `None`                  |
+
+!!!Warning
+    If [sigmas](#sigmas) or [normalization indices](#normalization-indices) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
+
+---
+
+### Sigmas
+*Standard deviation of each attribute index specified in [normalization indices](#normalization-indices) to normalize data or denormalize rules. This argument is used alongside [mus](#mus) and [normalization indices](#normalization-indices). Takes values in the range `]-∞,∞[`.*
+
+|  **Property**           | **Value**               |
+|:------------------------|:------------------------|
+| Is required             | No**                    |
+| Type                    | `Float list`            |
+| CLI argument syntax     | `--sigmas`              |
+| JSON identifier         | `sigmas`                |
+| Default value           | `None`                  |
+
+!!!Warning
+    If [mus](#mus) or [normalization indices](#normalization-indices) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
+
+---
+
+### Normalization indices
+*Indices of attributes to normalize or denormalize. Index starts at 0. Each index takes values in the range `[0,nb_attributes-1]`.*
+
+|  **Property**           | **Value**                |
+|:------------------------|:-------------------------|
+| Is required             | No**                     |
+| Type                    | `List of integers`       |
+| CLI argument syntax     | `--normalization_indices`|
+| JSON identifier         | `normalization_indices`  |
+| Default value           | `[0,...,nb_attributes-1]`|
+
+!!!Warning
+    If [mus](#mus) or [sigmas](#sigmas) are used, then this argument **is required**. Not used if a [normalization file](#normalization-file) is given.
+
+---
+
+### Normalization output file
+*Path to the file where the mean and standard deviation of the normalized attributes will be stored.*
+
+|  **Property**           | **Value**                     |
+|:------------------------|:------------------------------|
+| Is required             | No                            |
+| Type                    | `String`                      |
+| CLI argument syntax     | `--output_normalization_file` | 
+| JSON identifier         | `output_normalization_file`   |
+| Default value           | `normalization_stats.txt`     |
+
+---
+
+### Data output files
+*List containing the paths where the normalized data files will be saved.*
+
+|  **Property**           | **Value**                                         |
+|:------------------------|:--------------------------------------------------|
+| Is required             | No                                                |
+| Type                    | `List of strings`                                 |
+| CLI argument syntax     | `--output_data_files`                             |
+| JSON identifier         | `output_data_files`                               |
+| Default value           | `<original_name>_denormalized<original_extension>`|
+
+!!!Warning
+    If one name is specified, all names are required.
+
+---
+
+### Rule output files
+*List containing the paths where the denormalized rule files will be saved.*
+
+|  **Property**           | **Value**                                         |
+|:------------------------|:--------------------------------------------------|
+| Is required             | No                                                |
+| Type                    | `List of strings`                                 |
+| CLI argument syntax     | `--output_rule_files`                             |
+| JSON identifier         | `output_rule_files`                               |
+| Default value           | `<original_name>_denormalized<original_extension>`|
+
+!!!Warning
+    If one name is specified, all names are required.
+
+---
+
+### Use median
+*Whether to use median instead of mean to normalize.*
+
+|  **Property**           | **Value**             |
+|:------------------------|:----------------------|
+| Is required             | No                    |
+| Type                    | `Boolean`             |
+| CLI argument syntax     | `--with_median`       |
+| JSON identifier         | `with_median`         |
+| Default value           | `False`               |
+
+---
+
+### Fill missing values
+*Whether to fill missing values with mean (or median) during normalization.*
+
+|  **Property**           | **Value**              |
+|:------------------------|:-----------------------|
+| Is required             | No                     |
+| Type                    | `Boolean`              |
+| CLI argument syntax     | `--fill_missing_values`|
+| JSON identifier         | `fill_missing_values`  |
+| Default value           | `True`                 |
+
+---
+
+
+## Usage example
+
+For datafile normalization :
+
+=== "Python"
+    ```py
+    from trainings import normalization
+
+    normalization(
+    """--data_files [train_data.txt,test_data.txt]
+       --normalization_indices [0,2,4]
+       --nb_attributes 16
+       --missing_values NaN
+       --root_folder dimlp/datafiles"""
+    )
+    ```
+    
+=== "CLI"
+    ```
+    ./normalization --data_files [train_data.txt,test_data.txt] --normalization_indices [0,2,4] --nb_attributes 16 --missing_values NaN --root_folder ../dimlp/datafiles
+    ```
+
+For rulefile denormalization :
+
+=== "Python"
+    ```py
+    from trainings import normalization
+
+    normalization(
+    """--normalization_file normalization_stats.txt
+       --rule_files globalRules.rls
+       --nb_attributes 16
+       --root_folder dimlp/datafiles"""
+    )
+    ```
+    
+=== "CLI"
+    ```
+    ./normalization --normalization_file normalization_stats.txt --rule_files globalRules.rls --nb_attributes 16 --root_folder ../dimlp/datafiles
+    ```
+
+## Output interpretation
