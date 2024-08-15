@@ -5,7 +5,7 @@
 
 ## Description
 
-
+The `CNN` (Convolutional Neural Network) is a deep learning architecture commonly used for tasks involving image data, such as classification and object detection. In this implementation, we use the `Keras` library, which allows for easy integration of popular CNN architectures like `ResNet` and `VGG`. The algorithm can be applied to a wide range of datasets, including well-known image datasets like `MNIST`, `CIFAR-10`, and `CIFAR-100`. Additionally, the inclusion of the [Dimlp](../dimlp/overview.md) layer adds interpretability by enabling the extraction of decision rules via the [Fidex](../fidex/overview.md) algorithm, making the model's decisions more transparent and easier to explain.
 
 ## Arguments list
 The `cnnTrn` algorithm works with both required and optional arguments. Each argument has specific properties:
@@ -14,7 +14,7 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `None`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 

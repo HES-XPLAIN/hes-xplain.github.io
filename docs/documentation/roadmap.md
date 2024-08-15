@@ -35,7 +35,7 @@ This section shows the progress of the general documentation redaction.
                 * [x] Example Code
                 * [ ] Output Interpretation
         * [ ] 2.3 DIMLP algorithms 
-            * [ ] 2.3.1 Overview
+            * [x] 2.3.1 Overview
                 * [x] Introduction
                 * [x] architecture
             * [ ] 2.3.2 densCls
@@ -63,47 +63,42 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.6 ComputeRocCurve
-                * [ ] Description
-                * [x] Arguments list
-                * [x] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.3.6 Normalization
-                * [ ] Description
-                * [x] Arguments list
-                * [x] Example Code
-                * [ ] Output Interpretation
         * [ ] 2.4 Training methods
-            * [ ] 2.4.1 Overview
-                * [ ] Introduction 
-                * [ ] Architecture
+            * [x] 2.4.1 Overview
+                * [x] Introduction 
+                * [x] Architecture
             * [ ] 2.4.2 gradBoostTrn
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.3 computeRocCurve      
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.4 randForestsTrn
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.5 cnnTrn    
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.6 mlpTrn   
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.4.7 svmTrn
-                * [ ] Description
+                * [x] Description
+                * [x] Arguments list
+                * [x] Example Code
+                * [ ] Output Interpretation
+            * [ ] 2.3.6 Normalization
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
