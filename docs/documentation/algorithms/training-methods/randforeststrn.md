@@ -5,7 +5,7 @@
 
 ## Description
 
-The `Random Forest` model is an ensemble learning method that constructs multiple decision trees during training and merges their outputs to improve overall predictive accuracy and reduce overfitting. This method is highly effective for both classification and regression tasks. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The generated decision tree rules allow [Fidex](../fidex/overview.md) to identify hyperplanes in the feature space that discriminate between different classes, thus enabling the extraction of decision rules, making the model's decisions more transparent and easier to explain.
+The `Random Forest` model is an ensemble learning method that constructs multiple decision trees during training and merges their outputs to improve overall predictive accuracy and reduce overfitting. This method is highly effective for both classification and regression tasks. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The generated decision tree rules allow [Fidex](../fidex/overview.md) to identify hyperplanes in the feature space that discriminate between different classes, thus enabling the extraction of decision rules, making the model's decisions more transparent and easier to explain. For more details on the `Random Forest` algorithm with `Dimlp`, you can refer to [this paper](../../references.md#a-rule-extraction-technique-applied-to-ensembles-of-neural-networks-random-forests-and-gradient-boosted-trees).
 
 ## Arguments list
 The `randForestsTrn` algorithm works with both required and optional arguments. Each argument has specific properties:
