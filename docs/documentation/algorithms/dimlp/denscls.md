@@ -274,7 +274,7 @@ The `densCls` algorithm works with both required and optional arguments. Each ar
 ---
 
 ### Normalization file
-*File containing the mean and standard deviation for specified attributes that have been normalized. These values are saved inside a file to denormalize the corresponding attributes. If specified, it is used to denormalize the rules.*
+*File containing the mean and standard deviation for specified attributes that have been normalized. If specified, it is used to denormalize the rules.*
 
 |  **Property**           | **Value**               |
 |:------------------------|:------------------------|
@@ -324,7 +324,7 @@ The `densCls` algorithm works with both required and optional arguments. Each ar
 |  **Property**           | **Value**                |
 |:------------------------|:-------------------------|
 | Is required             | No**                     |
-| Type                    | `Int list`               |
+| Type                    | `List of integers`       |
 | CLI argument syntax     | `--normalization_indices`|
 | JSON identifier         | `normalization_indices`  |
 | Default value           | `[0,...,nb_attributes-1]`|
