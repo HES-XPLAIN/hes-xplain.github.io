@@ -5,7 +5,7 @@
 
 ## Description
 
-The `SVM` (Support Vector Machine) model is a powerful supervised learning algorithm used primarily for classification tasks. It works by finding the hyperplane that best separates different classes in the feature space, maximizing the margin between the classes. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The inclusion of the [Dimlp](../dimlp/overview.md) layer adds interpretability by enabling the extraction of decision rules via the [Fidex](../fidex/overview.md) algorithm, making the model's decisions more transparent and easier to explain.
+The `SVM` (Support Vector Machine) model is a powerful supervised learning algorithm used primarily for classification tasks. It works by finding the hyperplane that best separates different classes in the feature space, maximizing the margin between the classes. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The inclusion of the [Dimlp](../dimlp/overview.md) layer adds interpretability by enabling the extraction of decision rules via the [Fidex](../fidex/overview.md) algorithm, making the model's decisions more transparent and easier to explain. To get more details on the `SVM` algorithm with `Dimlp`, you can refer to [this paper](../../references.md#qsvm-a-support-vector-machine-for-rule-extraction), and [this one](../../references.md#a-comparison-study-on-rule-extraction-from-neural-network-ensembles-boosted-shallow-trees-and-svms).
 
 ## Arguments list
 The `svmTrn` algorithm works with both required and optional arguments. Each argument has specific properties:

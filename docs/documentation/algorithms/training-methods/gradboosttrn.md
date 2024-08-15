@@ -5,7 +5,7 @@
 
 ## Description
 
-The `Gradient Boosting` decision tree model is an ensemble learning technique that builds a series of decision trees, where each tree corrects the errors of the previous ones. This method is widely used for both classification and regression tasks due to its strong predictive performance. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The generated decision tree rules allow [Fidex](../fidex/overview.md) to identify hyperplanes in the feature space that discriminate between different classes, thus enabling the extraction of decision rules, making the model's decisions more transparent and easier to explain.
+The `Gradient Boosting` decision tree model is an ensemble learning technique that builds a series of decision trees, where each tree corrects the errors of the previous ones. This method is widely used for both classification and regression tasks due to its strong predictive performance. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The generated decision tree rules allow [Fidex](../fidex/overview.md) to identify hyperplanes in the feature space that discriminate between different classes, thus enabling the extraction of decision rules, making the model's decisions more transparent and easier to explain. For more details on the `Gradient Boosting` algorithm with `Dimlp`, you can refer to [this paper](../../references.md#a-rule-extraction-technique-applied-to-ensembles-of-neural-networks-random-forests-and-gradient-boosted-trees).
 
 ## Arguments list
 The `gradBoostTrn` algorithm works with both required and optional arguments. Each argument has specific properties:

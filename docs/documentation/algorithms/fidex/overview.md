@@ -3,7 +3,7 @@
 !!! warning "Warning"
     **This section is under construction and should not be considered as accurate yet.**
 
-The `Fidex` ensemble consists of four algorithms, all derived from the core eponymous algorithm. The `Fidex` algorithm itself focuses on extracting local rules to explain the predictions of a pre-trained model for given data samples. Each of the other algorithms builds upon this foundation to offer additional functionalities.
+The `Fidex` ensemble consists of four algorithms, all derived from the core eponymous algorithm. The `Fidex` algorithm itself focuses on extracting local rules to explain the predictions of a pre-trained model for given data samples. Each of the other algorithms builds upon this foundation to offer additional functionalities. For more details on the `Fidex` algorithm, you can refer to [this paper](../../references.md#fidex-an-algorithm-for-the-explainability-of-ensembles-and-svms).
 
 
 ## Architecture
