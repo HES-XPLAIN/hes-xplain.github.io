@@ -63,6 +63,16 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
+            * [ ] 2.3.6 ComputeRocCurve
+                * [ ] Description
+                * [x] Arguments list
+                * [x] Example Code
+                * [ ] Output Interpretation
+            * [ ] 2.3.6 Normalization
+                * [ ] Description
+                * [x] Arguments list
+                * [x] Example Code
+                * [ ] Output Interpretation
         * [ ] 2.4 Training methods
             * [ ] 2.4.1 Overview
                 * [ ] Introduction 
