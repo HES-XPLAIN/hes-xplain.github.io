@@ -173,7 +173,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
     from trainings import computeRocCurve
 
     computeRocCurve(
-    """--test_class_file dataclass2Test.txt 
+    """--test_class_file test_class.txt 
        --test_pred_file predTest.out 
        --positive_class_index 1 
        --output_roc roc_curve.png 
@@ -185,7 +185,7 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
     
 === "CLI"
     ```
-    ./computeRocCurve --test_class_file dataclass2Test.txt --test_pred_file predTest.out --positive_class_index 1 --output_roc roc_curve.png --stats_file stats.txt --root_folder dimlp/datafiles --nb_classes 2
+    ./computeRocCurve --test_class_file test_class.txt --test_pred_file predTest.out --positive_class_index 1 --output_roc roc_curve.png --stats_file stats.txt --root_folder ../dimlp/datafiles --nb_classes 2
     ```
 
 ## Output interpretation

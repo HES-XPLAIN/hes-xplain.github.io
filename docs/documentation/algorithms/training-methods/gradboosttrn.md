@@ -478,14 +478,14 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
     from trainings import gradBoostTrn
 
     gradBoostTrn(
-    """--train_data_file datanormTrain.txt 
-       --train_class_file dataclass2Train.txt 
-       --test_data_file datanormTest.txt 
-       --test_class_file dataclass2Test.txt 
+    """--train_data_file train_data.txt 
+       --train_class_file train_class.txt 
+       --test_data_file test_data.txt 
+       --test_class_file test_class.txt 
        --stats_file gb/stats.txt 
        --train_pred_outfile gb/predTrain.out 
        --test_pred_outfile gb/predTest.out 
-       --rules_outfile gb/RF_rules.rls 
+       --rules_outfile gb/GB_rules.rls 
        --nb_attributes 16 
        --nb_classes 2 
        --root_folder dimlp/datafiles"""
@@ -494,7 +494,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
     
 === "CLI"
     ```
-    ./gradBoostTrn --train_data_file datanormTrain.txt --train_class_file dataclass2Train.txt --test_data_file datanormTest.txt --test_class_file dataclass2Test.txt --stats_file gb/stats.txt --train_pred_outfile gb/predTrain.out --test_pred_outfile gb/predTest.out --rules_outfile gb/RF_rules.rls --nb_attributes 16 --nb_classes 2 --root_folder dimlp/datafiles
+    ./gradBoostTrn --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --stats_file gb/stats.txt --train_pred_outfile gb/predTrain.out --test_pred_outfile gb/predTest.out --rules_outfile gb/GB_rules.rls --nb_attributes 16 --nb_classes 2 --root_folder ../dimlp/datafiles
     ```
 
 ## Output interpretation

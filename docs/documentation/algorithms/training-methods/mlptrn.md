@@ -540,10 +540,10 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
     from trainings import mlpTrn
 
     mlpTrn(
-    """--train_data_file datanormTrain.txt 
-       --train_class_file dataclass2Train.txt 
-       --test_data_file datanormTest.txt 
-       --test_class_file dataclass2Test.txt 
+    """--train_data_file train_data.txt 
+       --train_class_file train_class.txt 
+       --test_data_file test_data.txt 
+       --test_class_file test_class.txt 
        --weights_outfile mlp/weights.wts 
        --stats_file mlp/stats.txt 
        --train_pred_outfile mlp/predTrain.out 
@@ -556,7 +556,7 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
     
 === "CLI"
     ```
-    ./mlpTrn --train_data_file datanormTrain.txt --train_class_file dataclass2Train.txt --test_data_file datanormTest.txt --test_class_file dataclass2Test.txt --weights_outfile mlp/weights.wts --stats_file mlp/stats.txt --train_pred_outfile mlp/predTrain.out --test_pred_outfile mlp/predTest.out --nb_attributes 16 --nb_classes 2 --root_folder dimlp/datafiles
+    ./mlpTrn --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --weights_outfile mlp/weights.wts --stats_file mlp/stats.txt --train_pred_outfile mlp/predTrain.out --test_pred_outfile mlp/predTest.out --nb_attributes 16 --nb_classes 2 --root_folder ../dimlp/datafiles
     ```
 
 ## Output interpretation
