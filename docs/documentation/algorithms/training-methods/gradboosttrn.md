@@ -5,6 +5,8 @@
 
 ## Description
 
+The `Gradient Boosting` decision tree model is an ensemble learning technique that builds a series of decision trees, where each tree corrects the errors of the previous ones. This method is widely used for both classification and regression tasks due to its strong predictive performance. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The generated decision tree rules allow [Fidex](../fidex/overview.md) to identify hyperplanes in the feature space that discriminate between different classes, thus enabling the extraction of decision rules, making the model's decisions more transparent and easier to explain.
+
 ## Arguments list
 The `gradBoostTrn` algorithm works with both required and optional arguments. Each argument has specific properties:
 
@@ -12,7 +14,7 @@ The `gradBoostTrn` algorithm works with both required and optional arguments. Ea
 - **Type** specifies the argument datatype.
 - **CLI argument syntax** is the exact name to use if you are writing the argument along with the program call.
 - **JSON identifier** is the exact name to use if you are writing the argument inside a [JSON configuration file](../../file-formats/json-configuration-files.md).
-- **Default value** is the value that will be used by the program if the argument is not specified. If `none`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
+- **Default value** is the value that will be used by the program if the argument is not specified. If `None`, it could mean that the argument is not used at all during the algorithm execution or could also mean that you have to specify it yourself.
 
 ---
 
