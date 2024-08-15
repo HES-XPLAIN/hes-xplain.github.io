@@ -3,7 +3,7 @@
 !!! warning "Warning"
     **This section is under construction and should not be considered as accurate yet.**
 
-The *Discretized Interpretable Multi-Layer Perceptron (DIMLP)* is a specialized feed-forward neural network architecture, derived from the traditional `MLP` (Multi-Layer Perceptron). `DIMLP` performs predictive tasks and generates interpretable decision rules that explain the underlying reasoning behind the model's predictions. The `DIMLP` framework includes a set of algorithms that leverage this capability for model training, evaluation, and rule extraction.
+The *Discretized Interpretable Multi-Layer Perceptron (DIMLP)* is a specialized feed-forward neural network architecture, derived from the traditional `MLP` (Multi-Layer Perceptron). `DIMLP` performs predictive tasks and generates interpretable decision rules that explain the underlying reasoning behind the model's predictions. The `DIMLP` framework includes a set of algorithms that leverage this capability for model training, evaluation, and rule extraction. To get more details on the `Dimlp` algorithm, you can refer to [this paper](../../references.md#a-model-for-single-and-multiple-knowledge-based-networks), and to [this one](../../references.md#is-it-worth-generating-rules-from-neural-network-ensembles) for `dimlpBT`.
 
 ## Architecture
 The architecture is built as shown below:
