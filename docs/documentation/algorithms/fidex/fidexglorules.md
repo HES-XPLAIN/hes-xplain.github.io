@@ -500,4 +500,60 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 
 ## Output interpretation
 
+### [Global rules output file](#global-rules-output-file) 
+
+This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). The file begins with global statistics about the ruleset, followed by individual rules and their associated performance metrics.
+
+<p style="font-size:larger;">Global Statistics:</p>
+
+`Number of rules`
+:   Indicates the total number of rules in the ruleset.
+
+`Mean sample covering number per rule`
+:   The average number of training samples covered by each rule.
+
+`Mean number of antecedents per rule`
+:   Represents the average number of conditions (antecedents) in each rule.
+
+`Decision threshold`
+:   Indicates whether a decision threshold was used for prediction and specifies the threshold if applicable.
+
+<hr style="border-top: 1px solid; width: 25%;">
+
+<p style="font-size:larger;">Explanation of Each Rule:</p>
+
+Each rule consists of conditions on various attributes, followed by the predicted class, and is accompanied by several performance metrics. Let's break down this rule as an example:
+
+    Rule 1: X0>=0.65839 X1>=0.423139 X8>=0.105399 -> class 0
+        Train Covering size : 121
+        Train Fidelity : 1
+        Train Accuracy : 0.950413
+        Train Confidence : 0.97161
+`X0, X1, X8`
+:   These represent the variables from the dataset.
+
+`>=0.65839, >=0.423139, >=0.105399`
+:   The thresholds that the variable values must meet for the rule to be activated.
+
+`-> class 0`
+:   The class predicted by the rule when the conditions are met. Here, the rule predicts class 0.
+
+<hr style="border-top: 1px solid; width: 25%;">
+
+<p style="font-size:larger;">Performance Metrics Associated with the Rule:</p>
+
+`Train Covering size`
+: Indicates the number of training samples that are covered by the rule. For Rule 1, it covers 121 samples.
+
+`Train Fidelity`
+: Measures how well the rule aligns with the model’s predictions. A fidelity of 1 means that the rule exactly matches the model’s predictions for all the samples it covers.
+
+`Train Accuracy`
+: The accuracy of the rule on the samples it covers. In the case of Rule 1, 95.04% of the covered samples are correctly classified.
+
+`Train Confidence`
+: Represents the average confidence score of the model’s predictions for the samples covered by the rule.
+
+Each subsequent rule follows the same structure.
+
 <!-- TODO: Complete this section -->
