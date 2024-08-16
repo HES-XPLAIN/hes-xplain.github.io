@@ -4,17 +4,17 @@
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Description
-`FidexGloRules` computes a rule for each training sample by calling [`Fidex`](fidex.md). `Fidex` is based on the training samples, a hyperlocus, and is directed by the given parameters, including the dropout and the maximum number of iterations allowed.
 
-It works by identifying hyperplanes in the feature space that discriminate between different classes of samples and constructing a rule for the training sample based on these hyperplanes covering this sample and as many other training samples as possible. Then, a heuristic is used to remove the duplicated and unnecessary rules.
+The [Fidex](fidex.md) algorithm is an approach to rule extraction that can be applied to supervised neural networks and their ensembles, convolutional neural networks, decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
 
-The `Fidex` algorithm is computed until a rule is created or until the [maximum number of failed attempts limit](#maximum-number-of-failed-attempts) is reached.
+`FidexGloRules` uses `Fidex` to generate one rule for each sample in the dataset. These local rules are then aggregated to form a global ruleset that explains the overall behavior of the model. The key idea remains identifying discriminant hyperplanes in the feature space that separate different classes. This is achieved through the staircase activation function in models containing a [DIMLP](../dimlp/overview.md) layer, or by leveraging decision tree rules generated from [Random Forest](../training-methods/randforeststrn.md) and [Gradiend Boosting](../training-methods/gradboosttrn.md) models. The global ruleset is refined using a heuristic to remove redundant rules while ensuring full coverage of the training dataset.
 
-- The first attempt to generate a rule with a covering greater or equal to the [minimum covering](#minimum-covering) and a fidelity greater or equal to the [minimum fidelity](#minimum-fidelity).
-- If the attempt fails and the [use of dichotomic search](#use-dichotomic-search) is enabled, `Fidex` is computed to find a rule with the maximum possible minimal covering that can be lower than the [minimum covering](#minimum-covering) initially set.
-- If all attempts fail, the targeted fidelity is gradually lowered until it succeeds or the [lowest fidelity allowed](#minimum-generated-fidelity) is reached.
-- Each failed attempt at the [lowest minimal fidelity](#minimum-generated-fidelity) is counted.
-- If the [maximum of failed attempts](#maximum-number-of-failed-attempts) limit is reached, then no rule will not be computed for this sample.
+`FidexGloRules` retains the efficiency of `Fidex` in terms of computational complexity, but due to the need to generate one rule per sample and aggregate them into a global ruleset, the complexity becomes quadratic with respect to the number of samples. Specifically, it scales quadratically with the product of the problem's dimensionality, the number of training samples, and the maximal number of rule antecedents.
+
+This approach is particularly effective for providing a comprehensive explanation of a model's decision-making process across an entire dataset, rather than just for individual samples. By optimizing fidelity and reducing the rule set through heuristic techniques, `FidexGloRules` produces a concise and interpretable global explanation.
+
+For more details on the `Fidex` and `FidexGloRules` (called `FidexGlo`) algorithms, you can refer to [this paper](../../references.md#fidex-an-algorithm-for-the-explainability-of-ensembles-and-svms).
+
 
 ## Arguments list
 The `FidexGloRules` algorithm works with both required and optional arguments. Each argument has specific properties:
