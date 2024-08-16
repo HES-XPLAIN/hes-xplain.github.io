@@ -20,7 +20,7 @@ This section shows the progress of the general documentation redaction.
                 * [x] Example Code
                 * [ ] Output Interpretation
             * [ ] 2.2.3 FidexGlo
-                * [ ] Description
+                * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
@@ -29,11 +29,11 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.2.5 FidexGloStats
+            * [x] 2.2.5 FidexGloStats
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
         * [ ] 2.3 DIMLP algorithms 
             * [x] 2.3.1 Overview
                 * [x] Introduction
