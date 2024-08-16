@@ -5,8 +5,13 @@
 
 ## Description
 
-<!-- TODO: complete this description -->
-The `Fidex` algorithm is an approach to rule extraction that can be applied to neural network ensembles (including convolutional neural networks), decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
+The `Fidex` algorithm is an approach to rule extraction that can be applied to supervised neural networks and their ensembles, convolutional neural networks, decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
+
+The core idea behind `Fidex` is to identify discriminant hyperplanes in the feature space that separate different classes. By leveraging the staircase activation function in models containing a [DIMLP](../dimlp/overview.md) layer or using generated decision tree rules from [Random Forest](../training-methods/randforeststrn.md) and [Gradiend Boosting](../training-methods/gradboosttrn.md) models, `Fidex` can precisely identify these hyperplanes, allowing it to generate propositional rules in a computationally efficient manner. The algorithm’s complexity is linear with respect to the product of the problem’s dimensionality, the number of training samples, and the maximal number of rule antecedents, making it highly scalable.
+
+`Fidex` is particularly effective at extracting local rules for individual samples by optimizing fidelity, ensuring that the rules it generates accurately reflect the decisions made by the model. The method applies a step-by-step process to iteratively improve the fidelity of the rule until it reaches a predefined threshold.
+
+For more details on the `Fidex` algorithm, you can refer to [this paper](../../references.md#fidex-an-algorithm-for-the-explainability-of-ensembles-and-svms).
 
 ## Arguments list
 The `Fidex` algorithm works with both required and optional arguments. Each argument has specific properties:
