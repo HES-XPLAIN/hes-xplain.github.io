@@ -5,7 +5,15 @@
 
 ## Description
 
-<!-- TODO: add description -->
+The `Discretized Interpretable Multi-Layer Perceptron (DIMLP)` is a neural network architecture that combines the predictive power of a traditional Multi-Layer Perceptron (MLP) with the ability to extract interpretable rules. Unlike conventional neural networks, `DIMLP` uses a staircase activation function in the first hidden layer, creating a grid of hyper-rectangles in the feature space. These hyper-rectangles help define discriminant decision boundaries between classes, facilitating the extraction of symbolic rules.
+
+The rule generation process in the `DIMLP` model relies on inducing a decision tree, where virtual hyperplanes are identified between these hyper-rectangles. The rule extraction algorithm extracts unordered rules in polynomial time using heuristic methods. This process ensures 100% fidelity with respect to the training data, meaning that the extracted rules perfectly match the network's decisions.
+
+`DimlpRul` generates global explanation rules using the `Dimlp` algorithm on the training dataset used to train the model with [dimlpTrn](dimlptrn.md), and calculates accuracy on a train, test and validation dataset.
+
+Additionally, there is another rule extraction algorithm available in the framework called [Fidex](../fidex/overview.md), which has a better algorithmic complexity and allows for both local and global rule extraction.
+
+For more details on the `Dimlp` algorithm, you can refer to [this paper](../../references.md#a-model-for-single-and-multiple-knowledge-based-networks).
 
 ## Arguments list
 The `dimlpRul` algorithm works with both required and optional arguments. Each argument has specific properties:

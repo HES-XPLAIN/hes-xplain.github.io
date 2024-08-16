@@ -4,7 +4,14 @@
     **This section is under construction and should not be considered as accurate yet.**
 
 ## Description
-<!-- TODO: add description -->
+
+The `DimlpBT` model is an extension of the standard `Dimlp (Discretized Interpretable Multi-Layer Perceptron)` architecture, which applies the powerful technique of bagging to improve model accuracy and robustness. Bagging, or Bootstrap Aggregating, generates multiple versions of the training set by resampling and trains separate `Dimlp` networks on each dataset. The ensemble of networks is then aggregated to make final predictions, reducing variance and improving predictive performance, particularly on complex datasets. Like the base `Dimlp` model, this version leverages a discretized multi-layer perceptron, which uses a staircase activation function in the first hidden layer, creating a grid of hyper-rectangles in the feature space. These hyper-rectangles help define discriminant decision boundaries between classes, facilitating the extraction of symbolic rules.
+
+Through the use of `Dimlp`'s rule extraction process, this algorithm is capable of producing symbolic rules at both the single network and ensemble levels, offering interpretable insights into the decision-making process. The rule generation process in the `DIMLP` model relies on inducing a decision tree, where virtual hyperplanes are identified between these hyper-rectangles. The rule extraction algorithm extracts unordered rules in polynomial time using heuristic methods. This process ensures 100% fidelity with respect to the training data, meaning that the extracted rules perfectly match the network's decisions.
+
+Additionally, there is another rule extraction algorithm available in the framework called [Fidex](../fidex/overview.md), which has a better algorithmic complexity and allows for both local and global rule extraction.
+
+To get more details on the `Dimlp` algorithm, you can refer to [this paper](../../references.md#a-model-for-single-and-multiple-knowledge-based-networks), and to [this one](../../references.md#is-it-worth-generating-rules-from-neural-network-ensembles) for `dimlpBT`.
 
 ## Arguments list
 The `dimlpBT` algorithm works with both required and optional arguments. Each argument has specific properties:
