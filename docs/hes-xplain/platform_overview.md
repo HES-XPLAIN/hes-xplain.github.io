@@ -18,7 +18,7 @@ Our source code repository hosts all the necessary assets, including:
 
 ### Algorithms
 
-HES-XPLAIN assembles our own developed algorithms as well as incorporating all algorithms proposed by [OmniXAI](https://github.com/salesforce/omnixai). Our platform provides a comprehensive suite of tools for XAI, enabling users to compare and choose the best techniques for their needs. Explore our algorithms in the [HES-XPLAIN - Algorithms](../algos/) section.
+HES-XPLAIN assembles our own developed algorithms as well as incorporating all algorithms proposed by [OmniXAI](https://github.com/salesforce/omnixai). Our platform provides a comprehensive suite of tools for XAI, enabling users to compare and choose the best techniques for their needs. Explore our algorithms in the [HES-XPLAIN - Algorithms](algos.md) section.
 
 Our algorithms are individually packaged and accessible through the Python Package Index (PyPi), making it easy for users to install and use them in their own projects.
 
@@ -53,7 +53,7 @@ We offer multiple resources to enhance XAI knowledge, all accessible from our we
 - **Use Case Notebooks**: Showcase how XAI and our platform can be used to solve real-world problems.
 - **Datasets and Models**: Embedded datasets and pre-trained models to facilitate experimentation.
 
-More details can be found in the [HES-XPLAIN - Resources](../ressource.md) section.
+More details can be found in the [HES-XPLAIN - Resources](ressources.md) section.
 
 ## Audience
 
@@ -67,7 +67,7 @@ HES-XPLAIN is designed to cater to a diverse audience, including:
         ![Decision maker](../assets/images/tie.svg){ width="200px", align=left }
         # You are interested in business **benefits, risks and costs**.
 
-        - Get an [introduction](../introduction.md) to explainability
+        - Get an [introduction](introduction.md) to explainability
         - Access web demos and use case scenarios
 
     === "an engineer"
@@ -75,7 +75,7 @@ HES-XPLAIN is designed to cater to a diverse audience, including:
         ![Engineer](../assets/images/hammer-wrench.svg){ width="200px", align=left }
         # You want to **try XAI algorithms**.
 
-        - Discover use cases as [Jupyter notebooks](notebooks.md)
+        - Discover use cases as [Jupyter notebooks](../notebooks.md)
         - Get data set, algorithms and Python code
 
     === "a data scientist"
