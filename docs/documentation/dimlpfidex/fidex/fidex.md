@@ -552,7 +552,7 @@ This file contains statistics computed on rules created for a test set. For each
 
 ---
 
-### [rules output file](#rules-output-file)
+### [Rules output file](#rules-output-file)
 
 === "Text file"
 
