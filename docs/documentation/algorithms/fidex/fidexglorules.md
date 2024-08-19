@@ -500,60 +500,114 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 
 ## Output interpretation
 
+---
+
 ### [Global rules output file](#global-rules-output-file) 
 
-This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). The file begins with global statistics about the ruleset, followed by individual rules and their associated performance metrics.
+=== "Text file"
 
-<p style="font-size:larger;">Global Statistics:</p>
+    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). The file begins with global statistics about the ruleset, followed by individual rules, ordered by their covering size, and their associated performance metrics.
 
-`Number of rules`
-:   Indicates the total number of rules in the ruleset.
+    <p style="font-size:larger;">Global Statistics:</p>
 
-`Mean sample covering number per rule`
-:   The average number of training samples covered by each rule.
+    `Number of rules`
+    :   Indicates the total number of rules in the ruleset.
 
-`Mean number of antecedents per rule`
-:   Represents the average number of conditions (antecedents) in each rule.
+    `Mean sample covering number per rule`
+    :   The average number of training samples covered by each rule.
 
-`Decision threshold`
-:   Indicates whether a decision threshold was used for prediction and specifies the threshold if applicable.
+    `Mean number of antecedents per rule`
+    :   Represents the average number of conditions (antecedents) in each rule.
 
-<hr style="border-top: 1px solid; width: 25%;">
+    `Decision threshold`
+    :   Indicates whether a decision threshold was used for prediction and specifies the threshold if applicable.
 
-<p style="font-size:larger;">Explanation of Each Rule:</p>
+    <hr style="border-top: 1px solid; width: 25%;">
 
-Each rule consists of conditions on various attributes, followed by the predicted class, and is accompanied by several performance metrics. Let's break down this rule as an example:
+    <p style="font-size:larger;">Explanation of Each Rule:</p>
 
-    Rule 1: X0>=0.65839 X1>=0.423139 X8>=0.105399 -> class 0
-        Train Covering size : 121
-        Train Fidelity : 1
-        Train Accuracy : 0.950413
-        Train Confidence : 0.97161
-`X0, X1, X8`
-:   These represent the variables from the dataset.
+    Each rule consists of conditions on various attributes, followed by the predicted class, and is accompanied by several performance metrics. Let's break down this rule as an example:
 
-`>=0.65839, >=0.423139, >=0.105399`
-:   The thresholds that the variable values must meet for the rule to be activated.
+        Rule 1: X0>=0.65839 X1>=0.423139 X8>=0.105399 -> class 0
+            Train Covering size : 121
+            Train Fidelity : 1
+            Train Accuracy : 0.950413
+            Train Confidence : 0.97161
+    `X0, X1, X8`
+    :   These represent the variables from the dataset.
 
-`-> class 0`
-:   The class predicted by the rule when the conditions are met. Here, the rule predicts class 0.
+    `>=0.65839, >=0.423139, >=0.105399`
+    :   The thresholds that the variable values must meet for the rule to be activated.
 
-<hr style="border-top: 1px solid; width: 25%;">
+    `-> class 0`
+    :   The class predicted by the rule when the conditions are met. Here, the rule predicts class 0.
 
-<p style="font-size:larger;">Performance Metrics Associated with the Rule:</p>
+    <hr style="border-top: 1px solid; width: 25%;">
 
-`Train Covering size`
-: Indicates the number of training samples that are covered by the rule. For Rule 1, it covers 121 samples.
+    <p style="font-size:larger;">Performance Metrics Associated with the Rule:</p>
 
-`Train Fidelity`
-: Measures how well the rule aligns with the model’s predictions. A fidelity of 1 means that the rule exactly matches the model’s predictions for all the samples it covers.
+    `Train Covering size`
+    : Indicates the number of training samples that are covered by the rule. For Rule 1, it covers 121 samples.
 
-`Train Accuracy`
-: The accuracy of the rule on the samples it covers. In the case of Rule 1, 95.04% of the covered samples are correctly classified.
+    `Train Fidelity`
+    : Measures how well the rule aligns with the model’s predictions. A fidelity of 1 means that the rule exactly matches the model’s predictions for all the samples it covers.
 
-`Train Confidence`
-: Represents the average confidence score of the model’s predictions for the samples covered by the rule.
+    `Train Accuracy`
+    : The accuracy of the rule on the samples it covers. In the case of Rule 1, 95.04% of the covered samples are correctly classified.
 
-Each subsequent rule follows the same structure.
+    `Train Confidence`
+    : Represents the average confidence score of the model’s predictions for the samples covered by the rule.
+
+    Each subsequent rule follows the same structure.
+
+=== "JSON file"
+
+    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). The file begins with an indication whether a decision threshold was used for prediction and specifies the threshold if applicable. It then follows with each individual rule and its associated performance metrics, ordered by their covering size. Let's break down this rule as an example:
+
+        {
+            "accuracy": 1.0,
+            "antecedents": [
+                {
+                    "attribute": 8,
+                    "inequality": false,
+                    "value": 0.07228972839342673
+                },
+                {
+                    "attribute": 3,
+                    "inequality": true,
+                    "value": 0.6969069765088105
+                }
+            ],
+            "confidence": 0.991161,
+            "coveredSamples": [
+                67,
+                213,
+                567
+            ],
+            "coveringSize": 3,
+            "fidelity": 1.0,
+            "outputClass": 1
+        }
+
+    `accuracy`
+    : The accuracy of the rule on the samples it covers. For this rule, 100% of the covered samples are correctly classified.
+
+    `antecedents`
+    : Each antecedant of the rule which is composed of an attribute (a variable from the dataset), an inequality, and a value. A `true` inequality represents `>=`, while a `false` inequality represents `<`. The value is the threshold that the attribute's value must meet for the rule to be activated. In this rule, the first antecedant specifies that `X8 < 0.07228972839342673`.
+
+    `confidence`
+    : Represents the average confidence score of the model’s predictions for the samples covered by the rule. For this rule, the confidence is 99.12%.
+
+    `coveredSamples`
+    : Indicates the samples covered by the rule. This rule coveres the samples 67, 213 and 567.
+
+    `coveringSize`
+    : Indicates the number of samples that are covered by the rule. This rule covers 3 samples.
+
+    `fidelity`
+    : Measures how well the rule aligns with the model’s predictions. A fidelity of 1 means that the rule exactly matches the model’s predictions for all the samples it covers.
+
+    `outputClass`
+    : Indicates the class prediction of the rule, the predicted class is 1.
 
 <!-- TODO: Complete this section -->
