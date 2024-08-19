@@ -506,7 +506,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 
 === "Text file"
 
-    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). The file begins with global statistics about the ruleset, followed by individual rules, ordered by their covering size, and their associated performance metrics.
+    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). It begins with global statistics about the ruleset, followed by individual rules, ordered by their covering size, and their associated performance metrics.
 
     <p style="font-size:larger;">Global Statistics:</p>
 
@@ -553,16 +553,16 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
     : Measures how well the rule aligns with the model’s predictions. A fidelity of 1 means that the rule exactly matches the model’s predictions for all the samples it covers.
 
     `Train Accuracy`
-    : The accuracy of the rule on the samples it covers. In the case of Rule 1, 95.04% of the covered samples are correctly classified.
+    : The accuracy of the rule in correctly classifying the samples it covers. In the case of Rule 1, 95.04% of the covered samples are correctly classified.
 
     `Train Confidence`
-    : Represents the average confidence score of the model’s predictions for the samples covered by the rule.
+    : This is the average confidence score of the model’s predictions for the samples covered by the rules. It is computed based on the prediction scores of the covered samples, indicating the model’s confidence in its classifications. For Rule 1, the confidence is 97.16%.
 
     Each subsequent rule follows the same structure.
 
 === "JSON file"
 
-    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). The file begins with an indication whether a decision threshold was used for prediction and specifies the threshold if applicable. It then follows with each individual rule and its associated performance metrics, ordered by their covering size. Let's break down this rule as an example:
+    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). It begins with an indication whether a decision threshold was used for prediction and specifies the threshold if applicable. It then follows with each individual rule and its associated performance metrics, ordered by their covering size. Let's break down this rule as an example:
 
         {
             "accuracy": 1.0,
@@ -610,4 +610,4 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
     `outputClass`
     : Indicates the class prediction of the rule, the predicted class is 1.
 
-<!-- TODO: Complete this section -->
+    Each subsequent rule follows the same structure.
