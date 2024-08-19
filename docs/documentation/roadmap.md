@@ -14,21 +14,21 @@ This section shows the progress of the general documentation redaction.
         * [ ] 2.2 Fidex algorithms
             * [x] 2.2.1 Introduction
             * [x] 2.2.2 Architecture
-            * [ ] 2.2.3 Fidex
+            * [x] 2.2.3 Fidex
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
             * [ ] 2.2.3 FidexGlo
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.2.4 FidexGloRules
+            * [x] 2.2.4 FidexGloRules
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
             * [x] 2.2.5 FidexGloStats
                 * [x] Description
                 * [x] Arguments list
