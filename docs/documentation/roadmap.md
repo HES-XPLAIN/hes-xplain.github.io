@@ -11,7 +11,7 @@ This section shows the progress of the general documentation redaction.
 ??? quote "Algorithms"
     - [ ] 2 Algorithms
         * [x] 2.1 Algorithms ensembles
-        * [ ] 2.2 Fidex algorithms
+        * [x] 2.2 Fidex algorithms
             * [x] 2.2.1 Introduction
             * [x] 2.2.2 Architecture
             * [x] 2.2.3 Fidex
@@ -19,11 +19,11 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [x] Output Interpretation
-            * [ ] 2.2.3 FidexGlo
+            * [x] 2.2.3 FidexGlo
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
             * [x] 2.2.4 FidexGloRules
                 * [x] Description
                 * [x] Arguments list

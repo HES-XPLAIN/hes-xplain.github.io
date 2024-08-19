@@ -531,4 +531,60 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 
 ## Output interpretation
 
-<!-- TODO: Complete this section -->
+---
+
+### [Explanation file](#explanation-file) 
+
+This file contains the explanations computed for each test data sample. An explanation is given by a bunch of correct activated global rules computed beforehand by [FidexGloRules](fidexglorules.md) , as well as any incorrectly activated rules if present. If no rule is activated for a sample, one or more local rules are computed by [Fidex](fidex.md). The file begins with global statistics about the ruleset, followed by the explanation for each test sample. Each explanation includes the model's prediction class its probability score (confidence). For both the correct and incorrect activated rules, the number of rules is provided, with rules ordered by their covering size and associated with their performance metrics. At the end of the file, a statistic is included showing the percentage of times that Fidex was called to generate a local rule.
+
+<p style="font-size:larger;">Global Statistics:</p>
+
+`Number of rules`
+:   Indicates the total number of rules in the ruleset.
+
+`Mean sample covering number per rule`
+:   The average number of training samples covered by each rule.
+
+`Mean number of antecedents per rule`
+:   Represents the average number of conditions (antecedents) in each rule.
+
+`Decision threshold`
+:   If present, indicates the decision threshold used for prediction.
+
+<hr style="border-top: 1px solid; width: 25%;">
+
+<p style="font-size:larger;">Explanation of Each Rule:</p>
+
+Each rule consists of conditions on various attributes, followed by the predicted class, and is accompanied by several performance metrics. Let's break down this rule as an example:
+
+    Rule 1: X0>=0.65839 X1>=0.423139 X8>=0.105399 -> class 0
+        Train Covering size : 121
+        Train Fidelity : 1
+        Train Accuracy : 0.950413
+        Train Confidence : 0.97161
+`X0, X1, X8`
+:   These represent the variables from the dataset.
+
+`>=0.65839, >=0.423139, >=0.105399`
+:   The thresholds that the variable values must meet for the rule to be activated.
+
+`-> class 0`
+:   The class predicted by the rule when the conditions are met. Here, the rule predicts class 0.
+
+<hr style="border-top: 1px solid; width: 25%;">
+
+<p style="font-size:larger;">Performance Metrics Associated with the Rule:</p>
+
+`Train Covering size`
+: Indicates the number of training samples that are covered by the rule. For Rule 1, it covers 121 samples.
+
+`Train Fidelity`
+: Measures how well the rule aligns with the model’s predictions. A fidelity of 1 means that the rule exactly matches the model’s predictions for all the samples it covers.
+
+`Train Accuracy`
+: The accuracy of the rule in correctly classifying the samples it covers. In the case of Rule 1, 95.04% of the covered samples are correctly classified.
+
+`Train Confidence`
+: This is the average confidence score of the model’s predictions for the samples covered by the rules. It is computed based on the prediction scores of the covered samples, indicating the model’s confidence in its classifications. For Rule 1, the confidence is 97.16%.
+
+Each subsequent rule follows the same structure.
