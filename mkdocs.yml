@@ -11,13 +11,13 @@ extra_css:
 
 nav:
   - Home: index.md
-  - HES-XPLAIN:
-    - Introduction: hes-xplain/introduction.md
-    - Platform overview: hes-xplain/platform_overview.md
-    - Usage: hes-xplain/usage.md
-    - Algorithms: hes-xplain/algos.md
-    - Ressources: hes-xplain/ressources.md
   - XAI: xai.md
+  - Platform:
+    - Introduction: platform/introduction.md
+    - Overview: platform/overview.md
+    - Usage: platform/usage.md
+    - Algorithms: platform/algos.md
+    - Ressources: platform/ressources.md
   - Use Case: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md
