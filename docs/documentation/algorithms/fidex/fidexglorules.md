@@ -506,7 +506,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 
 === "Text file"
 
-    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). It begins with global statistics about the ruleset, followed by individual rules, ordered by their covering size, and their associated performance metrics.
+    This file contains all the computed global rules. It begins with global statistics about the ruleset, followed by individual rules, ordered by their covering size, and their associated performance metrics.
 
     <p style="font-size:larger;">Global Statistics:</p>
 
@@ -562,7 +562,7 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 
 === "JSON file"
 
-    This file contains all the global rules computed by [fidexGloRules](fidexglorules.md). It begins with an indication whether a decision threshold was used for prediction and specifies the threshold if applicable. It then follows with each individual rule and its associated performance metrics, ordered by their covering size. Let's break down this rule as an example:
+    This file contains all the computed global rules. It begins with an indication whether a decision threshold was used for prediction and specifies the threshold if applicable. It then follows with each individual rule and its associated performance metrics, ordered by their covering size. Let's break down this rule as an example:
 
         {
             "accuracy": 1.0,
