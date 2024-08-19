@@ -25,9 +25,29 @@ nav:
     - GUI: documentation/gui.md
     - Algorithms:
       - Overview: documentation/algorithms/overview.md
-      - Fidex: documentation/algorithms/fidex/overview.md
-      - DIMLP: documentation/algorithms/dimlp/overview.md
-      - Training methods: documentation/algorithms/training-methods/overview.md
+      - Fidex:
+        - Overview: documentation/algorithms/fidex/overview.md
+        - Fidex: documentation/algorithms/fidex/fidex.md
+        - FidexGloRules: documentation/algorithms/fidex/fidexglorules.md
+        - FidexGloStats: documentation/algorithms/fidex/fidexglostats.md
+        - FidexGlo: documentation/algorithms/fidex/fidexglo.md
+      - DIMLP:
+        - Overview: documentation/algorithms/dimlp/overview.md
+        - DimlpTrn: documentation/algorithms/dimlp/dimlptrn.md
+        - DimlpPred: documentation/algorithms/dimlp/dimlppred.md
+        - DimlpCls: documentation/algorithms/dimlp/dimlpcls.md
+        - DimlpRul: documentation/algorithms/dimlp/dimlprul.md
+        - DimlpBT: documentation/algorithms/dimlp/dimlpbt.md
+        - DensCls: documentation/algorithms/dimlp/denscls.md
+      - Training methods:
+        - Overview: documentation/algorithms/training-methods/overview.md
+        - gradBoostTrn: documentation/algorithms/training-methods/gradboosttrn.md
+        - randForestsTrn: documentation/algorithms/training-methods/randforeststrn.md
+        - mlpTrn: documentation/algorithms/training-methods/mlptrn.md
+        - svmTrn: documentation/algorithms/training-methods/svmtrn.md
+        - computeRocCurve: documentation/algorithms/training-methods/computeroccurve.md
+        - normalization: documentation/algorithms/training-methods/normalization.md
+        - cnnTrn: documentation/algorithms/training-methods/cnntrn.md
     - File formats:
       - Overview: documentation/file-formats/overview.md
       - Json: documentation/file-formats/json-configuration-files.md
@@ -122,6 +142,7 @@ markdown_extensions:
   - pymdownx.tilde
   - tables
   - toc:
+      toc_depth: 2
       permalink: true
 
 plugins:
