@@ -152,6 +152,8 @@ plugins:
       minify_html: true
       minify_js: true
       minify_css: true
+  - social:
+      cards_layout: default
 #  - redirects:
 #      redirect_maps:
 #        'old.md': 'new.md'
