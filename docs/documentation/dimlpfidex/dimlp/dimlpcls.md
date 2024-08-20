@@ -264,11 +264,11 @@ Each row of probabilities allows you to interpret the model's confidence in its 
 
 This file contains accuracy and error measurements on the testing set. It offers a clear overview of the model’s performance, helping to evaluate how well the model has learned and generalized to unseen data.
 
-    `Accuracy`
-    :   Indicates the proportion of correctly classified test samples.
+`Accuracy`
+:   Indicates the proportion of correctly classified test samples.
 
-    `Sum squared error`
-    :   Represents the sum of the squared differences between the predicted and actual values for the test samples. It is a measure of the model’s overall error.
+`Sum squared error`
+:   Represents the sum of the squared differences between the predicted and actual values for the test samples. It is a measure of the model’s overall error.
 
 ---
 

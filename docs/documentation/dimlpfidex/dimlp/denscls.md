@@ -396,8 +396,8 @@ Each row of probabilities allows you to interpret the model's confidence in its 
 
 This file contains the global accuracy on the training and testing sets (if provided) across all the networks. It offers a clear overview of the model’s performance across different datasets, helping to evaluate how well the model has learned and generalized to unseen data.
 
-    `Accuracy`
-    :   Indicates the proportion of correctly classified samples in each dataset (training, validation, or testing).
+`Accuracy`
+:   Indicates the proportion of correctly classified samples in each dataset (training, validation, or testing).
 
 ---
 

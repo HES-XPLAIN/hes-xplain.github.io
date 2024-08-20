@@ -34,35 +34,35 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [x] Output Interpretation
-        * [ ] 2.3 DIMLP algorithms 
+        * [x] 2.3 DIMLP algorithms 
             * [x] 2.3.1 Overview
                 * [x] Introduction
                 * [x] architecture
-            * [ ] 2.3.2 densCls
+            * [x] 2.3.2 densCls
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.3.3 DimlpBT
+                * [x] Output Interpretation
+            * [x] 2.3.3 DimlpBT
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.3.4 DimlpCls
+                * [x] Output Interpretation
+            * [x] 2.3.4 DimlpCls
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
             * [x] 2.3.5 DimlpTrn
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
                 * [x] Output Interpretation
-            * [ ] 2.3.6 DimlpPred
+            * [x] 2.3.6 DimlpPred
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
         * [ ] 2.4 Training methods
             * [x] 2.4.1 Overview
                 * [x] Introduction 
@@ -87,16 +87,16 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.4.6 mlpTrn   
+            * [x] 2.4.6 mlpTrn   
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.7 svmTrn
+                * [x] Output Interpretation
+            * [x] 2.4.7 svmTrn
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
             * [ ] 2.3.6 Normalization
                 * [x] Description
                 * [x] Arguments list
