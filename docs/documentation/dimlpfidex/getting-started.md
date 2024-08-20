@@ -17,7 +17,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     Dive into breast cancer classification and rule extraction with [dimlpBT](dimlp/dimlpbt.md) and various [Fidex](fidex/overview.md) algorithms.
 
-    [:octicons-arrow-right-24: More](#TODO)
+    [:octicons-arrow-right-24: More](../../notebooks.md#breast-cancer-classification)
 
 -   **OCD Notebook**
 
@@ -25,7 +25,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     Dive into breast obesity risk classification and rule extraction with our [random forest](training-methods/randforeststrn.md) and various [Fidex](fidex/overview.md) algorithms.
 
-    [:octicons-arrow-right-24: More](#TODO)
+    [:octicons-arrow-right-24: More](../../notebooks.md#obesity-cardiovascular-risk-classification)
 
 -   **MNIST Notebook**
 
@@ -33,7 +33,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     Dive into handwritten digits classification and rule extraction with our [CNN](training-methods/cnntrn.md) and various [Fidex](fidex/overview.md) algorithms.
 
-    [:octicons-arrow-right-24: More](#TODO)
+    [:octicons-arrow-right-24: More](../../notebooks.md#mnist)
 
 -   **Cracks Notebook**
 
@@ -41,7 +41,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     Dive into surface cracks detection and rule extraction with our [CNN](training-methods/cnntrn.md) using `VGG16` and various [fidex](fidex/overview.md) algorithms.
 
-    [:octicons-arrow-right-24: More](#TODO)
+    [:octicons-arrow-right-24: More](../../notebooks.md#cracks)
 
 -   **GUI Notebook**
 
