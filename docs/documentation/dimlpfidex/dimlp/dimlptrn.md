@@ -661,7 +661,7 @@ For each rule and each dataset, there is some performances associated with the r
 `Class = 1`
 :   The class predicted by the rule when the conditions are met. Here, the rule predicts class 1.
 
-It is followed by the global accuracy of the rules on the whole set. That means, ??? [Comment on choisit la prédiction des règles pour chaque sample? Car plusieurs règles peuvent être activées]
+It is followed by the global accuracy of the rules on the whole set. That means the accuracy of the ruleset in predicting the correct class for the samples, regardless of the model's predictions. It is accurate when there is a correct fidel activated rule, when no rule is activated and the model is correct, or when the activated rules are incorrect but all agree on the correct class.
 
 <hr style="border-top: 1px solid; width: 25%;">
 
@@ -677,7 +677,7 @@ It is followed by the global accuracy of the rules on the whole set. That means,
 :   Represents the average number of conditions (antecedents) in each rule.
 
 `Number of examples per rule`
-:   The average number of training/validation???(quels sets?) samples covered by each rule.
+:   The average number of training and validation samples covered by each rule.
 
 <hr style="border-top: 1px solid; width: 25%;">
 

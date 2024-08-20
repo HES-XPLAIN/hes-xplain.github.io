@@ -1,1 +1,0 @@
-You can find all our ressources here and there 
