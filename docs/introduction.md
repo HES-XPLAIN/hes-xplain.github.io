@@ -6,6 +6,8 @@ hide:
 
 # :material-chat-question: Introduction to XAI
 
+What is Explainable AI, and why is it needed?
+
 ## Traditional AI models
 
 !!! failure inline end "Traditional AI model"
@@ -87,3 +89,18 @@ ethical and fair use of AI in society.
 
 > Explainability is a cornerstone for attaining some of the fundamental principles of **responsible AI**:
 *fairness*, *transparency*, *privacy*, *accountability*, *safety*, *security*, and *reliability*.
+
+---
+
+## Application domains
+Our tools can be used to bring explainability across a wide range of domains, including but not limited to:
+
+- :material-medical-bag: **Healthcare**: Explainable algorithms can improve diagnostic tools by providing transparent decision-making processes, helping clinicians understand and trust the outputs, which can lead to better patient outcomes.
+
+- :material-finance: **Finances**: Explainable algorithms offer transparency in risk assessment and trading strategies, enabling financial professionals to understand the factors driving model predictions and make more informed decisions.
+
+- :material-chart-arc: **Marketing**: By offering insights into customer segmentation and behavior analysis, our algorithms help marketers understand the underlying reasons behind customer trends, leading to more effective and targeted marketing strategies.
+
+- :material-hammer-wrench: **Engineering**: Explainability in engineering models allows for better system design and optimization by providing clear insights into how various factors influence the model's predictions, facilitating more reliable and robust engineering solutions.
+
+- :material-test-tube: **Research**: Our tools aid in data analysis and hypothesis testing by making the model's decision processes transparent, which helps researchers validate their findings and ensure the reliability of their studies.

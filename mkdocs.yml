@@ -11,14 +11,14 @@ extra_css:
 
 nav:
   - Home: index.md
-  - XAI: xai.md
+  - Introduction: introduction.md
   - Platform:
     - Introduction: platform/introduction.md
     - Overview: platform/overview.md
     - Usage: platform/usage.md
     - Algorithms: platform/algos.md
     - Ressources: platform/ressources.md
-  - Use Case: notebooks.md
+  - Notebooks: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md
     - Installation: documentation/installation-guide.md
