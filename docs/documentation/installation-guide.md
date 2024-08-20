@@ -134,4 +134,4 @@ Required parameters:
 (...)
 ```
 
-You are now set to use all `dimlpfidex` tools! You can continue to follow the [getting-started tutorial](getting-started.md) to learn more about how to use the different tools available.
+You are now set to use all `dimlpfidex` tools! You can continue to follow the [getting-started tutorial](dimlpfidex/getting-started.md) to learn more about how to use the different tools available.
