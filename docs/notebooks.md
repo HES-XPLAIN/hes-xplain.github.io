@@ -7,41 +7,90 @@ We have curated a diverse range of notebooks for audiences with varying levels o
 
 Explore our collection of notebooks to understand how AI models make decisions, interpret their outputs, and gain insights into their predictions.
 
-## Interactive sessions
+---
 
-Whether you prefer the convenience of launching an online interactive session or the flexibility of a local session,
-we provide you with the necessary tools. Simply choose between launching an **online session** in **Google Colab**
-or setting up a **local session** with our provided **Docker Compose files**.
+There are 2 categories of notebooks:
 
-**Note:** A **Google account** is required to access Google Colab free of charge.
+* :material-hammer-wrench: **Tutorials**: Explore various notebooks illustrating practical uses of XAI techniques in different machine learning scenarios.
+* :material-test-tube: **Use cases**: Focus on a particular goal-oriented ML task with notebooks demonstrating the integration of XAI techniques for greater interpretability.
 
-??? tip ":simple-googlecolab: Online session: How to launch Google Colab"
+To launch the notebooks, refer to [Using notebooks](../platform/usage/#using-notebooks).
 
-    * Click on the provided link to open the notebook in your browser.
-    * In the upper right corner of the editor, click on the downward arrow right of the **Connect** and then **Change runtime type**.
-    * Select **T4 GPU** to make use of GPU accelleration, then **Save**.
-    * Click on **Connect**.
+!!! warning
 
-When you are done, the environment will be shutdown after 30 minutes of inactivity. You can also shut it down
-manually by clicking on **Runtime** menu then by selecting **Disconnect and delete runtime**.
+    **Important**: To run the notebook on Google Colab successfully, ensure to change the variable `use_colab` in the first cell to **True**.
 
-??? tip ":octicons-desktop-download-24: Local session: How to install Docker Desktop"
+## Tutorials
 
-    The provided Docker Compose files allow you to easily launch Jupyter notebooks and embedded data locally, giving you
-    convenient access to the notebook content and data.
+### Class Activation Maps (CAM)
 
-    You only need to install [Docker Desktop](https://www.docker.com/) and then download the Docker Compose file.
+Through this use case, we present the potential of CAM as a tool for transparent and interpretable sport image classification.
 
-    * Go to the [Docker website](https://www.docker.com/)
-    * Download the appropriate Docker Desktop version for your operating system (:simple-windows11: :simple-apple: :simple-linux:).
-    * Open a terminal or command prompt and run `docker version` to verify the installation.
-    * Ensure Docker Desktop is running.
-    * Download the Docker Compose files on this page and launch them with `docker compose up -f path/to/docker-compose.yml`.
+!!! example "Sport Image Classification with Class Activation Maps (CAM)"
+
+    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
+
+    **Class Activation Maps (CAM)**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/cam_demo.ipynb" target="_blank">Exploring Class Activation Maps for Sport Image Classification</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+In this use case, we dive into sport image classification and showcase the power of **Class Activation Maps** (CAM) as an
+interpretability tool.
+
+CAM allows us to visualize the regions of an image that contribute most to the model's classification decision.
+By overlaying **heatmaps** onto the original images, we gain insights into the model's attention and its understanding of different sports.
+
+While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
+
+By the end of this use case, you will have a solid understanding of CAM and how to integrate it into your own projects.
+
+### Rules Extraction
+
+Through this use case, we aim to present the potential of Rules Extraction as a tool for transparent and interpretable sport image classification.
+
+!!! example "Sport Image Classification with Rules Extarction"
+
+    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
+
+    **Rules Extraction**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/rules_extraction_demo.ipynb" target="_blank">Exploring Rules Extraction for Sport Image Classification</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+In this use case, we dive into sport image classification and showcase the power of **Rules Extraction** as an interpretability tool.
+
+While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
+
+By the end of this use case, you will have a solid understanding of Rules Extraction and how to integrate it into your own projects.
 
 
-## Use Case : Sport Image Classification 
+### Feature Visualisation
 
-Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the Sports Image Classification dataset. We also builds post-hoc explanations to explain the model and its prediction. 
+Through this use case, we aim to present the potential of Feature Visualisation as a tool for transparent and interpretable sport image classification.
+
+!!! example "Sport Image Classification with Feature Visualisation"
+
+    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
+
+    **Feature Visualisation**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/feature_visualization_demo.ipynb" target="_blank">Exploring Feature Visualisation for Sport Image Classification</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+In this use case, we dive into sport image classification and showcase the power of **Feature Visualisation** as an interpretability tool.
+
+While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
+
+By the end of this use case, you will have a solid understanding of Feature Visualisation and how to integrate it into your own projects.
+
+---
+
+## Use Cases
+
+### Sport Image Classification
+
+Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the Sports Image Classification dataset. We also builds post-hoc explanations to explain the model and its prediction.
 
 !!! example "Sport Image Classification"
 
@@ -52,13 +101,54 @@ Through this use case, we aim to to show how to use XAI techniques and methods t
     * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/use_case_sport_image_classification.ipynb" target="_blank">XAI for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
-    **Important**: To run the notebook on Google Colab, ensure to change the variable `use_colab` in the first cell to **True**.
+### MNIST
 
-## Use Case : Complex Images
+Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the Sports Image Classification dataset. We also builds post-hoc explanations to explain the model and its prediction.
 
-WIP
+!!! example "MNIST Image Classification"
 
-## Use Case : Tabular Dataset
+    ![MNIST Image](assets/images/examples/MNIST.png){ width="200px", align=left }
 
-WIP
+    **MNIST Image Classification**
 
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/mnist.ipynb" target="_blank">XAI for MNIST</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+### Cracks
+
+Through this use case, we aim to show how to use XAI techniques and methods to create an explainable model to classify images from cracked concrete image dataset. We also builds post-hoc explanations to explain the model and its prediction.
+
+!!! example "Cracks Image Classification"
+
+    ![Cracks Image](assets/images/examples/cracks.png){ width="200px", align=left }
+
+    **Cracks Image Classification**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/cracks.ipynb" target="_blank">XAI for Cracks Images Classification</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+### Breast cancer classification
+
+Through this use case, we demonstrate how to use Dimlp to train a model based on breast cancer tumors dataset and the Fidex algorithms to extract rules.
+
+!!! example "Breast cancer classification"
+
+    ![Breast cancer](assets/images/examples/breast-cancer.jpg){ width="200px", align=left }
+
+    **Breast cancer classification**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/breastCancerWisconsin.ipynb" target="_blank">XAI for Breast cancer classification</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+### Obesity Cardiovascular risk classification
+
+As an alternative to the previous notebook, this use case aims to use a different dataset and training model to show the versatility of our explainability tools. In addition, we will cover how to pre-process a dataset that is not initially usable by a model and convert it to an exploitable dataset.
+
+!!! example "Obesity Cardiovascular Risk Classification"
+
+    ![Cracks Image](assets/images/examples/obesity.jpg){ width="200px", align=left }
+
+    **Obesity Cardiovascular Risk Classification**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/obesityCvdRisk.ipynb" target="_blank">XAI for Obesity Cardiovascular Risk Classification</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
