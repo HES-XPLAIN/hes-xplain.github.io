@@ -13,7 +13,7 @@ Here is a selection of subjects that may fit your needs.
 
     ---
 
-    Install `dimlpfidex` and get running in minutes.
+    Install `dimlpfidex` and/or `rule-extraction` and get running in minutes.
 
     [:octicons-arrow-right-24: Installation guide](installation-guide.md)
 
@@ -27,7 +27,7 @@ Here is a selection of subjects that may fit your needs.
     [:octicons-arrow-right-24: Getting started](getting-started.md)
 
 
--   :material-application:{ .lg .middle } **Graphical User Interface**
+-   :material-application:{ .lg .middle } **Dimlpfidex graphical User Interface**
 
     ---
 
@@ -36,6 +36,31 @@ Here is a selection of subjects that may fit your needs.
     [:octicons-arrow-right-24: Try the GUI](gui.md)
 
 
+-   :fontawesome-solid-gears:{ .lg .middle } **Dimlpfidex documentation**
+
+    ---
+
+    All `dimlpfidex` algorithms are described here.
+
+    [:octicons-arrow-right-24: Dive in](dimlpfidex/overview.md)
+
+-   :fontawesome-solid-gears:{ .lg .middle } **Rules extraction documentation**
+
+    ---
+
+    All about the `rules extractions` library.
+
+    [:octicons-arrow-right-24: Dive in](rulesextraction/overview.md)
+
+
+-   :fontawesome-solid-gears:{ .lg .middle } **MLxplain documentation**
+
+    ---
+
+    All about the `MLxplain` library.
+
+    [:octicons-arrow-right-24: Dive in](mlxplain/overview.md)
+
 -   :material-code-block-tags:{ .lg .middle } **API reference**
 
     ---
@@ -43,16 +68,6 @@ Here is a selection of subjects that may fit your needs.
     Technical documentation for core features.
 
     [:octicons-arrow-right-24: Reference](../reference.md)
-
-
--   :fontawesome-solid-gears:{ .lg .middle } **Algorithms**
-
-    ---
-
-    All `dimlpfidex` algorithms are described here.
-
-    [:octicons-arrow-right-24: Dive in](algorithms/overview.md)
-
 
 -   :material-scale-balance:{ .lg .middle } **License**
 
