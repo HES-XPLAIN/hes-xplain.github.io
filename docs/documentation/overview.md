@@ -13,18 +13,9 @@ Here is a selection of subjects that may fit your needs.
 
     ---
 
-    Install `dimlpfidex` and/or `rule-extraction` and get running in minutes.
+    How to rapidly install `dimlpfidex`, `rule-extraction`, and `MLxplain`.
 
-    [:octicons-arrow-right-24: Installation guide](installation-guide.md)
-
-
--   :material-clock-fast:{ .lg .middle } **Getting started**
-
-    ---
-
-    Guided first steps into explainability algorithms. 
-
-    [:octicons-arrow-right-24: Getting started](getting-started.md)
+    [:octicons-arrow-right-24: get the installation guide](installation-guide.md)
 
 
 -   :material-application:{ .lg .middle } **Dimlpfidex graphical User Interface**
@@ -33,7 +24,7 @@ Here is a selection of subjects that may fit your needs.
 
     Having trouble trying to deal with JSON configuration files? 
 
-    [:octicons-arrow-right-24: Try the GUI](gui.md)
+    [:octicons-arrow-right-24: Try the GUI](dimlpfidex/gui.md)
 
 
 -   :fontawesome-solid-gears:{ .lg .middle } **Dimlpfidex documentation**

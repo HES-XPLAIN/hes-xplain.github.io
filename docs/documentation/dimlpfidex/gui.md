@@ -5,7 +5,7 @@
 
 The dimlpfidex Graphical User Interface was made to help with **`JSON configuration files`**. All [dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) algorithms can be fed with these files to supply all the data needed to execute them. However, you may not be experienced with `JSON` and `configuration files`. This is the reason why we offer you two outcomes: 
 
-1. Learn by yourself how to write configuration files with our [JSON configuration file documentation](file-formats/json-configuration-files.md).
+1. Learn by yourself how to write configuration files with our [JSON configuration file documentation](../file-formats/json-configuration-files.md).
 2. Follow the next section to learn how to generate configuration files with this GUI.
 
 ## Installation guide

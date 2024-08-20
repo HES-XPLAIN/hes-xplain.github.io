@@ -32,7 +32,8 @@ nav:
     
     - Dimlpfidex:
       - Overview: documentation/dimlpfidex/overview.md
-      - GUI: documentation/gui.md
+      - GUI: documentation/dimlpfidex/gui.md
+      - Getting started: documentation/dimlpfidex/getting-started.md
       - Fidex:
         - Overview: documentation/dimlpfidex/fidex/overview.md
         - Fidex: documentation/dimlpfidex/fidex/fidex.md
