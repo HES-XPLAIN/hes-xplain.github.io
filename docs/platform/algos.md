@@ -5,11 +5,6 @@ description of each of our own developed algorithms, as well as how they can be 
 
 ## Our Developed Algorithms
 
-### MLXplain
-
-**MLXplain** is a comprehensive framework that brings together various algorithms to provide a unified platform for eXplainable AI (XAI). This framework serves as the backbone for 
-integrating our own developed algorithms with the modern standards provided by OmniXAI.
-
 ### Rules Extraction
 
 **Rules Extraction** focuses on developing high-level explanation algorithms. This module includes three distinct approaches:
@@ -33,10 +28,37 @@ Additionally, a novel algorithm is developed to combine these approaches, result
 **FUGE** is an algorithm developed to construct fuzzy systems. These systems predict human decision-making outcomes and provide understandable explanations. FUGE combines the 
 predictive power of fuzzy logic with the clarity of human-like reasoning.
 
-## Integration with OmniXAI
+## Our Python Packages
+
+### Individual and Integrated Usage
+
+All of the algorithms developed by HES-XPLAIN can be used individually because we have packaged them separately. This allows users to use each algorithm as a standalone tool according to their specific needs.
+
+Additionally, our platform functions as a comprehensive repository where these individual packages can be accessed and used together. The **MLXplain** package enables users to
+compare and utilize our algorithms in conjunction with OmniXAI algorithms, offering a unified and versatile platform for XAI.
+
+By combining the strengths of our algorithms with the extensive capabilities of OmniXAI, HES-XPLAIN offers a powerful and versatile platform for developing and applying eXplainable
+AI techniques.
+
+
+### Integration with OmniXAI
+
+**MLXplain** serves as the backbone framework that brings together our various algorithms to provide a cohesive platform for eXplainable AI (XAI). Built upon the robust capabilities of [OmniXAI](https://github.com/omnixai/omnixai), a comprehensive Python library designed for explainable AI, MLXplain enhances this foundation by integrating our additional algorithms, resulting in a more powerful and versatile environment for practitioners. s which offers an extensive array of explanation methods tailored to various data types and machine learning models.
+
+As such, MLXplain incorporates all modern standard algorithms available through the OmniXAI library. This integration guarantees that users have access to a broad spectrum of XAI techniques and functionalities, empowering them to leverage the full potential of explainable AI.
+
+While OmniXAI offers a unified interface for a diverse range of explanation methods applicable to various data types and machine learning models, , providing an even more robust and versatile environment for practitioners.
+
+
 
 HES-XPLAIN not only includes our proprietary algorithms but also incorporates all modern standard algorithms through the [OmniXAI](https://github.com/omnixai/omnixai) library. This 
 integration ensures that users have access to a wide range of XAI techniques and functionalities.
+
+## Integration with OmniXAI
+
+In addition to our methods, HES-XPLAIN integrates with the OmniXAI library, a Python framework offering a unified interface for various explainability methods across multiple data types and machine learning models. By building on OmniXAI, HES-XPLAIN extends its functionality with new algorithms, creating a more versatile and robust environment for explainability. This integration enables effective comparisons of different XAI methods, simplifying experimentation and implementation.
+
+
 
 ### MLXplain Package
 
@@ -46,16 +68,6 @@ Our **MLXplain** package serves as the "glue" that seamlessly integrates our dev
 - Enhanced functionality through OmniXAI's robust features.
 - The ability to use our specialized algorithms alongside industry-standard methods, providing a comprehensive toolkit for XAI.
 
-## Individual and Integrated Usage
-
-All of the algorithms developed by HES-XPLAIN can be used individually because we have packaged them separately. This allows users to use each algorithm as a standalone tool 
-according to their specific needs.
-
-Additionally, our platform functions as a comprehensive repository where these individual packages can be accessed and used together. The **MLXplain** package enables users to 
-compare and utilize our algorithms in conjunction with OmniXAI algorithms, offering a unified and versatile platform for XAI.
-
-By combining the strengths of our algorithms with the extensive capabilities of OmniXAI, HES-XPLAIN offers a powerful and versatile platform for developing and applying eXplainable 
-AI techniques.
 
 ---
 

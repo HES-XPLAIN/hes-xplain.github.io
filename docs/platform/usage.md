@@ -1,5 +1,56 @@
 Here is how you can use our super cool platform
 
+
+## Audience
+
+HES-XPLAIN provides the essential tools and resources for data scientists, decision makers, engineers, or educators to effectively understand and apply XAI, and thus promoting greater transparency and trust in AI technologies.
+
+The platform is specifically designed to meet the needs of different key users:
+
+
+!!! info "You are ..."
+
+    === "a decision maker"
+
+        ![Decision maker](../assets/images/tie.svg){ width="200px", align=left }
+        You want to **understand** the **relevance of XAI** for your business.
+
+        - Get an overview of explainability opportunities
+        - Get insights and visualizations that facilitate informed decision-making
+        - Access resources and use case scenarios to guide XAI choices
+
+    === "an engineer"
+
+        ![Engineer](../assets/images/hammer-wrench.svg){ width="200px", align=left }
+        You want to **try XAI algorithms**.
+
+        Get access to exploratory use cases notebooks and datasets
+
+        - Discover use cases as [Jupyter notebooks](../notebooks.md)
+        - Get datasets, algorithms and Python code
+
+    === "a data scientist"
+
+        ![Data scientist](../assets/images/test-tube.svg){ width="200px", align=left }
+        You want to **use XAI** algorithms along **your models**.
+
+        Get access to algorithmes and API documentation.
+
+        - Obtain Python PyPi packages
+        - Get extensive API documentation
+
+    === "a professor"
+
+        ![Professor](../assets/images/school.svg){ width="200px", align=left }
+        You want a tool to **facilitate teaching** of explainable AI.
+
+        - Get access to tutorials and comprehensive guides.
+        - Provide students with practical knowledge and hands-on experience in XAI methodologies
+
+        - Deploy the platform on school IT infrastructure or public cloud
+        - Adapt provided use cases to teaching needs
+
+
 ## Using notebooks
 
 **How to use interactive sessions with notebooks**
