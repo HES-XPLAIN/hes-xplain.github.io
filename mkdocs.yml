@@ -28,6 +28,7 @@ nav:
 
     - Rules extraction: 
       - Overview: documentation/rulesextraction/overview.md
+      - Examples and Uses Cases: documentation/rulesextraction/examples.md
     
     - Dimlpfidex:
       - Overview: documentation/dimlpfidex/overview.md
