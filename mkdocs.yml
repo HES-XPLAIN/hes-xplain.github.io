@@ -11,14 +11,14 @@ extra_css:
 
 nav:
   - Home: index.md
-  - HES-XPLAIN:
-    - Introduction: hes-xplain/introduction.md
-    - Platform overview: hes-xplain/platform_overview.md
-    - Usage: hes-xplain/usage.md
-    - Algorithms: hes-xplain/algos.md
-    - Ressources: hes-xplain/ressources.md
-  - XAI: xai.md
-  - Use Case: notebooks.md
+  - Introduction: introduction.md
+  - Platform:
+    - Introduction: platform/introduction.md
+    - Overview: platform/overview.md
+    - Usage: platform/usage.md
+    - Algorithms: platform/algos.md
+    - Ressources: platform/ressources.md
+  - Notebooks: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md
     - Installation: documentation/installation-guide.md
@@ -152,6 +152,8 @@ plugins:
       minify_html: true
       minify_js: true
       minify_css: true
+  - social:
+      cards_layout: default
 #  - redirects:
 #      redirect_maps:
 #        'old.md': 'new.md'
