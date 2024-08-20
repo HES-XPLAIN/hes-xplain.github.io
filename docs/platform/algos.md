@@ -22,11 +22,11 @@ Additionally, a novel algorithm is developed to combine these approaches, result
 
 ### DIMLPFidex
 
-**DIMLPFidex** is designed to develop low-level explanation algorithms. It focuses on extracting propositional rules from deep models, particularly where the precise location of 
-axis-parallel hyperplanes is known. This module presents two new algorithms:
+**DIMLPFidex** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms. We present three explanation algorithms:
 
-1. **Local Explanation Algorithm**: Provides explanations at a localized level.
-2. **Global Explanation Algorithm**: Offers explanations that provide a global perspective of the model's behavior.
+1. **[Fidex](../../documentation/algorithms/fidex/fidex/)**: Provides localized explanations by generating rules that describe the model’s behavior for specific data samples.
+2. **[FidexGlo](../../documentation/algorithms/fidex/fidexglorules/)**: Offers a global understanding of the model's behavior by aggregating local rules into a comprehensive ruleset.
+3. **[Dimlp](../../documentation/algorithms/dimlp/overview/)**: Extracts global propositional rules from deep models, specifically trained using the `Dimlp` architecture, to explain the model's overall decision-making process.
 
 ### FUGE
 
