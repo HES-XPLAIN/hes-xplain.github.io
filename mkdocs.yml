@@ -22,35 +22,42 @@ nav:
   - Documentation:
     - Overview: documentation/overview.md
     - Installation: documentation/installation-guide.md
-    - GUI: documentation/gui.md
-    - Algorithms:
-      - Overview: documentation/algorithms/overview.md
+
+    - MLxplain: 
+      - Overview: documentation/mlxplain/overview.md 
+
+    - Rules extraction: 
+      - Overview: documentation/rulesextraction/overview.md
+    
+    - Dimlpfidex:
+      - Overview: documentation/dimlpfidex/overview.md
+      - GUI: documentation/gui.md
       - Fidex:
-        - Overview: documentation/algorithms/fidex/overview.md
-        - Fidex: documentation/algorithms/fidex/fidex.md
-        - FidexGloRules: documentation/algorithms/fidex/fidexglorules.md
-        - FidexGloStats: documentation/algorithms/fidex/fidexglostats.md
-        - FidexGlo: documentation/algorithms/fidex/fidexglo.md
+        - Overview: documentation/dimlpfidex/fidex/overview.md
+        - Fidex: documentation/dimlpfidex/fidex/fidex.md
+        - FidexGloRules: documentation/dimlpfidex/fidex/fidexglorules.md
+        - FidexGloStats: documentation/dimlpfidex/fidex/fidexglostats.md
+        - FidexGlo: documentation/dimlpfidex/fidex/fidexglo.md
       - DIMLP:
-        - Overview: documentation/algorithms/dimlp/overview.md
-        - DimlpTrn: documentation/algorithms/dimlp/dimlptrn.md
-        - DimlpPred: documentation/algorithms/dimlp/dimlppred.md
-        - DimlpCls: documentation/algorithms/dimlp/dimlpcls.md
-        - DimlpRul: documentation/algorithms/dimlp/dimlprul.md
-        - DimlpBT: documentation/algorithms/dimlp/dimlpbt.md
-        - DensCls: documentation/algorithms/dimlp/denscls.md
+        - Overview: documentation/dimlpfidex/dimlp/overview.md
+        - DimlpTrn: documentation/dimlpfidex/dimlp/dimlptrn.md
+        - DimlpPred: documentation/dimlpfidex/dimlp/dimlppred.md
+        - DimlpCls: documentation/dimlpfidex/dimlp/dimlpcls.md
+        - DimlpRul: documentation/dimlpfidex/dimlp/dimlprul.md
+        - DimlpBT: documentation/dimlpfidex/dimlp/dimlpbt.md
+        - DensCls: documentation/dimlpfidex/dimlp/denscls.md
       - Training methods:
-        - Overview: documentation/algorithms/training-methods/overview.md
-        - gradBoostTrn: documentation/algorithms/training-methods/gradboosttrn.md
-        - randForestsTrn: documentation/algorithms/training-methods/randforeststrn.md
-        - mlpTrn: documentation/algorithms/training-methods/mlptrn.md
-        - svmTrn: documentation/algorithms/training-methods/svmtrn.md
-        - computeRocCurve: documentation/algorithms/training-methods/computeroccurve.md
-        - normalization: documentation/algorithms/training-methods/normalization.md
-        - cnnTrn: documentation/algorithms/training-methods/cnntrn.md
-    - File formats:
-      - Overview: documentation/file-formats/overview.md
-      - Json: documentation/file-formats/json-configuration-files.md
+        - Overview: documentation/dimlpfidex/training-methods/overview.md
+        - gradBoostTrn: documentation/dimlpfidex/training-methods/gradboosttrn.md
+        - randForestsTrn: documentation/dimlpfidex/training-methods/randforeststrn.md
+        - mlpTrn: documentation/dimlpfidex/training-methods/mlptrn.md
+        - svmTrn: documentation/dimlpfidex/training-methods/svmtrn.md
+        - computeRocCurve: documentation/dimlpfidex/training-methods/computeroccurve.md
+        - normalization: documentation/dimlpfidex/training-methods/normalization.md
+        - cnnTrn: documentation/dimlpfidex/training-methods/cnntrn.md
+      - File formats:
+        - Overview: documentation/file-formats/overview.md
+        - Json: documentation/file-formats/json-configuration-files.md
     - References: documentation/references.md
     - Glossary: documentation/glossary.md
     - Roadmap: documentation/roadmap.md

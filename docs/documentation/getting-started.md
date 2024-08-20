@@ -15,7 +15,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     ---
 
-    Dive into breast cancer classification and rule extraction with [dimlpBT](algorithms/dimlp/dimlpbt.md) and various [Fidex](algorithms/fidex/overview.md) algorithms.
+    Dive into breast cancer classification and rule extraction with [dimlpBT](dimlpfidex/dimlp/dimlpbt.md) and various [Fidex](dimlpfidex/fidex/overview.md) algorithms.
 
     [:octicons-arrow-right-24: More](#TODO)
 
@@ -23,7 +23,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     ---
 
-    Dive into breast obesity risk classification and rule extraction with our [random forest](algorithms/training-methods/randforeststrn.md) and various [Fidex](algorithms/fidex/overview.md) algorithms.
+    Dive into breast obesity risk classification and rule extraction with our [random forest](dimlpfidex/training-methods/randforeststrn.md) and various [Fidex](dimlpfidex/fidex/overview.md) algorithms.
 
     [:octicons-arrow-right-24: More](#TODO)
 
@@ -31,7 +31,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     ---
 
-    Dive into handwritten digits classification and rule extraction with our [CNN](algorithms/training-methods/cnntrn.md) and various [Fidex](algorithms/fidex/overview.md) algorithms.
+    Dive into handwritten digits classification and rule extraction with our [CNN](dimlpfidex/training-methods/cnntrn.md) and various [Fidex](dimlpfidex/fidex/overview.md) algorithms.
 
     [:octicons-arrow-right-24: More](#TODO)
 
@@ -39,7 +39,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     ---
 
-    Dive into surface cracks detection and rule extraction with our [CNN](algorithms/training-methods/cnntrn.md) using `VGG16` and various [fidex](algorithms/fidex/overview.md) algorithms.
+    Dive into surface cracks detection and rule extraction with our [CNN](dimlpfidex/training-methods/cnntrn.md) using `VGG16` and various [fidex](dimlpfidex/fidex/overview.md) algorithms.
 
     [:octicons-arrow-right-24: More](#TODO)
 
