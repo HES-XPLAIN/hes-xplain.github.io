@@ -565,6 +565,8 @@ The `dimlpTrn` algorithm works with both required and optional arguments. Each a
 
 ## Output interpretation
 
+---
+
 ### [Train/Test/Validation prediction file](#train-predictions-output-file)
 
 This file contains the predicted probabilities for each possible class for each train (or test/validation) sample. Each row corresponds to the prediction for a single sample, with `N` values representing the probability that the sample belongs to class `0`, `1`, ... or class `N`. The values in each row sum to 1. The class with the highest probability is considered the predicted class for that sample, unless a decision threshold is applied for a specific class. In that case, if the predicted probability for that class exceeds the threshold, the sample is classified as belonging to that class.
@@ -579,6 +581,8 @@ In the second row, the model predicts a probability of 0.949 that the sample bel
 
 Each row of probabilities allows you to interpret the model's confidence in its predictions, enabling you to understand the likelihood of each sample belonging to a particular class.
 
+---
+
 ### [Weights output file](#weights-output-file)
 
 This file contains the weights and biases between successive layers of neurons in the neural network.
@@ -592,6 +596,8 @@ If layer l~i~ has *m* neurons and layer l~i+1~ has *n* neurons, the weights are 
 
 Where w~ij~ is the weight connecting the i^th^ neuron in layer l~i~ to the j^th^ neuron in layer l~i+1~.
 
+---
+
 ### [Statistics file](#statistics-output-file)
 
 This file contains accuracy and error measurements on the training, validation, and testing sets (if provided). It offers a clear overview of the model’s performance across different datasets, helping to evaluate how well the model has learned and generalized to unseen data.
@@ -601,6 +607,8 @@ This file contains accuracy and error measurements on the training, validation, 
 
     `Sum squared error`
     :   Represents the sum of the squared differences between the predicted and actual values for the samples in each dataset. It is a measure of the model’s overall error for a given set.
+
+---
 
 ### [Hidden layers file](#hidden-layers-output-file)
 
@@ -615,6 +623,8 @@ Example:
     2 5
 
 In this example the first layer has 16 neurons and the second has 5.
+
+---
 
 ### [Global rules output file](#global-rules-output-file) 
 

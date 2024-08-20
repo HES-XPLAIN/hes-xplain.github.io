@@ -197,4 +197,18 @@ The `dimlpPred` algorithm works with both required and optional arguments. Each 
 
 ## Output interpretation
 
-<!-- TODO: add output interpretation -->
+---
+
+### [Test prediction file](#test-predictions-output-file)
+
+This file contains the predicted probabilities for each possible class for each test sample. Each row corresponds to the prediction for a single sample, with `N` values representing the probability that the sample belongs to class `0`, `1`, ... or class `N`. The values in each row sum to 1. The class with the highest probability is considered the predicted class for that sample, unless a decision threshold is applied for a specific class. In that case, if the predicted probability for that class exceeds the threshold, the sample is classified as belonging to that class.
+
+For example:
+
+    0.000718874 0.999281
+    0.949143 0.050857
+
+In the first row, the model predicts a probability of approximately 0.0007 that the sample belongs to class 0, and 0.9993 that it belongs to class 1. Therefore, the model predicts class 1 for this sample.
+In the second row, the model predicts a probability of 0.949 that the sample belongs to class 0, and 0.051 that it belongs to class 1. Hence, the model predicts class 0 for this sample.
+
+Each row of probabilities allows you to interpret the model's confidence in its predictions, enabling you to understand the likelihood of each sample belonging to a particular class.

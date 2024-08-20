@@ -242,4 +242,40 @@ The `dimlpCls` algorithm works with both required and optional arguments. Each a
 
 ## Output interpretation
 
-<!-- TODO: add output interpretation -->
+---
+
+### [Test prediction file](#test-predictions-output-file)
+
+This file contains the predicted probabilities for each possible class for each test sample. Each row corresponds to the prediction for a single sample, with `N` values representing the probability that the sample belongs to class `0`, `1`, ... or class `N`. The values in each row sum to 1. The class with the highest probability is considered the predicted class for that sample, unless a decision threshold is applied for a specific class. In that case, if the predicted probability for that class exceeds the threshold, the sample is classified as belonging to that class.
+
+For example:
+
+    0.000718874 0.999281
+    0.949143 0.050857
+
+In the first row, the model predicts a probability of approximately 0.0007 that the sample belongs to class 0, and 0.9993 that it belongs to class 1. Therefore, the model predicts class 1 for this sample.
+In the second row, the model predicts a probability of 0.949 that the sample belongs to class 0, and 0.051 that it belongs to class 1. Hence, the model predicts class 0 for this sample.
+
+Each row of probabilities allows you to interpret the model's confidence in its predictions, enabling you to understand the likelihood of each sample belonging to a particular class.
+
+---
+
+### [Statistics file](#statistics-output-file)
+
+This file contains accuracy and error measurements on the testing set. It offers a clear overview of the model’s performance, helping to evaluate how well the model has learned and generalized to unseen data.
+
+    `Accuracy`
+    :   Indicates the proportion of correctly classified test samples.
+
+    `Sum squared error`
+    :   Represents the sum of the squared differences between the predicted and actual values for the test samples. It is a measure of the model’s overall error.
+
+---
+
+### [Hidden layer file](#hidden-layers-file)
+
+This file contains the activation values of the neurons in the first hidden layer of the network for each test sample after a forward pass through the network.
+
+- Rows: Each row corresponds to a different test sample.
+
+- Values: Each value within a row represents the activation of a specific neuron in the first hidden layer. The number of values per row corresponds to the number of neurons in that hidden layer.

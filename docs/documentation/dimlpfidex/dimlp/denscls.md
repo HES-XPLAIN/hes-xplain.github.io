@@ -373,4 +373,106 @@ The `densCls` algorithm works with both required and optional arguments. Each ar
     ```
 
 ## Output interpretation
-<!-- TODO: add output interpretation -->
+
+---
+
+### [Train/Test prediction file](#train-predictions-output-file)
+
+This file contains the predicted probabilities for each possible class for each train (or test) sample. Each row corresponds to the prediction for a single sample, with `N` values representing the probability that the sample belongs to class `0`, `1`, ... or class `N`. The values in each row sum to 1. The class with the highest probability is considered the predicted class for that sample, unless a decision threshold is applied for a specific class. In that case, if the predicted probability for that class exceeds the threshold, the sample is classified as belonging to that class.
+
+For example:
+
+    0.000718874 0.999281
+    0.949143 0.050857
+
+In the first row, the model predicts a probability of approximately 0.0007 that the sample belongs to class 0, and 0.9993 that it belongs to class 1. Therefore, the model predicts class 1 for this sample.
+In the second row, the model predicts a probability of 0.949 that the sample belongs to class 0, and 0.051 that it belongs to class 1. Hence, the model predicts class 0 for this sample.
+
+Each row of probabilities allows you to interpret the model's confidence in its predictions, enabling you to understand the likelihood of each sample belonging to a particular class.
+
+---
+
+### [Statistics file](#statistics-output-file)
+
+This file contains the global accuracy on the training and testing sets (if provided) across all the networks. It offers a clear overview of the model’s performance across different datasets, helping to evaluate how well the model has learned and generalized to unseen data.
+
+    `Accuracy`
+    :   Indicates the proportion of correctly classified samples in each dataset (training, validation, or testing).
+
+---
+
+### [Global rules output file](#global-rules-output-file) 
+
+This file contains all the global rules computed with the `Dimlp` algorithm. The rules are ordered by their covering size and are followed by the performance metrics of each rule on the training and testing sets. Additionally, the file provides performance statistics of the ruleset and its application on testing data.
+
+<p style="font-size:larger;">Explanation of Each Rule:</p>
+
+Each rule consists of conditions on various attributes, followed by the predicted class, and is accompanied by the number of training samples it covers. Let's break down this rule as an example:
+
+    Rule 1: (x1 > 0.653808) (x2 > 0.92407) (x8 < 0.44302) Class = 1 (211)
+
+`x1, x2, x8`
+:   These represent the variables from the dataset (x1 is the first attribute).
+
+`>0.653808, >0.92407, <0.44302`
+:   The thresholds that the variable values must meet for the rule to be activated.
+
+`Class = 1`
+:   The class predicted by the rule when the conditions are met. Here, the rule predicts class 1.
+
+`(211)`
+:   The number of training samples covered by the rule. Here, the rule covers 211 samples.
+
+<hr style="border-top: 1px solid; width: 25%;">
+
+<p style="font-size:larger;">Performance Metrics Associated with the Rule:</p>
+
+For each rule and each dataset, there is some performances associated with the rule. It appears like this :
+
+    Rule    1:   143   134     9     0.937063       Class = 1
+
+`143`
+:   The number of samples covered by this rule. 
+
+`134`
+:   The number of samples correctly classified by this rule.
+
+`9`
+:   The number of samples incorrectly classified by this rule.
+
+`0.937063`
+:   The accuracy of this rule in correctly classifying the samples it covers.
+
+`Class = 1`
+:   The class predicted by the rule when the conditions are met. Here, the rule predicts class 1.
+
+It is followed by the global accuracy of the rules on the whole set. That means the accuracy of the ruleset in predicting the correct class for the samples, regardless of the model's predictions. It is accurate when there is a correct fidel activated rule, when no rule is activated and the model is correct, or when the activated rules are incorrect but all agree on the correct class.
+
+<hr style="border-top: 1px solid; width: 25%;">
+
+<p style="font-size:larger;">Global Statistics:</p>
+
+`Number of rules`
+:   Indicates the total number of rules in the ruleset.
+
+`Number of antecedents`
+:   Represents the total number of conditions (antecedents) in the ruleset.
+
+`Number of antecedents per rule`
+:   Represents the average number of conditions (antecedents) in each rule.
+
+`Number of examples per rule`
+:   The average number of training samples covered by each rule.
+
+<hr style="border-top: 1px solid; width: 25%;">
+
+<p style="font-size:larger;">Additional Statistics on testing set:</p>
+
+`Fidelity`
+:   Measures how accurately the rules mimic the behavior of the model. This rate reflects the proportion of test samples where the rules' predictions match the model's predictions.
+
+`Accuracy when rules and network agree`
+:   The accuracy of the model when the model's predictions match the predictions made by the activated rules.
+
+`Default rule activations rate`
+:   The proportion of samples for which no activated rule is found. In such cases, we choose the network's decision.
