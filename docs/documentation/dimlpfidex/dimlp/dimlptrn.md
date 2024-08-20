@@ -602,11 +602,11 @@ Where w~ij~ is the weight connecting the i^th^ neuron in layer l~i~ to the j^th^
 
 This file contains accuracy and error measurements on the training, validation, and testing sets (if provided). It offers a clear overview of the model’s performance across different datasets, helping to evaluate how well the model has learned and generalized to unseen data.
 
-    `Accuracy`
-    :   Indicates the proportion of correctly classified samples in each dataset (training, validation, or testing).
+`Accuracy`
+:   Indicates the proportion of correctly classified samples in each dataset (training, validation, or testing).
 
-    `Sum squared error`
-    :   Represents the sum of the squared differences between the predicted and actual values for the samples in each dataset. It is a measure of the model’s overall error for a given set.
+`Sum squared error`
+:   Represents the sum of the squared differences between the predicted and actual values for the samples in each dataset. It is a measure of the model’s overall error for a given set.
 
 ---
 
