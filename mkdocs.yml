@@ -15,9 +15,8 @@ nav:
   - Platform:
     - Introduction: platform/introduction.md
     - Overview: platform/overview.md
-    - Usage: platform/usage.md
     - Algorithms: platform/algos.md
-    - Ressources: platform/ressources.md
+    - Usage: platform/usage.md
   - Notebooks: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md
