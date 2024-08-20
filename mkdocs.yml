@@ -25,6 +25,7 @@ nav:
 
     - MLxplain: 
       - Overview: documentation/mlxplain/overview.md 
+      - Examples: documentation/mlxplain/examples.md
 
     - Rules extraction: 
       - Overview: documentation/rulesextraction/overview.md

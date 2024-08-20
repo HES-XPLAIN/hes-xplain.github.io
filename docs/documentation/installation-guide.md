@@ -49,6 +49,26 @@ pip 22.0.2 from /usr/lib/python3/dist-packages/pip (python 3.10)
 
 You are now ready to continue with the desired installation guide below.
 
+## MLxplain installation 
+Here you can find the only step to follow to install the `mlxplain` package on your machine. It can be achieved on `Windows`, `Linux`, and `macOS`. 
+
+Install the `mlxplain` package using `pip`:
+=== "Windows"
+    ```sh
+    python -m pip install mlxplain
+    ```
+
+=== "Linux"
+    ```sh
+    pip install mlxplain
+    ```
+
+=== "macOS"
+    ```sh
+    pip install mlxplain
+    ```
+Now, you should be ready to use the `mlxplain` library. You can continue to follow the [mlxplain examples](mlxplain/examples.md) to learn more about how to use this tool.
+
 ## Rules extraction installation
 Here you can find the only step to follow to install the `rules-extraction` project on your machine. It can be achieved on `Windows`, `Linux`, and `macOS`. 
 
@@ -67,8 +87,7 @@ Install the `rule-extraction` package using `pip`:
     ```sh
     pip install rules-extraction
     ```
-<!-- TODO: add notebook link -->
-Now, you should be ready to use the `rules-extraction` library. You can continue to follow the [rules extraction demo]() to learn more about how to use this tool.
+Now, you should be ready to use the `rules-extraction` library. You can continue to follow the [rules extraction examples](rulesextraction/examples.md) to learn more about how to use this tool.
 
 ## Dimlpfidex installation
 
