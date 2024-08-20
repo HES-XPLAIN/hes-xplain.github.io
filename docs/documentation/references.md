@@ -25,6 +25,11 @@
 
 ---
 
+#### [Improving neural network interpretability via rule extraction](https://arodes.hes-so.ch/record/4647?ln=fr)
+2018, by [Prof. Carlos Peña](../team.md#prof-carlos-pena) & Stéphane Gomez & Jérémie Despraz
+
+---
+
 #### [A Comparison Study on Rule Extraction from Neural Network Ensembles, Boosted Shallow Trees, and SVMs](https://sciprofiles.com/publication/view/e596484190b35490bf7c3b83f53ba58d)
 2018, by [Prof. Guido Bologna](../team.md#prof-guido-bologna) & Yoichi Hayashi
 

@@ -1,7 +1,5 @@
 # Rules extraction
 
-## Introduction
-
 The **Rules Extraction** library is designed to enhance the interpretability of Convolutional Neural Networks (CNNs) by replacing their fully-connected layers with a small set of easily understandable rules. This approach aims to maintain a similar level of accuracy to the original network while providing greater transparency into the decision-making process of the model.
 
 ## Core Idea
