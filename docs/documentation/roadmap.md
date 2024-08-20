@@ -53,11 +53,11 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [ ] Output Interpretation
-            * [ ] 2.3.5 DimlpTrn
+            * [x] 2.3.5 DimlpTrn
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
             * [ ] 2.3.6 DimlpPred
                 * [x] Description
                 * [x] Arguments list
