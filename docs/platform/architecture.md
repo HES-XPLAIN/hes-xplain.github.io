@@ -11,7 +11,65 @@ Our source code repository hosts all the necessary assets, including:
 - **Docs**: Comprehensive documentation that guides users on how to utilize the platform effectively.
 
 
-![Platform Overview](../assets/images/platform_architecture_new.png)
+```mermaid
+graph LR
+    subgraph Repo["Open source repository"]
+        direction LR
+        souceCode["Source code"]
+        notebooksSrc["Notebook sources"]
+    end
+
+    subgraph External["External projects"]
+        direction LR
+        omnixai["OmniXAI"]
+    end
+
+
+    subgraph Pypi["PyPi packages"]
+        direction TB
+        dimlpfidex["dimlpfidex package"]
+        rulesextract["rules-extraction package"]
+        mlxplain["MLxplain package"]
+    end
+
+    subgraph Website["Website"]
+        direction LR
+        overview["Project overview"]
+        notebookLinks["Notebooks index"]
+        docs["Docs. & API ref."]
+    end
+
+    subgraph Datasets["Datasets"]
+        direction LR
+        kaggle["Kaggle"]
+        huggingface["Hugging face"]
+    end
+
+    subgraph Notebooks["Notebooks"]
+        direction LR
+        colab["Google colab"]
+        docker["Docker images"]
+    end
+
+    subgraph Endusers["End users"]
+        direction LR
+        decisionMakers["Decision makers"]
+        engineers["Engineers"]
+        dataScientists["Data scientists"]
+        enthousiasts["Students & ML enthousiasts"]
+    end
+
+    souceCode-- "is compiled into" -->Pypi
+    souceCode-- "is documented in" -->docs 
+    notebooksSrc-- "are hosted by" -->Notebooks
+    Notebooks-- "help" -->Endusers
+    Datasets-- "can be used with" -->Notebooks
+    Pypi-- "can be used by" -->Endusers
+    Pypi-- "are made with" -->Notebooks
+    omnixai-- "empowers" -->mlxplain
+    Website-- "enlight" -->Endusers
+
+```
 
 
 ### Algorithms
