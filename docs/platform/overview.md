@@ -4,7 +4,9 @@ The **HES-XPLAIN** platform, is designed to democratize access to eXplainable Ar
 
 - **Broad coverage**: The platform brings together a comprehensive suite of tools and resources to help users understand, apply, and compare various XAI techniques. It includes State of the Art and also novel XAI techniques.
 
+
 - **Low barrier to adoption**: The platform is easy to use, and can be integrated with exsting Machine Learning pipeline. By making XAI tools more accessible and user-friendly, it aims to accelerate the development of transparent and trustworthy AI systems across multiple sectors.
+
 
 - **Open Source**: The platform and included algorithms is entirely open-source. It is free to use and can be easily extended to include more XAI techniques in the future. It is licensed under the [BSD-license](../documentation/license.md).
 
