@@ -13,10 +13,10 @@ nav:
   - Home: index.md
   - Introduction: introduction.md
   - Platform:
-    - Introduction: platform/introduction.md
     - Overview: platform/overview.md
-    - Algorithms: platform/algos.md
     - Usage: platform/usage.md
+    - Algorithms: platform/algos.md
+    - Architecture: platform/architecture.md
   - Notebooks: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md

@@ -1,18 +1,22 @@
 # Algorithms
 
-HES-XPLAIN includes a variety of algorithms developed by our team, as well as integrating modern standard algorithms through the OmniXAI library. This section provides a brief 
-description of each of our own developed algorithms, as well as how they can be used individually or through our MLXplain package for comparison with OmniXAI algorithms.
+HES-XPLAIN includes a variety of algorithms developed by our team, while also supporting integration with a wide range of modern XAI algorithms via the [OmniXAI](https://github.com/salesforce/OmniXAI) library.
 
-## Our Developed Algorithms
+This section provides a concise overview of our algorithms, detailing how they can be used individually and how they can be used in conjonction with those provided by OmniXAI through our comprehensive package.
 
-### MLXplain
+* :material-view-grid-plus: **Individual usage**: Each algorithm is available as a separate package, allowing users to select and use them individually based on their specific needs.
 
-**MLXplain** is a comprehensive framework that brings together various algorithms to provide a unified platform for eXplainable AI (XAI). This framework serves as the backbone for 
-integrating our own developed algorithms with the modern standards provided by OmniXAI.
+* :material-view-grid: **Unified integration**: The platform is able to function as a cohesive ensemble where these individual packages can be accessed and used together through an overarching package.
+
+## Individual algorithms
+
+Overview of our own developed algorithms.
 
 ### Rules Extraction
 
-**Rules Extraction** focuses on developing high-level explanation algorithms. This module includes three distinct approaches:
+**[Rules Extraction](../documentation/rulesextraction/overview.md)** focuses on developing high-level explanation algorithms.
+
+This module includes three distinct approaches:
 
 1. **Rule Extraction**: Deriving rules that represent the decision logic of the AI model.
 2. **Local Identification of Relevant Patterns**: Identifying patterns that are significant in localized regions of the data.
@@ -20,43 +24,43 @@ integrating our own developed algorithms with the modern standards provided by O
 
 Additionally, a novel algorithm is developed to combine these approaches, resulting in comprehensive and coherent explanations.
 
+The individual package is available on the [Python Package Index](https://pypi.org/):
+
+* :material-language-python: [rules-extraction](https://pypi.org/project/rules-extraction/)
+
 ### DIMLPFidex
 
-**DIMLPFidex** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms. We present three explanation algorithms:
+**DIMLPFidex** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms.
 
-1. **[Fidex](../documentation/dimlpfidex/fidex/fidex.md)**: Provides localized explanations by generating rules that describe the model’s behavior for specific data samples.
-2. **[FidexGlo](../documentation/dimlpfidex/fidex/fidexglorules.md)**: Offers a global understanding of the model's behavior by aggregating local rules into a comprehensive ruleset.
-3. **[Dimlp](../documentation/dimlpfidex/dimlp/overview.md)**: Extracts global propositional rules from deep models, specifically trained using the `Dimlp` architecture, to explain the model's overall decision-making process.
+We present three explanation algorithms:
+
+* **[Fidex](../documentation/dimlpfidex/fidex/fidex.md)**: Provides localized explanations by generating rules that describe the model’s behavior for specific data samples.
+* **[FidexGlo](../documentation/dimlpfidex/fidex/fidexglorules.md)**: Offers a global understanding of the model's behavior by aggregating local rules into a comprehensive ruleset.
+* **[Dimlp](../documentation/dimlpfidex/dimlp/overview.md)**: Extracts global propositional rules from deep models, specifically trained using the `Dimlp` architecture, to explain the model's overall decision-making process.
+
+The individual package is available on the [Python Package Index](https://pypi.org/):
+
+* :material-language-python: [dimlpfidex](https://pypi.org/project/dimlpfidex/)
 
 ### FUGE
 
 **FUGE** is an algorithm developed to construct fuzzy systems. These systems predict human decision-making outcomes and provide understandable explanations. FUGE combines the 
 predictive power of fuzzy logic with the clarity of human-like reasoning.
 
-## Integration with OmniXAI
-
-HES-XPLAIN not only includes our proprietary algorithms but also incorporates all modern standard algorithms through the [OmniXAI](https://github.com/omnixai/omnixai) library. This 
-integration ensures that users have access to a wide range of XAI techniques and functionalities.
-
-### MLXplain Package
-
-Our **MLXplain** package serves as the "glue" that seamlessly integrates our developed algorithms with the OmniXAI API. This integration allows users to benefit from the following:
-
-- Access to modern XAI algorithms provided by OmniXAI.
-- Enhanced functionality through OmniXAI's robust features.
-- The ability to use our specialized algorithms alongside industry-standard methods, providing a comprehensive toolkit for XAI.
-
-## Individual and Integrated Usage
-
-All of the algorithms developed by HES-XPLAIN can be used individually because we have packaged them separately. This allows users to use each algorithm as a standalone tool 
-according to their specific needs.
-
-Additionally, our platform functions as a comprehensive repository where these individual packages can be accessed and used together. The **MLXplain** package enables users to 
-compare and utilize our algorithms in conjunction with OmniXAI algorithms, offering a unified and versatile platform for XAI.
-
-By combining the strengths of our algorithms with the extensive capabilities of OmniXAI, HES-XPLAIN offers a powerful and versatile platform for developing and applying eXplainable 
-AI techniques.
-
 ---
 
-    
+## Integration with OmniXAI
+
+Overview of the overarching package for use via an unified interface.
+
+### MLXplain
+
+**[MLXplain](../documentation/mlxplain/overview.md)** serves as the code framework that unifies our various algorithms, creating a cohesive platform for eXplainable AI (XAI).
+
+Built on the robust capabilities of [OmniXAI](https://github.com/salesforce/OmniXAI), a comprehensive Python library dedicated to explainable AI, MLXplain enhances this foundation by incorporating our additional algorithms, resulting in a powerful and versatile environment for practitioners.
+
+By reusing all modern standard algorithms available through the OmniXAI library, MLXplain ensures users have access to a broad spectrum of XAI techniques and functionalities. This integration allows users to make full use of the explainable AI potential, facilitating the comparison between different methods and simplifying experimentation and implementation.
+
+The overarching package is available on the [Python Package Index](https://pypi.org/):
+
+* :material-language-python: [mlxplain](https://pypi.org/project/mlxplain/)

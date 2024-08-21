@@ -1,63 +1,53 @@
-# Platform Overview
+# Overview
 
-Our platform brings together a comprehensive suite of tools and resources to help users understand, apply, and compare different XAI techniques. Whether you are a data scientist, decision maker, engineer, or educator, HES-XPLAIN provides the necessary tools to make AI more transparent and trustworthy.
+The **HES-XPLAIN** platform, is designed to democratize access to eXplainable Artificial Intelligence (XAI) for a wide range of audiences. We offer an intuitive platform where users can access resources to enhance their understanding, including datasets, experimental models, and easy-to-apply XAI algorithms.
 
-## Components of HES-XPLAIN
+- **Broad coverage**: The platform brings together a comprehensive suite of tools and resources to help users understand, apply, and compare various XAI techniques. It includes State of the Art and also novel XAI techniques.
 
-### Source Code Repository
+- **Low barrier to adoption**: The platform is easy to use, and can be integrated with exsting Machine Learning pipeline. By making XAI tools more accessible and user-friendly, it aims to accelerate the development of transparent and trustworthy AI systems across multiple sectors.
 
-Our source code repository hosts all the necessary assets, including:
+- **Open Source**: The platform and included algorithms is entirely open-source. It is free to use and can be easily extended to include more XAI techniques in the future. It is licensed under the [BSD-license](../documentation/license.md).
 
-- **Source Code**: The core algorithms and functionalities developed for XAI.
-- **Notebooks**: Interactive Jupyter notebooks that demonstrate how to use our XAI algorithms.
-- **Docs**: Comprehensive documentation that guides users on how to utilize the platform effectively.
+<div class="grid cards" markdown>
 
+-   :material-eye:{ .lg .middle } **Audience**
 
-![Platform Overview](../assets/images/platform_architecture_new.png)
+    ---
 
+    Take a look at our target audience and provided benefits.
 
-### Algorithms
+    [:octicons-arrow-right-24: Audience](#audience)
 
-HES-XPLAIN assembles our own developed algorithms as well as incorporating all algorithms proposed by [OmniXAI](https://github.com/salesforce/omnixai). Our platform provides a comprehensive suite of tools for XAI, enabling users to compare and choose the best techniques for their needs. Explore our algorithms in the [HES-XPLAIN - Algorithms](algos.md) section.
+-   :simple-alwaysdata:{ .lg .middle } **Usage**
 
-Our algorithms are individually packaged and accessible through the Python Package Index (PyPi), making it easy for users to install and use them in their own projects.
+    ---
 
+    Start using our tools and algorithms.
 
-### Deployment Options
+    [:octicons-arrow-right-24: Usage](usage.md)
 
-HES-XPLAIN provides flexible deployment options to suit different user needs:
+-   :fontawesome-solid-gears:{ .lg .middle } **Algorithms**
 
-- **Google Colab**: Online deployment through Google Colab for easy access and experimentation with our algorithms, tutorials, and use cases.
-- **Container**: Local deployment using Docker files to easily try our solutions locally.
-- **Private Deployment Platform**: Private deployement to ensure privacy within the HES-XPAIN platform
+    ---
 
+    Discover our own developed explainability algorithms.
 
-The container registry contains assets that facilitate deployment, including:
+    [:octicons-arrow-right-24: Algorithms](algos.md)
 
-- **Notebook Server Package**: A pre-configured environment to run Jupyter notebooks.
-- **Docker Image**: Containerized versions of our platform components for easy deployment on local machines or cloud environments.
+-   :material-file-document-check-outline:{ .lg .middle } **Architecture**
 
+    ---
 
-For advanced users and enterprises, we offer a private deployment platform that supports:
+    Find information on the architecture of the platform.
 
-- **Private Datasets**: Securely manage and use private datasets within the HES-XPLAIN platform.
-- **Deployment Flexibility**: Deploy our solutions within private infrastructures using Kubernetes or other orchestration tools.
+    [:octicons-arrow-right-24: Architecture](architecture.md)
 
+</div>
 
-### Ressource and Tutorials 
-
-We offer multiple resources to enhance XAI knowledge, all accessible from our website including:
-
-- **XAI Resource**: Literature and resources that describe what/why/how Explainable Artificial Intelligence.
-- **Tutorial Notebooks**: Step-by-step guides to help users understand and apply XAI methods.
-- **Use Case Notebooks**: Showcase how XAI and our platform can be used to solve real-world problems.
-- **Datasets and Models**: Embedded datasets and pre-trained models to facilitate experimentation.
-
-More details can be found in the [HES-XPLAIN - Resources](ressources.md) section.
 
 ## Audience
 
-HES-XPLAIN is designed to cater to a diverse audience, including:
+The HES-XPLAIN platform is specifically designed to meet the needs of different key users. It provides the essential tools and resources for data scientists, decision makers, engineers, or educators to effectively understand and apply XAI.
 
 
 !!! info "You are ..."
@@ -65,33 +55,49 @@ HES-XPLAIN is designed to cater to a diverse audience, including:
     === "a decision maker"
 
         ![Decision maker](../assets/images/tie.svg){ width="200px", align=left }
-        # You are interested in business **benefits, risks and costs**.
+        You want to **understand** the **relevance of XAI** for your business.
 
-        - Get an [introduction](introduction.md) to explainability
-        - Access web demos and use case scenarios
+        Get an overview of explainability opportunities
+
+        - Get insights and visualizations that facilitate informed decision-making
+        - Access resources and use case scenarios to guide XAI choices
 
     === "an engineer"
 
         ![Engineer](../assets/images/hammer-wrench.svg){ width="200px", align=left }
-        # You want to **try XAI algorithms**.
+        You want to **try XAI algorithms**.
+
+        Get access to exploratory use cases notebooks and datasets
 
         - Discover use cases as [Jupyter notebooks](../notebooks.md)
-        - Get data set, algorithms and Python code
+        - Get datasets, algorithms and Python code
 
     === "a data scientist"
 
         ![Data scientist](../assets/images/test-tube.svg){ width="200px", align=left }
-        # You want to **use XAI** algorithms in **your pipelines**.
+        You want to **use XAI** algorithms along **your models**.
 
-        - Obtain conda and PyPi packages
+        Get access to algorithmes and API documentation.
+
+        - Obtain Python PyPi packages
         - Get extensive API documentation
 
     === "a professor"
 
         ![Professor](../assets/images/school.svg){ width="200px", align=left }
-        # You want a tool for **teaching** explainable AI.
+        You want a tool to **facilitate teaching** of explainable AI.
 
+        Get access to tutorials and comprehensive guides.
+
+        - Provide students with practical knowledge and hands-on experience in XAI methodologies
         - Deploy the platform on school IT infrastructure or public cloud
         - Adapt provided use cases to teaching needs
 
-***
+## Benefits
+
+HES-XPLAIN brings several benefits to its users:
+
+- **Accessibility**: HES-XPLAIN makes explainable AI (XAI) tools and techniques available to users of all skill levels, from novices to seasoned experts.
+- **User-Friendly Design**: With an intuitive interface and extensive resources, HES-XPLAIN simplifies the application of XAI, making it easy for users to navigate and use its features.
+- **Educational Value**: The platform enhances the teaching and learning experience of XAI through a variety of tutorials and guides, helping users to deepen their understanding.
+- **Versatility**: HES-XPLAIN supports diverse data types and integrates multiple XAI methods, allowing for comprehensive analysis and insights across various applications.
