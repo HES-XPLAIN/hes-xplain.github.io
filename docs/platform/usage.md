@@ -1,54 +1,14 @@
 Here is how you can use our super cool platform
 
 
-## Audience
 
-HES-XPLAIN provides the essential tools and resources for data scientists, decision makers, engineers, or educators to effectively understand and apply XAI, and thus promoting greater transparency and trust in AI technologies.
+## Easy-to-use platform
 
-The platform is specifically designed to meet the needs of different key users:
+Artificial intelligence (AI) is increasingly integrated into essential sectors like healthcare, finance, and legal systems. However, users ooften rely on AI-generated decisions without fully understanding the underlying mechanisms and reasoning, which can lead to trust issues. This concern is particularly acute when decisions carry significant consequences.
 
+eXplainable Artificial Intelligence (XAI) seeks to enhance the clarity and trustworthiness of AI decisions by elucidating the logic behind predictions. Despite advancements in this field, many existing XAI tools remain complex and challenging to use.
 
-!!! info "You are ..."
-
-    === "a decision maker"
-
-        ![Decision maker](../assets/images/tie.svg){ width="200px", align=left }
-        You want to **understand** the **relevance of XAI** for your business.
-
-        - Get an overview of explainability opportunities
-        - Get insights and visualizations that facilitate informed decision-making
-        - Access resources and use case scenarios to guide XAI choices
-
-    === "an engineer"
-
-        ![Engineer](../assets/images/hammer-wrench.svg){ width="200px", align=left }
-        You want to **try XAI algorithms**.
-
-        Get access to exploratory use cases notebooks and datasets
-
-        - Discover use cases as [Jupyter notebooks](../notebooks.md)
-        - Get datasets, algorithms and Python code
-
-    === "a data scientist"
-
-        ![Data scientist](../assets/images/test-tube.svg){ width="200px", align=left }
-        You want to **use XAI** algorithms along **your models**.
-
-        Get access to algorithmes and API documentation.
-
-        - Obtain Python PyPi packages
-        - Get extensive API documentation
-
-    === "a professor"
-
-        ![Professor](../assets/images/school.svg){ width="200px", align=left }
-        You want a tool to **facilitate teaching** of explainable AI.
-
-        - Get access to tutorials and comprehensive guides.
-        - Provide students with practical knowledge and hands-on experience in XAI methodologies
-
-        - Deploy the platform on school IT infrastructure or public cloud
-        - Adapt provided use cases to teaching needs
+Our platform aims to address this challenge by making XAI more accessible to all users. We provide an intuitive, open-source environment that consolidates various XAI techniques helping users to better understand and apply AI insights effectively.
 
 
 ## Using notebooks

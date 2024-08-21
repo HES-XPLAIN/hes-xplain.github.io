@@ -1,21 +1,30 @@
 # Overview
 
-Our open-source platform, **HES-XPLAIN**, is designed to democratize access to eXplainable Artificial Intelligence (XAI) for a wide range of audiences. We offer an intuitive platform where users can access resources to enhance their understanding, including datasets, experimental models, and easy-to-apply XAI algorithms.
+The **HES-XPLAIN** platform, is designed to democratize access to eXplainable Artificial Intelligence (XAI) for a wide range of audiences. We offer an intuitive platform where users can access resources to enhance their understanding, including datasets, experimental models, and easy-to-apply XAI algorithms.
 
-The platform brings together a comprehensive suite of tools and resources to help users understand, apply, and compare various XAI techniques. By making XAI tools more accessible and user-friendly, we aim to accelerate the development of transparent and trustworthy AI systems across multiple sectors.
+- **Broad coverage**: The platform brings together a comprehensive suite of tools and resources to help users understand, apply, and compare various XAI techniques. It includes State of the Art and also novel XAI techniques.
 
----
+- **Low barrier to adoption**: The platform is easy to use, and can be integrated with exsting Machine Learning pipeline. By making XAI tools more accessible and user-friendly, it aims to accelerate the development of transparent and trustworthy AI systems across multiple sectors.
 
-Explore the sections below to get started and make the most of our open-source platform.
+- **Open Source**: The platform and included algorithms is entirely open-source. It is free to use and can be easily extended to include more XAI techniques in the future. It is licensed under the [BSD-license](../documentation/license.md).
+
 <div class="grid cards" markdown>
 
--   :material-eye:{ .lg .middle } **Platform overview**
+-   :material-eye:{ .lg .middle } **Audience**
 
     ---
 
-    Take a look at our platform.
+    Take a look at our target audience and provided benefits.
 
-    [:octicons-arrow-right-24: Overview](overview.md)
+    [:octicons-arrow-right-24: Audience](#audience)
+
+-   :simple-alwaysdata:{ .lg .middle } **Usage**
+
+    ---
+
+    Start using our tools and algorithms.
+
+    [:octicons-arrow-right-24: Usage](usage.md)
 
 -   :fontawesome-solid-gears:{ .lg .middle } **Algorithms**
 
@@ -23,50 +32,72 @@ Explore the sections below to get started and make the most of our open-source p
 
     Discover our own developed explainability algorithms.
 
-    [:octicons-arrow-right-24: Dive in](algos.md)
+    [:octicons-arrow-right-24: Algorithms](algos.md)
 
--   :simple-alwaysdata:{ .lg .middle } **Usage**
-
-    ---
-
-    Start using our algorithms.
-
-    [:octicons-arrow-right-24: Usage](usage.md)
-
--   :material-file-document-check-outline:{ .lg .middle } **Documentation**
+-   :material-file-document-check-outline:{ .lg .middle } **Architecture**
 
     ---
 
-    Find detailed documentation on our algorithms and features here.
+    Find information on the architecture of the platform.
 
-    [:octicons-arrow-right-24: Documentation](../documentation/overview.md)
-
--   :material-code-block-tags:{ .lg .middle } **API reference**
-
-    ---
-
-    Explore the technical documentation for core features.
-
-    [:octicons-arrow-right-24: Reference](../reference.md)
+    [:octicons-arrow-right-24: Architecture](architecture.md)
 
 </div>
 
 
-## Easy-to-use platform
+## Audience
 
-Artificial intelligence (AI) is increasingly integrated into essential sectors like healthcare, finance, and legal systems. However, users ooften rely on AI-generated decisions without fully understanding the underlying mechanisms and reasoning, which can lead to trust issues. This concern is particularly acute when decisions carry significant consequences.
+The HES-XPLAIN platform is specifically designed to meet the needs of different key users. It provides the essential tools and resources for data scientists, decision makers, engineers, or educators to effectively understand and apply XAI.
 
-eXplainable Artificial Intelligence (XAI) seeks to enhance the clarity and trustworthiness of AI decisions by elucidating the logic behind predictions. Despite advancements in this field, many existing XAI tools remain complex and challenging to use.
 
-Our platform aims to address this challenge by making XAI more accessible to all users. We provide an intuitive, open-source environment that consolidates various XAI techniques helping users to better understand and apply AI insights effectively.
+!!! info "You are ..."
+
+    === "a decision maker"
+
+        ![Decision maker](../assets/images/tie.svg){ width="200px", align=left }
+        You want to **understand** the **relevance of XAI** for your business.
+
+        Get an overview of explainability opportunities
+
+        - Get insights and visualizations that facilitate informed decision-making
+        - Access resources and use case scenarios to guide XAI choices
+
+    === "an engineer"
+
+        ![Engineer](../assets/images/hammer-wrench.svg){ width="200px", align=left }
+        You want to **try XAI algorithms**.
+
+        Get access to exploratory use cases notebooks and datasets
+
+        - Discover use cases as [Jupyter notebooks](../notebooks.md)
+        - Get datasets, algorithms and Python code
+
+    === "a data scientist"
+
+        ![Data scientist](../assets/images/test-tube.svg){ width="200px", align=left }
+        You want to **use XAI** algorithms along **your models**.
+
+        Get access to algorithmes and API documentation.
+
+        - Obtain Python PyPi packages
+        - Get extensive API documentation
+
+    === "a professor"
+
+        ![Professor](../assets/images/school.svg){ width="200px", align=left }
+        You want a tool to **facilitate teaching** of explainable AI.
+
+        Get access to tutorials and comprehensive guides.
+
+        - Provide students with practical knowledge and hands-on experience in XAI methodologies
+        - Deploy the platform on school IT infrastructure or public cloud
+        - Adapt provided use cases to teaching needs
 
 ## Benefits
 
 HES-XPLAIN brings several benefits to its users:
 
-- **Accessibility**: Makes XAI tools and techniques accessible to everyone, from beginners to experts.
-- **Ease of Use**: User-friendly interface and comprehensive resources simplify the application of XAI.
-- **Educational Value**: Facilitates the teaching and learning of XAI through tutorials and guides.
-- **Versatility**: Supports various data types and integrates multiple XAI methods for comprehensive analysis.
-
----
+- **Accessibility**: HES-XPLAIN makes explainable AI (XAI) tools and techniques available to users of all skill levels, from novices to seasoned experts.
+- **User-Friendly Design**: With an intuitive interface and extensive resources, HES-XPLAIN simplifies the application of XAI, making it easy for users to navigate and use its features.
+- **Educational Value**: The platform enhances the teaching and learning experience of XAI through a variety of tutorials and guides, helping users to deepen their understanding.
+- **Versatility**: HES-XPLAIN supports diverse data types and integrates multiple XAI methods, allowing for comprehensive analysis and insights across various applications.
