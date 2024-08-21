@@ -491,7 +491,7 @@ In the first row, the model predicts that the sample belongs to class 1 and it p
 
 ### [Weights output file](#weights-output-file)
 
-This file contains the weights and biases of the first hidden layer of the neural network, which is the `Dimlp` layer.
+This file contains the weights and biases of the first hidden layer of the neural network, which is the [Dimlp](../dimlp/overview.md) layer.
 
 - The **first row** in the file represent the **bias values**. There is one bias value for each neuron.
 - The **second row** represent the values of the **weight matrix** between the first layer and the next one.
@@ -503,7 +503,7 @@ This file contains the weights and biases of the first hidden layer of the neura
 This file contains accuracy on the training and testing sets. It offers a clear overview of the model’s performance across different datasets, helping to evaluate how well the model has learned and generalized to unseen data.
 
 `Accuracy`
-:   Indicates the proportion of correctly classified samples in each dataset (training, validation, or testing).
+:   Indicates the proportion of correctly classified samples in each dataset (training or testing).
 
 ---
 

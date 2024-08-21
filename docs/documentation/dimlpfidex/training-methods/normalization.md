@@ -324,3 +324,25 @@ For rulefile denormalization :
     ```
 
 ## Output interpretation
+
+---
+
+### [Normalized output data files](#data-output-files)
+
+This file contains the normalized values of a dataset (taken from an original data file), where certain attributes have been adjusted based on a predefined mean (or median) and standard deviation (std). For attributes with defined mean and std values, normalization is applied using the formula: \( \text{normalized_value} = \frac{\text{(value - mean)}}{std} \)​. If no mean and std are defined for an attribute, its values remain unchanged during the normalization process. This normalization helps standardize data for more effective use in machine learning models.
+
+---
+
+### [Denormalized output rule files](#rule-output-files)
+
+This file contains denormalized values for a set of rules (taken from an original rules file) based on predefined mean (or median) and standard deviation (std) values for certain attributes. For attributes with defined mean and std values, denormalization is applied using the formula: \( \text{denormalized_value} =(\text{normalized_value}×std)+\text{mean} \). Attributes without defined mean and std values will remain unchanged during the denormalization process. This procedure helps convert normalized rule thresholds back to their original scale, making the rules easier to interpret.
+
+---
+
+### [Normalization output file](#normalization-output-file)
+
+This file stores the mean(or median) and standard deviation (std) values for specific attributes, which are used for normalization or denormalization purposes. Each line corresponds to an attribute, with the format:
+
+    [attribute index] : original mean: [mean value], original std: [std value]
+
+These mean(or median) and std values are applied during normalization to transform raw data into normalized values, and during denormalization to revert normalized values back to their original scale.

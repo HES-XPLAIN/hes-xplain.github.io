@@ -63,30 +63,30 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [x] Output Interpretation
-        * [ ] 2.4 Training methods
+        * [x] 2.4 Training methods
             * [x] 2.4.1 Overview
                 * [x] Introduction 
                 * [x] Architecture
-            * [ ] 2.4.2 gradBoostTrn
+            * [x] 2.4.2 gradBoostTrn
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.3 computeRocCurve      
+                * [x] Output Interpretation
+            * [x] 2.4.3 computeRocCurve      
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.4 randForestsTrn
+                * [x] Output Interpretation
+            * [x] 2.4.4 randForestsTrn
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
-            * [ ] 2.4.5 cnnTrn    
+                * [x] Output Interpretation
+            * [x] 2.4.5 cnnTrn    
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
             * [x] 2.4.6 mlpTrn   
                 * [x] Description
                 * [x] Arguments list
@@ -97,11 +97,11 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [x] Output Interpretation
-            * [ ] 2.3.6 Normalization
+            * [x] 2.3.6 Normalization
                 * [x] Description
                 * [x] Arguments list
                 * [x] Example Code
-                * [ ] Output Interpretation
+                * [x] Output Interpretation
         * [ ] 2.5 File formats
             * [x] 2.5.1 JSON Configuration files
             * [ ] 2.5.x TODO: DEFINE ALL USED OR PRODUCED FILES

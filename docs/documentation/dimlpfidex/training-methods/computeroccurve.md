@@ -191,3 +191,32 @@ The `computeRocCurve` algorithm works with both required and optional arguments.
     ```
 
 ## Output interpretation
+
+---
+
+### [Roc curve](#roc-output-file)
+
+This file contains a ROC (Receiver Operating Characteristic) curve, which is used to evaluate the performance of the model during training. The ROC curve is a plot with the following components:
+
+`X-Axis (False Positive Rate)`
+:   This represents the proportion of negative samples that are incorrectly classified as positive. It measures the rate of false positives at various classification thresholds.
+
+`Y-Axis (True Positive Rate)`
+:   This represents the proportion of positive samples that are correctly classified as positive.
+
+`Curve`
+:   The curve itself shows the trade-off between the true positive rate and the false positive rate across different decision thresholds for the classifier. The curve starts at (0, 0) and moves towards (1, 1).
+
+`AUC (Area Under the Curve)`
+:   This value quantifies the overall performance of the model. It ranges from 0 to 1, with a value of 1 indicating perfect classification and a value of 0.5 indicating a model with no discriminative power. The higher the AUC, the better the model’s ability to distinguish between the positive and negative classes.
+
+This ROC curve visually illustrates how well the model is performing by showing the balance between the true positive rate and the false positive rate, with the AUC providing a summary measure of the model's classification performance.
+
+---
+
+### [Statistics file](#statistics-output-file)
+
+This file contains some statistics of the model aleady computed before. The AUC score computed on the test set is written at the end of the file.
+
+`AUC (Area Under the Curve)`
+:   This value quantifies the overall performance of the model. It ranges from 0 to 1, with a value of 1 indicating perfect classification and a value of 0.5 indicating a model with no discriminative power. The higher the AUC, the better the model’s ability to distinguish between the positive and negative classes.
