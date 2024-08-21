@@ -11,6 +11,9 @@ The `Discretized Interpretable Multi-Layer Perceptron (DIMLP)` is a neural netwo
 
 For more details on the `Dimlp` algorithm, you can refer to [this paper](../../references.md#a-model-for-single-and-multiple-knowledge-based-networks).
 
+!!!Warning
+     You should not execute `DimlpPred` for a model trained by [DimlpBT](dimlpbt.md), it should be trained by [dimlpTrn](dimlptrn.md)!
+
 ## Arguments list
 The `dimlpPred` algorithm works with both required and optional arguments. Each argument has specific properties:
 

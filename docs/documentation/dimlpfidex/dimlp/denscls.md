@@ -15,6 +15,9 @@ Additionally, there is another rule extraction algorithm available in the framew
 
 To get more details on the `Dimlp` algorithm, you can refer to [this paper](../../references.md#a-model-for-single-and-multiple-knowledge-based-networks), and to [this one](../../references.md#is-it-worth-generating-rules-from-neural-network-ensembles) for `dimlpBT`.
 
+!!!Warning
+     You should not execute `DensCls` for a model trained by [DimlpTrn](dimlptrn.md), it should be trained by [dimlpBT](dimlpbt.md)!
+
 ## Arguments list
 The `densCls` algorithm works with both required and optional arguments. Each argument has specific properties:
 

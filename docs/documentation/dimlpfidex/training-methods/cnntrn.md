@@ -7,6 +7,21 @@
 
 The `CNN` (Convolutional Neural Network) is a deep learning architecture commonly used for tasks involving image data, such as classification and object detection. In this implementation, we use the `Keras` library, which allows for easy integration of popular CNN architectures like `ResNet` and `VGG`. The algorithm can be applied to a wide range of datasets, including well-known image datasets like `MNIST`, `CIFAR-10`, and `CIFAR-100`. Additionally, the inclusion of the [Dimlp](../dimlp/overview.md) layer adds interpretability by enabling the extraction of decision rules via the [Fidex](../fidex/overview.md) algorithm, making the model's decisions more transparent and easier to explain.
 
+## Practical informations
+
+It is important to reduce the size of the images beforehand, as processing high-resolution images can be very time-consuming, especially when using [Fidex](../fidex/fidex.md) or [FidexGloRules](../fidex/fidexglorules.md).
+
+If you want to add a new model to `cnnTrn`, go to the [cnnTrn](https://github.com/HES-XPLAIN/dimlpfidex/blob/main/trainings/cnnTrn.py) file and add the new model name in the `--model` argument :
+
+    parser.add_argument("--model", choices=["small", "large", "vgg", "resnet", "newModel"], metavar="<{small, large, vgg, resnet, newModel}>", help="Training model", required=True)
+
+Next, define this model inside the code after the other models, just before the following line:
+
+    else:
+        raise ValueError(f"Internal error : No model has been executed, given model : {args.model}.")
+
+If your model is not 2D, you will need to change the `pair_type` of the `original_input_size` and `model_input_size` arguments to `list_type` in order to accept more or fewer than 2 values.
+
 ## Arguments list
 The `cnnTrn` algorithm works with both required and optional arguments. Each argument has specific properties:
 

@@ -395,6 +395,9 @@ The `dimlpTrn` algorithm works with both required and optional arguments. Each a
 | JSON identifier         | `error_thresh`    |
 | Default value           | `None`            |
 
+!!!Warning
+     You should specify a big number in [nb_epochs](#number-of-epochs) otherwise it may not have enough time to stop with this criterion.
+
 ---
 
 ### Accuracy threshold
@@ -407,6 +410,9 @@ The `dimlpTrn` algorithm works with both required and optional arguments. Each a
 | CLI argument syntax     | `--acc_thresh`    |
 | JSON identifier         | `acc_thresh`      |
 | Default value           | `None`            |
+
+!!!Warning
+     You should specify a big number in [nb_epochs](#number-of-epochs) otherwise it may not have enough time to stop with this criterion.
 
 ---
 
@@ -421,6 +427,9 @@ The `dimlpTrn` algorithm works with both required and optional arguments. Each a
 | JSON identifier         | `abs_error_thresh`  |
 | Default value           | `0`                 |
 
+!!!Warning
+     You should specify a big number in [nb_epochs](#number-of-epochs) otherwise it may not have enough time to stop with this criterion.
+
 ---
 
 ### Number of epochs
@@ -433,6 +442,9 @@ The `dimlpTrn` algorithm works with both required and optional arguments. Each a
 | CLI argument syntax     | `--nb_epochs`       |
 | JSON identifier         | `nb_epochs`         |
 | Default value           | `1500`              |
+
+!!!Warning
+     You should specify a big number of epochs if you want to use a stopping criterion instead.
 
 ---
 
