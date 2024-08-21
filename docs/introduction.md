@@ -1,12 +1,6 @@
----
-hide:
-- navigation
-- toc
----
-
 # :material-chat-question: Introduction to XAI
 
-What is Explainable AI, and why is it needed?
+What is Explainable AI, why is it needed, and where can it be used?
 
 ## Traditional AI models
 
@@ -54,14 +48,7 @@ results**.
 
 ## Explainable AI models
 
-The impressive
-effectiveness of AI applications based on DL is often shadowed by their inability to explain their behaviours to human users.
-Understanding how these algorithms operate, would allow **demystifying AI**, making such black-boxes
-intelligible and explainable, and **improving everyone's confidence** in these tools. Explainable AI
-encompasses AI methods aimed at explaining to a given audience, why or how a model produces
-its results.
-
-!!! success inline "Explainable AI model"
+!!! success inline end "Explainable AI model"
 
     * We can understand why
     * We can understand why not
@@ -70,6 +57,11 @@ its results.
     * We know when to trust it
     * We know when it erred
 
+The impressive effectiveness of AI applications based on DL is often shadowed by their inability to explain
+their behaviours to human users. Understanding how these algorithms operate, would allow **demystifying AI**,
+making such black-boxes intelligible and explainable, and **improving everyone's confidence** in these tools.
+Explainable AI encompasses AI methods aimed at explaining to a given audience, why or how a model produces
+its results.
 
 ```mermaid
 graph LR
@@ -94,14 +86,16 @@ ethical and fair use of AI in society.
 
 ## Application domains
 
-Explainable AI is relevant across a diverse array of domains, including but not limited to:
+Explainable AI (XAI) is relevant across a diverse array of domains, including but not limited to:
 
-- :material-medical-bag: **Healthcare**: Explainable algorithms can improve diagnostic tools by providing transparent decision-making processes, helping clinicians understand and trust the outputs, which can lead to better patient outcomes.
+- :material-medical-bag: **Healthcare**: Explainable algorithms can significantly enhance diagnostic tools by providing transparent decision-making processes. This transparency helps clinicians understand and trust the outputs of AI systems, which can lead to improved patient outcomes. For instance, when an AI system suggests a diagnosis, the ability to trace back the reasoning behind that suggestion allows healthcare professionals to make more informed decisions, ultimately benefiting patient care.
 
-- :material-finance: **Finances**: Explainable algorithms offer transparency in risk assessment and trading strategies, enabling financial professionals to understand the factors driving model predictions and make more informed decisions.
+- :material-finance: **Finances**: In the financial sector, explainable algorithms offer crucial transparency in risk assessment and trading strategies. Financial professionals can gain insights into the factors driving model predictions, enabling them to make more informed decisions. This is particularly important in an industry where trust and accountability are paramount, as understanding the rationale behind automated decisions can help mitigate risks and enhance compliance with regulatory standards.
 
-- :material-chart-arc: **Marketing**: By offering insights into customer segmentation and behavior analysis, explainable algorithms help marketers understand the underlying reasons behind customer trends, leading to more effective and targeted marketing strategies.
+- :material-chart-arc: **Marketing**: Explainable AI provides valuable insights into customer segmentation and behavior analysis. By elucidating the underlying reasons behind customer trends, marketers can develop more effective and targeted marketing strategies. For example, understanding why certain demographics respond positively to specific campaigns allows for the optimization of marketing efforts, leading to increased engagement and conversion rates.
 
-- :material-hammer-wrench: **Engineering**: Explainability in engineering models allows for better system design and optimization by providing clear insights into how various factors influence the model's predictions, facilitating more reliable and robust engineering solutions.
+- :material-hammer-wrench: **Engineering**: In the field of engineering, explainability in models allows for better system design and optimization. By providing clear insights into how various factors influence the model's predictions, engineers can create more reliable and robust solutions. This is particularly beneficial in complex systems where understanding the interplay of different variables is essential for effective design and implementation.
 
-- :material-test-tube: **Research**: Explainability tools aid in data analysis and hypothesis testing by making the model's decision processes transparent, which helps researchers validate their findings and ensure the reliability of their studies.
+- :material-test-tube: **Research**: Explainability tools play a vital role in data analysis and hypothesis testing within research. By making the model's decision processes transparent, researchers can validate their findings and ensure the reliability of their studies. This transparency fosters a deeper understanding of the data and the models used, which is crucial for advancing knowledge in various scientific fields.
+
+> Explainability is a transformative approach that increases transparency and trust across multiple domains.
