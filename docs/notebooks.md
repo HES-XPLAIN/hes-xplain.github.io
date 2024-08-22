@@ -51,18 +51,16 @@ Through this use case, we aim to present the potential of Rules Extraction as a 
 
 !!! example "Sport Image Classification with Rules Extarction"
 
-    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
+    ![CAM](assets/images/examples/rules_extraction.png){ width="200px", align=left }
 
     **Rules Extraction**
 
     * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/rules_extraction_demo.ipynb" target="_blank">Exploring Rules Extraction for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
-In this use case, we dive into sport image classification and showcase the power of **Rules Extraction** as an interpretability tool.
+In this use case, we dive into the same specific sport image classification task using a pre-trained model. We demonstrate the power of **Rules Extraction** as an interpretability tool, allowing to explore and interpret image classifiers effectively.
 
-While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
-
-By the end of this use case, you will have a solid understanding of Rules Extraction and how to integrate it into your own projects.
+By the end of this notebook, you will have a solid understanding of Rules Extraction and how to integrate it into your own projects.
 
 
 ### Feature Visualisation
@@ -71,18 +69,16 @@ Through this use case, we aim to present the potential of Feature Visualisation 
 
 !!! example "Sport Image Classification with Feature Visualisation"
 
-    ![CAM](assets/images/examples/CAM.png){ width="200px", align=left }
+    ![CAM](assets/images/examples/feature_visualization.png){ width="200px", align=left }
 
     **Feature Visualisation**
 
     * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_sport_classification/feature_visualization_demo.ipynb" target="_blank">Exploring Feature Visualisation for Sport Image Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
-In this use case, we dive into sport image classification and showcase the power of **Feature Visualisation** as an interpretability tool.
+In this use case, we dive into  the same specific sport image classification task using a pre-trained model. We demonstrate the power of **Feature Visualisation** as an interpretability tool, allowing to explore and interpret image classifiers effectively.
 
-While focusing on a specific image classification task using a pre-trained model, our goal is to demonstrate how XAI empowers users to explore and interpret image classifiers effectively.
-
-By the end of this use case, you will have a solid understanding of Feature Visualisation and how to integrate it into your own projects.
+By the end of this notebook, you will have a solid understanding of Feature Visualisation and how to integrate it into your own projects.
 
 ---
 
@@ -103,7 +99,7 @@ Through this use case, we aim to to show how to use XAI techniques and methods t
 
 ### MNIST
 
-Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the Sports Image Classification dataset. We also builds post-hoc explanations to explain the model and its prediction.
+Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the MNIST dataset. We also builds post-hoc explanations to explain the model and its prediction.
 
 !!! example "MNIST Image Classification"
 
