@@ -148,3 +148,13 @@ As an alternative to the previous notebook, this use case aims to use a differen
 
     * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/obesityCvdRisk.ipynb" target="_blank">XAI for Obesity Cardiovascular Risk Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+### Generate Dimlpfidex JSON configuration files with the GUI
+
+
+If you are not used to deal with JSON configuration files and would like to get over it as fast as possible, read this Notebook. 
+!!! example "Dimlpfidex GUI"
+    ![Cracks Image](assets/images/gui/gui_example.png){ width="200px", align=left }
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/gui.ipynb" target="_blank">Learn how to use the Dimlpfidex Graphical User Interface (GUI)</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
