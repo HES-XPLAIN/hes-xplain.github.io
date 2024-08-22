@@ -178,25 +178,27 @@ The `dimlpPred` algorithm works with both required and optional arguments. Each 
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from dimlpfidex.dimlp import dimlpPred
+!!!example
 
-    dimlpPred(
-    """--test_data_file test_data.txt 
-       --weights_file weights.wts 
-       --nb_attributes 16 
-       --hidden_layers_file hidden_layers.out 
-       --nb_classes 2 
-       --test_pred_outfile predTest.out 
-       --root_folder dimlp/datafiles"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./dimlpPred --test_data_file test_data.txt --weights_file weights.wts --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --test_pred_outfile predTest.out --root_folder ../dimlp/datafiles
-    ```
+    === "Python"
+        ```py
+        from dimlpfidex.dimlp import dimlpPred
+
+        dimlpPred(
+        """--test_data_file test_data.txt 
+        --weights_file weights.wts 
+        --nb_attributes 16 
+        --hidden_layers_file hidden_layers.out 
+        --nb_classes 2 
+        --test_pred_outfile predTest.out 
+        --root_folder dimlp/datafiles"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./dimlpPred --test_data_file test_data.txt --weights_file weights.wts --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --test_pred_outfile predTest.out --root_folder ../dimlp/datafiles
+        ```
 
 ## Output interpretation
 

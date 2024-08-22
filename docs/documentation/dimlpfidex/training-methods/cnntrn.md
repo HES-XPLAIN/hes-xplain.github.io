@@ -380,28 +380,30 @@ The `cnnTrn` algorithm works with both required and optional arguments. Each arg
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from trainings import cnnTrn
+!!!example
 
-    cnnTrn(
-    """--model small 
-       --train_data_file train_data.txt 
-       --train_class_file train_class.txt 
-       --test_data_file test_data.txt 
-       --test_class_file test_class.txt 
-       --original_input_size (28,28) 
-       --nb_channels 1 
-       --data_format classic 
-       --nb_classes 10 
-       --root_folder dimlp/datafiles/Mnist"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./cnnTrn --model small --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --original_input_size (28,28) --nb_channels 1 --data_format classic --nb_classes 10 --root_folder ../dimlp/datafiles/Mnist
-    ```
+    === "Python"
+        ```py
+        from trainings import cnnTrn
+
+        cnnTrn(
+        """--model small 
+        --train_data_file train_data.txt 
+        --train_class_file train_class.txt 
+        --test_data_file test_data.txt 
+        --test_class_file test_class.txt 
+        --original_input_size (28,28) 
+        --nb_channels 1 
+        --data_format classic 
+        --nb_classes 10 
+        --root_folder dimlp/datafiles/Mnist"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./cnnTrn --model small --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --original_input_size (28,28) --nb_channels 1 --data_format classic --nb_classes 10 --root_folder ../dimlp/datafiles/Mnist
+        ```
 
 ## Output interpretation
 

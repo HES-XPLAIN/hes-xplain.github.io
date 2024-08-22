@@ -335,29 +335,31 @@ The `dimlpRul` algorithm works with both required and optional arguments. Each a
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from dimlpfidex.dimlp import dimlpRul
+!!!example
 
-    dimlpRul(
-    """--train_data_file train_data.txt 
-    --train_class_file train_class.txt 
-    --weights_file weights.wts 
-    --test_data_file test_data.txt 
-    --test_class_file test_class.txt 
-    --nb_attributes 16 
-    --hidden_layers_file hidden_layers.out 
-    --nb_classes 2 
-    --global_rules_outfile globalRules.rls 
-    --stats_file stats.txt 
-    --root_folder dimlp/datafiles"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./dimlpRul --train_data_file train_data.txt --train_class_file train_class.txt --weights_file weights.wts --test_data_file test_data.txt --test_class_file test_class.txt --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --global_rules_outfile globalRules.rls --stats_file stats.txt --root_folder ../dimlp/datafiles
-    ```
+    === "Python"
+        ```py
+        from dimlpfidex.dimlp import dimlpRul
+
+        dimlpRul(
+        """--train_data_file train_data.txt 
+        --train_class_file train_class.txt 
+        --weights_file weights.wts 
+        --test_data_file test_data.txt 
+        --test_class_file test_class.txt 
+        --nb_attributes 16 
+        --hidden_layers_file hidden_layers.out 
+        --nb_classes 2 
+        --global_rules_outfile globalRules.rls 
+        --stats_file stats.txt 
+        --root_folder dimlp/datafiles"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./dimlpRul --train_data_file train_data.txt --train_class_file train_class.txt --weights_file weights.wts --test_data_file test_data.txt --test_class_file test_class.txt --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --global_rules_outfile globalRules.rls --stats_file stats.txt --root_folder ../dimlp/datafiles
+        ```
 
 ## Output interpretation
 

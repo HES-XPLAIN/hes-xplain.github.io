@@ -502,32 +502,34 @@ The `FidexGlo` algorithm works with both required and optional arguments. Each a
 
 ## Usage example
 
-=== "Python"
-    ```py
+!!!example
 
-    from dimlpfidex.fidex import fidexGlo
+    === "Python"
+        ```py
 
-    fidexGlo("""
-    --root_folder dimlp/datafiles 
-    --test_data_file test_data.txt 
-    --test_pred_file predTest.out 
-    --global_rules_file globalRules.rls 
-    --nb_attributes 16 
-    --nb_classes 2 
-    --explanation_file explanation.txt 
-    --with_fidex true 
-    --train_data_file train_data.txt 
-    --train_pred_file predTrain.out 
-    --train_class_file train_class.txt 
-    --test_class_file test_class.txt 
-    --weights_file weights.wts"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./fidexGlo --root_folder ../dimlp/datafiles --test_data_file test_data.txt --test_pred_file predTest.out --global_rules_file globalRules.rls --nb_attributes 16 --nb_classes 2 --explanation_file explanation.txt --with_fidex true --train_data_file train_data.txt --train_pred_file predTrain.out --train_class_file train_class.txt --test_class_file test_class.txt --weights_file weights.wts
-    ```
+        from dimlpfidex.fidex import fidexGlo
+
+        fidexGlo("""
+        --root_folder dimlp/datafiles 
+        --test_data_file test_data.txt 
+        --test_pred_file predTest.out 
+        --global_rules_file globalRules.rls 
+        --nb_attributes 16 
+        --nb_classes 2 
+        --explanation_file explanation.txt 
+        --with_fidex true 
+        --train_data_file train_data.txt 
+        --train_pred_file predTrain.out 
+        --train_class_file train_class.txt 
+        --test_class_file test_class.txt 
+        --weights_file weights.wts"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./fidexGlo --root_folder ../dimlp/datafiles --test_data_file test_data.txt --test_pred_file predTest.out --global_rules_file globalRules.rls --nb_attributes 16 --nb_classes 2 --explanation_file explanation.txt --with_fidex true --train_data_file train_data.txt --train_pred_file predTrain.out --train_class_file train_class.txt --test_class_file test_class.txt --weights_file weights.wts
+        ```
 
 ## Output interpretation
 

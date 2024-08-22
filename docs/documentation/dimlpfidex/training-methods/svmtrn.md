@@ -448,29 +448,31 @@ The `svmTrn` algorithm works with both required and optional arguments. Each arg
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from trainings import svmTrn
+!!!example
 
-    svmTrn(
-    """--train_data_file train_data.txt 
-       --train_class_file train_class.txt 
-       --test_data_file test_data.txt 
-       --test_class_file test_class.txt 
-       --weights_outfile svm/weights.wts 
-       --stats_file svm/stats.txt 
-       --train_pred_outfile svm/predTrain.out 
-       --test_pred_outfile svm/predTest.out 
-       --nb_attributes 16 
-       --nb_classes 2 
-       --root_folder dimlp/datafiles"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./svmTrn --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --weights_outfile svm/weights.wts --stats_file svm/stats.txt --train_pred_outfile svm/predTrain.out --test_pred_outfile svm/predTest.out --nb_attributes 16 --nb_classes 2 --root_folder ../dimlp/datafiles
-    ```
+    === "Python"
+        ```py
+        from trainings import svmTrn
+
+        svmTrn(
+        """--train_data_file train_data.txt 
+        --train_class_file train_class.txt 
+        --test_data_file test_data.txt 
+        --test_class_file test_class.txt 
+        --weights_outfile svm/weights.wts 
+        --stats_file svm/stats.txt 
+        --train_pred_outfile svm/predTrain.out 
+        --test_pred_outfile svm/predTest.out 
+        --nb_attributes 16 
+        --nb_classes 2 
+        --root_folder dimlp/datafiles"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./svmTrn --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --weights_outfile svm/weights.wts --stats_file svm/stats.txt --train_pred_outfile svm/predTrain.out --test_pred_outfile svm/predTest.out --nb_attributes 16 --nb_classes 2 --root_folder ../dimlp/datafiles
+        ```
 
 ## Output interpretation
 

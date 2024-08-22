@@ -537,29 +537,32 @@ The `mlpTrn` algorithm works with both required and optional arguments. Each arg
 | Default value           | `15000`                  |
 
 ## Usage example
-=== "Python"
-    ```py
-    from trainings import mlpTrn
 
-    mlpTrn(
-    """--train_data_file train_data.txt 
-       --train_class_file train_class.txt 
-       --test_data_file test_data.txt 
-       --test_class_file test_class.txt 
-       --weights_outfile mlp/weights.wts 
-       --stats_file mlp/stats.txt 
-       --train_pred_outfile mlp/predTrain.out 
-       --test_pred_outfile mlp/predTest.out 
-       --nb_attributes 16 
-       --nb_classes 2 
-       --root_folder dimlp/datafiles"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./mlpTrn --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --weights_outfile mlp/weights.wts --stats_file mlp/stats.txt --train_pred_outfile mlp/predTrain.out --test_pred_outfile mlp/predTest.out --nb_attributes 16 --nb_classes 2 --root_folder ../dimlp/datafiles
-    ```
+!!!example
+
+    === "Python"
+        ```py
+        from trainings import mlpTrn
+
+        mlpTrn(
+        """--train_data_file train_data.txt 
+        --train_class_file train_class.txt 
+        --test_data_file test_data.txt 
+        --test_class_file test_class.txt 
+        --weights_outfile mlp/weights.wts 
+        --stats_file mlp/stats.txt 
+        --train_pred_outfile mlp/predTrain.out 
+        --test_pred_outfile mlp/predTest.out 
+        --nb_attributes 16 
+        --nb_classes 2 
+        --root_folder dimlp/datafiles"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./mlpTrn --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --weights_outfile mlp/weights.wts --stats_file mlp/stats.txt --train_pred_outfile mlp/predTrain.out --test_pred_outfile mlp/predTest.out --nb_attributes 16 --nb_classes 2 --root_folder ../dimlp/datafiles
+        ```
 
 ## Output interpretation
 

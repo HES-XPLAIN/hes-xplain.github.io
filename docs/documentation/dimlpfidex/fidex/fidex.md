@@ -498,30 +498,32 @@ The `Fidex` algorithm works with both required and optional arguments. Each argu
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from dimlpfidex.fidex import fidex
+!!!example
 
-    fidex(
-    """--root_folder dimlp/datafiles 
-       --train_data_file train_data.txt 
-       --train_pred_file predTrain.out 
-       --train_class_file train_class.txt 
-       --test_data_file test_data.txt 
-       --test_class_file test_class.txt 
-       --test_pred_file predTest.out 
-       --nb_attributes 16 
-       --nb_classes 2 
-       --weights_file weights.wts 
-       --rules_outfile output_rules.rls 
-       --stats_file output_stats.txt"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./fidex --root_folder ../dimlp/datafiles --train_data_file train_data.txt --train_pred_file predTrain.out --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --test_pred_file predTest.out --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --rules_outfile output_rules.rls --stats_file output_stats.txt
-    ```
+    === "Python"
+        ```py
+        from dimlpfidex.fidex import fidex
+
+        fidex(
+        """--root_folder dimlp/datafiles 
+        --train_data_file train_data.txt 
+        --train_pred_file predTrain.out 
+        --train_class_file train_class.txt 
+        --test_data_file test_data.txt 
+        --test_class_file test_class.txt 
+        --test_pred_file predTest.out 
+        --nb_attributes 16 
+        --nb_classes 2 
+        --weights_file weights.wts 
+        --rules_outfile output_rules.rls 
+        --stats_file output_stats.txt"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./fidex --root_folder ../dimlp/datafiles --train_data_file train_data.txt --train_pred_file predTrain.out --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --test_pred_file predTest.out --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --rules_outfile output_rules.rls --stats_file output_stats.txt
+        ```
 
 
 ## Output interpretation
