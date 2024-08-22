@@ -221,27 +221,29 @@ TODO: check if the statement below is correct
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from dimlpfidex.fidex import fidexGloStats
+!!!example
 
-    fidexGloStats(
-    """ --test_data_file test_data.txt 
-        --test_pred_file predTest.out 
-        --test_class_file test_class.txt 
-        --nb_attributes 16 
-        --nb_classes 2 
-        --stats_file stats.txt
-        --global_rules_file globalRules.rls
-        --root_folder dimlp/datafiles
-        """
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./fidexGloStats --test_data_file test_data.txt --test_pred_file predTest.out --test_class_file test_class.txt --nb_attributes 16 --nb_classes 2 --stats_file stats.txt --global_rules_file globalRules.rls --root_folder ../dimlp/datafiles
-    ```
+    === "Python"
+        ```py
+        from dimlpfidex.fidex import fidexGloStats
+
+        fidexGloStats(
+        """ --test_data_file test_data.txt 
+            --test_pred_file predTest.out 
+            --test_class_file test_class.txt 
+            --nb_attributes 16 
+            --nb_classes 2 
+            --stats_file stats.txt
+            --global_rules_file globalRules.rls
+            --root_folder dimlp/datafiles
+            """
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./fidexGloStats --test_data_file test_data.txt --test_pred_file predTest.out --test_class_file test_class.txt --nb_attributes 16 --nb_classes 2 --stats_file stats.txt --global_rules_file globalRules.rls --root_folder ../dimlp/datafiles
+        ```
 
 ## Output interpretation
 

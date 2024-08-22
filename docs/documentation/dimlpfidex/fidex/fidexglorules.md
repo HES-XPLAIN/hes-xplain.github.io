@@ -475,28 +475,30 @@ The `FidexGloRules` algorithm works with both required and optional arguments. E
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from dimlpfidex.fidex import fidexGloRules
+!!!example
 
-    fidexGloRules(
-    """--root_folder dimlp/datafiles 
-       --train_data_file train_data.txt 
-       --train_pred_file predTrain.out 
-       --train_class_file train_class.txt 
-       --nb_attributes 16 
-       --nb_classes 2 
-       --weights_file weights.wts 
-       --global_rules_outfile globalRules.rls 
-       --heuristic 1
-       --nb_threads 4"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./fidexGloRules --root_folder ../dimlp/datafiles --train_data_file train_data.txt --train_pred_file predTrain.out --train_class_file train_class.txt  --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --global_rules_outfile globalRules.rls --heuristic 1 --nb_threads 4
-    ```
+    === "Python"
+        ```py
+        from dimlpfidex.fidex import fidexGloRules
+
+        fidexGloRules(
+        """--root_folder dimlp/datafiles 
+        --train_data_file train_data.txt 
+        --train_pred_file predTrain.out 
+        --train_class_file train_class.txt 
+        --nb_attributes 16 
+        --nb_classes 2 
+        --weights_file weights.wts 
+        --global_rules_outfile globalRules.rls 
+        --heuristic 1
+        --nb_threads 4"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./fidexGloRules --root_folder ../dimlp/datafiles --train_data_file train_data.txt --train_pred_file predTrain.out --train_class_file train_class.txt  --nb_attributes 16 --nb_classes 2 --weights_file weights.wts --global_rules_outfile globalRules.rls --heuristic 1 --nb_threads 4
+        ```
 
 ## Output interpretation
 

@@ -348,32 +348,34 @@ The `densCls` algorithm works with both required and optional arguments. Each ar
 
 ## Usage example
 
-=== "Python"
-    ```py
-    from dimlpfidex.dimlp import densCls
+!!!example
 
-    densCls(
-    """--train_data_file train_data.txt 
-       --train_class_file train_class.txt 
-       --test_data_file test_data.txt 
-       --test_class_file test_class.txt 
-       --nb_attributes 16 
-       --hidden_layers_file hidden_layers.out 
-       --nb_classes 2 
-       --weights_file weights.wts 
-       --with_rule_extraction true 
-       --global_rules_outfile globalRules.rls 
-       --train_pred_outfile predTrain.out 
-       --test_pred_outfile testPred.out 
-       --stats_file stats.txt 
-       --root_folder dimlp/datafiles"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./densCls --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --weights_file weights.wts --with_rule_extraction true --global_rules_outfile globalRules.rls --train_pred_outfile predTrain.out --test_pred_outfile predTest.out --stats_file stats.txt --root_folder ../dimlp/datafiles
-    ```
+    === "Python"
+        ```py
+        from dimlpfidex.dimlp import densCls
+
+        densCls(
+        """--train_data_file train_data.txt 
+        --train_class_file train_class.txt 
+        --test_data_file test_data.txt 
+        --test_class_file test_class.txt 
+        --nb_attributes 16 
+        --hidden_layers_file hidden_layers.out 
+        --nb_classes 2 
+        --weights_file weights.wts 
+        --with_rule_extraction true 
+        --global_rules_outfile globalRules.rls 
+        --train_pred_outfile predTrain.out 
+        --test_pred_outfile testPred.out 
+        --stats_file stats.txt 
+        --root_folder dimlp/datafiles"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./densCls --train_data_file train_data.txt --train_class_file train_class.txt --test_data_file test_data.txt --test_class_file test_class.txt --nb_attributes 16 --hidden_layers_file hidden_layers.out --nb_classes 2 --weights_file weights.wts --with_rule_extraction true --global_rules_outfile globalRules.rls --train_pred_outfile predTrain.out --test_pred_outfile predTest.out --stats_file stats.txt --root_folder ../dimlp/datafiles
+        ```
 
 ## Output interpretation
 

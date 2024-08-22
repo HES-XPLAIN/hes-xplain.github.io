@@ -286,42 +286,46 @@ The `normalization` algorithm works with both required and optional arguments. E
 
 For datafile normalization :
 
-=== "Python"
-    ```py
-    from trainings import normalization
+!!!example
 
-    normalization(
-    """--data_files [train_data.txt,test_data.txt]
-       --normalization_indices [0,2,4]
-       --nb_attributes 16
-       --missing_values NaN
-       --root_folder dimlp/datafiles"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./normalization --data_files [train_data.txt,test_data.txt] --normalization_indices [0,2,4] --nb_attributes 16 --missing_values NaN --root_folder ../dimlp/datafiles
-    ```
+    === "Python"
+        ```py
+        from trainings import normalization
+
+        normalization(
+        """--data_files [train_data.txt,test_data.txt]
+        --normalization_indices [0,2,4]
+        --nb_attributes 16
+        --missing_values NaN
+        --root_folder dimlp/datafiles"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./normalization --data_files [train_data.txt,test_data.txt] --normalization_indices [0,2,4] --nb_attributes 16 --missing_values NaN --root_folder ../dimlp/datafiles
+        ```
 
 For rulefile denormalization :
 
-=== "Python"
-    ```py
-    from trainings import normalization
+!!!example
 
-    normalization(
-    """--normalization_file normalization_stats.txt
-       --rule_files globalRules.rls
-       --nb_attributes 16
-       --root_folder dimlp/datafiles"""
-    )
-    ```
-    
-=== "CLI"
-    ```
-    ./normalization --normalization_file normalization_stats.txt --rule_files globalRules.rls --nb_attributes 16 --root_folder ../dimlp/datafiles
-    ```
+    === "Python"
+        ```py
+        from trainings import normalization
+
+        normalization(
+        """--normalization_file normalization_stats.txt
+        --rule_files globalRules.rls
+        --nb_attributes 16
+        --root_folder dimlp/datafiles"""
+        )
+        ```
+        
+    === "CLI"
+        ```
+        ./normalization --normalization_file normalization_stats.txt --rule_files globalRules.rls --nb_attributes 16 --root_folder ../dimlp/datafiles
+        ```
 
 ## Output interpretation
 
@@ -346,3 +350,5 @@ This file stores the mean(or median) and standard deviation (std) values for spe
     [attribute index] : original mean: [mean value], original std: [std value]
 
 These mean(or median) and std values are applied during normalization to transform raw data into normalized values, and during denormalization to revert normalized values back to their original scale.
+
+Attribute indices can be replaced with attribute names. In this case, an attribute file is required.
