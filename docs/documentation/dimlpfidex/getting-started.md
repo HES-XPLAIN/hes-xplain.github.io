@@ -49,6 +49,6 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
     Learn to use our [user interface](gui.md) to ease your interaction with [configuration files](../file-formats/json-configuration-files.md).
 
-    [:octicons-arrow-right-24: More](#TODO)
+    [:octicons-arrow-right-24: More](../../notebooks.md#generate-dimlpfidex-json-configuration-files-with-the-gui)
 
 </div>
