@@ -77,7 +77,7 @@ Python wrappers meant to ease the installation and use of our tools:
 ## Notebooks & Datasets
 Practical ressources & content aiming to help understanding how to use the different features provided, all accessible from our website including:
 
-- **XAI Resource**: Literature and resources that describe what/why/how Explainable Artificial Intelligence.
+- **XAI Resource**: Literature and resources that describe how Explainable Artificial Intelligence works.
 - **Tutorial Notebooks**: Step-by-step guides to help users understand and apply XAI methods.
 - **Use Case Notebooks**: Showcase how XAI and our platform can be used to solve real-world problems.
 - **Datasets and Models**: Embedded datasets and pre-trained models to facilitate experimentation.
@@ -87,4 +87,4 @@ These are provided with solutions that facilitate deployment, including:
 - **Notebook Server Package**: A pre-configured environment to run Jupyter notebooks.
 - **Docker Image**: Containerized versions of our platform components for easy deployment on local machines or cloud environments.
 
-More details can be found in the [notebooks](../notebooks.md) section.
+Notebooks can be found in [this section](../notebooks.md).
