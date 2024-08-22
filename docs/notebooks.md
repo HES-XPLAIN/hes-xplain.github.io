@@ -152,7 +152,11 @@ As an alternative to the previous notebook, this use case aims to use a differen
 ### Generate Dimlpfidex JSON configuration files with the GUI
 
 
-If you are not used to deal with JSON configuration files and would like to get over it as fast as possible, read this Notebook. 
+If you are not used to deal with JSON configuration files and would like to get over it as fast as possible, a GUI is available to help you. Through this short notebook, you will learn how to generate a configuration file using this app and input it in one of the Fidex algorithms.
+
+!!! info
+    You should [install the GUI](documentation/dimlpfidex/gui.md#installation-guide) before following this notebook.
+
 !!! example "Dimlpfidex GUI"
     ![Cracks Image](assets/images/gui/gui_example.png){ width="200px", align=left }
 
