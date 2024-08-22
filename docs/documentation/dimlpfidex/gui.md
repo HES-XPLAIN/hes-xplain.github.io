@@ -52,7 +52,7 @@ To use the GUI, start by opening the app, select the form corresponding to the a
 
 ### Field's anatomy
 
-<center><img src="../../assets/images/gui/gui_fieldanatomy.png" width="75%"/></center>
+<center><img src="/assets/images/gui/gui_fieldanatomy.png" width="75%"/></center>
 <center><i>Field anatomy</i></center>
 
 1. **Field name**: Indicates the name or label of the field.
@@ -65,10 +65,10 @@ To use the GUI, start by opening the app, select the form corresponding to the a
     The web application cannot use the file browsing feature because of technical limitations.
 
 ### Field types
-<center><img src="../../assets/images/gui/gui_fieldnumeric.png" width="75%"/></center>
+<center><img src="/assets/images/gui/gui_fieldnumeric.png" width="75%"/></center>
 <center><i>Example of numeric field</i></center>
 
-<center><img src="../../assets/images/gui/gui_fieldfilepath.png" width="75%"/></center>
+<center><img src="/assets/images/gui/gui_fieldfilepath.png" width="75%"/></center>
 <center><i>Example of file path field</i></center>
 
 List of data types handled:
