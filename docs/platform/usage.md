@@ -44,3 +44,24 @@ manually by clicking on **Runtime** menu then by selecting **Disconnect and dele
     * Open a terminal or command prompt and run `docker version` to verify the installation.
     * Ensure Docker Desktop is running.
     * Download the Docker Compose files on this page and launch them with `docker compose up -f path/to/docker-compose.yml`.
+
+
+## Deployment Options
+
+HES-XPLAIN provides flexible deployment options to suit different user needs:
+
+- **Google Colab**: Online deployment through Google Colab for easy access and experimentation with our algorithms, tutorials, and use cases.
+- **Container**: Local deployment using Docker files to easily try our solutions locally.
+- **Private Deployment Platform**: Private deployement to ensure privacy within the HES-XPAIN platform
+
+
+The container registry contains assets that facilitate deployment, including:
+
+- **Notebook Server Package**: A pre-configured environment to run Jupyter notebooks.
+- **Docker Image**: Containerized versions of our platform components for easy deployment on local machines or cloud environments.
+
+
+For advanced users and enterprises, we offer a private deployment platform that supports:
+
+- **Private Datasets**: Securely manage and use private datasets within the HES-XPLAIN platform.
+- **Deployment Flexibility**: Deploy our solutions within private infrastructures using Kubernetes or other orchestration tools.
