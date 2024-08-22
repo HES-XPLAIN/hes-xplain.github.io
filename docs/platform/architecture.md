@@ -70,6 +70,10 @@ HES-XPLAIN assembles our own developed algorithms as well as incorporating all a
 ## PyPI package
 Python wrappers meant to ease the installation and use of our tools:
 
+- [`MLXplain`](../documentation/installation-guide.md#mlxplain-installation)
+- [`DIMLPFidex`](../documentation/installation-guide.md#dimlpfidex-installation)
+- [`Rules-extraction`](../documentation/installation-guide.md#rules-extraction-installation)
+
 ## Notebooks & Datasets
 Practical ressources & content aiming to help understanding how to use the different features provided, all accessible from our website including:
 
