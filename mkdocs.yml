@@ -98,7 +98,6 @@ theme:
     - content.code.copy
     - content.tabs.link
     - header.autohide
-    - navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.instant
