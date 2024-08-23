@@ -4,9 +4,16 @@ The XPLAIN platform aims to address this challenge by making XAI more accessible
 
 ## Notebooks & Datasets
 
-We offer a variety of tutorials and how-to guides presented as **use cases** in **interactive notebooks** that users can follow to discover and play with any XAI method available on the platform.
+We offer a range of tutorials and how-to guides presented as **use cases** in **interactive notebooks**. Users can explore and experiment with these resources to explore various XAI methods available. Additionally, **datasets** and **trained models** are accessible in our HuggingFace repository, and the notebooks can be opened and tested directly on Google Colab.
 
-For each use case, we provide a **dataset** and a **trained model** available in our HuggingFace repository. The notebooks can be open and experimented directly on Google Colab.
+On our website, you will thus find:
+
+- **Tutorial Notebooks**: Step-by-step guides to help users understand and apply XAI methods.
+- **Use Case Notebooks**: Demonstrations of how XAI and our platform can address real-world problems.
+- **Datasets and Models**: Embedded datasets and pre-trained models to facilitate experimentation.
+- **Other XAI Resourcse**: Literature and resources that explain how Explainable Artificial Intelligence works.
+
+These practical resources aim to help users understand and utilize the various features available on our platform.
 
 ```mermaid
 graph LR
@@ -32,10 +39,8 @@ The interactive notebooks can be found in the [Notebooks](../notebooks.md) secti
 
     **How to use interactive sessions with notebooks**
 
-    You can launch notebooks conveniently in an online interactive session, or if you prefer the flexibility of a local session we provid you with the necessary tools.
-
-    Simply choose between launching an **online session** in **Google Colab**
-    or setting up a **local session** with our provided **Docker Compose files**.
+    You can launch notebooks conveniently in an online interactive session.
+    Simply choose launching an **online session** in **Google Colab**.
 
     **Note:** A **Google account** is required to access Google Colab free of charge.
 
@@ -48,19 +53,6 @@ The interactive notebooks can be found in the [Notebooks](../notebooks.md) secti
 
     When you are done, the environment will be shutdown after 30 minutes of inactivity. You can also shut it down
     manually by clicking on **Runtime** menu then by selecting **Disconnect and delete runtime**.
-
-    ??? tip ":octicons-desktop-download-24: Local session: How to install Docker Desktop"
-
-        The provided Docker Compose files allow you to easily launch Jupyter notebooks and embedded data locally, giving you
-        convenient access to the notebook content and data.
-
-        You only need to install [Docker Desktop](https://www.docker.com/) and then download the Docker Compose file.
-
-        * Go to the [Docker website](https://www.docker.com/)
-        * Download the appropriate Docker Desktop version for your operating system (:simple-windows11: :simple-apple: :simple-linux:).
-        * Open a terminal or command prompt and run `docker version` to verify the installation.
-        * Ensure Docker Desktop is running.
-        * Download the Docker Compose files on this page and launch them with `docker compose up -f path/to/docker-compose.yml`.
 
 ## Algorithms code
 
@@ -168,9 +160,9 @@ graph LR
 
 ??? tip ":octicons-desktop-download-24: Using Docker images in a local session"
 
-    **How to use interactive sessions with notebooks**
+    **How to use notebooks locally**
 
-    If you prefer the flexibility of a local session, we provid you with the necessary tools to launch notebooks conveniently on your machine.
+    If you prefer the flexibility of a local session, we provid you with the necessary tools to launch notebooks conveniently on your machine. Simply set up a local session with our provided **Docker Compose** files.
 
     ??? tip ":octicons-desktop-download-24: Local session: How to install Docker Desktop"
 
