@@ -103,8 +103,9 @@ This section shows the progress of the general documentation redaction.
                 * [x] Example Code
                 * [x] Output Interpretation
         * [ ] 2.5 File formats
-            * [x] 2.5.1 JSON Configuration files
-            * [ ] 2.5.x TODO: DEFINE ALL USED OR PRODUCED FILES
+            * [] 2.5.1 overview
+            * [x] 2.5.2 JSON Configuration files
+            * [x] 2.5.3 Execution files
 
 ??? quote "Additional Sections"
     - [ ] 3 Additional Sections
