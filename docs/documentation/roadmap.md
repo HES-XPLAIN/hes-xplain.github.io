@@ -8,7 +8,7 @@ This section shows the progress of the general documentation redaction.
         * [x] 1.2 Application domains
         * [x] 1.3 Documentation structure
 
-??? quote "Algorithms"
+??? success "Algorithms"
     - [x] 2 Algorithms
         * [x] 2.1 Algorithms ensembles
         * [x] 2.2 Fidex algorithms
@@ -115,26 +115,14 @@ This section shows the progress of the general documentation redaction.
             * [x] 3.2.2 Installation guide
             * [x] 3.2.3 usage guide
         * [x] 3.3 Getting Started
-        * [ ] 3.4 Detailed Examples => do we redirect to the already existing notebook page ?  
-        * [x] 3.5 API Reference
-        * [ ] 3.6 Contributing
-            * [ ] 3.6.1 Contribution Guidelines
-            * [ ] 3.6.2 How to Submit a Bug Report
-            * [ ] 3.6.3 How to Submit a Feature Request
-        * [ ] 3.7 FAQ
-            * [ ] 3.7.1 Frequently Asked Questions
-            * [ ] 3.7.2 Troubleshooting Tips
-            * [ ] 3.7.3 Common Issues and Solutions
-        * [ ] 3.8 Glossary
-            * [ ] 3.8.1 Definitions of Key Terms
-            * [ ] 3.8.2 Acronyms and Abbreviations
+        * [x] 3.4 API Reference
+        * [ ] 3.5 Glossary
+            * [ ] 3.5.1 Definitions of Key Terms
+            * [ ] 3.5.2 Acronyms and Abbreviations
 
 ??? quote "Appendices"
     - [ ] 4 Appendices
         * [ ] 4.1 References
-            * [ ] 4.1.1 Academic Papers
+            * [x] 4.1.1 Academic Papers
             * [ ] 4.1.2 Online Resources
         * [x] 4.2 License
-        * [ ] 4.3 Contact Information
-            * [ ] 4.3.1 How to Get Support
-            * [ ] 4.3.2 Contact Details for Maintainers
