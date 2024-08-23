@@ -79,9 +79,9 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
         ![Data scientist](../assets/images/test-tube.svg){ .icon-audience }
         You want to **use XAI** algorithms along **your models**.
 
-        Get access to algorithmes and API documentation.
+        Get access to algorithms and API documentation.
 
-        - Obtain Python PyPi packages
+        - Obtain Python PyPI packages
         - Get extensive API documentation
 
     === "a professor"
