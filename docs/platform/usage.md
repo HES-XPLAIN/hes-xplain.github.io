@@ -109,11 +109,15 @@ The packaging process is entirely automated from the source repositories. This s
 ```mermaid
 graph LR
     subgraph repository["GitHub Repository"]
-        direction LR
         sourcecode["Source Code"]
     end
 
-    pypi["Python Index Repository"]
+    subgraph pypi["Python Index Repository"]
+        direction LR
+        mlxplain["MLxplain package"]
+        dimlpfidex["dimlpfidex package"]
+        rulesextract["rules-extraction package"]
+    end
 
     subgraph user["User"]
         cli["Terminal CLI"]
@@ -190,3 +194,69 @@ The platform is designed to be a flexible and collaborative tool,  allowing anyo
 We have already used and extended the existing OmniXAI framework, leveraging its extensive documentation to incorporate new algorithms and ensure their seamless integration.
 
 We strongly encourage contributions not only to the platform itself but also to the development of our algorithms. We aim to continuously improve the platform and expand its functionality in a collaborative manner, making it a valuable resource for the community.
+
+
+## Full achitecture
+
+```mermaid
+graph LR
+
+    subgraph External["External projects"]
+        direction LR
+        omnixai["OmniXAI"]
+    end
+
+    subgraph Repo["GitHub repository"]
+        direction LR
+        souceCode["Source code"]
+        dockerres["Docker resources"]
+        notebooksSrc["Notebook sources"]
+    end
+
+    subgraph Pypi["Python Index repository"]
+        direction TB
+        mlxplain["MLxplain package"]
+        dimlpfidex["dimlpfidex package"]
+        rulesextract["rules-extraction package"]
+    end
+
+    subgraph Website["Website"]
+        direction LR
+        overview["Project overview"]
+        notebookLinks["Notebooks index"]
+        docs["Docs. & API ref."]
+    end
+
+    subgraph Datasets["Dataset repositories"]
+        direction LR
+        kaggle["Kaggle"]
+        huggingface["Hugging face"]
+    end
+
+    subgraph Notebooks["Notebooks"]
+        direction LR
+        colab["Google colab"]
+        docker["Docker images"]
+    end
+
+    subgraph Endusers["End users"]
+        direction LR
+        decisionMakers["Decision makers"]
+        engineers["Engineers"]
+        dataScientists["Data scientists"]
+        enthousiasts["Students & ML enthousiasts"]
+    end
+
+    omnixai-- "empowers" -->mlxplain
+    souceCode-- "is compiled into" -->Pypi
+    dockerres-- "supplies" -->docker
+    souceCode-- "is documented in" -->docs 
+    notebooksSrc-- "are hosted by" -->Notebooks
+    Notebooks-- "provide help to" -->Endusers
+    Datasets-- "can be used with" -->Notebooks
+    notebookLinks-- "links to" -->Notebooks
+    Website-- "enlight" -->Endusers
+    Pypi-- "can be used by" -->Endusers
+    Pypi-- "are used in" -->Notebooks
+
+```
