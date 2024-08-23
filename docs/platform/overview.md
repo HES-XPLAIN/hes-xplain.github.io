@@ -56,7 +56,7 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
 
     === "a decision maker"
 
-        ![Decision maker](../assets/images/tie.svg){ width="200px", align=left }
+        ![Decision maker](../assets/images/tie.svg){ .icon-audience }
         You want to **understand** the **relevance of XAI** for your business.
 
         Get an overview of explainability opportunities
@@ -66,7 +66,7 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
 
     === "an engineer"
 
-        ![Engineer](../assets/images/hammer-wrench.svg){ width="200px", align=left }
+        ![Engineer](../assets/images/hammer-wrench.svg){ .icon-audience }
         You want to **try XAI algorithms**.
 
         Get access to exploratory use cases notebooks and datasets
@@ -76,7 +76,7 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
 
     === "a data scientist"
 
-        ![Data scientist](../assets/images/test-tube.svg){ width="200px", align=left }
+        ![Data scientist](../assets/images/test-tube.svg){ .icon-audience }
         You want to **use XAI** algorithms along **your models**.
 
         Get access to algorithmes and API documentation.
@@ -86,7 +86,7 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
 
     === "a professor"
 
-        ![Professor](../assets/images/school.svg){ width="200px", align=left }
+        ![Professor](../assets/images/school.svg){ .icon-audience }
         You want a tool to **facilitate teaching** of explainable AI.
 
         Get access to tutorials and comprehensive guides.
