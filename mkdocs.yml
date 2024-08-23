@@ -16,7 +16,6 @@ nav:
     - Overview: platform/overview.md
     - Usage: platform/usage.md
     - Algorithms: platform/algos.md
-    - Architecture: platform/architecture.md
   - Notebooks: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md
