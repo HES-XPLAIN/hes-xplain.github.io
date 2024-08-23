@@ -8,6 +8,8 @@ This section provides a concise overview of our algorithms, detailing how they c
 
 * :material-view-grid: **Unified integration**: The platform is able to function as a cohesive ensemble where these individual packages can be accessed and used together through an overarching package.
 
+To access our Python packages, see the page [Usage](usage.md).
+
 ## Individual algorithms
 
 Overview of our own developed algorithms.
@@ -24,10 +26,6 @@ This module includes three distinct approaches:
 
 Additionally, a novel algorithm is developed to combine these approaches, resulting in comprehensive and coherent explanations.
 
-The individual package is available on the [Python Package Index](https://pypi.org/):
-
-* :material-language-python: [rules-extraction](https://pypi.org/project/rules-extraction/)
-
 ### DIMLPFidex
 
 **DIMLPFidex** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms.
@@ -37,10 +35,6 @@ We present three explanation algorithms:
 * **[Fidex](../documentation/dimlpfidex/fidex/fidex.md)**: Provides localized explanations by generating rules that describe the model’s behavior for specific data samples.
 * **[FidexGlo](../documentation/dimlpfidex/fidex/fidexglorules.md)**: Offers a global understanding of the model's behavior by aggregating local rules into a comprehensive ruleset.
 * **[Dimlp](../documentation/dimlpfidex/dimlp/overview.md)**: Extracts global propositional rules from deep models, specifically trained using the `Dimlp` architecture, to explain the model's overall decision-making process.
-
-The individual package is available on the [Python Package Index](https://pypi.org/):
-
-* :material-language-python: [dimlpfidex](https://pypi.org/project/dimlpfidex/)
 
 ### FUGE
 
@@ -60,7 +54,3 @@ Overview of the overarching package for use via an unified interface.
 Built on the robust capabilities of [OmniXAI](https://github.com/salesforce/OmniXAI), a comprehensive Python library dedicated to explainable AI, MLXplain enhances this foundation by incorporating our additional algorithms, resulting in a powerful and versatile environment for practitioners.
 
 By reusing all modern standard algorithms available through the OmniXAI library, MLXplain ensures users have access to a broad spectrum of XAI techniques and functionalities. This integration allows users to make full use of the explainable AI potential, facilitating the comparison between different methods and simplifying experimentation and implementation.
-
-The overarching package is available on the [Python Package Index](https://pypi.org/):
-
-* :material-language-python: [mlxplain](https://pypi.org/project/mlxplain/)
