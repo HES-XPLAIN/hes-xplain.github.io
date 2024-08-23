@@ -9,7 +9,7 @@ This section shows the progress of the general documentation redaction.
         * [x] 1.3 Documentation structure
 
 ??? quote "Algorithms"
-    - [ ] 2 Algorithms
+    - [x] 2 Algorithms
         * [x] 2.1 Algorithms ensembles
         * [x] 2.2 Fidex algorithms
             * [x] 2.2.1 Introduction
@@ -102,8 +102,8 @@ This section shows the progress of the general documentation redaction.
                 * [x] Arguments list
                 * [x] Example Code
                 * [x] Output Interpretation
-        * [ ] 2.5 File formats
-            * [] 2.5.1 overview
+        * [x] 2.5 File formats
+            * [x] 2.5.1 overview
             * [x] 2.5.2 JSON Configuration files
             * [x] 2.5.3 Execution files
 

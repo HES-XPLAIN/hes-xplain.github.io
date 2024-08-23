@@ -238,6 +238,9 @@ This file must contain [Fidex](../dimlpfidex/fidex/overview.md) rules or [Dimlp]
         Rule [id_rule]: [list of antecedants[{xi OR attribute_name} {> OR <} value]] Class = [id_class] OR class_name ([covering])
         Ex : Rule 1: (x1 > 0.653808) (x2 > 0.92407) (x8 < 0.44302) Class = 1 (211)
     ```
+
+Note : JSON rule files are not supported for denormalization.
+
 ---
 
 ### Global rules file

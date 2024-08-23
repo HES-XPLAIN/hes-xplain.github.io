@@ -7,6 +7,14 @@
 
 The normalization is a method that adjusts the scale of data attributes, typically by converting values to a standard range (e.g., zero mean and unit variance), facilitating more efficient and accurate model training. This algorithm offers flexibility by allowing normalization based on pre-defined parameters, calculated statistics from provided data files, or manual input of mean and standard deviation. Additionally, it supports denormalizing rule files for more interpretable results. The process generates normalized data files and denormalized rule files, and is especially useful when preparing data for [Dimlp](../dimlp/overview.md) models.
 
+Keep the following in mind:
+
+- Normalization is recommended before training with [DimlpTrn](../dimlp/dimlptrn.md) and [DimlpBT](../dimlp/dimlpbt.md).
+- Normalization is not necessary for [CNN](cnntrn.md), [MLP](mlptrn.md), and [SVM](svmtrn.md) as normalization is handled internally during the training process.
+- Decision trees (e.g., [Gradient Boosting](gradboosttrn.md), [Random Forests](randforeststrn.md)) do not require normalization as they are robust to unnormalized data.
+
+Do not forget to denormalize the generated rules afterwards if you have normalized your data.
+
 ## Arguments list
 The `normalization` algorithm works with both required and optional arguments. Each argument has specific properties:
 
