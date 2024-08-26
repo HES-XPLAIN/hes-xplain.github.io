@@ -7,7 +7,7 @@ In order for you to get started as fast as possible in the field of XAI, here is
 
 1. Install our algorithms following the [installation guide](../installation-guide.md).
 2. (Optional) Install our user interface following the [GUI](gui.md) page.
-3. Take a moment to follow one of our [notebooks](). Here is a selection for you to dive into the use of `dimlpfidex` tools:
+3. Take a moment to follow one of our [notebooks](../../notebooks.md). Here is a selection for you to dive into the use of `dimlpfidex` tools:
 
 <div class="grid cards" markdown>
 
