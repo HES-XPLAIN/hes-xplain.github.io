@@ -3,7 +3,7 @@
 !!!Warning
     **This section is under construction and should not be considered as accurate yet.**
 
-In order for you to get started as fast as possible in the field of XAI, here is a plan to follow:
+To help you get started quickly in the field of XAI, specifically using the dimlpfidex algorithms, here is a recommended plan to follow:
 
 1. Install our algorithms following the [installation guide](../installation-guide.md).
 2. (Optional) Install our user interface following the [GUI](gui.md) page.

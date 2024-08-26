@@ -107,8 +107,8 @@ This section shows the progress of the general documentation redaction.
             * [x] 2.5.2 JSON Configuration files
             * [x] 2.5.3 Execution files
 
-??? quote "Additional Sections"
-    - [ ] 3 Additional Sections
+??? success "Additional Sections"
+    - [x] 3 Additional Sections
         * [x] 3.1 Installation Guide
         * [x] 3.2 Graphic User Interface
             * [x] 3.2.1 Description
@@ -116,9 +116,9 @@ This section shows the progress of the general documentation redaction.
             * [x] 3.2.3 usage guide
         * [x] 3.3 Getting Started
         * [x] 3.4 API Reference
-        * [ ] 3.5 Glossary
-            * [ ] 3.5.1 Definitions of Key Terms
-            * [ ] 3.5.2 Acronyms and Abbreviations
+        * [x] 3.5 Glossary
+            * [x] 3.5.1 Definitions of Key Terms
+            * [x] 3.5.2 Acronyms and Abbreviations
 
 ??? quote "Appendices"
     - [ ] 4 Appendices
