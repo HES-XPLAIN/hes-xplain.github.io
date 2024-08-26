@@ -1,8 +1,5 @@
 # Getting started
 
-!!!Warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 To help you get started quickly in the field of XAI, specifically using the dimlpfidex algorithms, here is a recommended plan to follow:
 
 1. Install our algorithms following the [installation guide](../installation-guide.md).

@@ -1,8 +1,5 @@
 # Algorithms
 
-!!! warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 Here you can find an overview of the different algorithm ensembles within the `dimlpfidex` framework. These ensembles are part of the [dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) repository and are collectively referred to by this term.
 
 <div class="grid cards" markdown>

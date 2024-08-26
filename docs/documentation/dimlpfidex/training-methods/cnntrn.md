@@ -1,8 +1,5 @@
 # cnnTrn
 
-!!!warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Description
 
 The `CNN` (Convolutional Neural Network) is a deep learning architecture commonly used for tasks involving image data, such as classification and object detection. In this implementation, we use the `Keras` library, which allows for easy integration of popular CNN architectures like `ResNet` and `VGG`. The algorithm can be applied to a wide range of datasets, including well-known image datasets like `MNIST`, `CIFAR-10`, and `CIFAR-100`. Additionally, the inclusion of the [Dimlp](../dimlp/overview.md) layer adds interpretability by enabling the extraction of decision rules via the [Fidex](../fidex/overview.md) algorithm, making the model's decisions more transparent and easier to explain.

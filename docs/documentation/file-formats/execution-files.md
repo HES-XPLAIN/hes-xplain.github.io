@@ -1,8 +1,5 @@
 # Execution Files
 
-!!! warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 Execution files refer to all the files that can or must be input to our dimlpfidex algorithms. It is essential that each file follows the correct format to ensure the algorithms run properly. Let's detail the format of each input file.
 
 ## Files format

@@ -1,8 +1,5 @@
 # JSON Configuration Files
 
-!!! warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 Configuration files are meant to ease the use of our algorithms. It allows you to write all needed arguments inside a JSON formatted file and use it as input to any `dimlpfidex` algorithm. This will allow you to write shorter `Python` function calls and/or `CLI` commands, improving readability and reusability.
 
 !!!example

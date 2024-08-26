@@ -1,8 +1,5 @@
 # Training methods
 
-!!! warning "Warning"
-    **This section is under construction and should not be considered as accurate yet.**
-
 This collection of algorithms is designed to train various types of models that incorporate a special `Dimlp` layer or extract decision rules. This layer and rules enable the subsequent generation of interpretable decision rules that explain the model's decisions using the `Fidex` algorithm.
 
 ## Architecture

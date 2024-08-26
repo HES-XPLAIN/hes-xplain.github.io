@@ -1,8 +1,5 @@
 # DensCls
 
-!!!warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Description
 
 The `DimlpBT` model is an extension of the standard `Dimlp (Discretized Interpretable Multi-Layer Perceptron)` architecture, which applies the powerful technique of bagging to improve model accuracy and robustness. Bagging, or Bootstrap Aggregating, generates multiple versions of the training set by resampling and trains separate `Dimlp` networks on each dataset. The ensemble of networks is then aggregated to make final predictions, reducing variance and improving predictive performance, particularly on complex datasets. Like the base `Dimlp` model, this version leverages a discretized multi-layer perceptron, which uses a staircase activation function in the first hidden layer, creating a grid of hyper-rectangles in the feature space. These hyper-rectangles help define discriminant decision boundaries between classes, facilitating the extraction of symbolic rules.

@@ -1,8 +1,5 @@
 # computeRocCurve
 
-!!!warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Description
 
 The `computeRocCurve` algorithm calculates and plots the `ROC` (Receiver Operating Characteristic) curve based on a set of test predictions and true classes. The `ROC` curve is a graphical representation that illustrates the diagnostic ability of a binary classifier as its decision threshold is varied. It plots the true positive rate (sensitivity) against the false positive rate (1 - specificity), allowing for the evaluation of the model's performance across different thresholds. This implementation uses `scikit-learn`'s built-in functions to efficiently compute and plot the ROC curve, providing insights into the trade-off between sensitivity and specificity for the given predictions. Note that this algorithm is not applicable to [SVM](svmtrn.md) models.

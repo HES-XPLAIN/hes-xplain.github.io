@@ -1,8 +1,5 @@
 # normalization
 
-!!!warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Description
 
 The normalization is a method that adjusts the scale of data attributes, typically by converting values to a standard range (e.g., zero mean and unit variance), facilitating more efficient and accurate model training. This algorithm offers flexibility by allowing normalization based on pre-defined parameters, calculated statistics from provided data files, or manual input of mean and standard deviation. Additionally, it supports denormalizing rule files for more interpretable results. The process generates normalized data files and denormalized rule files, and is especially useful when preparing data for [Dimlp](../dimlp/overview.md) models.
