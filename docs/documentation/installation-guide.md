@@ -1,8 +1,5 @@
 # Installation guide
 
-!!! warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Prerequisites
 
 Before starting the installation process, ensure to have `python v3.9` or newer (**`3.11`** is recommended) installed on your machine. Please refer to the [Python official website](https://www.python.org/downloads/) for further information concerning the installation process. 
@@ -26,7 +23,7 @@ The output of the command above should tell you what version is installed on you
 
 === "Windows"
     ```sh
-    py -m pip --version
+    python -m pip --version
     ```
 
 === "Linux"

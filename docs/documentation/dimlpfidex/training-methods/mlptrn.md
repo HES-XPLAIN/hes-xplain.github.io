@@ -1,8 +1,5 @@
 # mlpTrn
 
-!!!warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Description
 
 The `MLP` (Multi-Layer Perceptron) is a class of feedforward artificial neural networks that consists of multiple layers of nodes, including an input layer, one or more hidden layers, and an output layer. It is commonly used for both classification and regression tasks. In this implementation, we use the version provided by `scikit-learn`, which allows for flexible and efficient training. The inclusion of the [Dimlp](../dimlp/overview.md) layer adds interpretability by enabling the extraction of decision rules via the [Fidex](../fidex/overview.md) algorithm, making the model's decisions more transparent and easier to explain.

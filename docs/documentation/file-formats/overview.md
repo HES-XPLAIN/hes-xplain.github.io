@@ -1,8 +1,5 @@
 # File formats
 
-!!!Warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Important Guidelines for File Usage
 
 Before using our algorithms, consider the following essential guidelines for managing and preprocessing files and data:

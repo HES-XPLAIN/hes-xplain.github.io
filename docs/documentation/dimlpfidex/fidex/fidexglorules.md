@@ -1,8 +1,5 @@
 # FidexGloRules
 
-!!!warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Description
 
 The [Fidex](fidex.md) algorithm is an approach to rule extraction that can be applied to supervised neural networks and their ensembles, convolutional neural networks, decision tree ensembles, and support vector machines. The name of the algorithm is a contraction of *fidelity* and *explainability*. *Fidelity* refers to how well an extracted rule mimics the behavior of a given model.
