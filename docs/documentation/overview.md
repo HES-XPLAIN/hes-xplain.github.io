@@ -1,8 +1,5 @@
 # :material-book: Documentation
 
-!!! warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 Welcome to the **HES-XPLAIN** official documentation. This page holds the entire project documentation for our collection of algorithms designed for various computational tasks in the XAI field.
 
 ## Dashboard

@@ -1,8 +1,5 @@
 # References
 
-!!! warning
-    **This section is under construction and should not be considered as accurate yet.**
-
 ## Related academic papers
 
 #### [Fidex: An Algorithm for the Explainability of Ensembles and SVMs](https://www.researchgate.net/publication/381032261_Fidex_An_Algorithm_for_the_Explainability_of_Ensembles_and_SVMs)
