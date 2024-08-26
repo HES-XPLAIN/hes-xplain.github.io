@@ -41,7 +41,9 @@ To install the dimlpfidex GUI, follow these steps:
 
 ## Usage guide
 
-To use the GUI, start by opening the app, select the form corresponding to the algorithm you want to use, fill out the form, and generate it by clicking on the button at the bottom of the form. 
+To quickly learn how to use the GUI for generating configuration files, you can explore our [notebook](../../notebooks.md#generate-dimlpfidex-json-configuration-files-with-the-gui) for a step-by-step guide.
+
+To get started with the GUI, open the app, choose the form corresponding to the algorithm you want to use, fill it out, and generate the configuration file by clicking the button at the bottom of the form.
 
 ### Features of the GUI
 
