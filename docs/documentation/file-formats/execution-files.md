@@ -226,20 +226,79 @@ And the format of `Random Forest` rules is :
 
 <p style="font-size:larger;">When denormalizing rules</p>
 
-This file must contain [Fidex](../dimlpfidex/fidex/overview.md) rules or [Dimlp](../dimlpfidex/dimlp/overview.md) rules. These rules are meant to be denormalized in order to get more interpretable results. The rules in the file need to be in one of these formats :
+This file must contain [Fidex](../dimlpfidex/fidex/overview.md) rules or [Dimlp](../dimlpfidex/dimlp/overview.md) rules. `Fidex` rules can also be in JSON format. These rules are meant to be denormalized in order to get more interpretable results. The rules in the file need to be in one of these formats :
 
 !!!example
 
-    ```text
-    Fidex :
-        Rule [id_rule]: [list of antecedants[{Xi OR attribute_name}{>= OR <}value]] -> {class [id_class] OR class_name}
-        Ex : Rule 1: X1>=0.508498 X0>=0.603383 X7<0.463138 -> class 0
-    Dimlp :
-        Rule [id_rule]: [list of antecedants[{xi OR attribute_name} {> OR <} value]] Class = [id_class] OR class_name ([covering])
-        Ex : Rule 1: (x1 > 0.653808) (x2 > 0.92407) (x8 < 0.44302) Class = 1 (211)
-    ```
+    === "Text file"
 
-Note : JSON rule files are not supported for denormalization.
+        ```text
+        Fidex :
+            Rule [id_rule]: [list of antecedants[{Xi OR attribute_name}{>= OR <}value]] -> {class [id_class] OR class_name}
+            Ex : Rule 1: X1>=0.508498 X0>=0.603383 X7<0.463138 -> class 0
+        Dimlp :
+            Rule [id_rule]: [list of antecedants[{xi OR attribute_name} {> OR <} value]] Class = [id_class] OR class_name ([covering])
+            Ex : Rule 1: (x1 > 0.653808) (x2 > 0.92407) (x8 < 0.44302) Class = 1 (211)
+        ```
+    
+    === "JSON file"
+
+        ```text
+        {
+            "positive index class": -1,
+            "rules": [
+                {
+                    "accuracy": 1.0,
+                    "antecedents": [
+                        {
+                            "attribute": 8,
+                            "inequality": false,
+                            "value": 0.07228972839342673
+                        },
+                        {
+                            "attribute": 3,
+                            "inequality": true,
+                            "value": 0.6969069765088105
+                        }
+                    ],
+                    "confidence": 0.991161,
+                    "coveredSamples": [
+                        67,
+                        213,
+                        567
+                    ],
+                    "coveringSize": 3,
+                    "fidelity": 1.0,
+                    "outputClass": 1
+                },
+                {
+                    "accuracy": 1.0,
+                    "antecedents": [
+                        {
+                            "attribute": 8,
+                            "inequality": false,
+                            "value": 0.07228972839342673
+                        },
+                        {
+                            "attribute": 3,
+                            "inequality": true,
+                            "value": 0.6969069765088105
+                        }
+                    ],
+                    "confidence": 0.991161,
+                    "coveredSamples": [
+                        67,
+                        213,
+                        567
+                    ],
+                    "coveringSize": 3,
+                    "fidelity": 1.0,
+                    "outputClass": 1
+                }
+            ],
+            "threshold": -1.0
+        }
+        ```
 
 ---
 
