@@ -15,9 +15,20 @@ The output of the command above should tell you what version is installed on you
 Then, check if you also have `pip` installed.
 Note you might need to install `python3-pip` on some Linux distributions.
 
-```sh
-python -m pip --version
-```
+=== "Windows"
+    ```sh
+    python -m pip --version
+    ```
+
+=== "Linux"
+    ```sh
+    pip --version
+    ```
+
+=== "macOS"
+    ```sh
+    pip --version
+    ```
 
 It should respond with an output similar to the example below:
 ```
