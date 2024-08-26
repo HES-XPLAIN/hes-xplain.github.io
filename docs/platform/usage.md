@@ -4,7 +4,7 @@ The XPLAIN platform aims to address this challenge by making XAI more accessible
 
 ## Notebooks & Datasets
 
-We offer a range of tutorials and how-to guides presented as **use cases** in **interactive notebooks**. Users can explore and experiment with these resources to explore various XAI methods available. Additionally, **datasets** and **trained models** are accessible in our HuggingFace repository, and the notebooks can be opened and tested directly on Google Colab.
+We offer a range of tutorials and how-to guides presented as **use cases** in **interactive notebooks**. Users can explore and experiment with these resources to explore various XAI methods available. Additionally, **datasets** and **trained models** are accessible in our [HuggingFace repository](https://huggingface.co/HES-XPLAIN), and the notebooks can be opened and tested directly on Google Colab.
 
 On our website, you will thus find:
 
@@ -56,11 +56,11 @@ The interactive notebooks can be found in the [Notebooks](../notebooks.md) secti
 
 ## Algorithms code
 
-In [algos](algos.md) we introduce our XAI algorithms. They are developed in an open source manner in GitHub repositories.
+In [algos](algos.md) we introduce our XAI algorithms. They are developed in an open source manner in our [GitHub repositories](https://github.com/HES-XPLAIN).
 They consist of **Python** and **C++** code using the **pybind11** binding library.
 
 ```mermaid
-graph LR
+graph TB
     subgraph Repo["GitHub repository"]
         subgraph hesxplainAlgo["Our XAI algorithms"]
             direction LR
@@ -72,7 +72,7 @@ graph LR
         mlxplain["MLXplain"]
     end
 
-    subgraph ExternalAlgo["Existing Algorithms"]
+    subgraph ExternalAlgo["Existing XAI algorithms"]
         existingAlgo1["SHAP"]
         existingAlgo2["LIME"]
         existingAlgo3["..."]
@@ -196,7 +196,7 @@ We have already used and extended the existing OmniXAI framework, leveraging its
 We strongly encourage contributions not only to the platform itself but also to the development of our algorithms. We aim to continuously improve the platform and expand its functionality in a collaborative manner, making it a valuable resource for the community.
 
 
-## Full achitecture
+## Architecture overview
 
 ```mermaid
 graph LR
