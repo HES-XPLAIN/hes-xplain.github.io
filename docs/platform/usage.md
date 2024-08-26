@@ -196,7 +196,7 @@ We have already used and extended the existing OmniXAI framework, leveraging its
 We strongly encourage contributions not only to the platform itself but also to the development of our algorithms. We aim to continuously improve the platform and expand its functionality in a collaborative manner, making it a valuable resource for the community.
 
 
-## Full achitecture
+## Architecture overview
 
 ```mermaid
 graph LR
