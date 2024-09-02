@@ -142,14 +142,27 @@ As an alternative to the previous notebook, this use case aims to use a differen
 
 !!! example "Obesity Cardiovascular Risk Classification"
 
-    ![Cracks Image](assets/images/examples/obesity.jpg){ width="200px", align=left }
+    ![Obesity Image](assets/images/examples/obesity.jpg){ width="200px", align=left }
 
     **Obesity Cardiovascular Risk Classification**
 
     * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/obesityCvdRisk.ipynb" target="_blank">XAI for Obesity Cardiovascular Risk Classification</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
-### Generate Dimlpfidex JSON configuration files with the GUI
+### Use dimlpfidex within the OmniXAI library
+
+Through this use case, learn to use dimlpfidex with OmniXAI by exploring the heart attack prediction dataset and extracting explanatory rules. We will also generate local and global explanation graphs in a dashboard using this library.
+
+!!! example "Heart attack prediction with OmniXAI"
+
+    ![Heart attack Image](assets/images/examples/heart_attack.jpg){ width="200px", align=left }
+
+    **Heart Attack Risk Prediction**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/omniXai_dimlpfidex.ipynb" target="_blank">XAI for Heart Attack Risk Prediction</a>
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
+
+### Generate dimlpfidex JSON configuration files with the GUI
 
 
 If you are not used to deal with JSON configuration files and would like to get over it as fast as possible, a GUI is available to help you. Through this short notebook, you will learn how to generate a configuration file using this app and input it in one of the Fidex algorithms.
