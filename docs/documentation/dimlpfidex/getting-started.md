@@ -40,6 +40,14 @@ To help you get started quickly in the field of XAI, specifically using the diml
 
     [:octicons-arrow-right-24: More](../../notebooks.md#cracks)
 
+-   **OmniXAI Notebook**
+
+    ---
+
+    Learn to use dimlpfidex within the [OmniXAI](../mlxplain/overview.md) library by exploring the heart attack prediction and extracting rules.
+
+    [:octicons-arrow-right-24: More](../../notebooks.md#use-dimlpfidex-within-the-omnixai-library)
+
 -   **GUI Notebook**
 
     ---
