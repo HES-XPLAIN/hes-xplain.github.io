@@ -69,7 +69,7 @@ graph TB
             algoDimlp["dimlpfidex"]
         end
 
-        mlxplain["MLXplain"]
+        mlxplain["mlxplain"]
     end
 
     subgraph ExternalAlgo["Existing XAI algorithms"]
