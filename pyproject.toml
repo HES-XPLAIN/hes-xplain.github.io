@@ -8,8 +8,8 @@ authors = [
     { name = "Jean-Marc Boutay", email = "jean-marc.boutay@hesge.ch" },
 ]
 dependencies = [
-    "mkdocs-material>=9.5.26",
-    "pillow>=10.3.0",
+    "mkdocs-material>=9.5.33",
+    "pillow>=10.4.0",
     "cairosvg>=2.7.1",
     "mkdocs-minify-plugin>=0.8.0",
     "mkdocs-redirects>=1.2.1",
