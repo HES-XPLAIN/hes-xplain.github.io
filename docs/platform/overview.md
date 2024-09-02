@@ -42,7 +42,7 @@ The **HES-XPLAIN** platform, is designed to democratize access to eXplainable Ar
 
     Find information on the architecture of the platform.
 
-    [:octicons-arrow-right-24: Architecture](usage.md#full-achitecture)
+    [:octicons-arrow-right-24: Architecture](usage.md#architecture-overview)
 
 </div>
 
