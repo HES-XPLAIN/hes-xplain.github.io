@@ -28,7 +28,7 @@ Additionally, a novel algorithm is developed to combine these approaches, result
 
 ### DIMLPFidex
 
-**DIMLPFidex** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms.
+**[DIMLPFidex](../documentation/dimlpfidex/overview.md)** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms.
 
 We present three explanation algorithms:
 

@@ -40,6 +40,21 @@
 #### [A model for single and multiple knowledge based networks.](https://www.researchgate.net/publication/10634174_A_model_for_single_and_multiple_knowledge_based_networks)
 2003, by [Prof. Guido Bologna](../team.md#prof-guido-bologna)
 
+
 ## Online resources
 
-<!-- TODO: complete here -->
+#### [dimlpfidex GitHub Repository](https://github.com/HES-XPLAIN/dimlpfidex)
+
+This is the official GitHub repository containing the code for the dimlpfidex algorithms.
+
+---
+
+#### [mlxplain GitHub Repository](https://github.com/HES-XPLAIN/mlxplain)
+
+This repository contains the mlxplain package, which serves as a comprehensive framework designed to extend the capabilities of OmniXAI.
+
+---
+
+#### [rules-extraction GitHub Repository](https://github.com/HES-XPLAIN/rules-extraction)
+
+This is the official GitHub repository containing the code for the rules-extraction algorithms.
