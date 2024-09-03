@@ -55,7 +55,15 @@ Here is a selection of subjects that may fit your needs.
 
     Technical documentation for core features.
 
-    [:octicons-arrow-right-24: Reference](../reference.md)
+    [:octicons-arrow-right-24: API reference](../reference.md)
+
+-   :fontawesome-regular-newspaper:{ .lg .middle } **References**
+
+    ---
+
+    Academic papers and online ressources.
+
+    [:octicons-arrow-right-24: References](references.md)
 
 -   :material-scale-balance:{ .lg .middle } **License**
 
