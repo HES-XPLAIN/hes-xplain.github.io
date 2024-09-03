@@ -22,6 +22,16 @@
 
 ---
 
+#### [Exploring Internal Representations of Deep Neural Networks](https://www.researchgate.net/publication/333462920_Exploring_Internal_Representations_of_Deep_Neural_Networks)
+2019, by Jérémie Despraz, Stéphane Gomez, Héctor F. Satizábal & [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-peña)
+
+---
+
+#### [Improving neural network interpretability via rule extraction](https://arodes.hes-so.ch/record/4647?v=pdf)
+2018, by Stéphane Gomez Schnyder, Jérémie Despraz & [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-peña)
+
+---
+
 #### [A Comparison Study on Rule Extraction from Neural Network Ensembles, Boosted Shallow Trees, and SVMs](https://sciprofiles.com/publication/view/e596484190b35490bf7c3b83f53ba58d)
 2018, by [Prof. Guido Bologna](../team.md#prof-guido-bologna) & Yoichi Hayashi
 
@@ -29,6 +39,11 @@
 
 #### [QSVM: A support vector machine for rule extraction.](https://www.researchgate.net/publication/277744299_QSVM_A_Support_Vector_Machine_for_Rule_Extraction)
 2015, by [Prof. Guido Bologna](../team.md#prof-guido-bologna) & Yoichi Hayashi
+
+---
+
+#### [Elevating the discussion on security management: The data centric paradigm.](https://www.researchgate.net/publication/4257215_Elevating_the_Discussion_on_Security_Management_The_Data_Centric_Paradigm)
+2007, by Tyrone Grandison, [Prof. Marcel Graf](../team.md#prof-marcel-graf) et al.
 
 ---
 
