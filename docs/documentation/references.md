@@ -58,3 +58,9 @@ This repository contains the mlxplain package, which serves as a comprehensive f
 #### [rules-extraction GitHub Repository](https://github.com/HES-XPLAIN/rules-extraction)
 
 This is the official GitHub repository containing the code for the rules-extraction algorithms.
+
+---
+
+#### [Docker base image for HES-XPLAIN notebooks](https://github.com/HES-XPLAIN/docker-notebook-base)
+
+The Docker base image is built upon the Jupyter Docker Stacks Pytorch image. It includes Jupyter and all dependency packages necessary to run the provided notebooks, while allowing Pytorch operations to use compatible NVIDIA GPUs for accelerated computations.
