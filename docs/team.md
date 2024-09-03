@@ -100,9 +100,12 @@ was applied to ensembles [^7]. A rule extraction technique that is essential to 
 Multi-Layer Perceptrons (MLPs) was presented in [^8]. Subsequently, a comprehensive comparison
 of rule extraction techniques was proposed for 25 classification problems [^9]. The compared models
 were ensembles of DIMLPs, ensembles of decision trees and Support Vector Machines (SVMs). 
-Finally, in [^10] the rule extraction problem was tackled from a simple convolutional architecture with
-respect to textual data and melanoma images [^11]. Many of about 100 papers he has authored or
-co-authored are available on ResearchGate [^12].
+Later, in [^10] the rule extraction problem was tackled from a simple convolutional architecture with
+respect to textual data and melanoma images [^11]. Finally, in [^12], he introduced in collaboration 
+with [Jean-Marc Boutay](#jean-marc-boutay) and [Damian Boquete Costa](#damian-boquete-costa), a newly developed
+algorithm called Fidex, as a significant advancement in rule extraction. Fidex is notably faster and
+capable of deriving rules from data trained by various models, including Convolutional Neural
+Networks (CNNs). Many of about 100 papers he has authored or co-authored are available on ResearchGate [^13].
 
 [^6]:
     Bologna, Guido et Pellegrini, Christian, « Three medical examples in neural network rule extraction »,
@@ -124,7 +127,12 @@ co-authored are available on ResearchGate [^12].
 [^11]:
     G. Bologna et S. Fossati, « A Two-Step Rule-Extraction Technique for a CNN », Electronics, vol. 9,
     no 6, p. 990, juin 2020, doi: 10.3390/electronics9060990.
-[^12]: https://www.researchgate.net/profile/Guido-Bologna
+[^12]:
+    G. Bologna, J.-M. Boutay, Q. Leblanc, et D. Boquete. « Fidex: An Algorithm for the Explainability
+    of Ensembles and SVMs », in International Work-Conference on the Interplay Between Natural and
+    Artificial Computation, p. 378388. Cham: Springer Nature Switzerland, may 2024, 
+    doi: 10.1007/978-3-031-61137-7_35.
+[^13]: https://www.researchgate.net/profile/Guido-Bologna
 
 ***
 
@@ -168,7 +176,8 @@ HES Assistant, HEPIA-GE
 
 Jean-Marc Boutay is an HES Assistant at HEPIA-GE and a proficient Machine Learning Engineer. He obtained his
 master's degree in computer science in 2022, focusing his thesis on real-time object detection using deep learning.
-He is currently developing and optimizing cutting-edge algorithms in C++. He is a serious-minded individual who
+He is currently developing and optimizing cutting-edge algorithms in Python and C++. He developed the Fidex[^12] algorithm
+in collaboration with [Damian Boquete Costa](#damian-boquete-costa). He is a serious-minded individual who
 takes his work very seriously and is always striving for excellence in his projects. Jean-Marc is a great team
 player and is always willing to lend a helping hand to his colleagues whenever needed.
 
@@ -197,7 +206,8 @@ HES Assistant, HEPIA-GE
 ![Team member](assets/images/team/generic.jpg){ align=left }
 
 Damian Boquete Costa is an HES Assistant at HEPIA-GE and a versatile Software Engineer. He earned a Bachelor's 
-degree in Computer Science in 2023 and joined the team later that year to work with [Jean-Marc Boutay](#jean-marc-boutay). 
-His tasks focus on optimizing Machine Learning algorithms, developing graphic solutions, and enhancing tool documentation. 
-Damian's diverse skills bring fresh perspectives, and he is committed to finding innovative solutions. His motivation 
-and dedication to continuously sharpening his skills are valuable assets to the project's progress.
+degree in Computer Science in 2023 and joined the team later that year to work with [Jean-Marc Boutay](#jean-marc-boutay)
+and developed the Fidex[^12] algorithm with him. His tasks focus on optimizing Machine Learning algorithms,
+developing graphic solutions, and enhancing tool documentation. Damian's diverse skills bring fresh perspectives,
+and he is committed to finding innovative solutions. His motivation  and dedication to continuously sharpening
+his skills are valuable assets to the project's progress.
