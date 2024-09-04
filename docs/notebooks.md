@@ -96,7 +96,7 @@ We used the [MLxplain package](../documentation/mlxplain/overview) that we devel
     **APTOS 2019 Blindness Detection**
 
     * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_aptos/use_case_aptos.ipynb" target="_blank">XAI for APTOS 2019 Blindness Detection</a>
-    #TODO include the docker-compose file
+    * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
 
 ### Sport Image Classification
 
