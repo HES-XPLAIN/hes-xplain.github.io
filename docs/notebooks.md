@@ -46,8 +46,7 @@ While focusing on a specific image classification task using a pre-trained model
 By the end of this use case, you will have a solid understanding of CAM and how to integrate it into your own projects.
 
 ### Rules Extraction
-
-Through this use case, we aim to present the potential of Rules Extraction as a tool for transparent and interpretable sport image classification.
+Through this use case, we aim to present the potential of [Rules Extraction package](../documentation/rulesextraction/overview/) as a tool for transparent and interpretable sport image classification.
 
 !!! example "Sport Image Classification with Rules Extarction"
 
@@ -83,6 +82,21 @@ By the end of this notebook, you will have a solid understanding of Feature Visu
 ---
 
 ## Use Cases
+
+### APTOS 2019 Blindness Detection
+
+Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the APTOS 2019 Blindness Detection dataset. We also builds post-hoc local and global explanations to explain the model and its prediction. 
+
+We used the [MLxplain package](../documentation/mlxplain/overview) that we developed to put together our explainability methods and the omniXAI explainers.
+
+!!! example "APTOS 2019 Blindness Detection"
+
+    ![APTOS 2019 Blindness Detection](assets/images/examples/aptos.png){ width="200px", align=left }
+
+    **APTOS 2019 Blindness Detection**
+
+    * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_aptos/use_case_aptos.ipynb" target="_blank">XAI for APTOS 2019 Blindness Detection</a>
+    #TODO include the docker-compose file
 
 ### Sport Image Classification
 

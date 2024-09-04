@@ -23,12 +23,12 @@
 ---
 
 #### [Exploring Internal Representations of Deep Neural Networks](https://www.researchgate.net/publication/333462920_Exploring_Internal_Representations_of_Deep_Neural_Networks)
-2019, by Jérémie Despraz, Stéphane Gomez, Héctor F. Satizábal & [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-peña)
+2019, by Jérémie Despraz, Stéphane Gomez, Héctor F. Satizábal & [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-andres-pena-reyes)
 
 ---
 
 #### [Improving neural network interpretability via rule extraction](https://arodes.hes-so.ch/record/4647?v=pdf)
-2018, by Stéphane Gomez Schnyder, Jérémie Despraz & [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-peña)
+2018, by Stéphane Gomez Schnyder, Jérémie Despraz & [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-andres-pena-reyes)
 
 ---
 
@@ -54,6 +54,9 @@
 
 #### [A model for single and multiple knowledge based networks.](https://www.researchgate.net/publication/10634174_A_model_for_single_and_multiple_knowledge_based_networks)
 2003, by [Prof. Guido Bologna](../team.md#prof-guido-bologna)
+
+#### [A fuzzy-genetic approach to breast cancer diagnosis](https://www.sciencedirect.com/science/article/pii/S0933365799000196)
+1999, by [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-andres-pena-reyes) & Moshe Sipper
 
 
 ## Online resources

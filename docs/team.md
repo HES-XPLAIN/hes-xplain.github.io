@@ -21,7 +21,7 @@ machine learning** in Switzerland and beyond.
 
 ## Team members
 
-### [Prof. Carlos Peña](https://people.hes-so.ch/en/profile/269853581-carlos-andres-pena)
+### [Prof. Carlos Andrés Peña-Reyes](https://people.hes-so.ch/en/profile/269853581-carlos-andres-pena)
 
 PhD, Director of the Institute of Information and Communication Technologies (IICT), HEIG-VD
 

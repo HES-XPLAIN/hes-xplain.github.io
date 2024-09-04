@@ -36,10 +36,14 @@ We present three explanation algorithms:
 * **[FidexGlo](../documentation/dimlpfidex/fidex/fidexglorules.md)**: Offers a global understanding of the model's behavior by aggregating local rules into a comprehensive ruleset.
 * **[Dimlp](../documentation/dimlpfidex/dimlp/overview.md)**: Extracts global propositional rules from deep models, specifically trained using the `Dimlp` architecture, to explain the model's overall decision-making process.
 
-### FUGE
+### Fuzzy-CoCo
 
-**FUGE** is an algorithm developed to construct fuzzy systems. These systems predict human decision-making outcomes and provide understandable explanations. FUGE combines the 
-predictive power of fuzzy logic with the clarity of human-like reasoning.
+**Fuzzy-CoCo** is an algorithm developed to construct fuzzy systems using genetic algorithms based on the following paper done by [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-andres-pena-reyes) : [A fuzzy-genetic approach to breast cancer diagnosis](https://www.sciencedirect.com/science/article/pii/S0933365799000196)
+
+These systems predict human decision-making outcomes and provide understandable explanations. FUGE combines the predictive power of fuzzy logic with the clarity of human-like reasoning.
+
+The newest implementation of Fuzzy-Coco is currently in development and will be distributed in our HES-XPLAIN platform. 
+The modern development of Fuzzy-CoCO is done [here](https://github.com/HES-XPLAIN/fuge) under the name FUGE. 
 
 ---
 

@@ -60,6 +60,7 @@ nav:
         - Overview: documentation/file-formats/overview.md
         - Json: documentation/file-formats/json-configuration-files.md
         - Execution files: documentation/file-formats/execution-files.md
+    - License: documentation/license.md
     - References: documentation/references.md
     - Glossary: documentation/glossary.md
     - Roadmap: documentation/roadmap.md
