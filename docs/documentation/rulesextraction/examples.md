@@ -12,7 +12,7 @@ For a more detailed demonstration, you can explore our [Demo](../../notebooks.md
 
 ## Full Use Case
 
-To see the Rules Extraction library in action, alongside other methods, refer to the [Full Use Case](../../notebooks.md#sport-image-classification) notebook. This comprehensive example shows how the library can be integrated into a larger machine learning and explainable AI workflow, providing insights on how to combine it with other techniques for enhanced interpretability.
+To see the Rules Extraction library in action, alongside other methods, refer to the [Sport Image Classification Use Case](../../notebooks.md#sport-image-classification) notebook or the [Aptos 2019 Blindness Detection Use Case](../../notebooks.md#aptos-2019-blindness-detection). These comprehensive examples show how the library can be integrated into a larger machine learning and explainable AI workflow, providing insights on how to combine it with other techniques for enhanced interpretability.
 
 ---
 

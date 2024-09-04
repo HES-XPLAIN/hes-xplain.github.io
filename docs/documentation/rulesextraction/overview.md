@@ -1,6 +1,11 @@
 # Rules extraction
 
-The **Rules Extraction** library is designed to enhance the interpretability of Convolutional Neural Networks (CNNs) by replacing their fully-connected layers with a small set of easily understandable rules. This approach aims to maintain a similar level of accuracy to the original network while providing greater transparency into the decision-making process of the model.
+The **Rules Extraction** library is designed to enhance the interpretability of Convolutional Neural Networks (CNNs) by replacing their fully-connected layers with a small set of easily understandable rules. This approach aims to maintain a similar level of accuracy to the original network while providing greater transparency into the decision-making process of the model. 
+
+!!! warning "PyTorch Support Only"
+    Please note that the library currently supports only PyTorch models (nn.Module) as input models. This limitation should be considered when planning to use the Rules Extraction library for your project.
+
+This library is based on the [Improving neural network interpretability via rule extraction](../references.md#improving-neural-network-interpretability-via-rule-extraction) paper.
 
 ## Core Idea
 
