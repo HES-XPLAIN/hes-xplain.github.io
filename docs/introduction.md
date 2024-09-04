@@ -69,7 +69,7 @@ E(Input data) --> C;
 A(Training Data) --> B[New Learning Process];
 B --> C(Explainable Model);
 C --> D[Explanation Interface];
-D --> F((User\nUnderstanding));
+D --> F((User Understanding));
 ```
 
 XAI seeks to address this issue by developing AI models that can provide explanations that are clear, concise, and relevant to the user's context. By providing interpretable explanations for its decisions, XAI can help users better understand the reasoning behind AI models and build trust in their reliability and accuracy.
