@@ -23,10 +23,10 @@ models, and the resurgence of Machine learning (ML) in the last decade.
 ```mermaid
 graph LR
 E(Input data) --> C;
-A(Training Data) --> B[Learning Process\nAlgorithm];
+A(Training Data) --> B[Learning Process Algorithm];
 B --> C(Learned Function);
 C --> D[Output Prediction];
-D --->|Why?| F((Lack of\nTransparency));
+D --->|Why?| F((Lack of Transparency));
 ```
 
 A **major drawback** with artificial neural networks is that it is **very difficult to explain their responses**
