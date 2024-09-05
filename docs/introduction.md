@@ -104,7 +104,7 @@ Explainable AI (XAI) is relevant across a diverse array of domains, including bu
 
 ## HES-SO flagship project
 
-The HES-XPLAIN project is associated to the [Swiss AI Center](https://swiss-ai-center.ch/), the flagship project of the [HES-SO](https://www.hes-so.ch/en/) (University of Applied Sciences and Arts of Western Switzerland).
+The HES-XPLAIN project is associated to the [Swiss AI Center](https://swiss-ai-center.ch/), the flagship project of the [HES-SO](team.md#the-hes-so) (University of Applied Sciences and Arts of Western Switzerland).
 
 The Swiss AI Center’s mission is to accelerate the adoption of artificial intelligence in the digital transition of Swiss SMEs. The associated socio-economic challenge is to increase their competitiveness, to limit relocation and to create new competences at the interface of laboratories and the practical use of artificial intelligence.
 
