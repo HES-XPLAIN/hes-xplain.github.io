@@ -99,3 +99,13 @@ Explainable AI (XAI) is relevant across a diverse array of domains, including bu
 - :material-test-tube: **Research**: Explainability tools play a vital role in data analysis and hypothesis testing within research. By making the model's decision processes transparent, researchers can validate their findings and ensure the reliability of their studies. This transparency fosters a deeper understanding of the data and the models used, which is crucial for advancing knowledge in various scientific fields.
 
 > Explainability is a transformative approach that increases transparency and trust across multiple domains.
+
+---
+
+## HES-SO flagship project
+
+The HES-XPLAIN project is associated to the [Swiss AI Center](https://swiss-ai-center.ch/), the flagship project of the [HES-SO](https://www.hes-so.ch/en/) (University of Applied Sciences and Arts of Western Switzerland).
+
+The Swiss AI Center’s mission is to accelerate the adoption of artificial intelligence in the digital transition of Swiss SMEs. The associated socio-economic challenge is to increase their competitiveness, to limit relocation and to create new competences at the interface of laboratories and the practical use of artificial intelligence.
+
+As such, a demonstration module on AI explainability has been integrated within the Swiss AI Center online platform [Core Engine](https://app.swiss-ai-center.ch/). The implementation of a GradCAM module using a pre-trained model based on our use cases has been carried out. The choice of this specific algorithm was driven by its explicitly visual presentation, which facilitates understanding of explainability for non-experts.
