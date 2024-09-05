@@ -1,6 +1,6 @@
 # Examples and Use Cases
 
-In this section, you'll find various resources to help you get started with the `MLxplain` library and explore its full potential through practical examples and use cases.
+In this section, you will find various resources to help you get started with the `MLxplain` library and explore its full potential through practical examples and use cases.
 
 You can get started with the `MLxplain` using and exploring two use cases: 
 
