@@ -47,7 +47,7 @@ The modern development of Fuzzy-CoCO is done [here](https://github.com/HES-XPLAI
 
 ---
 
-## Integration with OmniXAI
+## OmniXAI integration
 
 Overview of the overarching package for use via an unified interface.
 
