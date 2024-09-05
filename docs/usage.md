@@ -1,3 +1,5 @@
+# :material-desk: Usage
+
 Despite advancements in the field of eXplainable Artificial Intelligence (XAI), many existing XAI tools remain complex and challenging to use.
 
 The XPLAIN platform aims to address this challenge by making XAI more accessible, by providing an intuitive, ready-to-use environment that consolidates various XAI techniques helping users to better understand and apply AI insights effectively.
@@ -33,7 +35,7 @@ graph LR
 
 Online deployment through Google Colab allows for easy access and experimentation with our algorithms, tutorials, and use cases, without the need to install Python and XAI libraries on a local machine.
 
-The interactive notebooks can be found in the [Notebooks](../notebooks.md) section.
+The interactive notebooks can be found in the [Notebooks](notebooks.md) section.
 
 ??? tip ":octicons-desktop-download-24: Using notebooks"
 
@@ -127,7 +129,7 @@ graph LR
     pypi --> |pip install|cli
 ```
 
-To obtain the Python package, follow the [Installation guide](../documentation/installation-guide.md).
+To obtain the Python package, follow the [Installation guide](documentation/installation-guide.md).
 
 ## Containerized images
 

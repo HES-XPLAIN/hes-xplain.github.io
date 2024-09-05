@@ -1,4 +1,4 @@
-# Algorithms
+# :material-lock-pattern: Algorithms
 
 HES-XPLAIN includes a variety of algorithms developed by our team, while also supporting integration with a wide range of modern XAI algorithms via the [OmniXAI](https://github.com/salesforce/OmniXAI) library.
 
@@ -16,7 +16,7 @@ Overview of our own developed algorithms.
 
 ### Rules Extraction
 
-**[Rules Extraction](../documentation/rulesextraction/overview.md)** focuses on developing high-level explanation algorithms.
+**[Rules Extraction](documentation/rulesextraction/overview.md)** focuses on developing high-level explanation algorithms.
 
 This module includes three distinct approaches:
 
@@ -28,17 +28,17 @@ Additionally, a novel algorithm is developed to combine these approaches, result
 
 ### DIMLPFidex
 
-**[DIMLPFidex](../documentation/dimlpfidex/overview.md)** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms.
+**[DIMLPFidex](documentation/dimlpfidex/overview.md)** is a module gathering an ensemble of algorithms designed to provide low-level explanations. It focuses on extracting propositional rules from deep models. This module contains many training algorithms modified to permit the usage of our explanation algorithms.
 
 We present three explanation algorithms:
 
-* **[Fidex](../documentation/dimlpfidex/fidex/fidex.md)**: Provides localized explanations by generating rules that describe the model’s behavior for specific data samples.
-* **[FidexGlo](../documentation/dimlpfidex/fidex/fidexglorules.md)**: Offers a global understanding of the model's behavior by aggregating local rules into a comprehensive ruleset.
-* **[Dimlp](../documentation/dimlpfidex/dimlp/overview.md)**: Extracts global propositional rules from deep models, specifically trained using the `Dimlp` architecture, to explain the model's overall decision-making process.
+* **[Fidex](documentation/dimlpfidex/fidex/fidex.md)**: Provides localized explanations by generating rules that describe the model’s behavior for specific data samples.
+* **[FidexGlo](documentation/dimlpfidex/fidex/fidexglorules.md)**: Offers a global understanding of the model's behavior by aggregating local rules into a comprehensive ruleset.
+* **[Dimlp](documentation/dimlpfidex/dimlp/overview.md)**: Extracts global propositional rules from deep models, specifically trained using the `Dimlp` architecture, to explain the model's overall decision-making process.
 
 ### Fuzzy-CoCo
 
-**Fuzzy-CoCo** is an algorithm developed to construct fuzzy systems using genetic algorithms based on the following paper done by [Prof. Carlos Andrés Peña-Reyes](../team.md#prof-carlos-andres-pena-reyes) : [A fuzzy-genetic approach to breast cancer diagnosis](https://www.sciencedirect.com/science/article/pii/S0933365799000196)
+**Fuzzy-CoCo** is an algorithm developed to construct fuzzy systems using genetic algorithms based on the following paper done by [Prof. Carlos Andrés Peña-Reyes](team.md#prof-carlos-andres-pena-reyes) : [A fuzzy-genetic approach to breast cancer diagnosis](https://www.sciencedirect.com/science/article/pii/S0933365799000196)
 
 These systems predict human decision-making outcomes and provide understandable explanations. FUGE combines the predictive power of fuzzy logic with the clarity of human-like reasoning.
 
@@ -53,7 +53,7 @@ Overview of the overarching package for use via an unified interface.
 
 ### MLXplain
 
-**[MLXplain](../documentation/mlxplain/overview.md)** serves as the code framework that unifies our various algorithms, creating a cohesive platform for eXplainable AI (XAI).
+**[MLXplain](documentation/mlxplain/overview.md)** serves as the code framework that unifies our various algorithms, creating a cohesive platform for eXplainable AI (XAI).
 
 Built on the robust capabilities of [OmniXAI](https://github.com/salesforce/OmniXAI), a comprehensive Python library dedicated to explainable AI, MLXplain enhances this foundation by incorporating our additional algorithms, resulting in a powerful and versatile environment for practitioners.
 

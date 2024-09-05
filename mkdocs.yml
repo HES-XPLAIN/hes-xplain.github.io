@@ -12,10 +12,9 @@ extra_css:
 nav:
   - Home: index.md
   - Introduction: introduction.md
-  - Platform:
-    - Overview: platform/overview.md
-    - Usage: platform/usage.md
-    - Algorithms: platform/algos.md
+  - Platform: platform.md
+  - Usage: usage.md
+  - Algorithms: algos.md
   - Notebooks: notebooks.md
   - Documentation:
     - Overview: documentation/overview.md

@@ -14,7 +14,7 @@ There are 2 categories of notebooks:
 * :material-hammer-wrench: **Tutorials**: Explore various notebooks illustrating practical uses of XAI techniques in different machine learning scenarios.
 * :material-test-tube: **Use cases**: Focus on a particular goal-oriented ML task with notebooks demonstrating the integration of XAI techniques for greater interpretability.
 
-To launch the notebooks, refer to [Using notebooks](platform/usage.md#notebooks-datasets).
+To launch the notebooks, refer to [Using notebooks](usage.md#notebooks-datasets).
 
 !!! warning
 
@@ -46,7 +46,7 @@ While focusing on a specific image classification task using a pre-trained model
 By the end of this use case, you will have a solid understanding of CAM and how to integrate it into your own projects.
 
 ### Rules Extraction
-Through this use case, we aim to present the potential of [Rules Extraction package](../documentation/rulesextraction/overview/) as a tool for transparent and interpretable sport image classification.
+Through this use case, we aim to present the potential of [Rules Extraction package](documentation/rulesextraction/overview.md) as a tool for transparent and interpretable sport image classification.
 
 !!! example "Sport Image Classification with Rules Extarction"
 
@@ -87,7 +87,7 @@ By the end of this notebook, you will have a solid understanding of Feature Visu
 
 Through this use case, we aim to to show how to use XAI techniques and methods to create an explainable model to classify images from the APTOS 2019 Blindness Detection dataset. We also builds post-hoc local and global explanations to explain the model and its prediction. 
 
-We used the [MLxplain package](../documentation/mlxplain/overview) that we developed to put together our explainability methods and the omniXAI explainers.
+We used the [MLxplain package](documentation/mlxplain/overview) that we developed to put together our explainability methods and the omniXAI explainers.
 
 !!! example "APTOS 2019 Blindness Detection"
 
