@@ -62,7 +62,6 @@ nav:
     - License: documentation/license.md
     - References: documentation/references.md
     - Glossary: documentation/glossary.md
-    - Roadmap: documentation/roadmap.md
 
   - API Reference: reference.md
   - Team: team.md
