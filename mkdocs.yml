@@ -17,29 +17,29 @@ nav:
   - Algorithms: algos.md
   - Notebooks: notebooks.md
   - Documentation:
-    - Overview: documentation/overview.md
+    - Documentation: documentation/overview.md
     - Installation: documentation/installation-guide.md
 
     - MLxplain: 
-      - Overview: documentation/mlxplain/overview.md 
-      - Examples and Use Cases: documentation/mlxplain/examples.md
+      - MLxplain: documentation/mlxplain/overview.md
+      - MLxplain Examples and Use Cases: documentation/mlxplain/examples.md
 
     - Rules extraction: 
-      - Overview: documentation/rulesextraction/overview.md
-      - Examples and Uses Cases: documentation/rulesextraction/examples.md
+      - Rules extraction: documentation/rulesextraction/overview.md
+      - Rules extraction Examples and Uses Cases: documentation/rulesextraction/examples.md
     
     - Dimlpfidex:
-      - Overview: documentation/dimlpfidex/overview.md
-      - GUI: documentation/dimlpfidex/gui.md
-      - Getting started: documentation/dimlpfidex/getting-started.md
+      - Dimlpfidex algorithms: documentation/dimlpfidex/overview.md
+      - Dimlpfidex GUI: documentation/dimlpfidex/gui.md
+      - Dimlpfidex Getting started: documentation/dimlpfidex/getting-started.md
       - Fidex:
-        - Overview: documentation/dimlpfidex/fidex/overview.md
+        - Fidex algorithms: documentation/dimlpfidex/fidex/overview.md
         - Fidex: documentation/dimlpfidex/fidex/fidex.md
         - FidexGloRules: documentation/dimlpfidex/fidex/fidexglorules.md
         - FidexGloStats: documentation/dimlpfidex/fidex/fidexglostats.md
         - FidexGlo: documentation/dimlpfidex/fidex/fidexglo.md
       - DIMLP:
-        - Overview: documentation/dimlpfidex/dimlp/overview.md
+        - DIMLP algorithms: documentation/dimlpfidex/dimlp/overview.md
         - DimlpTrn: documentation/dimlpfidex/dimlp/dimlptrn.md
         - DimlpPred: documentation/dimlpfidex/dimlp/dimlppred.md
         - DimlpCls: documentation/dimlpfidex/dimlp/dimlpcls.md
@@ -47,7 +47,7 @@ nav:
         - DimlpBT: documentation/dimlpfidex/dimlp/dimlpbt.md
         - DensCls: documentation/dimlpfidex/dimlp/denscls.md
       - Training methods:
-        - Overview: documentation/dimlpfidex/training-methods/overview.md
+        - Training methods: documentation/dimlpfidex/training-methods/overview.md
         - gradBoostTrn: documentation/dimlpfidex/training-methods/gradboosttrn.md
         - randForestsTrn: documentation/dimlpfidex/training-methods/randforeststrn.md
         - mlpTrn: documentation/dimlpfidex/training-methods/mlptrn.md
@@ -56,9 +56,9 @@ nav:
         - normalization: documentation/dimlpfidex/training-methods/normalization.md
         - cnnTrn: documentation/dimlpfidex/training-methods/cnntrn.md
       - File formats:
-        - Overview: documentation/file-formats/overview.md
-        - Json: documentation/file-formats/json-configuration-files.md
-        - Execution files: documentation/file-formats/execution-files.md
+        - File formats: documentation/file-formats/overview.md
+        - File formats Json: documentation/file-formats/json-configuration-files.md
+        - File formats Execution files: documentation/file-formats/execution-files.md
     - License: documentation/license.md
     - References: documentation/references.md
     - Glossary: documentation/glossary.md

@@ -1,4 +1,4 @@
-# Getting started
+# DimlpFidex Getting started
 
 To help you get started quickly in the field of XAI, specifically using the dimlpfidex algorithms, here is a recommended plan to follow:
 

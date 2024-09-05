@@ -1,4 +1,4 @@
-# Examples and Use Cases
+# MLxplain Examples and Use Cases
 
 In this section, you will find various resources to help you get started with the `MLxplain` library and explore its full potential through practical examples and use cases.
 
