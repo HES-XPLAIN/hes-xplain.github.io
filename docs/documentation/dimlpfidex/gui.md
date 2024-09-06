@@ -1,4 +1,4 @@
-# Graphical User Interface
+# DimlpFidex Graphical User Interface
 
 The dimlpfidex Graphical User Interface was made to help with **`JSON configuration files`**. All [dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) algorithms can be fed with these files to supply all the data needed to execute them. However, you may not be experienced with `JSON` and `configuration files`. This is the reason why we offer you two outcomes: 
 

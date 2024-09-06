@@ -1,4 +1,4 @@
-# Examples and Tutorials
+# Rules extraction Examples and Tutorials
 
 In this section, you'll find various resources to help you get started with the Rules Extraction library and explore its full potential through practical examples and use cases.
 

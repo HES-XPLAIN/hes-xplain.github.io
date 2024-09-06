@@ -1,4 +1,4 @@
-# Algorithms
+# DimlpFidex Algorithms
 
 Here you can find an overview of the different algorithm ensembles within the `dimlpfidex` framework. These ensembles are part of the [dimlpfidex](https://github.com/HES-XPLAIN/dimlpfidex) repository and are collectively referred to by this term.
 

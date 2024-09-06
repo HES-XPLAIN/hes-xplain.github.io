@@ -1,4 +1,4 @@
-# Overview
+# :material-crane: Platform
 
 The **HES-XPLAIN** platform, is designed to democratize access to eXplainable Artificial Intelligence (XAI) for a wide range of audiences. We offer an intuitive platform where users can access resources to enhance their understanding, including datasets, experimental models, and easy-to-apply XAI algorithms.
 
@@ -8,7 +8,7 @@ The **HES-XPLAIN** platform, is designed to democratize access to eXplainable Ar
 - **Low barrier to adoption**: The platform is easy to use, and can be integrated with exsting Machine Learning pipeline. By making XAI tools more accessible and user-friendly, it aims to accelerate the development of transparent and trustworthy AI systems across multiple sectors.
 
 
-- **Open Source**: The platform and included algorithms is entirely open-source. It is free to use and can be easily extended to include more XAI techniques in the future. It is licensed under the [BSD-license](../documentation/license.md).
+- **Open Source**: The platform and included algorithms is entirely open-source. It is free to use and can be easily extended to include more XAI techniques in the future. It is licensed under the [BSD-license](documentation/license.md).
 
 <div class="grid cards" markdown>
 
@@ -56,7 +56,7 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
 
     === "a decision maker"
 
-        ![Decision maker](../assets/images/tie.svg){ .icon-audience }
+        ![Decision maker](assets/images/tie.svg){ .icon-audience }
         You want to **understand** the **relevance of XAI** for your business.
 
         Get an overview of explainability opportunities
@@ -66,17 +66,17 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
 
     === "an engineer"
 
-        ![Engineer](../assets/images/hammer-wrench.svg){ .icon-audience }
+        ![Engineer](assets/images/hammer-wrench.svg){ .icon-audience }
         You want to **try XAI algorithms**.
 
         Get access to exploratory use cases notebooks and datasets
 
-        - Discover use cases as [Jupyter notebooks](../notebooks.md)
+        - Discover use cases as [Jupyter notebooks](notebooks.md)
         - Get datasets, algorithms and Python code
 
     === "a data scientist"
 
-        ![Data scientist](../assets/images/test-tube.svg){ .icon-audience }
+        ![Data scientist](assets/images/test-tube.svg){ .icon-audience }
         You want to **use XAI** algorithms along **your models**.
 
         Get access to algorithms and API documentation.
@@ -86,7 +86,7 @@ The HES-XPLAIN platform is specifically designed to meet the needs of different 
 
     === "a professor"
 
-        ![Professor](../assets/images/school.svg){ .icon-audience }
+        ![Professor](assets/images/school.svg){ .icon-audience }
         You want a tool to **facilitate teaching** of explainable AI.
 
         Get access to tutorials and comprehensive guides.
