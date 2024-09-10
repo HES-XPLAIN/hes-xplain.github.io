@@ -14,7 +14,11 @@ There are 2 categories of notebooks:
 * :material-hammer-wrench: **Tutorials**: Explore various notebooks illustrating practical uses of XAI techniques in different machine learning scenarios.
 * :material-test-tube: **Use cases**: Focus on a particular goal-oriented ML task with notebooks demonstrating the integration of XAI techniques for greater interpretability.
 
+<<<<<<< HEAD
 To launch the notebooks, refer to [Using notebooks](usage.md#notebooks-datasets).
+=======
+To launch the notebooks, refer to [Using notebooks](platform/usage.md#notebooks-datasets).
+>>>>>>> d542050 (Fixed broken link)
 
 !!! warning
 
