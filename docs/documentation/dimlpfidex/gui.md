@@ -5,6 +5,10 @@ The dimlpfidex Graphical User Interface was made to help with **`JSON configurat
 1. Learn by yourself how to write configuration files with our [JSON configuration file documentation](../file-formats/json-configuration-files.md).
 2. Follow the next section to learn how to generate configuration files with this GUI.
 
+
+<center><img src="/assets/images/gui/gui_mainpage.png" style="border-radius:15px" width="80%"/></center>
+<center><i>Welcome page</i></center>
+
 ## Installation guide
 
 To install the dimlpfidex GUI, follow these steps:
@@ -26,11 +30,11 @@ To install the dimlpfidex GUI, follow these steps:
     2. **Decompress** the archive.
     3. **Execute** the web app by installing [node.js](https://www.nodejs.org) if needed and Running the following commands:
         ``` title="Linux"
-        cd PATH/TO/dimlpfidex
+        cd PATH/TO/GUI-SOURCES/
         node app.js
         ```
         ``` title="Windows"
-        dir PATH\TO\dimlpfidex
+        dir PATH\TO\GUI-SOURCES\
         node app.js
         ```
     4. Open your browser and search for `localhost:8000`
@@ -49,38 +53,63 @@ To get started with the GUI, open the app, choose the form corresponding to the 
 - **Large palette**: It can generate a configuration file for every algorithm from `Fidex`, `DIMLP`, and `Training methods` ensembles.
 - **Embedded documentation**: Has descriptions for every form's component and has a glossary explaining every single field purpose. 
 
-### Field's anatomy
+<center><img src="/assets/images/gui/gui_formexample.png" style="border-radius:15px" width="80%"/></center>
+<center><i>Example of form</i></center>
 
-<center><img src="/assets/images/gui/gui_fieldanatomy.png" width="75%"/></center>
+### Field's anatomy
+The GUI forms are composed of multiple fields, some are more complex than others. Here is an example of a field 'anatomy':
+
+<center><img src="/assets/images/gui/gui_fieldanatomy.png" style="border-radius:15px"/></center>
 <center><i>Field anatomy</i></center>
 
-1. **Field name**: Indicates the name or label of the field.
-2. **File Explorer button**: Allows users to browse and select a file (available for path-related fields, **excluding the web version**).
-3. **Default button**: Clicking on this button, if colored, automatically adds a default value to the field.
-4. **Information icon**: When hovered over with the mouse, describes the field.
-5. **Required icon**: If colored, indicates that the field must be filled out and cannot be left empty.
+!!!info
+    Some numeric fields can have the upper bound `inf`, meaning infinity (which is not really infinite but it idicates that there is no fixed upper bound)
+
+1. **Current Field Datatype Selector**: Some fields are dynamic and can accept various types of input. This selector allows you to switch between different types, and it is currently active.  
+2. **Unselected Field Datatype Selector**: This selector is inactive but can be clicked to switch to a different field type.
+3. **Lower Bound of a Numeric Field**: In this example, a numeric field is displayed with a lower limit, preventing values from being set below this boundary.
+4. **Field Name**: Displays the `[datatype]` and the label of the field.
+5. **Upper Bound of a Numeric Field**: Similar to item #3, this field has an upper limit, preventing values from exceeding this boundary.
+6. **Default Button**: Clicking this button (when highlighted) automatically applies a default value to the field.
+7. **Information Icon**: When hovered over, this icon provides a description of the field.
+8. **Required Icon**: If highlighted, it indicates that the field is mandatory and cannot be left empty. 
 
 !!!Warning
     The web application cannot use the file browsing feature because of technical limitations.
 
 ### Field types
-<center><img src="/assets/images/gui/gui_fieldnumeric.png" width="75%"/></center>
+
+The GUI is currently able to handle several types of data, including:
+
+`integers` (numbers without fractional part)
+
+<center><img src="/assets/images/gui/gui_fieldnumeric.png" style="border-radius:15px" width="90%"/></center>
 <center><i>Example of numeric field</i></center>
 
-<center><img src="/assets/images/gui/gui_fieldfilepath.png" width="75%"/></center>
+`double precision numbers` (numbers with fractional part)
+
+`Strings` (sequence of characters)
+
+`Restricted choices` (pre-defined keywords to select)
+
+<center><img src="/assets/images/gui/gui_restrictedchoicefield.png" style="border-radius:15px" width="90%"/></center>
+<center><i>Example of restricted choices</i></center>
+
+`File paths` (paths present in your system leading to a chosen file)
+
+<center><img src="/assets/images/gui/gui_fieldfilepath.png" style="border-radius:15px" width="90%"/></center>
 <center><i>Example of file path field</i></center>
 
-List of data types handled:
+`Booleans` (yes or no answers)
 
-- `integers`
-- `Double precision numbers`
-- `Strings`
-- `Restricted choice strings`
-- `File paths`
-- `Booleans`
-- `Directory paths`
-- `Dictionaries`
-- `List of strings`
-- `List of integers`
-- `List of file paths`
-- `List of double precision numbers`
+`Directory paths` (paths present in your system leading to a chosen directory)
+
+`Dictionaries` (key-pair collection)
+
+`List of strings`
+
+`List of integers`
+
+`List of file paths`
+
+`List of double precision numbers`
