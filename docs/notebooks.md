@@ -182,11 +182,10 @@ Through this use case, learn to use dimlpfidex with OmniXAI by exploring the hea
 
 ### Generate dimlpfidex JSON configuration files with the GUI
 
-
-If you are not used to deal with JSON configuration files and would like to get over it as fast as possible, a GUI is available to help you. Through this short notebook, you will learn how to generate a configuration file using this app and input it in one of the Fidex algorithms.
-
 !!! info
     You should [install the GUI](documentation/dimlpfidex/gui.md#installation-guide) before following this notebook.
+
+If you are not used to deal with JSON configuration files and would like to get over it as fast as possible, a GUI is available to help you. Through this short notebook, you will learn how to generate a configuration file using this app and input it in one of the Fidex algorithms.
 
 !!! example "Dimlpfidex GUI"
     ![Cracks Image](assets/images/gui/gui_example.png){ width="200px", align=left }
