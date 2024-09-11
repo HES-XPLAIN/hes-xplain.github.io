@@ -181,10 +181,13 @@ Through this use case, learn to use dimlpfidex with OmniXAI by exploring the hea
 !!! info
     You should [install the GUI](documentation/dimlpfidex/gui.md#installation-guide) before following this notebook.
 
+
 If you are not used to deal with JSON configuration files and would like to get over it as fast as possible, a GUI is available to help you. Through this short notebook, you will learn how to generate a configuration file using this app and input it in one of the Fidex algorithms.
 
 !!! example "Dimlpfidex GUI"
-    ![Cracks Image](assets/images/gui/gui_example.png){ width="200px", align=left }
+    ![Cracks Image](assets/images/gui/gui_mainpage.png){ width="200px", align=left }
+
+    **Dimlpfidex GUI**
 
     * :simple-googlecolab: **Online**: <a href="https://colab.research.google.com/github/HES-XPLAIN/notebooks/blob/main/use_case_dimlpfidex/gui.ipynb" target="_blank">Learn how to use the Dimlpfidex Graphical User Interface (GUI)</a>
     * :octicons-desktop-download-24: **Local**: <a href="https://raw.githubusercontent.com/HES-XPLAIN/notebooks/main/docker-compose.yml" target="_blank">Docker Compose file</a> **(Right click, "Save link as")**
