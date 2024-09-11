@@ -140,7 +140,7 @@ Networks (CNNs). Many of about 100 papers he has authored or co-authored are ava
 
 Senior R&D Scientist in Bioinformatics, PhD, HEIG-VD
 
-![Team member](assets/images/team/generic.jpg){ align=left }
+![Team member](assets/images/team/generic.jpg){ width="200px", align=left }
 
 Senior bioinformatician with over 12 years of experience, Xavier Brochet is passionate about working at the
 interface of disciplines and he enjoys solving real-world problems, specially those related with life sciences
@@ -156,7 +156,7 @@ and web interfaces.
 
 Ra&D Collaborator, HEIG-VD
 
-![Team member](assets/images/team/generic.jpg){ align=left }
+![Team member](assets/images/team/babey.png){ width="200px", align=left }
 
 Arthur Babey is a Life Sciences Engineer working as an Ra&D Collaborator at HEIG-VD. His expertise in Life
 Sciences, coupled with a strong inclination towards data science and machine learning, equips him with a
@@ -172,7 +172,7 @@ contributions to the field.
 
 HES Assistant, HEPIA-GE
 
-![Team member](assets/images/team/generic.jpg){ align=left }
+![Team member](assets/images/team/boutay.jpg){ width="200px", align=left }
 
 Jean-Marc Boutay is an HES Assistant at HEPIA-GE and a proficient Machine Learning Engineer. He obtained his
 master's degree in computer science in 2022, focusing his thesis on real-time object detection using deep learning.
@@ -187,7 +187,7 @@ player and is always willing to lend a helping hand to his colleagues whenever n
 
 Ra&D Collaborator, HEIG-VD
 
-![Team member](assets/images/team/generic.jpg){ align=left }
+![Team member](assets/images/team/generic.jpg){ width="200px", align=left }
 
 Rémy Marquis is an R&D Collaborator at HEIG-VD, with a background in sciences and environmental engineering.
 His growing interest in the capabilities and wide-ranging applications of Machine Learning led him to embark
@@ -203,7 +203,7 @@ evolving field.
 
 HES Assistant, HEPIA-GE
 
-![Team member](assets/images/team/generic.jpg){ align=left }
+![Team member](assets/images/team/boquete.png){ width="200px", align=left }
 
 Damian Boquete Costa is an HES Assistant at HEPIA-GE and a versatile Software Engineer. He earned a Bachelor's 
 degree in Computer Science in 2023 and joined the team later that year to work with [Jean-Marc Boutay](#jean-marc-boutay)
