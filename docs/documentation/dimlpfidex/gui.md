@@ -31,6 +31,7 @@ To install the dimlpfidex GUI, follow these steps:
     3. **Execute** the web app by installing [node.js](https://www.nodejs.org) if needed and Running the following commands:
         ``` title="Linux"
         cd PATH/TO/GUI-SOURCES/
+        npm install express
         node app.js
         ```
         ``` title="Windows"
