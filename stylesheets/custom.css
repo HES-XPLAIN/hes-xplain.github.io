@@ -1,0 +1,19 @@
+:root {
+  --: rgb(122, 135, 207); 
+  --md-primary-fg-color--light: rgb(122, 135, 207); 
+  --md-primary-fg-color--dark: rgb(122, 135, 207); 
+  --md-accent-fg-color: rgb(21, 187, 228);
+  --md-accent-fg-color--light: rgb(21, 187, 228);
+  --md-accent-fg-color--dark: rgb(21, 187, 228);
+}
+
+.icon-audience {
+  /* md-primary-fg-color equivalent */
+  /* filter: invert(62%) sepia(16%) saturate(1250%) hue-rotate(194deg) brightness(84%) contrast(91%); */
+
+  /* filter converts color of svg to the --md-accent-fg-color--light above, thanks to https://isotropic.co/tool/hex-color-to-css-filter/ */
+  filter: invert(81%) sepia(53%) saturate(4921%) hue-rotate(150deg) brightness(92%) contrast(93%);
+  float: left;
+  width: 130px;
+  margin-right: 15px;
+}
