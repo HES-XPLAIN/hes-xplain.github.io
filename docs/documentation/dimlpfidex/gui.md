@@ -36,6 +36,7 @@ To install the dimlpfidex GUI, follow these steps:
         ```
         ``` title="Windows"
         dir PATH\TO\GUI-SOURCES\
+        npm install express
         node app.js
         ```
     4. Open your browser and search for `localhost:8000`
