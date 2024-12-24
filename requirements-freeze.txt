@@ -12,7 +12,7 @@ defusedxml==0.7.1
 ghp-import==2.1.0
 htmlmin2==0.1.13
 idna==3.8
-Jinja2==3.1.4
+Jinja2==3.1.5
 jsmin==3.0.1
 Markdown==3.7
 MarkupSafe==2.1.5
