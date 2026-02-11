@@ -27,7 +27,7 @@ mkdocs-redirects==1.2.1
 packaging==24.1
 paginate==0.5.7
 pathspec==0.12.1
-pillow==10.4.0
+pillow==12.1.1
 pip==24.0
 platformdirs==4.2.2
 pycparser==2.22
